@@ -1,106 +1,98 @@
-[18:11:00] [main/INFO] [STDOUT/]: Update in check...
-[18:11:00] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
-[18:11:01] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1243 but you have 1.16.5-1238. The latest version has been built on 2024-10-15 09:56:20. You should update to fix recent bugs !
-[18:11:01] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
-[18:11:01] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
-[18:11:01] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[18:11:01] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[18:11:02] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[18:11:08] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[18:11:08] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[18:11:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[18:11:13] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:11:14] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
-[18:11:15] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[18:11:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[18:11:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18:11:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[18:11:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18:11:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
-[18:11:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[18:11:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:11:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18:11:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:11:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:11:18] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
-[18:11:18] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[18:11:18] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[18:11:18] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[18:11:19] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[18:11:21] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
-[18:11:21] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[18:11:22] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
-[18:11:22] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
-[18:11:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18:11:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18:11:25] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18:11:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 30%
-[18:11:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
-[18:11:30] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18:11:30] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
-[18:11:31] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[18:11:34] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[18:11:35] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
-[18:11:35] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 12,874 ms
-[18:11:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
-[18:11:36] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18:11:37] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18:11:37] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[18:11:39] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
-[18:11:39] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[18:11:40] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[18:11:40] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4,925 ms
-[18:11:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
-[18:11:41] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18:11:41] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[18:11:41] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
-[18:11:41] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,012 ms
-[18:11:41] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
-[18:11:42] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
-[18:11:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
-[18:11:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
-[18:11:46] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
-[18:11:46] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
-[18:11:51] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[18:11:51] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[18:11:51] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[18:11:51] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Spawners folder not found! Creating...[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 6 mobs.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 22 skills.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
-[18:11:52] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
-[18:11:52] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
-[18:11:52] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
-[18:11:52] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
-[18:11:52] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
-[18:11:52] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[18:11:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (30.576s)! For help, type "help"
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[18:11:53] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[18:11:54] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[18:11:54] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[18:13:32] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[18:13:32] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:52037] logged in with entity id 213 at (103.186, 56, 44.454)
-[18:13:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s
-[18:13:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[18:14:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[18:23:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 lost connection: Timed out
-[18:23:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 left the game
+[20:37:38] [main/INFO] [STDOUT/]: Update in check...
+[20:37:38] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[20:37:39] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1243 but you have 1.16.5-1238. The latest version has been built on 2024-10-15 09:56:20. You should update to fix recent bugs !
+[20:37:39] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[20:37:39] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
+[20:37:39] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[20:37:39] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[20:37:40] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[20:37:48] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[20:37:48] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[20:37:48] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[20:37:54] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:37:55] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
+[20:37:58] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[20:38:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[20:38:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20:38:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[20:38:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20:38:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[20:38:01] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[20:38:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:38:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20:38:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:38:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:38:01] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[20:38:02] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[20:38:02] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[20:38:02] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[20:38:02] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[20:38:06] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
+[20:38:06] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:38:08] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
+[20:38:08] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
+[20:38:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20:38:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20:38:12] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[20:38:13] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[20:38:19] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[20:38:20] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[20:38:23] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[20:38:24] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[20:38:24] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[20:38:25] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[20:38:25] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 15,638 ms
+[20:38:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[20:38:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[20:38:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[20:38:27] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[20:38:30] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[20:38:31] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[20:38:31] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
+[20:38:32] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[20:38:32] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7,014 ms
+[20:38:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[20:38:32] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[20:38:33] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[20:38:33] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,212 ms
+[20:38:33] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[20:38:34] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
+[20:38:35] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
+[20:38:35] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
+[20:38:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
+[20:38:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
+[20:38:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:38:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:38:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:38:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 6 mobs.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 22 skills.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:38:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[20:38:43] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[20:38:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
+[20:38:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
+[20:38:44] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
+[20:38:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
+[20:38:44] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
+[20:38:44] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
+[20:38:44] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[20:38:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (35.613s)! For help, type "help"
+[20:38:44] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[20:38:44] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[20:38:44] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[20:38:44] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[20:38:45] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[20:38:45] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[20:38:45] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[20:38:45] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[20:38:46] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[20:38:46] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
