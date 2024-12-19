@@ -150,8 +150,6 @@ walkAnimation2:
     - delay 15
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
-  Conditions:
-    - health{h>1} true
   Skills:
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
 PrepareModel:
