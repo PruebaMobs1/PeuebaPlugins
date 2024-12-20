@@ -112,7 +112,7 @@ AtaqueArea3:
     - message{m="finAtaque"} @NearestPlayer
 persIdle:
   Conditions:
-    - Moving{e=true} castInstead walkAnimation1 # La animación no debe estar activa
+    - Moving{e=true} #castInstead walkAnimation1 # La animación no debe estar activa
     - variableEquals{key=caster.ataque;value="false"}
   Skills:
     #- setVariable{key=caster.AnimacionCaminando;t=String;value="false"} @Self
@@ -159,6 +159,7 @@ PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
     - delay 2
+    - defaultState{mid=SomarSoldier;t=walk;s=walk1(Normal)}
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
