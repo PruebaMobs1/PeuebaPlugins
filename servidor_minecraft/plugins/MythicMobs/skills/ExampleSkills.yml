@@ -150,8 +150,13 @@ walkAnimation2:
     - delay 15
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
+  Conditions:
+    - variableEquals{key=caster.ataque;value="false"}
   Skills:
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
+    - delay 20
+    - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
+
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
