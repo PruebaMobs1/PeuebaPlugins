@@ -38,7 +38,7 @@ AtaqueBase2:
   - basedamage{m=1.5} @Target
   - delay 30
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
-  - partvis{mid=SomarSoldier;p=left_sword;v=true} @Self
+  #- partvis{mid=SomarSoldier;p=left_sword;v=true} @Self
   - message{m="finAtaque"} @NearestPlayer
 Estocada:
   Skills:
@@ -123,7 +123,7 @@ walkAnimation2:
 DamagedAnimation:
   Conditions:
     - VariableEquals{key=caster.ataque;t=String;value="false"} @Self
-    - VariableEquals{key=caster.Animation;t=String;value=!"dmg"}
+    - VariableEquals{key=caster.Animation;t=String;value="dmg"} cast 
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
@@ -135,8 +135,8 @@ DamagedAnimation:
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
-    - delay 2
+    - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
-    - partvis{mid=SomarSoldier;p=left_arco;v=false}
+    - partvis{mid=SomarSoldier;p=left_arco;v=false} @Self
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @self
