@@ -132,12 +132,16 @@ DamagedAnimation:
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
     - delay 20
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
+    - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
 InmunityPerAnimation:
   Skills:
     - msg{m="Ya atacado pa"} @World
 MuerteExtAnimation:
   Skills:
-    - Signal
+    - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
+acabarkillAnimation:
+  Skills:
+    - state{mid=SomarSoldier;s=Animation} @Self
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
