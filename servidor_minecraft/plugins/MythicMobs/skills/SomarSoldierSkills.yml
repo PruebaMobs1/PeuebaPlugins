@@ -134,7 +134,7 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
   Skills:
-    - message{m="<#FF0000>Ya atacado pa"} @NearestPlayer
+    - message{m="Ya atacado pa"} @NearestPlayer
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
