@@ -116,6 +116,7 @@ walkAnimation2:
   Conditions:
    - Moving orElseCast persIdle
    - variableEquals{key=caster.ataque;value="false"}
+   - VariableEquals{key=caster.Animacion;t=String;value="c1"}
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="c2"} @Self
     - state{mid=SomarSoldier;s=AnimationCaminarDerecha} @Self
@@ -133,7 +134,10 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
   Skills:
-    - message{m="Ya atacado pa"} @NearestPlayer
+    - msg{m="Ya atacado pa"} @World
+MuerteExtAnimation:
+  Skills:
+    - Signal
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
