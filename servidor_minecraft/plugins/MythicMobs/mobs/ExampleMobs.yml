@@ -46,7 +46,7 @@ SomarSoldier:
     - skill{s=DamagedAnimation} ~onDamaged
 #    - skill{s=walk} @Self ~onTimer:1
     - skill{s=persIdle} @Self ~onTimer:1
-    - skill{s=Pruebavariable} ~onTimer:1
+#   - skill{s=Pruebavariable} ~onTimer:1
   AITargetSelectors:
     - clear
     - atacker

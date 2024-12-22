@@ -7,6 +7,7 @@ AtaqueSomarSoldier:
   Cooldown: 1
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
+    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
@@ -123,17 +124,17 @@ walkAnimation2:
 DamagedAnimation:
   Conditions:
     - VariableEquals{key=caster.ataque;t=String;value="false"} @Self
-    - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead 
+    - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
+    -
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
     - delay 20
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
 InmunityPerAnimation:
   Skills:
-    - message{m="Ya atacado pa"}
+    - message{m="<#FF0000>Ya atacado pa"} @NearestPlayer
 PrepareModel:
   Skills:
     - model{mid=SomarSoldier;n="Somar soldier"}
