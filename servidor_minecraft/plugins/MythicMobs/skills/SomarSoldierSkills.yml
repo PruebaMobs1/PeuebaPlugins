@@ -125,7 +125,6 @@ DamagedAnimation:
   Conditions:
     - VariableEquals{key=caster.ataque;t=String;value="false"} @Self
     - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
-    -
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
@@ -140,6 +139,6 @@ PrepareModel:
     - model{mid=SomarSoldier;n="Somar soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
-    - partvis{mid=SomarSoldier;p=left_arco;v=false} @Self
-    - setVariable{key=caster.ataque;t=String;value="false"} @Self
-    - setVariable{key=caster.Animacion;t=String;value="idle"} @self
+    - partvis{mid=SomarSoldier;p=left_arco;v=false}
+    - setVariable{key=caster.ataque;t=String;value="false"}
+    - setVariable{key=caster.Animacion;t=String;value="idle"}
