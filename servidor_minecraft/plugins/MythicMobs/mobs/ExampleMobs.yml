@@ -43,7 +43,7 @@ SomarSoldier:
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
     - skill{s=AtaqueSomarSoldier} ~onAttack
-    - skill{s=DamagedAnimation} ~onDamaged
+    - skill{s=DamagedAnimation} ~onTimer:0
 #    - skill{s=walk} @Self ~onTimer:1
     - skill{s=persIdle} @Self ~onTimer:1
     - skill{s=Pruebavariable} ~onTimer:1
