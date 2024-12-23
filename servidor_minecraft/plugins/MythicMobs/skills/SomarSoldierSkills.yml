@@ -124,29 +124,38 @@ walkAnimation2:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
   Conditions:
-    - VariableEquals{key=caster.ataque;t=String;value="false"} @Self
+    - VariableEquals{key=caster.ataque;t=String;value="false"}
+    - damagecause{cause=ENTITY_ATTACK} true
     - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
+  TriggerConditions:
+    - faction{faction=sameFaction} cast MarcarAtacker
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
     - delay 20
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
 InmunityPerAnimation:
   Skills:
     - msg{m="Ya atacado pa"} @World
+MarcarAtacker:
+  Skills:
+    - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
 MuerteExtAnimation:
+  Conditions:
+    - chance{c=0.5} true
+    - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
   Skills:
     - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
 acabarkillAnimation:
   Skills:
-    - state{mid=SomarSoldier;s=Animation} @Self
+    - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 PrepareModel:
   Skills:
-    - model{mid=SomarSoldier;n="Somar soldier"}
+    - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
+    - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self

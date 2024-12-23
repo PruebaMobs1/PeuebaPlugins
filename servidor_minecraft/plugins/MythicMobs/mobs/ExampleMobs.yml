@@ -46,11 +46,13 @@ SomarSoldier:
     - skill{s=DamagedAnimation} ~onDamaged
 #    - skill{s=walk} @Self ~onTimer:1
     - skill{s=persIdle} @Self ~onTimer:1
+    - skill{s=MuerteExtAnimation} ~onDeath
 #   - skill{s=Pruebavariable} ~onTimer:1
   AITargetSelectors:
     - clear
     - atacker
     - monsters
+    - specificfactionmonsters Zombies
     - players
   AIgoalSelectors:
     - 0 clear
