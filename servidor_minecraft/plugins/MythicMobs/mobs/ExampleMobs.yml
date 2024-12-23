@@ -32,6 +32,14 @@ SomarSoldier:
   Type: Zombie
   Display: '&aSoldado Somar'
   Faction: Somar
+  AITargetSelectors:
+    - clear
+    - atacker
+- specificfactionmonsters{f=somefaction}
+    - players
+  AIgoalSelectors:
+    - 0 clear
+    - 1 meleeatack
   Options:
     PreventSunburn: true
     FollowRange: 100
@@ -48,12 +56,4 @@ SomarSoldier:
     - skill{s=persIdle} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation} ~onDeath
 #   - skill{s=Pruebavariable} ~onTimer:1
-  AITargetSelectors:
-    - clear
-    - atacker
-    - specificfaction{f=Somar}
-    - players
-  AIgoalSelectors:
-    - 0 clear
-    - 1 meleeatack
   
