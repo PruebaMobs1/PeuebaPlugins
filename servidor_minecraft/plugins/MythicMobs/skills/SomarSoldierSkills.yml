@@ -153,7 +153,7 @@ acabarkillAnimation:
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 PrepareModel:
   Skills:
-    - model{mid=EnemigoSomar;n="Somar Soldier"}
+    - model{mid=EnemigoSomar;n="Somar Enemy"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
@@ -161,7 +161,7 @@ PrepareModel:
     - setVariable{key=caster.Animacion;t=String;value="idle"}
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
   
-  PrepareModelSomar:
+PrepareModelSomar:
   Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1

@@ -48,7 +48,7 @@ SomarSoldier:
   Health: 1000
   damage: 75
   Skills:
-    - skill{s=PrepareModel} @Self ~onSpawn
+    - skill{s=PrepareModelSomar} @Self ~onSpawn
     - skill{s=AtaqueSomarSoldier} ~onAttack
     - skill{s=DamagedAnimation} ~onDamaged
 #    - skill{s=walk} @Self ~onTimer:1
