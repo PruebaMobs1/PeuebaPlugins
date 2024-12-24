@@ -110,7 +110,7 @@ EwalkAnimation1:
     - setVariable{key=caster.Animacion;t=String;value="c1"} @Self
     - state{mid=EnemigoSomar;s=AnimationCaminarIzquierda} @Self
     - delay 15
-    - skill{s=walkAnimation2} @Self
+    - skill{s=EwalkAnimation2} @Self
       
 EwalkAnimation2:
   Conditions:
@@ -128,7 +128,7 @@ EDamagedAnimation:
     - damagecause{cause=ENTITY_ATTACK} true
     - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
   TriggerConditions:
-    - faction{faction=otherFactionMonsters} cast MarcarAtacker
+    - faction{faction=otherFactionMonsters} cast EMarcarAtacker
   Skills:
     - cancelevent
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
