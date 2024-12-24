@@ -35,7 +35,37 @@ SomarSoldier:
   AITargetSelectors:
     - clear
     - atacker
-- specificfactionmonsters{f=somefaction}
+    - players
+  AIgoalSelectors:
+    - 0 clear
+    - 1 meleeatack
+  Options:
+    PreventSunburn: true
+    FollowRange: 100
+    movementspeed: 1.2
+  Modules:
+    ThreatTable: true
+  Health: 1000
+  damage: 75
+  Skills:
+    - skill{s=PrepareModel} @Self ~onSpawn
+    - skill{s=AtaqueSomarSoldier} ~onAttack
+    - skill{s=DamagedAnimation} ~onDamaged
+#    - skill{s=walk} @Self ~onTimer:1
+    - skill{s=persIdle} @Self ~onTimer:1
+    - skill{s=MuerteExtAnimation} ~onDeath
+#   - skill{s=Pruebavariable} ~onTimer:1
+
+  #Enemigos de Somar
+
+SomarEnemies:
+  Type: Zombie
+  Display: '&aSoldado Enemigo'
+  Faction: SomarEnemies
+  AITargetSelectors:
+    - clear
+    - atacker
+    - specificfactionmonsters{f=Somar}
     - players
   AIgoalSelectors:
     - 0 clear

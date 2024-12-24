@@ -128,8 +128,9 @@ DamagedAnimation:
     - damagecause{cause=ENTITY_ATTACK} true
     - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
   TriggerConditions:
-    - faction{faction=sameFaction} cast MarcarAtacker
+    - faction{faction=otherFactionMonsters} cast MarcarAtacker
   Skills:
+    - cancelevent
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
@@ -152,6 +153,16 @@ acabarkillAnimation:
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 PrepareModel:
   Skills:
+    - model{mid=EnemigoSomar;n="Somar Soldier"}
+    - delay 1
+    - partvis{mid=SomarSoldier;p=auxblock}
+    - partvis{mid=SomarSoldier;p=left_arco;v=false}
+    - setVariable{key=caster.ataque;t=String;value="false"}
+    - setVariable{key=caster.Animacion;t=String;value="idle"}
+    - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
+  
+  PrepareModelSomar:
+  Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
@@ -159,3 +170,4 @@ PrepareModel:
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
+  
