@@ -1,6 +1,8 @@
 Pruebavariable:
+  Conditions:
+  - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
-    - message{m=<caster.var.Animation>} @NearestPlayer
+    - message{m=<caster.var.Animacion>} @NearestPlayer
 AtaqueSomarSoldier:
   Cooldown: 20
   Conditions:
@@ -138,7 +140,7 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
   Skills:
-    - msg{m="Ya atacado pa"} @World
+    - msg{m= atacado pa} @World
 MarcarAtacker:
   Skills:
     - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
