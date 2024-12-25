@@ -9,7 +9,7 @@ EAtaqueSomarSoldier:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=EnemigoSomar;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer
-    - randomskill{s=AtaqueUnico,AtaqueArea 50}
+    - randomskill{s=EAtaqueUnico,EAtaqueArea 50}
 EAtaqueUnico:
   Skills:
   - cancelevent

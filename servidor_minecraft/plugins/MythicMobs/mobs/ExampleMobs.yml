@@ -50,11 +50,11 @@ SomarSoldier:
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
-    - skill{s=AtaqueSomarSoldier} ~onAttack
-    - skill{s=DamagedAnimation} ~onDamaged
+    - skill{s=AtaqueSomarSoldier;sync=true} ~onAttack
+    - skill{s=DamagedAnimation;sync=true} ~onDamaged
 #    - skill{s=walk} @Self ~onTimer:1
-    - skill{s=persIdle} @Self ~onTimer:1
-    - skill{s=MuerteExtAnimation} ~onDeath
+    - skill{s=persIdle;sync=true} @Self ~onTimer:1
+    - skill{s=MuerteExtAnimation;sync=true} ~onDeath
 #   - skill{s=Pruebavariable} ~onTimer:1
 
   #Enemigos de Somar
@@ -81,7 +81,7 @@ SomarEnemies:
   damage: 75
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
-    - skill{s=EAtaqueSomarSoldier} ~onAttack
+    - skill{s=EAtaqueSomarSoldier;sync=true} ~onAttack
     - skill{s=EDamagedAnimation} ~onDamaged
 #    - skill{s=Ewalk} @Self ~onTimer:1
     - skill{s=EpersIdle} @Self ~onTimer:1
