@@ -6,6 +6,7 @@ EAtaqueSomarSoldier:
     - variableEquals{key=caster.Animacion;t=String;value="dmg"} false
   Cooldown: 1
   Skills:
+    - cancelevent
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=EnemigoSomar;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer

@@ -35,7 +35,6 @@ SomarSoldier:
   AITargetSelectors:
     - clear
     - atacker
-    - monsters
     - players
   AIgoalSelectors:
     - 0 clear
@@ -46,7 +45,7 @@ SomarSoldier:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 1000
+  Health: 100
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
@@ -66,7 +65,7 @@ SomarEnemies:
   AITargetSelectors:
     - clear
     - atacker
-    - specificfactionmonsters{f=Somar}
+    - specificfaction{f=Somar}
     - players
   AIgoalSelectors:
     - 0 clear
@@ -77,14 +76,14 @@ SomarEnemies:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 1000
+  Health: 100
   damage: 75
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
     - skill{s=EAtaqueSomarSoldier;sync=true} ~onAttack
-    - skill{s=EDamagedAnimation} ~onDamaged
+    - skill{s=EDamagedAnimation;sync=true} ~onDamaged
 #    - skill{s=Ewalk} @Self ~onTimer:1
-    - skill{s=EpersIdle} @Self ~onTimer:1
+    - skill{s=EpersIdle;sync=true} @Self ~onTimer:1
     - skill{s=EMuerteExtAnimation} ~onDeath
 #   - skill{s=EPruebavariable} ~onTimer:1
   
