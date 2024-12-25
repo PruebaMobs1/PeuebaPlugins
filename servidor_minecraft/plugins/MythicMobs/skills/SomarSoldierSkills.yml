@@ -1,4 +1,6 @@
 Pruebavariable:
+  Conditions:
+    - variableEquals{key=caster.Animacion;value="dmg"}
   Skills:
     - message{m=<caster.var.Animacion>} @NearestPlayer
 AtaqueSomarSoldier:
@@ -112,6 +114,7 @@ walkAnimation1:
     - Moving orElseCast persIdle     # El mob debe estar caminando
     - variableEquals{key=caster.Animacion;value="idle"}
     - variableEquals{key=caster.ataque;value="false"}
+    - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="c1"} @Self
     - state{mid=SomarSoldier;s=AnimationCaminarIzquierda} @Self
@@ -123,6 +126,7 @@ walkAnimation2:
    - Moving orElseCast persIdle
    - variableEquals{key=caster.ataque;value="false"}
    - VariableEquals{key=caster.Animacion;t=String;value="c1"}
+   - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="c2"} @Self
     - state{mid=SomarSoldier;s=AnimationCaminarDerecha} @Self
@@ -130,9 +134,9 @@ walkAnimation2:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
   Conditions:
-    - variableEquals{key=caster.ataque;value="false"} true
+    - variableEquals{key=caster.ataque;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
-    - variableEquals{key=caster.Animacion;value="dmg"} castinstead InmunityPerAnimation
+    - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
