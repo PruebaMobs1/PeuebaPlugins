@@ -130,10 +130,7 @@ DamagedAnimation:
     - VariableEquals{key=caster.ataque;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
     - VariableEquals{key=caster.Animation;value="dmg"} castInstead InmunityPerAnimation
-  TriggerConditions:
-    - faction{faction=otherFactionMonsters} cast MarcarAtacker
   Skills:
-    - cancelevent
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
