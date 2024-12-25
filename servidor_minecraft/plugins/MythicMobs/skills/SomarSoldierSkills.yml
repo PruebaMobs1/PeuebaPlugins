@@ -134,11 +134,11 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
-    - delay 20
+    - delay 21
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
   Skills:
-    - msg{m= atacado pa} @World
+    - msg{m=ya atacado pa} @World
 MarcarAtacker:
   Skills:
     - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
