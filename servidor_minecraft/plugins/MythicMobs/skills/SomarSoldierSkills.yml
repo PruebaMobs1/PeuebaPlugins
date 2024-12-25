@@ -1,9 +1,8 @@
 Pruebavariable:
   Skills:
-    - message{m=<caster.var.ataque>} @NearestPlayer
+    - message{m=<caster.var.Animation>} @NearestPlayer
 AtaqueSomarSoldier:
   Cooldown: 20
-  Sync: true
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
   Cooldown: 1
