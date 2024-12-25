@@ -2,10 +2,12 @@ Pruebavariable:
   Skills:
     - message{m=<caster.var.ataque>} @NearestPlayer
 AtaqueSomarSoldier:
+  Sync: true
   Conditions:
     - variableEquals{key=caster.Animacion;t=String;value="dmg"} false
   Cooldown: 1
   Skills:
+    - cancelevent
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer
@@ -123,6 +125,7 @@ walkAnimation2:
     - delay 15
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
+  Sync: true
   Conditions:
     - VariableEquals{key=caster.ataque;t=String;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
