@@ -88,7 +88,7 @@ persIdle:
   Conditions:
     - Moving{e=true} castInstead walkAnimation1 # La animación no debe estar activa
     - variableEquals{key=caster.ataque;value="false"}
-    - variableEquals{key=caster.Animation;value="dmg"} false
+    - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
     #- setVariable{key=caster.AnimacionCaminando;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @self
@@ -107,7 +107,7 @@ walk:
 walkAnimation1:
   Conditions:
     - Moving orElseCast persIdle     # El mob debe estar caminando
-    - variableEquals{key=caster.Animacion;value="dmg"} false
+    - variableEquals{key=caster.Animacion;value="idle"}
     - variableEquals{key=caster.ataque;value="false"}
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="c1"} @Self
@@ -129,7 +129,7 @@ DamagedAnimation:
   Conditions:
     - variableEquals{key=caster.ataque;value="false"} true
     - damagecause{cause=ENTITY_ATTACK} true
-    - variableEquals{key=caster.Animation;value="dmg"} castinstead InmunityPerAnimation
+    - variableEquals{key=caster.Animacion;value="dmg"} castinstead InmunityPerAnimation
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
