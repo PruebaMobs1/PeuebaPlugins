@@ -2,8 +2,9 @@ Pruebavariable:
   Skills:
     - message{m=<caster.var.ataque>} @NearestPlayer
 AtaqueSomarSoldier:
+  Sync: true
   Conditions:
-    - variableEquals{key=caster.Animacion;t=String;value="dmg"} false
+    - variableEquals{key=caster.Animacion;value="dmg"} false
   Cooldown: 1
   Skills:
     - cancelevent
@@ -126,9 +127,9 @@ walkAnimation2:
 DamagedAnimation:
   Sync: true
   Conditions:
-    - VariableEquals{key=caster.ataque;t=String;value="false"}
+    - VariableEquals{key=caster.ataque;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
-    - VariableEquals{key=caster.Animation;t=String;value="dmg"} castInstead InmunityPerAnimation
+    - VariableEquals{key=caster.Animation;value="dmg"} castInstead InmunityPerAnimation
   TriggerConditions:
     - faction{faction=otherFactionMonsters} cast MarcarAtacker
   Skills:
