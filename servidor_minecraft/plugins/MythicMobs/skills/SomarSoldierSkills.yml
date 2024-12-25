@@ -89,6 +89,7 @@ persIdle:
   Conditions:
     - Moving{e=true} castInstead walkAnimation1 # La animación no debe estar activa
     - variableEquals{key=caster.ataque;value="false"}
+    - variableEquals{key=caster.Animation;value="dmg"} false
   Skills:
     #- setVariable{key=caster.AnimacionCaminando;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @self
