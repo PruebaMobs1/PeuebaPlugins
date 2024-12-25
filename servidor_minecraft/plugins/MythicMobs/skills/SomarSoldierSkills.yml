@@ -136,7 +136,7 @@ DamagedAnimation:
   Conditions:
     - variableEquals{key=caster.ataque;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
-    - variableEquals{key=caster.Animacion;value="dmg"} false
+    - variableEquals{key=caster.Animacion;value="dmg"} castinstead InmunityPerAnimation
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
