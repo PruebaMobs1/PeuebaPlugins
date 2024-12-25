@@ -1,6 +1,4 @@
 Pruebavariable:
-  Conditions:
-  - variableEquals{key=caster.Animacion;value="dmg"} false
   Skills:
     - message{m=<caster.var.Animacion>} @NearestPlayer
 AtaqueSomarSoldier:
@@ -109,7 +107,7 @@ walk:
 walkAnimation1:
   Conditions:
     - Moving orElseCast persIdle     # El mob debe estar caminando
-    - variableEquals{key=caster.Animacion;value="idle"}
+    - variableEquals{key=caster.Animacion;value="dmg"} false
     - variableEquals{key=caster.ataque;value="false"}
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="c1"} @Self
