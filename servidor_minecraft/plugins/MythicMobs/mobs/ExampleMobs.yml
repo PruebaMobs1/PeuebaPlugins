@@ -77,7 +77,7 @@ SomarEnemies:
   Modules:
     ThreatTable: true
   Health: 100
-  damage: 75
+  damage: 1
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
     - skill{s=EAtaqueSomarSoldier;sync=true} ~onAttack
