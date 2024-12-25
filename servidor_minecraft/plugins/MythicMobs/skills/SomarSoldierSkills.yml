@@ -37,7 +37,7 @@ AtaqueBase2:
   - delay 1
   - state{mid=SomarSoldier;s=animationAtaqueComun2;li=0;lo=0;pr=0} @Self
   - delay 12
-  - basedamage{m=1.5} @Target
+  - basedamage{m=1.5} @Forward{f=2;uel=true}
   - delay 30
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   #- partvis{mid=SomarSoldier;p=left_sword;v=true} @Self
@@ -46,7 +46,7 @@ Estocada:
   Skills:
   - state{mid=SomarSoldier;s=animationAtaqueEstocadaDerecha;li=0;lo=1;pr=1} @Self
   - delay 18
-  - basedamage{m=5} @Target
+  - basedamage{m=5} @Forward{f=4;uel=true}
   - delay 2
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - message{m="finAtaque"} @NearestPlayer
