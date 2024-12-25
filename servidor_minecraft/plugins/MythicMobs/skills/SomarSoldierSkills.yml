@@ -125,11 +125,10 @@ walkAnimation2:
     - delay 15
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 DamagedAnimation:
-  Sync: true
   Conditions:
     - VariableEquals{key=caster.ataque;value="false"}
     - damagecause{cause=ENTITY_ATTACK} true
-    - VariableEquals{key=caster.Animation;value="dmg"} castInstead InmunityPerAnimation
+    - VariableEquals{key=caster.Animation;value="dmg"} castinstead InmunityPerAnimation
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
@@ -138,7 +137,7 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
   Skills:
-    - msg{m="Ya atacado pa"} @World
+  - msg{m="Ya atacado pa"} @World
 MarcarAtacker:
   Skills:
     - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
