@@ -87,6 +87,7 @@ EpersIdle:
   Conditions:
     - Moving{e=true} castInstead EwalkAnimation1 # La animación no debe estar activa
     - variableEquals{key=caster.ataque;value="false"}
+    - variableEquals{key=caster.Animacion;value="killAnim"}
   Skills:
     #- setVariable{key=caster.AnimacionCaminando;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @self
@@ -151,8 +152,10 @@ EMuerteExtAnimation:
     - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
 EacabarkillAnimation:
   Skills:
+    - setVariable{key=caster.Animacion;t=String;value="killAnim"} @Self
     - msg{m=intento} @NearestPlayer
     - state{mid=EnemigoSomar;s=animationAcabarRival} @Self
+    - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 PrepareModel:
   Skills:
     - model{mid=EnemigoSomar;n="Somar Enemy"}
