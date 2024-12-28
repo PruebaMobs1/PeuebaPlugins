@@ -162,6 +162,8 @@ MuerteExtAnimation:
     - msg{m=intentoEnviarSenal} @NearestPlayer
 acabarkillAnimation:
   Skills:
+    - 
+    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - msg{m=intento}
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
   
