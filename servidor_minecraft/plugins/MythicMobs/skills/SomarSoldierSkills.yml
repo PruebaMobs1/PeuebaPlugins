@@ -66,6 +66,7 @@ AtaqueArea1:
     - basedamage{m=1}
     - delay 26
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
+    - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
     - message{m="finAtaque"} @NearestPlayer
 AtaqueArea2:
   Conditions:
@@ -77,6 +78,7 @@ AtaqueArea2:
     - basedamage{m=2}   
     - delay 40
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
+    - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
     - message{m="finAtaque"} @NearestPlayer
 AtaqueArea3:
   Conditions:
@@ -88,6 +90,7 @@ AtaqueArea3:
     - basedamage{m=2.5}   
     - delay 47
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
+    - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
     - message{m="finAtaque"} @NearestPlayer
 persIdle:
   Conditions:

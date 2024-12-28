@@ -1,428 +1,147 @@
-[23:16:37] [main/INFO] [STDOUT/]: Update in check...
-[23:16:37] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
-[23:16:38] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1243 but you have 1.16.5-1238. The latest version has been built on 2024-10-15 09:56:20. You should update to fix recent bugs !
-[23:16:38] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
-[23:16:38] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
-[23:16:38] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[23:16:38] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[23:16:39] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[23:16:48] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[23:16:48] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[23:16:48] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[23:16:54] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:16:56] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
-[23:16:58] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[23:17:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[23:17:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23:17:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[23:17:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23:17:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
-[23:17:02] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[23:17:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:17:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23:17:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:17:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:17:02] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
-[23:17:03] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[23:17:03] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[23:17:03] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[23:17:03] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[23:17:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
-[23:17:09] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[23:17:11] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
-[23:17:11] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
-[23:17:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23:17:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23:17:14] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23:17:21] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23:17:21] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[23:17:23] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[23:17:24] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
-[23:17:24] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 12,832 ms
-[23:17:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
-[23:17:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23:17:27] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23:17:28] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[23:17:30] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[23:17:30] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[23:17:31] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[23:17:31] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[23:17:32] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
-[23:17:32] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7,532 ms
-[23:17:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
-[23:17:33] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23:17:33] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[23:17:34] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,719 ms
-[23:17:34] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
-[23:17:35] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
-[23:17:36] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
-[23:17:36] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
-[23:17:39] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
-[23:17:39] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
-[23:17:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:17:43] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:17:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
-[23:17:44] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
-[23:17:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
-[23:17:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
-[23:17:45] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
-[23:17:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
-[23:17:45] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
-[23:17:45] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
-[23:17:45] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[23:17:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.167s)! For help, type "help"
-[23:17:45] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:45] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[23:17:45] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:45] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:46] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[23:17:47] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:47] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[23:17:47] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[23:17:47] [Craft Scheduler Thread - 7/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[23:18:04] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[23:18:04] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:35265] logged in with entity id 144 at (88.506, 56, 56.103)
-[23:18:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 lost connection: Disconnected
-[23:18:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 left the game
-[23:18:20] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[23:18:20] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:52307] logged in with entity id 157 at (88.506, 56, 56.103)
-[23:18:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /kill @s
-[23:18:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 fell out of the world
-[23:18:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Killed CJML5067]
-[23:18:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 lost connection: Timed out
-[23:18:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 left the game
-[23:18:52] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[23:18:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:43867] logged in with entity id 195 at (88.506, 56, 56.103)
-[23:19:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:19:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:19:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:19:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:20:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:20:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:20:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 122 entities]
-[23:20:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:20:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:20:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:20:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:21:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 197 entities]
-[23:21:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:21:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode survival
-[23:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Survival Mode]
-[23:23:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 was slain by Soldado Somar
-[23:24:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode creative
-[23:24:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Creative Mode]
-[23:24:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /give @s minecraft:command_block
-[23:24:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Gave 1 [Command Block] to CJML5067]
-[23:25:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 204 entities]
-[23:25:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 107 entities]
-[23:25:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode survival
-[23:25:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Survival Mode]
-[23:26:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:26:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode creative
-[23:26:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Creative Mode]
-[23:27:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode survival
-[23:27:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Survival Mode]
-[23:27:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 135 entities]
-[23:28:02] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode creative
-[23:28:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Creative Mode]
-[23:34:20] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:34:20] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:34:20] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:34:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 127 entities]
-[23:34:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:34:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode survival
-[23:34:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Survival Mode]
-[23:34:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 was slain by Soldado Somar
-[23:35:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 196 entities]
-[23:35:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:36:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 was slain by Soldado Somar
-[23:38:57] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:38:57] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:38:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:40:06] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:40:06] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:40:06] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:40:06] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:40:07] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:40:07] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:42:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 was slain by Soldado Somar
-[23:43:09] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:43:09] [Server thread/WARN] [/]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
-[23:43:09] [Server thread/WARN] [/]:  in 'string', line 1, column 1:
-[23:43:09] [Server thread/WARN] [/]:     Pruebavariable:
-[23:43:09] [Server thread/WARN] [/]:     ^
-[23:43:09] [Server thread/WARN] [/]: expected <block end>, but found '<block mapping start>'
-[23:43:09] [Server thread/WARN] [/]:  in 'string', line 3, column 3:
-[23:43:09] [Server thread/WARN] [/]:       Skills:
-[23:43:09] [Server thread/WARN] [/]:       ^
-[23:43:09] [Server thread/WARN] [/]: 
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:56)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:47)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:94)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64)
-[23:43:09] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766)
-[23:43:09] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373)
-[23:43:09] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346)
-[23:43:09] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033)
-[23:43:09] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847)
-[23:43:09] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
-[23:43:09] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[23:43:09] [Server thread/WARN] [/]: Caused by: while parsing a block mapping
-[23:43:09] [Server thread/WARN] [/]:  in 'string', line 1, column 1:
-[23:43:09] [Server thread/WARN] [/]:     Pruebavariable:
-[23:43:09] [Server thread/WARN] [/]:     ^
-[23:43:09] [Server thread/WARN] [/]: expected <block end>, but found '<block mapping start>'
-[23:43:09] [Server thread/WARN] [/]:  in 'string', line 3, column 3:
-[23:43:09] [Server thread/WARN] [/]:       Skills:
-[23:43:09] [Server thread/WARN] [/]:       ^
-[23:43:09] [Server thread/WARN] [/]: 
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
-[23:43:09] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
-[23:43:09] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60)
-[23:43:09] [Server thread/WARN] [/]: 	... 22 more
-[23:43:09] [Server thread/ERROR] [Minecraft/]: Cannot load /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarSoldierSkills.yml
-org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
- in 'string', line 1, column 1:
-    Pruebavariable:
-    ^
-expected <block end>, but found '<block mapping start>'
- in 'string', line 3, column 3:
-      Skills:
-      ^
-
-	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62) ~[forge:?]
-	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge:?]
-	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge:?]
-	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:191) ~[forge:?]
-	at io.lumine.mythic.bukkit.utils.config.properties.types.NodeListProp.getNodes(NodeListProp.java:38) ~[?:?]
-	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:96) ~[?:?]
-	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420) ~[?:?]
-	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46) ~[?:?]
-	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[?:?]
-	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112) ~[?:?]
-	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59) ~[?:?]
-	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[?:?]
-	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[forge:?]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782) ~[forge:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766) ~[forge:7e29f765-296df566-9fb885e8]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373) ~[?:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
- in 'string', line 1, column 1:
-    Pruebavariable:
-    ^
-expected <block end>, but found '<block mapping start>'
- in 'string', line 3, column 3:
-      Skills:
-      ^
-
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[snakeyaml-1.27.jar:?]
-	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[snakeyaml-1.27.jar:?]
-	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60) ~[forge:?]
-	... 22 more
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModelSomar[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModelSomar}[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill AtaqueSomarSoldier[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=AtaqueSomarSoldier;sync=true}[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill DamagedAnimation[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=DamagedAnimation;sync=true}[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill persIdle[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=persIdle;sync=true}[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill MuerteExtAnimation[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=MuerteExtAnimation;sync=true}[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill Pruebavariable[0m[0m
-[23:43:09] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=Pruebavariable}[0m[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 26 skills.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:43:09] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:43:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:43:38] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:43:38] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:43:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:45:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 130 entities]
-[23:45:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:47:45] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[23:47:45] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[23:47:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[23:51:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 was slain by Soldado Somar
-[23:52:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /gamemode creative
-[23:52:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [CJML5067: Set own game mode to Creative Mode]
-[23:52:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:52:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:52:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:53:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[23:54:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[23:54:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:54:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:54:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:54:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:55:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:55:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:55:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:56:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[23:56:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 137 entities]
-[23:56:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[23:56:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:56:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
-[23:56:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Summoned new Zombie]
+[19:34:03] [main/INFO] [STDOUT/]: Update in check...
+[19:34:03] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[19:34:04] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1243 but you have 1.16.5-1238. The latest version has been built on 2024-10-15 09:56:20. You should update to fix recent bugs !
+[19:34:04] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[19:34:04] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
+[19:34:04] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19:34:04] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[19:34:05] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[19:34:13] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[19:34:13] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[19:34:13] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[19:34:18] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:34:19] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
+[19:34:22] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[19:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[19:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[19:34:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19:34:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[19:34:25] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[19:34:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:34:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19:34:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:34:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:34:25] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[19:34:26] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[19:34:26] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[19:34:26] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[19:34:26] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[19:34:29] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
+[19:34:29] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[19:34:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
+[19:34:31] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
+[19:34:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19:34:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19:34:34] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19:34:35] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
+[19:34:39] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19:34:39] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[19:34:41] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[19:34:41] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[19:34:42] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[19:34:42] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 10,114 ms
+[19:34:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[19:34:43] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19:34:43] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19:34:44] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[19:34:46] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[19:34:46] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[19:34:47] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[19:34:47] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5,316 ms
+[19:34:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[19:34:47] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19:34:48] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[19:34:48] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,088 ms
+[19:34:48] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[19:34:49] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
+[19:34:50] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
+[19:34:50] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
+[19:34:54] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
+[19:34:54] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
+[19:34:58] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[19:34:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[19:34:59] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[19:35:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
+[19:35:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
+[19:35:00] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
+[19:35:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
+[19:35:00] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
+[19:35:00] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
+[19:35:00] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[19:35:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (29.030s)! For help, type "help"
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:00] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[19:35:01] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:01] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[19:35:01] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[19:35:01] [Craft Scheduler Thread - 5/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[19:36:07] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[19:36:07] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:55163] logged in with entity id 226 at (92.77, 56, 56.82)
+[19:36:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[19:36:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[19:36:58] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[19:36:58] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[19:36:58] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[19:36:58] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[19:36:59] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[19:36:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[19:38:13] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[19:38:13] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[19:38:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[19:38:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[19:39:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 lost connection: Timed out
+[19:39:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CJML5067 left the game

@@ -1,6 +1,6 @@
 EPruebavariable:
   Skills:
-    - message{m=<caster.var.ataque>} @NearestPlayer
+    - message{m=<caster.var.atackeruuid>} @NearestPlayer
 EAtaqueSomarSoldier:
   Conditions:
     - variableEquals{key=caster.Animacion;t=String;value="dmg"} false
