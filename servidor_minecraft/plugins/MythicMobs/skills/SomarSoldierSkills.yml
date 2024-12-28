@@ -155,12 +155,13 @@ MuerteExtAnimation:
   Conditions:
     - chance{c=1} true
     - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
-    TargetConditions:
+  TargetConditions:
     - isLiving true
   Skills:
-    - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
+    - Signal{s=killerAnimation}
 acabarkillAnimation:
   Skills:
+    - msg{m=intento}
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
   
 PrepareModelSomar:

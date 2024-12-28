@@ -664,3 +664,443 @@ java.lang.UnsatisfiedLinkError: no netty_transport_native_epoll_x86_64 in java.l
 [20:46:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
 [20:48:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
 [20:48:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[20:53:03] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:53:03] [Server thread/WARN] [/]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[20:53:03] [Server thread/WARN] [/]:  in 'string', line 156, column 5:
+[20:53:03] [Server thread/WARN] [/]:         - chance{c=1} true
+[20:53:03] [Server thread/WARN] [/]:         ^
+[20:53:03] [Server thread/WARN] [/]: expected <block end>, but found '?'
+[20:53:03] [Server thread/WARN] [/]:  in 'string', line 158, column 5:
+[20:53:03] [Server thread/WARN] [/]:         TargetConditions:
+[20:53:03] [Server thread/WARN] [/]:         ^
+[20:53:03] [Server thread/WARN] [/]: 
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:56)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:47)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:94)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64)
+[20:53:03] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766)
+[20:53:03] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373)
+[20:53:03] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346)
+[20:53:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033)
+[20:53:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847)
+[20:53:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:53:03] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:53:03] [Server thread/WARN] [/]: Caused by: while parsing a block collection
+[20:53:03] [Server thread/WARN] [/]:  in 'string', line 156, column 5:
+[20:53:03] [Server thread/WARN] [/]:         - chance{c=1} true
+[20:53:03] [Server thread/WARN] [/]:         ^
+[20:53:03] [Server thread/WARN] [/]: expected <block end>, but found '?'
+[20:53:03] [Server thread/WARN] [/]:  in 'string', line 158, column 5:
+[20:53:03] [Server thread/WARN] [/]:         TargetConditions:
+[20:53:03] [Server thread/WARN] [/]:         ^
+[20:53:03] [Server thread/WARN] [/]: 
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:514)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:208)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+[20:53:03] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
+[20:53:03] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60)
+[20:53:03] [Server thread/WARN] [/]: 	... 22 more
+[20:53:03] [Server thread/ERROR] [Minecraft/]: Cannot load /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarSoldierSkills.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+ in 'string', line 156, column 5:
+        - chance{c=1} true
+        ^
+expected <block end>, but found '?'
+ in 'string', line 158, column 5:
+        TargetConditions:
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:191) ~[forge:?]
+	at io.lumine.mythic.bukkit.utils.config.properties.types.NodeListProp.getNodes(NodeListProp.java:38) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:96) ~[?:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420) ~[?:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block collection
+ in 'string', line 156, column 5:
+        - chance{c=1} true
+        ^
+expected <block end>, but found '?'
+ in 'string', line 158, column 5:
+        TargetConditions:
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:514) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:208) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[snakeyaml-1.27.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60) ~[forge:?]
+	... 22 more
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModelSomar[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModelSomar}[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill AtaqueSomarSoldier[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=AtaqueSomarSoldier;sync=true}[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill DamagedAnimation[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=DamagedAnimation;sync=true}[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill persIdle[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=persIdle;sync=true}[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill MuerteExtAnimation[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=MuerteExtAnimation;sync=true}[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill Pruebavariable[0m[0m
+[20:53:03] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=Pruebavariable}[0m[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 26 skills.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:53:03] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[20:53:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[20:53:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[20:53:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[20:53:45] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:53:45] [Server thread/WARN] [/]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[20:53:45] [Server thread/WARN] [/]:  in 'string', line 156, column 5:
+[20:53:45] [Server thread/WARN] [/]:         - chance{c=1} true
+[20:53:45] [Server thread/WARN] [/]:         ^
+[20:53:45] [Server thread/WARN] [/]: expected <block end>, but found '?'
+[20:53:45] [Server thread/WARN] [/]:  in 'string', line 158, column 5:
+[20:53:45] [Server thread/WARN] [/]:         TargetConditions:
+[20:53:45] [Server thread/WARN] [/]:         ^
+[20:53:45] [Server thread/WARN] [/]: 
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:56)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:47)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:94)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64)
+[20:53:45] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766)
+[20:53:45] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373)
+[20:53:45] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346)
+[20:53:45] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033)
+[20:53:45] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847)
+[20:53:45] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:53:45] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:53:45] [Server thread/WARN] [/]: Caused by: while parsing a block collection
+[20:53:45] [Server thread/WARN] [/]:  in 'string', line 156, column 5:
+[20:53:45] [Server thread/WARN] [/]:         - chance{c=1} true
+[20:53:45] [Server thread/WARN] [/]:         ^
+[20:53:45] [Server thread/WARN] [/]: expected <block end>, but found '?'
+[20:53:45] [Server thread/WARN] [/]:  in 'string', line 158, column 5:
+[20:53:45] [Server thread/WARN] [/]:         TargetConditions:
+[20:53:45] [Server thread/WARN] [/]:         ^
+[20:53:45] [Server thread/WARN] [/]: 
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:514)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:208)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+[20:53:45] [Server thread/WARN] [/]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
+[20:53:45] [Server thread/WARN] [/]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60)
+[20:53:45] [Server thread/WARN] [/]: 	... 22 more
+[20:53:45] [Server thread/ERROR] [Minecraft/]: Cannot load /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarSoldierSkills.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+ in 'string', line 156, column 5:
+        - chance{c=1} true
+        ^
+expected <block end>, but found '?'
+ in 'string', line 158, column 5:
+        TargetConditions:
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:62) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:191) ~[forge:?]
+	at io.lumine.mythic.bukkit.utils.config.properties.types.NodeListProp.getNodes(NodeListProp.java:38) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.loadSkills(SkillExecutor.java:96) ~[?:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:420) ~[?:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:766) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71333_ah(DedicatedServer.java:373) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:346) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1033) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:847) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block collection
+ in 'string', line 156, column 5:
+        - chance{c=1} true
+        ^
+expected <block end>, but found '?'
+ in 'string', line 158, column 5:
+        TargetConditions:
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry.produce(ParserImpl.java:514) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:208) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:119) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[snakeyaml-1.27.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:60) ~[forge:?]
+	... 22 more
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModelSomar[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModelSomar}[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill AtaqueSomarSoldier[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=AtaqueSomarSoldier;sync=true}[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill DamagedAnimation[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=DamagedAnimation;sync=true}[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill persIdle[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=persIdle;sync=true}[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill MuerteExtAnimation[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=MuerteExtAnimation;sync=true}[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarSoldier[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill Pruebavariable[0m[0m
+[20:53:45] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=Pruebavariable}[0m[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 26 skills.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:53:45] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[20:53:45] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[20:54:14] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:54:14] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[20:54:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[20:56:25] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:56:25] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[20:56:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[20:56:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[20:57:24] [Server thread/INFO] [/]: -------------======== Mythic ========-------------
+[20:57:24] [Server thread/INFO] [/]:  
+[20:57:24] [Server thread/INFO] [/]: /mm mobs ► Mob-related commands
+[20:57:24] [Server thread/INFO] [/]: /mm items ► Items-related commands
+[20:57:24] [Server thread/INFO] [/]: /mm skills ► Skill-related commands
+[20:57:24] [Server thread/INFO] [/]: /mm spawners ► Spawner-related commands
+[20:57:24] [Server thread/INFO] [/]: /mm utility ► Some helpful utility commands
+[20:57:24] [Server thread/INFO] [/]: /mm reload ► Reloads all configuration files and mobs
+[20:57:24] [Server thread/INFO] [/]: /mm debug [level] ► Enables console debugging output
+[20:57:24] [Server thread/INFO] [/]: /mm version ► Plugin version information
+[20:57:24] [Server thread/INFO] [/]:  
+[20:57:24] [Server thread/INFO] [/]: ----------------- www.mythiccraft.io -----------------
+[20:57:30] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 49 skills.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[20:57:30] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[20:57:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[20:57:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[20:57:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[20:58:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[20:58:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[21:00:59] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[21:00:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[21:00:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[21:00:59] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[21:01:00] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[21:01:00] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarEnemies[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[21:01:00] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModel[0m[0m
+[21:01:00] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModel}[0m[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 48 skills.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[21:01:00] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[21:01:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:01:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier

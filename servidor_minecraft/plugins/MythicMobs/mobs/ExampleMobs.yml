@@ -46,7 +46,7 @@ SomarSoldier:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 100
+  Health: 5
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
@@ -54,8 +54,8 @@ SomarSoldier:
     - skill{s=DamagedAnimation;sync=true} ~onDamaged
 #    - skill{s=walk} @Self ~onTimer:1
     - skill{s=persIdle;sync=true} @Self ~onTimer:1
-    - skill{s=MuerteExtAnimation;sync=true} ~onDeath
-    - skill{s=Pruebavariable} ~onTimer:1
+    - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
+#    - skill{s=Pruebavariable} ~onTimer:1
 
   #Enemigos de Somar
 
@@ -84,6 +84,7 @@ SomarEnemies:
     - skill{s=EAtaqueSomarSoldier;sync=true} ~onAttack
     - skill{s=EDamagedAnimation;sync=true} ~onDamaged
 #    - skill{s=Ewalk} @Self ~onTimer:1
+    - skill{s=EacabarkillAnimation;sync=true} ~onSignal:killerAnimation
     - skill{s=EpersIdle;sync=true;sync=true} @Self ~onTimer:1
     - skill{s=EMuerteExtAnimation} ~onDeath
 #   - skill{s=EPruebavariable} ~onTimer:1
