@@ -1,8 +1,6 @@
 Pruebavariable:
-  Conditions:
-    - variableEquals{key=caster.Animacion;value="dmg"}
   Skills:
-    - message{m=<caster.var.Animacion>} @NearestPlayer
+    - message{m=<caster.var.atackeruuid>} @NearestPlayer
 AtaqueSomarSoldier:
   Cooldown: 20
   Conditions:
@@ -144,6 +142,7 @@ DamagedAnimation:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
+    - skill{s=MarcarAtacker}
     - delay 21
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 InmunityPerAnimation:
