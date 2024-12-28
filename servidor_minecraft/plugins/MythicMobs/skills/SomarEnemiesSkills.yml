@@ -151,8 +151,8 @@ EMuerteExtAnimation:
     - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
 EacabarkillAnimation:
   Skills:
-    - msg{m=intento}
-    - state{mid=SomarSoldier;s=animationAcabarRival} @Self
+    - msg{m=intento} @NearestPlayer
+    - state{mid=EnemigoSomar;s=animationAcabarRival} @Self
 PrepareModel:
   Skills:
     - model{mid=EnemigoSomar;n="Somar Enemy"}

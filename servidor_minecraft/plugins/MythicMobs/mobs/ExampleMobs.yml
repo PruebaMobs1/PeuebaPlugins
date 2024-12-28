@@ -83,7 +83,7 @@ SomarEnemies:
     - skill{s=PrepareModel} @Self ~onSpawn
     - skill{s=EAtaqueSomarSoldier;sync=true} ~onAttack
     - skill{s=EDamagedAnimation;sync=true} ~onDamaged
-#   - skill{s=Ewalk} @Self ~onTimer:1
+#    - skill{s=Ewalk} @Self ~onTimer:1
     - skill{s=EacabarkillAnimation;sync=true} ~onSignal:killerAnimation
     - skill{s=EpersIdle;sync=true;sync=true} @Self ~onTimer:1
     - skill{s=EMuerteExtAnimation} ~onDeath

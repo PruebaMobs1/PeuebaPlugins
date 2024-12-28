@@ -153,12 +153,13 @@ MarcarAtacker:
     - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
 MuerteExtAnimation:
   Conditions:
-    - chance{c=1} true
+#    - chance{c=1} true
     - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
   TargetConditions:
     - isLiving true
   Skills:
     - Signal{s=killerAnimation}
+    - msg{m=intentoEnviarSenal} @NearestPlayer
 acabarkillAnimation:
   Skills:
     - msg{m=intento}
