@@ -1104,3 +1104,66 @@ expected <block end>, but found '?'
 [21:01:00] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
 [21:01:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
 [21:01:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:02:49] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[21:02:49] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[21:02:49] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarEnemies[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[21:02:49] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModel[0m[0m
+[21:02:49] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModel}[0m[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 48 skills.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[21:02:49] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[21:02:49] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[21:02:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:03:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[21:03:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[21:06:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 142 entities]
+[21:07:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 202 entities]
+[21:07:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 112 entities]
+[21:07:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 36 entities]
+[21:07:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:08:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 123 entities]
+[21:08:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:08:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[21:08:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[21:08:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[21:08:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[21:10:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 193 entities]
+[21:10:55] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[21:10:55] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] ✗[31m[1m Configuration Error in Mechanic [36mmetaskill[0m[0m
+[21:10:55] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [31mMob: [36mSomarEnemies[37m | [31mFile: [37m/workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/ExampleMobs.yml[0m[0m
+[21:10:55] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mError Message: [0mCould not find MetaSkill PrepareModel[0m[0m
+[21:10:55] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] --| [35mMechanic Line: [0mskill{s=PrepareModel}[0m[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 48 skills.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[21:10:55] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[21:10:55] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
