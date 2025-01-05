@@ -153,6 +153,8 @@ InmunityPerAnimation:
   Skills:
     - msg{m=ya atacado pa} @World
 MarcarAtacker:
+  TriggerConditions:
+    - isLiving orElseCast MuerteNormAnimation
   Skills:
     - setvariable{var=caster.atackeruuid;type=STRING;val=<trigger.uuid>} @Self
 MuerteExtAnimation:
@@ -176,13 +178,13 @@ MuerteNormAnimation:
   Skills:
     - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
     - setVariable{key=caster.Animacion;t=String;value="death"} @Self
-    - state{mid=SomarSoldier;s=death1} @Self
 PrepareModelSomar:
   Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
+    - defaultstate{mid=SomarSoldier;type=death;state=death}
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
