@@ -140,7 +140,7 @@ walkAnimation2:
 DamagedAnimation:
   Conditions:
     - variableEquals{key=caster.ataque;value="false"}
-    - damagecause{cause=ENTITY_ATTACK} true
+    - damagecause{cause=ENTITY_ATTACK} orElseCast MuerteNormAnimation
     - variableEquals{key=caster.Animacion;value="dmg"} castinstead InmunityPerAnimation
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
@@ -160,7 +160,7 @@ MarcarAtacker:
 MuerteExtAnimation:
   Conditions:
 #    - chance{c=1} true
-    - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} castinstead MuerteNormAnimation
+    - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
   TargetConditions:
     - isLiving orElseCast MuerteNormAnimation
   Skills:
@@ -177,14 +177,13 @@ acabarkillAnimation:
 MuerteNormAnimation:
   Skills:
     - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
-    - setVariable{key=caster.Animacion;t=String;value="death"} @Self
 PrepareModelSomar:
   Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
-    - defaultstate{mid=SomarSoldier;type=death;state=death}
+    - defaultstate{mid=SomarSoldier;type=death;state=death1}
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self

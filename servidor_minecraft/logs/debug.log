@@ -1045,3 +1045,87 @@ java.lang.UnsatisfiedLinkError: no netty_transport_native_epoll_x86_64 in java.l
 [23:09:12] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
 [23:09:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
 [23:09:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:11:18] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[23:11:18] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[23:13:22] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[23:13:22] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[23:13:22] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 50 skills.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:13:23] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[23:13:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[23:13:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:13:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:13:56] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [31m[EVENTS] Exception thrown whilst handling event: org.bukkit.event.player.PlayerBucketEmptyEvent[37m
+[23:13:56] [Server thread/WARN] [/]: java.lang.NoSuchMethodError: 'org.bukkit.entity.Entity org.bukkit.entity.Player.getTargetEntity(int, boolean)'
+[23:13:56] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers.onBucketFill(BukkitSkillTriggers.java:157)
+[23:13:56] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[23:13:56] [Server thread/WARN] [/]: 	at io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[23:13:56] [Server thread/WARN] [/]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[23:13:56] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:593)
+[23:13:56] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:451)
+[23:13:56] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:424)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.item.BucketItem.tryPlaceContainedLiquid(BucketItem.java:191)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.item.BucketItem.func_77659_a(BucketItem.java:104)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:238)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerInteractionManager.func_187250_a(PlayerInteractionManager.java:364)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147346_a(ServerPlayNetHandler.java:1477)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemPacket.func_148833_a(CPlayerTryUseItemPacket.java:30)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemPacket.func_148833_a(CPlayerTryUseItemPacket.java:9)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:971)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:954)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:948)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:934)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:851)
+[23:13:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[23:13:56] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:14:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:14:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:14:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[23:14:33] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:16:03] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 7 mobs.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 50 skills.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:16:03] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[23:16:03] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[23:16:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
+[23:16:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:16:18] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[23:16:18] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[23:17:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
+[23:17:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarEnemies
