@@ -152,7 +152,7 @@ EMuerteExtAnimation:
     - Signal{s=killerAnimation} @UniqueIdentifier{uuid=<caster.var.atackeruuid>}
 EacabarkillAnimation:
   Skills:
-    
+    - goto{speedModifier=1;sh=10;sv=10} @Trigger
     - setVariable{key=caster.Animacion;t=String;value="killAnim"} @Self
     - msg{m=intento} @NearestPlayer
     - state{mid=EnemigoSomar;s=animationAcabarRival} @Self

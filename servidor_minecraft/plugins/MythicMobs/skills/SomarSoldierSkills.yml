@@ -162,7 +162,7 @@ MuerteExtAnimation:
 #    - chance{c=1} true
     - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
   TargetConditions:
-    - isLiving orElseCast MuerteNormAnimation
+    - isLiving true
   Skills:
     - defaultstate{mid=SomarSoldier;type=death;state=death2} @Self
     - setVariable{key=caster.Animacion;t=String;value="death"} @Self
