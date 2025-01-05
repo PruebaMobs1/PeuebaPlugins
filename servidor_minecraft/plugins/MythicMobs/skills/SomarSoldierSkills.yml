@@ -162,7 +162,7 @@ MuerteExtAnimation:
   TargetConditions:
     - isLiving true
   Skills:
-    - cancelevent
+    - defaultstate{mid=SomarSoldier;type=death;state=death2} @Self
     - setVariable{key=caster.Animacion;t=String;value="death"} @Self
     - Signal{s=killerAnimation}
     - state{mid=SomarSoldier;s=death2} @Self
@@ -174,7 +174,7 @@ acabarkillAnimation:
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 MuerteNormAnimation:
   Skills:
-    - cancelevent
+    - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
     - setVariable{key=caster.Animacion;t=String;value="death"} @Self
     - state{mid=SomarSoldier;s=death1} @Self
 PrepareModelSomar:
