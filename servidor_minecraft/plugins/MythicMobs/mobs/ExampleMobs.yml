@@ -77,7 +77,7 @@ SomarEnemies:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 100
+  Health: 5
   damage: 1
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
