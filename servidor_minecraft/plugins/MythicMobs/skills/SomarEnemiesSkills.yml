@@ -153,10 +153,10 @@ EMuerteExtAnimation:
 EacabarkillAnimation:
   Skills:
     - look{headOnly=false;immediately=true} @Trigger
-    - goto{speedModifier=1;sh=10;sv=10} @Forward{f=3;uel=true;rot=0}
+    - teleportto{location=190,64,200;world=world_nether}
     - delay 1
     - setVariable{key=caster.Animacion;t=String;value="killAnim"} @Self
-    - msg{m=<trigger.position>} @NearestPlayer
+    - msg{m=<trigger.l.x><trigger.l.y><trigger.l.z>} @NearestPlayer
     - state{mid=EnemigoSomar;s=animationAcabarRival} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 PrepareModel:
