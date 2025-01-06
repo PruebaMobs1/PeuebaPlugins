@@ -156,7 +156,7 @@ EacabarkillAnimation:
     - goto{speedModifier=1;sh=10;sv=10} @Forward{f=3;uel=true;rot=0}
     - delay 1
     - setVariable{key=caster.Animacion;t=String;value="killAnim"} @Self
-    - msg{m=<trigger.>} @NearestPlayer
+    - msg{m=<trigger.position>} @NearestPlayer
     - state{mid=EnemigoSomar;s=animationAcabarRival} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 PrepareModel:
