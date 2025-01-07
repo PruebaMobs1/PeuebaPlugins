@@ -167,6 +167,7 @@ MuerteExtAnimation:
     - defaultstate{mid=SomarSoldier;type=death;state=death2} @Self
     - setVariable{key=caster.Animacion;t=String;value="death"} @Self
     - Signal{s=killerAnimation}
+    - teleportto{location=@SelfLocation} @UUI{<caster.var.atackeruuid>}
     - state{mid=SomarSoldier;s=death2} @Self
     - msg{m=intentoEnviarSenal} @NearestPlayer
 acabarkillAnimation:

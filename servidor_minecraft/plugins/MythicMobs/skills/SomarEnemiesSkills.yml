@@ -153,7 +153,6 @@ EMuerteExtAnimation:
 EacabarkillAnimation:
   Skills:
     - look{headOnly=false;immediately=true} @Trigger
-    - teleport{unsafe=true} @Location{x=<trigger.l.x>;y=<caster.l.z>;z=<trigger.l.z>}
     - delay 1
     - setVariable{key=caster.Animacion;t=String;value="killAnim"} @Self
     - msg{m=<trigger.l.x><trigger.l.y><trigger.l.z>} @NearestPlayer
