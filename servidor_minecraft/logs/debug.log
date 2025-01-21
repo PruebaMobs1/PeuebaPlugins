@@ -755,3 +755,81 @@ java.lang.UnsatisfiedLinkError: no netty_transport_native_epoll_x86_64 in java.l
 [02:40:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
 [02:45:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
 [02:45:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[02:49:39] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[02:49:39] [Craft Scheduler Thread - 25/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [oak wood minecraft][0m
+[02:49:39] [Craft Scheduler Thread - 25/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [proyecto nuevo2][0m
+[02:49:39] [Craft Scheduler Thread - 25/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: The cube [34mcube[33m in bone [34mruedacompletasincuerda[33m is rotated in multiple axis. Choosing one axis.[0m
+[02:49:39] [Craft Scheduler Thread - 25/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:39] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[02:49:40] [Craft Scheduler Thread - 25/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:49:40] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:40] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[02:49:40] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:40] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[02:49:41] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:49:41] [Craft Scheduler Thread - 25/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[02:50:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02:50:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[02:51:58] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[02:51:58] [Craft Scheduler Thread - 19/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: The cube [34mcube[33m in bone [34mruedacompletasincuerda[33m is rotated in multiple axis. Choosing one axis.[0m
+[02:51:58] [Craft Scheduler Thread - 19/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:58] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[02:51:59] [Craft Scheduler Thread - 19/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:51:59] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[02:52:00] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[02:52:00] [Craft Scheduler Thread - 19/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[02:55:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02:55:41] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
