@@ -1,0 +1,22 @@
+SomarSoldier:
+  Type: Cow
+  Display: 'Catapulta Somar'
+  Faction: Somar
+  AITargetSelectors:
+    - clear
+    - atacker
+    - monsters
+    - players
+  AIgoalSelectors:
+    - 0 clear
+    - 1 meleeatack
+  Options:
+    PreventSunburn: true
+    FollowRange: 100
+    movementspeed: 1.2
+  Modules:
+    ThreatTable: true
+  Health: 5
+  damage: 75
+  Skills:
+    - skill{s=CPrepareModelSomar} @Self ~onSpawn
