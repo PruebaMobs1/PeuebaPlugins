@@ -710,3 +710,45 @@ java.lang.UnsatisfiedLinkError: no netty_transport_native_epoll_x86_64 in java.l
 [21:42:40] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
 [21:42:41] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
 [21:42:41] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split_11' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[21:42:58] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new vanilla network connection.
+[21:42:58] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[21:42:58] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[21:42:58] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:39663] logged in with entity id 160 at (98.666, 56, 44.582)
+[21:42:58] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.VanillaConnectionNetworkFilter@34d13fd0 into net.minecraft.network.NetworkManager@47e50ded
+[21:42:58] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.ForgeConnectionNetworkFilter@268f700e into net.minecraft.network.NetworkManager@47e50ded
+[21:44:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[21:44:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[21:46:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[21:46:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[21:49:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[21:49:15] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[21:50:41] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[21:50:42] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:42] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[21:50:43] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:43] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[21:50:44] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[21:50:44] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[21:51:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 120 entities]
