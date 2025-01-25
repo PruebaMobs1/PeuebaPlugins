@@ -1,281 +1,167 @@
-[20:52:48] [main/INFO] [STDOUT/]: Update in check...
-[20:52:48] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
-[20:52:48] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
-[20:52:48] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
-[20:52:48] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
-[20:52:49] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[20:52:49] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[20:52:52] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[20:53:05] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[20:53:05] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[20:53:05] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[20:53:10] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:53:11] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
-[20:53:15] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[20:53:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[20:53:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20:53:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[20:53:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20:53:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
-[20:53:18] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[20:53:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:53:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[20:53:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:53:19] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:53:19] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
-[20:53:19] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[20:53:19] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[20:53:19] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[20:53:20] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[20:53:23] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
-[20:53:23] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:53:24] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
-[20:53:24] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
-[20:53:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20:53:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20:53:28] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20:53:35] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
-[20:53:36] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
-[20:53:37] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[20:53:39] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[20:53:39] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
-[20:53:40] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
-[20:53:41] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[20:53:41] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[20:53:42] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[20:53:43] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
-[20:53:44] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
-[20:53:44] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 18,869 ms
-[20:53:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
-[20:53:45] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20:53:46] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 60%
-[20:53:47] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[20:53:51] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
-[20:53:51] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[20:53:52] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8,357 ms
-[20:53:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
-[20:53:53] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[20:53:53] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[20:53:54] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
-[20:53:54] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,799 ms
-[20:53:54] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
-[20:53:55] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
-[20:53:56] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
-[20:53:56] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
-[20:54:02] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
-[20:54:02] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
-[20:54:09] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[20:54:10] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[20:54:10] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[20:54:10] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 51 skills.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[20:54:12] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
-[20:54:12] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
-[20:54:13] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
-[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
-[20:54:14] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
-[20:54:14] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
-[20:54:14] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
-[20:54:14] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
-[20:54:14] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[20:54:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (50.199s)! For help, type "help"
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[20:54:15] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: The cube [34mcube[33m in bone [34mruedacompletasincuerda[33m is rotated in multiple axis. Choosing one axis.[0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:15] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[20:54:16] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:16] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[20:54:16] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:16] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[20:54:20] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:20] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[20:54:21] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:21] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[20:54:22] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[20:54:22] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[21:05:40] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[21:05:40] [Craft Scheduler Thread - 8/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: The cube [34mcube[33m in bone [34mruedacompletasincuerda[33m is rotated in multiple axis. Choosing one axis.[0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:40] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[21:05:42] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:42] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[21:05:43] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:43] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[21:05:43] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:05:43] [Craft Scheduler Thread - 8/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[21:14:24] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[21:14:24] [Craft Scheduler Thread - 16/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: The cube [34mcube[33m in bone [34mruedacompletasincuerda[33m is rotated in multiple axis. Choosing one axis.[0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:24] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[21:14:25] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:25] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[21:14:25] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:25] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[21:14:26] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:14:26] [Craft Scheduler Thread - 16/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[21:42:39] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:39] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[21:42:40] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:40] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[21:42:40] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:40] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[21:42:41] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:42:41] [Craft Scheduler Thread - 31/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[21:42:58] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[21:42:58] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:39663] logged in with entity id 160 at (98.666, 56, 44.582)
-[21:46:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:46:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:50:41] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:41] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[21:50:42] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:42] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[21:50:43] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:43] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[21:50:44] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[21:50:44] [Craft Scheduler Thread - 34/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[21:51:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 120 entities]
-[22:41:38] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar final.bbmodel.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m4 models loaded.[0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:38] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar final.[0m
-[22:41:40] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:40] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
-[22:41:41] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:41] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[22:41:41] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:41] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[22:41:43] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:41:43] [Craft Scheduler Thread - 61/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[22:42:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /meg summon catapulta somar final
-[22:42:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /meg summon catapulta somar
-[22:42:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /meg summon somarsoldier
-[22:42:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:43:30] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
-[22:43:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
-[22:43:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
-[22:43:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 51 skills.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
-[22:43:31] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
-[22:43:31] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
-[22:43:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:43:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarSoldier
-[22:43:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 140 entities]
-[22:43:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 112 entities]
-[22:44:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 58 entities]
-[22:44:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 66 entities]
-[22:44:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 56 entities]
-[22:52:44] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar final.bbmodel.[0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:44] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar final.[0m
-[22:52:45] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:45] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
-[22:52:45] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:45] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
-[22:52:46] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
-[22:52:46] [Craft Scheduler Thread - 75/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
-[22:52:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:52:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 129 entities]
-[22:52:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[22:21:24] [main/INFO] [STDOUT/]: Update in check...
+[22:21:24] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[22:21:25] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
+[22:21:25] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1238, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[22:21:25] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.13 by Ubuntu
+[22:21:25] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22:21:25] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[22:21:27] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[22:21:37] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[22:21:37] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[22:21:37] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[22:21:43] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:21:45] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1238-universal.jar, bukkit
+[22:21:48] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[22:21:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[22:21:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22:21:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[22:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22:21:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[22:21:52] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[22:21:52] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:21:52] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22:21:52] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:21:52] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:21:52] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1238 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[22:21:52] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[22:21:52] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[22:21:52] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[22:21:53] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[22:21:56] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs v5.6.2-3e052553
+[22:21:56] [Server thread/INFO] [Minecraft/]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[22:21:57] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic Enabled![0m
+[22:21:57] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Loading ModelEngine vR3.1.11
+[22:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22:21:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22:22:01] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22:22:07] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 19%
+[22:22:08] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[22:22:08] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[22:22:09] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[22:22:09] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[22:22:11] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[22:22:12] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[22:22:13] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[22:22:14] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 15,531 ms
+[22:22:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[22:22:15] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22:22:15] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[22:22:16] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[22:22:17] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
+[22:22:17] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 78%
+[22:22:18] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[22:22:18] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[22:22:19] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[22:22:20] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[22:22:21] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[22:22:22] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[22:22:22] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8,112 ms
+[22:22:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[22:22:22] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22:22:23] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22:22:23] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[22:22:24] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,976 ms
+[22:22:24] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[22:22:25] [Server thread/WARN] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loaded class net.kyori.adventure.text.Component from ModelEngine vR3.1.11 which is not a depend, softdepend or loadbefore of this plugin.
+[22:22:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.16.5)...[0m
+[22:22:25] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] The server is running Spigot; disabled Paper exclusive functionality[0m
+[22:22:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
+[22:22:30] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
+[22:22:37] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[22:22:38] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[22:22:39] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[22:22:39] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 51 skills.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[22:22:40] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[22:22:40] [Server thread/ERROR] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Plugin MythicMobs v5.6.2-3e052553 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[22:22:41] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Started up bStats Metrics[0m
+[22:22:41] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓ MythicMobs v5.6.2 ( build 3e052553 ) has been successfully loaded![0m[0m
+[22:22:41] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] Enabling ModelEngine vR3.1.11
+[22:22:42] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Model Engine Compatibility Loaded.[0m
+[22:22:42] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] Compatibility applied: MythicMobs[0m
+[22:22:42] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] bStats enabled[0m
+[22:22:42] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[22:22:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (44.658s)! For help, type "help"
+[22:22:42] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:42] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[22:22:42] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:42] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [tronco de madera mc][0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [vaya textura mc buena][0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [ladrillos de piedra mc textura][0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [oak wood minecraft][0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [palanca mc texture.webp][0m
+[22:22:43] [Craft Scheduler Thread - 4/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:43] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[22:22:44] [Craft Scheduler Thread - 4/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[22:22:44] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:44] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[22:22:46] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:46] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[22:22:48] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:22:48] [Craft Scheduler Thread - 4/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[22:28:06] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [31m--Error: Texture name contains non [a-z0-9/._-] characters. [oak _wood][0m
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[22:28:06] [Craft Scheduler Thread - 11/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:06] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[22:28:07] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:07] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[22:28:07] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[22:28:07] [Craft Scheduler Thread - 11/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
