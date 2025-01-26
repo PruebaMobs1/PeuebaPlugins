@@ -46,7 +46,7 @@ SomarSoldier:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 5
+  Health: 100
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
@@ -77,7 +77,7 @@ SomarEnemies:
     movementspeed: 1.2
   Modules:
     ThreatTable: true
-  Health: 5
+  Health: 100
   damage: 1
   Skills:
     - skill{s=PrepareModel} @Self ~onSpawn
