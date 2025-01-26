@@ -940,3 +940,116 @@ java.lang.UnsatisfiedLinkError: no netty_transport_native_epoll_x86_64 in java.l
 [00:02:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
 [00:07:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
 [00:07:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[00:12:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[00:12:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[00:15:52] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:15:52] [Craft Scheduler Thread - 69/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:52] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[00:15:53] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:15:53] [Craft Scheduler Thread - 69/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split_11' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[00:16:00] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new vanilla network connection.
+[00:16:00] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[00:16:00] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[00:16:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: CJML5067[/127.150.122.140:46841] logged in with entity id 123 at (105.705, 56, 41.844)
+[00:16:00] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.VanillaConnectionNetworkFilter@2eac87a0 into net.minecraft.network.NetworkManager@4821e3fb
+[00:16:00] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.ForgeConnectionNetworkFilter@357446b3 into net.minecraft.network.NetworkManager@4821e3fb
+[00:16:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[00:16:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[00:16:44] [Server thread/INFO] [/]: [Mythic] Reloading plugin...
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Saving plugin data...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Packs...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Items...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Item Groups...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Skills...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Drop Tables...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Random Spawns...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Loading Spawn Blocks...[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 51 skills.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[00:16:44] [Server thread/INFO] [/]: [Mythic] Mythic has finished reloading!
+[00:16:44] [Server thread/INFO] [io.lumine.mythic.bukkit.MythicBukkit/]: [MythicMobs] Mythic has finished reloading![0m
+[00:16:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /mm m s SomarCatapult
+[00:17:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: CJML5067 issued server command: /meg summon catapulta somar
+[00:17:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[00:17:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[00:20:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [@: Killed 133 entities]
+[00:20:35] [Server thread/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [S] [38;5;46mConfig reloaded.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[36m[Importing models][0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting Catapulta Somar.bbmodel.[0m
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [33m--Warning: Missing hitbox.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting EnemigoSomar.bbmodel.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [36mImporting SomarSoldier.bbmodel.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46m3 models loaded.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [1m[35m[Generating assets][0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating catapulta somar.[0m
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: java.lang.IllegalArgumentException: image == null!
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.desktop/javax.imageio.ImageTypeSpecifier.createFromRenderedImage(ImageTypeSpecifier.java:925)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.getWriter(ImageIO.java:1612)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1544)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at com.ticxo.modelengine.generator.parser.blockbench.BlockbenchParser.lambda$generate$0(BlockbenchParser.java:92)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.generateAssets(ModelGeneratorImpl.java:195)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at com.ticxo.modelengine.generator.ModelGeneratorImpl.lambda$importModelsAsync$0(ModelGeneratorImpl.java:227)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:90)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:20:35] [Craft Scheduler Thread - 72/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating enemigosomar.[0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:35] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [35mGenerating somarsoldier.[0m
+[00:20:36] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [0m
+[00:20:36] [Craft Scheduler Thread - 72/INFO] [com.ticxo.modelengine.ModelEngine/]: [ModelEngine] [A] [38;5;46mResource pack zipped.[0m
