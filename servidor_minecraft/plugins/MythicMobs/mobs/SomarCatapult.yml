@@ -1,5 +1,5 @@
 SomarCatapult:
-  Type: Cow
+  Type: chicken
   Display: 'Catapulta Somar'
   Faction: Somar
   AITargetSelectors:
@@ -9,7 +9,6 @@ SomarCatapult:
     - players
   AIgoalSelectors:
     - 0 clear
-    - 1 meleeatack
   Options:
     PreventSunburn: true
     FollowRange: 100
@@ -17,8 +16,8 @@ SomarCatapult:
     IAno: false
   Modules:
     ThreatTable: true
-  Health: 5
+  Health: 200
   damage: 75
   Skills:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
-    - skill{s=Disparar} ~onDamaged
+    - skill{s=Disparar;sync=true} ~onDamaged
