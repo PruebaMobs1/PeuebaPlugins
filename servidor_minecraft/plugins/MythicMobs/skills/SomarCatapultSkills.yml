@@ -4,4 +4,5 @@ CPrepareModelSomar:
     - delay 3
 Disparar:
   Skills:
-    
+    - projectile{bullet=block;material=STONE} @RandomLocationsNearCaster
+    - state{mid=C}
