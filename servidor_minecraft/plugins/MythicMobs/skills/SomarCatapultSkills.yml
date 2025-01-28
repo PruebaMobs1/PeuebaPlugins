@@ -5,4 +5,5 @@ CPrepareModelSomar:
 Disparar:
   Skills:
     - projectile{bullet=block;material=STONE} @RandomLocationsNearCaster
-    - state{mid=C}
+    - state{mid=CatapultaSomar;s=animationLanzarBloque3} @Self
+    - msg{m="interactuando"} @world
