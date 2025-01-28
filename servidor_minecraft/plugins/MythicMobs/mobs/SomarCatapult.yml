@@ -1,5 +1,5 @@
 SomarCatapult:
-  Type: chicken
+  Type: sheep
   Display: 'Catapulta Somar'
   Faction: Somar
   AITargetSelectors:
@@ -20,4 +20,4 @@ SomarCatapult:
   damage: 75
   Skills:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
-    - skill{s=Disparar;sync=true} ~onDamaged
+    - skill{s=Disparar;sync=true} ~onInteract
