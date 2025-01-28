@@ -1,5 +1,5 @@
 SomarCatapult:
-  Type: Villager
+  Type: Cow
   Display: 'Catapulta Somar'
   Faction: Somar
   AITargetSelectors:
@@ -21,4 +21,4 @@ SomarCatapult:
   damage: 75
   Skills:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
-    - skill{s=Disparar} ~onInteract
+    - skill{s=Disparar} ~onDamaged

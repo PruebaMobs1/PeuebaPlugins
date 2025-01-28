@@ -4,6 +4,6 @@ CPrepareModelSomar:
     - delay 3
 Disparar:
   Skills:
-    - projectile{bullet=block;material=STONE} @RandomLocationsNearCaster
+    - message{m="interactuando"} @NearestPlayer
+    - projectile{bullet=block;material=STONE} @NearestStructure
     - state{mid=CatapultaSomar;s=animationLanzarBloque3} @Self
-    - msg{m="interactuando"} @world
