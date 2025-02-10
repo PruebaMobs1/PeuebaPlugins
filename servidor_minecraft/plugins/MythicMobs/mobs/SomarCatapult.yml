@@ -4,6 +4,8 @@ SomarCatapult:
   Faction: CatapultaSomar
   AITargetSelectors:
     - clear
+    - atacker
+    - player
     - specificfaction{f=Somar}
   AIgoalSelectors:
     - 0 clear
