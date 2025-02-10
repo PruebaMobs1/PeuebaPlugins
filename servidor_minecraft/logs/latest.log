@@ -2115,3 +2115,528 @@
 [17:16:05] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/27655, uuid='fb337f64-b605-450d-ac40-d4fcd4ff10f9', l='ServerLevel[world]', x=-344.92, y=62.00, z=500.08, cpos=[-22, 31], tl=6313, v=true] died: Catapulta Somar was killed
 [17:16:05] [Server thread/INFO]: [CJML5067: Killed 2 entities]
 [17:16:13] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:16:54] [Server thread/INFO]: [Mythic] Reloading plugin...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Items...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[17:16:54] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 59 skills.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[17:16:54] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[17:16:54] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[17:16:54] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[17:16:54] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:16:54] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:16:54] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:16:54] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:16:55] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:16:55] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:16:55] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:16:55] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:16:55] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:16:56] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:16:56] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:16:56] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:16:56] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:16:56] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:17:07] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:17:07] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/28438, uuid='e46f1788-49ae-4656-9b99-0a9ef589d559', l='ServerLevel[world]', x=-341.93, y=62.00, z=510.70, cpos=[-22, 31], tl=1071, v=true] died: Catapulta Somar was killed
+[17:17:07] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:17:11] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:17:29] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:17:29] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:17:29] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:17:29] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:17:29] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:17:30] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:17:30] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:17:30] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:17:30] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:17:30] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:19:10] [Server thread/INFO]: [Mythic] Reloading plugin...
+[17:19:10] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[17:19:10] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[17:19:10] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Items...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[17:19:11] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 59 skills.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[17:19:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[17:19:11] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[17:19:11] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[17:19:18] [Server thread/INFO]: CJML5067 issued server command: /time set day
+[17:19:18] [Server thread/INFO]: [CJML5067: Set the time to 1000]
+[17:19:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:19:29] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/28663, uuid='c43a76c2-378a-484f-9ef6-063e9870b069', l='ServerLevel[world]', x=-341.64, y=62.00, z=522.66, cpos=[-22, 32], tl=2752, v=true] died: Catapulta Somar was killed
+[17:19:29] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:19:35] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:19:36] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:36] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:36] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:36] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:19:37] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:19:37] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:37] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:37] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:37] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:19:38] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:19:38] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:38] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:38] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:38] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:19:44] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:44] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:44] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:44] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:19:45] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:45] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:45] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:45] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:19:45] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:45] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:45] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:45] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:19:45] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:45] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:45] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:45] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:19:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:19:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29112, uuid='0f8f5b3e-de6b-47f1-96d7-0c0c403ac40f', l='ServerLevel[world]', x=-342.93, y=62.00, z=522.03, cpos=[-22, 32], tl=372, v=true] died: Catapulta Somar was killed
+[17:19:53] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:19:58] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:19:59] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:19:59] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:19:59] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:19:59] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:00] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:00] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:00] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:00] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:20:01] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:20:01] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:01] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:01] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:01] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:20:02] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:20:02] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:02] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:02] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:02] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:20:06] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:06] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:06] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:06] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:06] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:06] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:06] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:06] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:06] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:06] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:06] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:06] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:06] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:06] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:06] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:06] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:07] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:07] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:07] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:07] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:07] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:07] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:07] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:07] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:07] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:07] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:07] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:07] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:07] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:07] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:07] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:07] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:08] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:08] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:08] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:08] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:08] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:08] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:08] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:08] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:08] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:08] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:08] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:08] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:08] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:08] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:08] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:08] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:09] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:09] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:09] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:09] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:09] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:09] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:09] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:09] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:09] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:10] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:10] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:10] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:10] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:10] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:10] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:10] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:10] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:10] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:11] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:11] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:11] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:11] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:11] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:11] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:11] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:11] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:11] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:12] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:12] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:12] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:12] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:12] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:12] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:12] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:12] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:12] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:12] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:12] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:12] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:13] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:13] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:13] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:13] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:14] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:14] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:14] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:14] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:14] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:14] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:14] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:14] [Craft Scheduler Thread - 43 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:14] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:14] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:14] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:14] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:14] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:14] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:14] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:14] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:15] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:15] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:15] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:15] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:15] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:15] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:15] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:15] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:15] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:15] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:15] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:15] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:24] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:24] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:24] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:24] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:25] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:25] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:25] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:25] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:25] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:25] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:25] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:25] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:25] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:26] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:26] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:26] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:26] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:26] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:26] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:26] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:26] [Craft Scheduler Thread - 55 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:26] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:26] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:26] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:26] [Craft Scheduler Thread - 49 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:26] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:26] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:26] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:26] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:28] [Server thread/INFO]: [Mythic] Reloading plugin...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Items...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[17:20:28] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 59 skills.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[17:20:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[17:20:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[17:20:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[17:20:29] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:29] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:29] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:29] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:30] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:30] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:30] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:30] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:30] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:30] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:30] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:30] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:30] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:31] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:31] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:31] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:31] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:31] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:31] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:31] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:31] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:42] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:20:42] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29281, uuid='07e0aec4-0522-4bbf-a554-d4eb45c16a79', l='ServerLevel[world]', x=-343.59, y=62.00, z=522.78, cpos=[-22, 32], tl=865, v=true] died: Catapulta Somar was killed
+[17:20:42] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:20:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:20:46] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:46] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:46] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:46] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:20:47] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:20:47] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:47] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:47] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:47] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:20:48] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:20:48] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:48] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:48] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:48] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:20:51] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:51] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:51] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:51] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:51] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:51] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:51] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:51] [Craft Scheduler Thread - 45 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:51] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:51] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:51] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:51] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:51] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:51] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:51] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:51] [Craft Scheduler Thread - 54 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:52] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:52] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:52] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:52] [Craft Scheduler Thread - 44 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:52] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:52] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:52] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:52] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:52] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:20:52] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:20:52] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:20:52] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[17:20:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:20:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29490, uuid='9ac9e2c6-d97f-4099-9f77-dc9e81153a4c', l='ServerLevel[world]', x=-344.92, y=62.00, z=523.61, cpos=[-22, 32], tl=182, v=true] died: Catapulta Somar was killed
+[17:20:54] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:21:00] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:21:02] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:02] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:02] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:02] [Craft Scheduler Thread - 41 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:21:03] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:03] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:03] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:03] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:03] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:21:04] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:04] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:04] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:04] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:04] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:21:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:21:11] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29633, uuid='0f527e47-ec4e-45c7-b2dd-04dea6b7682f', l='ServerLevel[world]', x=-341.18, y=62.00, z=525.72, cpos=[-22, 32], tl=225, v=true] died: Catapulta Somar was killed
+[17:21:11] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:21:14] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:21:16] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:16] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:16] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:16] [Craft Scheduler Thread - 42 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:21:17] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:17] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:17] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:17] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:17] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:17] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:21:18] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:18] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:18] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:18] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:18] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:18] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:21:43] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:21:43] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29773, uuid='5fb564d4-bb1b-48c7-be5d-ffcc20282abc', l='ServerLevel[world]', x=-335.53, y=62.00, z=527.93, cpos=[-21, 32], tl=573, v=true] died: Catapulta Somar was killed
+[17:21:43] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:21:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:21:56] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:56] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:56] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:56] [Craft Scheduler Thread - 53 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:21:57] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:57] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:57] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:57] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:57] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:21:58] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:21:58] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:21:58] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:21:58] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:21:58] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:22:18] [Server thread/INFO]: [Mythic] Reloading plugin...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Items...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[17:22:18] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 59 skills.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[17:22:18] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[17:22:18] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[17:22:18] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[17:22:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:22:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/29964, uuid='dafaa662-e84a-4091-b9ad-f3807adea8fa', l='ServerLevel[world]', x=-334.49, y=62.00, z=531.92, cpos=[-21, 33], tl=607, v=true] died: Catapulta Somar was killed
+[17:22:24] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:22:28] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:22:30] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:30] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:30] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:30] [Craft Scheduler Thread - 52 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:22:31] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:31] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:31] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:31] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:31] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:31] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:22:32] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:32] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:32] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:32] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:32] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:32] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:22:43] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:22:43] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/30139, uuid='f9d4e7c1-fcdf-4432-9c54-aa49f940b3dd', l='ServerLevel[world]', x=-338.85, y=62.00, z=527.47, cpos=[-22, 32], tl=309, v=true] died: Catapulta Somar was killed
+[17:22:43] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:22:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:22:50] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:50] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Skill: MarcCatapult1 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:50] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:50] [Craft Scheduler Thread - 31 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=1}
+[17:22:51] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:51] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:51] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:51] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult2 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:51] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:51] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=2}
+[17:22:52] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:52] [Server thread/WARN]: [MythicMobs] Failed to process VariableEquals condition.
+[17:22:52] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[17:22:52] [Server thread/WARN]: [MythicMobs] --| Skill: MarcCatapult3 | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[17:22:52] [Server thread/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[17:22:52] [Server thread/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.catapulta;t=INTEGER;value=3}
+[17:24:36] [Server thread/INFO]: CJML5067 issued server command: /fill ~ ~ ~ ~-20 ~-6 ~10 dirt
+[17:24:36] [Server thread/INFO]: [CJML5067: Successfully filled 1368 block(s)]
+[17:25:06] [Server thread/INFO]: CJML5067 issued server command: /fill ~ ~ ~ ~-20 ~-6 ~10 dirt
+[17:25:06] [Server thread/INFO]: [CJML5067: Successfully filled 1136 block(s)]
+[17:25:38] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:25:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:25:41] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/30306, uuid='68871926-83fb-42a3-a149-36f3acc0b050', l='ServerLevel[world]', x=-340.07, y=62.00, z=531.09, cpos=[-22, 33], tl=3444, v=true] died: Catapulta Somar was killed
+[17:25:41] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:25:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[17:25:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..10]
+[17:25:55] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/30781, uuid='306b57a1-105b-4f2f-bbc3-02c191a3059d', l='ServerLevel[world]', x=-341.05, y=62.00, z=530.59, cpos=[-22, 33], tl=211, v=true] died: Catapulta Somar was killed
+[17:25:55] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[17:26:00] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult

@@ -56,19 +56,19 @@ montar:
 MarcCatapult1:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
-    - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;dd=300}
+    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
 MarcCatapult2:
   TargetConditions:
     - variableEquals{key=target.catapulta;value=UNDEFINED} true
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2} @EIR{r=30;limit=1}
-    - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;dd=300}
+    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
 MarcCatapult3:
   TargetConditions:
     - variableEquals{key=target.catapulta;value=UNDEFINED} true
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3} @EIR{r=30;limit=1}
-    - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;dd=300}
+    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
     - msg{m="marcando al tercero ahora"}
 AvisoCatap:
   Cooldown: 20
