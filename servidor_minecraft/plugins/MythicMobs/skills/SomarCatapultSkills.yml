@@ -55,22 +55,22 @@ montar:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
   TargetConditions:
-    - variableEquals{key=caster.catapulta;value=1} false
+    - variableEquals{key=target.catapulta;value=1} false
   Skills:
-    - setvariable{var=caster.catapulta;t=INTEGER;value=1}
+    - setvariable{var=target.catapulta;t=INTEGER;value=1}
 MarcCatapult2:
   TargetConditions:
-    - variableEquals{key=caster.catapulta;value=1} false
-    - variableEquals{key=caster.catapulta;value=2} false
+    - variableEquals{key=target.catapulta;value=1} false
+    - variableEquals{key=target.catapulta;value=2} false
   Skills:
-    - setvariable{var=caster.catapulta;t=INTEGER;value=2}
+    - setvariable{var=target.catapulta;t=INTEGER;value=2}
 MarcCatapult3:
   TargetConditions:
-    - variableEquals{key=caster.catapulta;value=1} false
-    - variableEquals{key=caster.catapulta;value=2} false
-    - variableEquals{key=caster.catapulta;value=3} false
+    - variableEquals{key=target.catapulta;value=1} false
+    - variableEquals{key=target.catapulta;value=2} false
+    - variableEquals{key=target.catapulta;value=3} false
   Skills:
-    - setvariable{var=caster.catapulta;t=INTEGER;value=3}
+    - setvariable{var=target.catapulta;t=INTEGER;value=3}
     
 AvisoCatap:
   Conditions:
@@ -79,11 +79,11 @@ AvisoCatap:
   TargetConditions:
     - faction{f=Somar}
   Skills:
-    - Skill{s=MarcCatapult1} @EIR{r=30;Sort=FURTHEST}
+    - Skill{s=MarcCatapult1} @EIR{r=30;limit=2;Sort=FURTHEST}
     - delay 3
-    - Skill{s=MarcCatapult2} @EIR{Sort=FURTHEST}
+    - Skill{s=MarcCatapult2} @EIR{r=30;limit=2;Sort=FURTHEST}
     - delay 3
-    - Skill{s=MarcCatapult3} @EIR{Sort=FURTHEST}
+    - Skill{s=MarcCatapult3} @EIR{r=30;limit=2;Sort=FURTHEST}
     - delay 3
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
