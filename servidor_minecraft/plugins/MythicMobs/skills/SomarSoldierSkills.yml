@@ -1,6 +1,14 @@
 Pruebavariable:
   Skills:
     - message{m="&aCarapultero? - <caster.var.catapulta>"} @NearestPlayer
+pruebaFaccion:
+  Conditions:
+    faction{f=Somar} orElseCast noFaccion
+  Skills:
+    - msg{m="&4Faccion> Somar"} @NearestPlayer
+noFaccion:
+  Skills:
+    - msg{m="&9Faccion cambiada"} @NearestPlayer
 AtaqueSomarSoldier:
   Cooldown: 20
   Conditions:
