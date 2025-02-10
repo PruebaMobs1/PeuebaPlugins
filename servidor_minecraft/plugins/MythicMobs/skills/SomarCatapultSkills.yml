@@ -58,7 +58,7 @@ MarcCatapult1:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
 MarcCatapult2:
   TargetConditions:
-    - variableEquals{key=target.catapulta;value=1} false
+    - variableEquals{key=target.catapulta;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
 MarcCatapult3:
@@ -77,9 +77,9 @@ AvisoCatap:
   Skills:
     - Skill{s=MarcCatapult1} @EIR{r=30;limit=2}
     - delay 20
-    - Skill{s=MarcCatapult2} @EIR{r=30;limit=2}
+    - Skill{s=MarcCatapult2} @EIR{r=30}
     - delay 20
-    - Skill{s=MarcCatapult3} @EIR{r=30;limit=2}
+    - Skill{s=MarcCatapult3} @EIR{r=30}
     - delay 20
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
