@@ -56,19 +56,19 @@ montar:
 MarcCatapult1:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
-    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
+    - projectile{bullet=block;material=STONE}
 MarcCatapult2:
   TargetConditions:
     - variableEquals{key=target.catapulta;value=UNDEFINED} true
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=2} @EIR{r=30;limit=1}
-    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
+    - setvariable{var=target.catapulta;t=INTEGER;value=2}
+    - projectile{bullet=block;material=STONE}
 MarcCatapult3:
   TargetConditions:
     - variableEquals{key=target.catapulta;value=UNDEFINED} true
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=3} @EIR{r=30;limit=1}
-    - projectile{bullet=block;material=STONE} @EIR{r=30;limit=1}
+    - setvariable{var=target.catapulta;t=INTEGER;value=3}
+    - projectile{bullet=block;material=STONE}
     - msg{m="marcando al tercero ahora"}
 AvisoCatap:
   Cooldown: 20
@@ -78,9 +78,9 @@ AvisoCatap:
   TargetConditions:
     - faction{f=Somar}
   Skills:
-    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1}
+    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1;Sort=NEAREST}
     - delay 20
-    - Skill{s=MarcCatapult2} @EIR{r=30}
+    - Skill{s=MarcCatapult2} @EIR{r=30;limit=1;Sort=FURTHEST}
     - delay 20
     - Skill{s=MarcCatapult3} @EIR{r=30}
     - delay 20
