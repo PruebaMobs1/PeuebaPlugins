@@ -63,24 +63,25 @@ MarcCatapult2:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
 MarcCatapult3:
   TargetConditions:
-    - variableEquals{key=caster.catapulta;value=1} false
-    - variableEquals{key=caster.catapulta;value=2} false
+    - variableEquals{key=target.catapulta;value=1} false
+    - variableEquals{key=target.catapulta;value=2} false
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     
 AvisoCatap:
+  Cooldown: 20
   Conditions:
-    - targets{a=>3}
-    - variableEquals{var=caster.sold;value="false"}
+    - targets{a>2} true
+    - variableEquals{var=caster.sold;value="false"} true
   TargetConditions:
     - faction{f=Somar}
   Skills:
     - Skill{s=MarcCatapult1} @EIR{r=30;limit=2}
-    - delay 45
+    - delay 20
     - Skill{s=MarcCatapult2} @EIR{r=30;limit=2}
-    - delay 45
-    - Skill{s=MarcCatapult3} @EIR{r=30}
-    - delay 45
+    - delay 20
+    - Skill{s=MarcCatapult3} @EIR{r=30;limit=2}
+    - delay 20
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
 Mira:
