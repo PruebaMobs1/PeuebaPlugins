@@ -63,11 +63,10 @@ MarcCatapult2:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
 MarcCatapult3:
   TargetConditions:
-    - variableEquals{key=target.catapulta;value=1} false
-    - variableEquals{key=target.catapulta;value=2} false
+    - variableEquals{key=target.catapulta;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
-    
+    - msg{m="marcando al tercero ahora"}
 AvisoCatap:
   Cooldown: 20
   Conditions:
