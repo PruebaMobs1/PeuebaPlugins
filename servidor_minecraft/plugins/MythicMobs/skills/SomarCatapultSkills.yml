@@ -71,20 +71,19 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - msg{m="marcando al tercero ahora"}
 AvisoCatap:
-  Cooldown: 20
   Conditions:
     - targets{a>2} true
     - variableEquals{var=caster.sold;value="false"} true
   TargetConditions:
     - faction{f=Somar}
   Skills:
-    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1;Sort=NEAREST}
-    - delay 20
-    - Skill{s=MarcCatapult2} @EIR{r=30;limit=1;Sort=FURTHEST}
-    - delay 20
-    - Skill{s=MarcCatapult3} @EIR{r=30}
-    - delay 20
     - setvariable{var=caster.sold;t=string;value="true"} @Self
+    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1;Sort=NEAREST;ignore=player}
+    - delay 45
+    - Skill{s=MarcCatapult2} @EIR{r=30;limit=1;Sort=FURTHEST;ignore=player}
+    - delay 45
+    - Skill{s=MarcCatapult3} @EIR{r=30;ignore=player}
+    - delay 45
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
 Mira:
  Skills:
