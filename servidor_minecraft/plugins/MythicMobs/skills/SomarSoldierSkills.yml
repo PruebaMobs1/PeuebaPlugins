@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m=<caster.var.atackeruuid>} @NearestPlayer
+    - message{m="&aCarapultero? - <caster.var.catapulta>"} @NearestPlayer
 AtaqueSomarSoldier:
   Cooldown: 20
   Conditions:
@@ -11,13 +11,13 @@ AtaqueSomarSoldier:
     - cancelevent
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-    - message{m="inicio"} @NearestPlayer
+#    - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
   Skills:
   - cancelevent
   - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
-  - message{m="Ataque"} @World
+#  - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
   - cancelevent
@@ -33,7 +33,7 @@ AtaqueBase:
   - delay 15
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-  - message{m="finAtaque"} @NearestPlayer
+#  - message{m="finAtaque"} @NearestPlayer
 AtaqueBase2:
   Skills:
   - partvis{mid=SomarSoldier;p=left_sword} @Self
@@ -45,7 +45,7 @@ AtaqueBase2:
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   #- partvis{mid=SomarSoldier;p=left_sword;v=true} @Self
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-  - message{m="finAtaque"} @NearestPlayer
+#  - message{m="finAtaque"} @NearestPlayer
 Estocada:
   Skills:
   - state{mid=SomarSoldier;s=animationAtaqueEstocadaDerecha;li=0;lo=1;pr=1} @Self
@@ -54,7 +54,7 @@ Estocada:
   - delay 2
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-  - message{m="finAtaque"} @NearestPlayer
+#  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
   Conditions:
     - targets{a=2to3} orElseCast AtaqueUnico
@@ -66,7 +66,7 @@ AtaqueArea1:
     - delay 26
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - message{m="finAtaque"} @NearestPlayer
+#    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea2:
   Conditions:
     - targets{a=3to4} orElseCast AtaqueArea1
@@ -78,7 +78,7 @@ AtaqueArea2:
     - delay 40
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - message{m="finAtaque"} @NearestPlayer
+#    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea3:
   Conditions:
     - targets{a=>5} orElseCast AtaqueArea2
@@ -90,7 +90,7 @@ AtaqueArea3:
     - delay 47
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - message{m="finAtaque"} @NearestPlayer
+#    - message{m="finAtaque"} @NearestPlayer
 persIdle:
   Conditions:
     - Moving{e=true} castInstead walkAnimation1 # La animación no debe estar activa
@@ -153,6 +153,8 @@ InmunityPerAnimation:
   Skills:
     - msg{m=ya atacado pa} @World
 MarcarAtacker:
+  Conditions:
+    - inCombat orElseCast MuerteNormAnimation
   TriggerConditions:
     - isLiving orElseCast MuerteNormAnimation
   Skills:
@@ -172,11 +174,16 @@ MuerteExtAnimation:
 acabarkillAnimation:
   Skills:
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-    - msg{m=intento}
+#    - msg{m=intento}
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 MuerteNormAnimation:
   Skills:
     - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
+Posicion1:
+  Conditions:
+    - variableEquals{key=caster.var.posc;value=lejos} castInstead Espera
+  Skills:
+    - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 PrepareModelSomar:
   Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}

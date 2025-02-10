@@ -1,4 +1,4 @@
-# 
+#
 # Spawner Configuration Options
 Configuration:
   RandomSpawning:
@@ -14,3 +14,7 @@ Configuration:
     MaxGenerationTime: 20
     DisableVanillaSpawns: false
     GenerateSpawnPoints: false
+    IgnoreVanillaMobs: false
+    IgnoreUnnaturalMobs: false
+  Spawners:
+    DisableCommandSaving: false

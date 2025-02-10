@@ -1,23 +1,28 @@
 SomarCatapult:
-  Type: sheep
+  Type: giant
   Display: 'Catapulta Somar'
-  Faction: Somar
+  Faction: CatapultaSomar
   AITargetSelectors:
     - clear
+    - specificfaction{f=Somar}
     - atacker
     - monsters
     - players
   AIgoalSelectors:
     - 0 clear
   Options:
-    PreventSunburn: true
     FollowRange: 100
-    movementspeed: 1.2
-    IAno: false
+    movementspeed: 0
+    noIA: false
   Modules:
     ThreatTable: true
   Health: 200
   damage: 75
   Skills:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
-    - skill{s=Disparar;sync=true} ~onInteract
+    - skill{s=montar} @Trigger ~onInteract
+    - skill{s=Mira} @Self ~onTimer:10
+    - skill{s=AvisoCatap} @EIR{r=15} ~onTimer:40
+    - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5
+    - skill{s=Accion;Sync=true} ~onDamaged
+    - message{m="Carapultero? - <caster.var.sold>"} @NearestPlayer ~onTimer:40
