@@ -56,20 +56,24 @@ montar:
 MarcCatapult1:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
+    - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
 MarcCatapult2:
   TargetConditions:
-    - variableEquals{key=target.catapulta;value=UNDEFINED} true
+    - faction{f=Somar}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
+    - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
+    - msg{m="marcando al tercero ahora"} @NearestPlayer
 MarcCatapult3:
   TargetConditions:
-    - variableEquals{key=target.catapulta;value=UNDEFINED} true
+    - faction{f=Somar}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
+    - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
-    - msg{m="marcando al tercero ahora"}
+    - msg{m="marcando al tercero ahora"} @NearestPlayer
 AvisoCatap:
   Conditions:
     - targets{a>2} true
@@ -78,11 +82,11 @@ AvisoCatap:
     - faction{f=Somar}
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
-    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1;Sort=NEAREST;ignore=player}
+    - Skill{s=MarcCatapult1} @Target
     - delay 45
-    - Skill{s=MarcCatapult2} @EIR{r=30;limit=1;Sort=FURTHEST;ignore=player}
+    - Skill{s=MarcCatapult2} @Target
     - delay 45
-    - Skill{s=MarcCatapult3} @EIR{r=30;ignore=player}
+    - Skill{s=MarcCatapult3} @Target
     - delay 45
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
 Mira:
