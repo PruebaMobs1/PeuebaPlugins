@@ -54,8 +54,6 @@ montar:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
-  TargetConditions:
-    - variableEquals{key=target.catapulta;value=1} false
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
 MarcCatapult2:
@@ -77,12 +75,12 @@ AvisoCatap:
   TargetConditions:
     - faction{f=Somar}
   Skills:
-    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1;Sort=FURTHEST}
-    - delay 3
-    - Skill{s=MarcCatapult2} @EIR{r=30;limit=1;Sort=NEAREST}
-    - delay 3
+    - Skill{s=MarcCatapult1} @EIR{r=30;limit=1}
+    - delay 10
+    - Skill{s=MarcCatapult2} @EIR{r=30}
+    - delay 10
     - Skill{s=MarcCatapult3} @EIR{r=30}
-    - delay 3
+    - delay 10
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - message{m="&a- <caster.var.sold>"} @NearestPlayer
 Mira:
