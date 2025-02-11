@@ -78,8 +78,8 @@ MarcCatapult3:
     - clearthreat @Self
 AvisoCatap:
   Conditions:
-  - targets{a=>2} true
-  - variableEquals{var=caster.sold;value="false"} Cast revSoldCtp
+    - targets{a=>2} true
+    - variableEquals{var=caster.sold;value="false"} Cast revSoldCtp
   TargetConditions:
     - faction{f=Somar}
   Skills:
@@ -93,7 +93,7 @@ AvisoCatap:
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   Skills:
-    - msg{m="catapulteando?"} @World
+    - msg{m="&9catapulteando?"} @World
 avisJugador:
   Skills:
     - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
