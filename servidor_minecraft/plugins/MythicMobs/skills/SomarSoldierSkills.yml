@@ -15,19 +15,20 @@ Posicion1:
   Skills:
     - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 AtaqueSomarSoldier:
-  Cooldown: 1
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
     - variableEquals{key=caster.Animacion;value="death"} false
   Skills:
+    - cancelevent
+    - delay 0
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-#    - message{m="inicio"} @NearestPlayer
+    - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
   Skills:
-  - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
-  - message{m="Ataque"} @World
+    - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
+#    - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
   - cancelevent
