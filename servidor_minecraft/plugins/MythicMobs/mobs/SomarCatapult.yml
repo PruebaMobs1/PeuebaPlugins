@@ -22,6 +22,5 @@ SomarCatapult:
     - skill{s=AvisoCatap} @EIR{r=15} ~onTimer:40
     - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5
     - skill{s=Accion;Sync=true} ~onDamaged
-    - setFaction{f=Somar} @NearestPlayer ~onDeath
     - projectile{bullet=block;material=STONE} @Target ~onTimer:20
     - message{m="Carapultero? - <caster.var.sold>"} @NearestPlayer ~onTimer:40

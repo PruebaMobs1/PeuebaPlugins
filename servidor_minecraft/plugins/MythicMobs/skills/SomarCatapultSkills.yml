@@ -3,6 +3,7 @@ CPrepareModelSomar:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
     - setvariable{var=caster.sold;t=string;value="false"}
+    - setFaction{faction=Somar} @NearestPlayer
 Disparar:
   TriggerConditions:
     - itemissimilar{item=iron_axe;slot=hand} false
@@ -78,10 +79,9 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
   - targets{a=>2} true
-  - variableEquals{var=caster.sold;value="false"} orElseCast revSoldCtp
+  - variableEquals{var=caster.sold;value="false"} Cast revSoldCtp
   TargetConditions:
     - faction{f=Somar}
-    - isPlayer cast avisJugador
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target

@@ -3754,3 +3754,404 @@ net.objecthunter.exp4j.tokenizer.UnknownFunctionOrVariableException: Unknown fun
 [20:02:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
 [20:02:28] [Server thread/INFO]: [CJML5067: Killed 113 entities]
 [20:02:50] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:04:23] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:04:23] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:04:23] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:04:23] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:04:24] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:04:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:04:24] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:04:24] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:04:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:06:06] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:06:06] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:06:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:06:06] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:06:06] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:07:30] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:07:30] [Server thread/ERROR]: Cannot load plugins/MythicMobs/mobs/SomarCatapult.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    SomarCatapult:
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 25, column 2:
+     - setFaction{faction=Somar} @Nea ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.lumine.mythic.core.config.IOLoader.reloadCustomConfig(IOLoader.java:85) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.IOLoader.<init>(IOLoader.java:61) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.IOHandler.getSaveLoad(IOHandler.java:46) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:111) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:436) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:61) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    SomarCatapult:
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 25, column 2:
+     - setFaction{faction=Somar} @Nea ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 24 more
+[20:07:30] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+[20:07:30] [Server thread/WARN]:  in 'reader', line 1, column 1:
+[20:07:30] [Server thread/WARN]:     SomarCatapult:
+[20:07:30] [Server thread/WARN]:     ^
+[20:07:30] [Server thread/WARN]: expected <block end>, but found '<block sequence start>'
+[20:07:30] [Server thread/WARN]:  in 'reader', line 25, column 2:
+[20:07:30] [Server thread/WARN]:      - setFaction{faction=Somar} @Nea ... 
+[20:07:30] [Server thread/WARN]:      ^
+[20:07:30] [Server thread/WARN]: 
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:58)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:49)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:122)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:436)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64)
+[20:07:30] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:61)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984)
+[20:07:30] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bk(DedicatedServer.java:501)
+[20:07:30] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[20:07:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1525)
+[20:07:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1226)
+[20:07:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[20:07:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:07:30] [Server thread/WARN]: Caused by: while parsing a block mapping
+[20:07:30] [Server thread/WARN]:  in 'reader', line 1, column 1:
+[20:07:30] [Server thread/WARN]:     SomarCatapult:
+[20:07:30] [Server thread/WARN]:     ^
+[20:07:30] [Server thread/WARN]: expected <block end>, but found '<block sequence start>'
+[20:07:30] [Server thread/WARN]:  in 'reader', line 25, column 2:
+[20:07:30] [Server thread/WARN]:      - setFaction{faction=Somar} @Nea ... 
+[20:07:30] [Server thread/WARN]:      ^
+[20:07:30] [Server thread/WARN]: 
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+[20:07:30] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[20:07:30] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[20:07:30] [Server thread/WARN]: 	... 22 more
+[20:07:30] [Server thread/ERROR]: Cannot load /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/mobs/SomarCatapult.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    SomarCatapult:
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 25, column 2:
+     - setFaction{faction=Somar} @Nea ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.lumine.mythic.bukkit.utils.config.properties.types.NodeListProp.getNodes(NodeListProp.java:43) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:124) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:436) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:46) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:112) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:59) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:61) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    SomarCatapult:
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 25, column 2:
+     - setFaction{faction=Somar} @Nea ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:07:30] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 7 mobs.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:07:30] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:07:30] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:07:30] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:07:44] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:07:44] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:07:44] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:07:44] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:07:45] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:07:45] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:07:45] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:07:45] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:07:50] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:07:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/54101, uuid='bdf97326-f137-4ac1-beb4-d2f2a704e9e0', l='ServerLevel[world]', x=-328.43, y=62.00, z=536.88, cpos=[-21, 33], tl=3946, v=true] died: Soldado Somar was killed
+[20:07:50] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/53684, uuid='a6efad52-8ceb-4e7f-a932-6dbbaa344d7d', l='ServerLevel[world]', x=-336.38, y=62.00, z=519.65, cpos=[-22, 32], tl=6002, v=true] died: Catapulta Somar was killed
+[20:07:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/54100, uuid='a1cf50e0-5547-4f36-b51f-b76699480656', l='ServerLevel[world]', x=-334.62, y=62.00, z=531.71, cpos=[-21, 33], tl=3946, v=true] died: Soldado Somar was killed
+[20:07:50] [Server thread/INFO]: [CJML5067: Killed 139 entities]
+[20:07:51] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:07:51] [Server thread/INFO]: [CJML5067: Killed 84 entities]
+[20:07:58] [Server thread/INFO]: CJML5067 issued server command: /time set day
+[20:07:58] [Server thread/INFO]: [CJML5067: Set the time to 1000]
+[20:08:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:08:08] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:08:52] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:08:52] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:08:52] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:08:52] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:08:53] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:08:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:08:53] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:08:53] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:08:59] [Server thread/INFO]: CJML5067 issued server command: /time set day
+[20:08:59] [Server thread/INFO]: [CJML5067: Set the time to 1000]
+[20:09:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:09:03] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/54944, uuid='e8aa68fc-d964-45a4-b826-0013edbaa2a3', l='ServerLevel[world]', x=-332.52, y=62.00, z=520.81, cpos=[-21, 32], tl=1219, v=true] died: Catapulta Somar was killed
+[20:09:03] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/55052, uuid='1d5b756a-c61e-4b1f-bd37-1e1bb969f62f', l='ServerLevel[world]', x=-332.74, y=62.00, z=534.70, cpos=[-21, 33], tl=1088, v=true] died: Soldado Somar was killed
+[20:09:03] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/55053, uuid='f41d5ce3-136f-44c2-9c9f-5f9cb238fdd8', l='ServerLevel[world]', x=-330.68, y=62.00, z=530.42, cpos=[-21, 33], tl=1088, v=true] died: Soldado Somar was killed
+[20:09:03] [Server thread/INFO]: [CJML5067: Killed 135 entities]
+[20:09:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:09:03] [Server thread/INFO]: [CJML5067: Killed 88 entities]
+[20:09:06] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:06] [Craft Scheduler Thread - 108 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:06] [Craft Scheduler Thread - 108 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:06] [Craft Scheduler Thread - 108 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:06] [Craft Scheduler Thread - 108 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:06] [Craft Scheduler Thread - 104 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:07] [Craft Scheduler Thread - 103 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:07] [Craft Scheduler Thread - 103 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:07] [Craft Scheduler Thread - 103 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:07] [Craft Scheduler Thread - 103 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:09:07] [Craft Scheduler Thread - 109 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[20:09:49] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:09:49] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:09:49] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:09:49] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:09:49] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:09:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:09:49] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:09:50] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:09:50] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:09:50] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:09:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:09:50] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:09:50] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:10:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:10:08] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/55456, uuid='53e80ee0-25c1-4c41-ab09-b084dc42d9ba', l='ServerLevel[world]', x=-334.23, y=62.00, z=524.82, cpos=[-21, 32], tl=1250, v=true] died: Catapulta Somar was killed
+[20:10:08] [Server thread/INFO]: [CJML5067: Killed 129 entities]
+[20:10:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:10:10] [Server thread/INFO]: [CJML5067: Killed 137 entities]
+[20:10:11] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:10:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:11:03] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:11:03] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:11:03] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:11:03] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:11:04] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:11:04] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:11:04] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:11:04] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:11:13] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[20:13:33] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:13:33] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 63 skills.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:13:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:13:33] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:13:33] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:13:38] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:13:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/56162, uuid='c1e5c6ef-bc67-43c1-9a3c-81b22abd87a3', l='ServerLevel[world]', x=-328.38, y=62.00, z=537.00, cpos=[-21, 33], tl=3747, v=true] died: Soldado Somar was killed
+[20:13:38] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/56004, uuid='3bf2b5a5-e580-46ed-ad02-2ab517db1280', l='ServerLevel[world]', x=-341.60, y=62.00, z=522.79, cpos=[-22, 32], tl=4132, v=true] died: Catapulta Somar was killed
+[20:13:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/56285, uuid='e1c7ca73-b5cb-47bd-a2e3-2a01a36b8029', l='ServerLevel[world]', x=-328.01, y=62.00, z=510.38, cpos=[-21, 31], tl=2893, v=true] died: Soldado Somar was killed
+[20:13:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/56161, uuid='416fd5ab-b3b2-4ee5-ba38-1966ca7a9bdd', l='ServerLevel[world]', x=-332.82, y=62.00, z=515.53, cpos=[-21, 32], tl=3747, v=true] died: Soldado Somar was killed
+[20:13:38] [Server thread/INFO]: [CJML5067: Killed 159 entities]
+[20:13:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:13:39] [Server thread/INFO]: [CJML5067: Killed 114 entities]
+[20:13:41] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
