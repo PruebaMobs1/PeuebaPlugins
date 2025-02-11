@@ -43,14 +43,14 @@ SomarSoldier:
   Options:
     PreventSunburn: true
     FollowRange: 100
-    movementspeed: 1.2
+    movementspeed: 1.5
   Modules:
     ThreatTable: true
   Health: 100
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
-    - skill{s=AtaqueSomarSoldier;sync=true} @EIR{r=5} ~onAttack
+    - skill{s=AtaqueSomarSoldier;sync=true} @EIR{r=5;target=player,SomarEnemies} ~onAttack
     - skill{s=DamagedAnimation;sync=true} ~onDamaged 0.2
     - skill{s=persIdle;sync=true} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
