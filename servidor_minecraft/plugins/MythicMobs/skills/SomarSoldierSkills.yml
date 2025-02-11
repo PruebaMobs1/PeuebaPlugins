@@ -21,15 +21,14 @@ AtaqueSomarSoldier:
   Skills:
     - cancelevent
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-    - message{m="inicio"} @NearestPlayer
+#    - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
   Conditions:
     - variableEquals{key=caster.ataque;value="false"}
   Skills:
-#    - setVariable{key=caster.ataque;t=String;value="true"} @Self
+    - message{m="Ataque"} @World
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
-#    - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
