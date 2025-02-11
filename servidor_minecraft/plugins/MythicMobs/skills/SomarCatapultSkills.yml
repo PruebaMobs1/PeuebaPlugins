@@ -80,7 +80,7 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
   - targets{a=>2} true
-  - variableEquals{var=caster.sold;value="false"} true
+  - variableEquals{var=caster.sold;value="false"} orElseCast revSoldCtp
   TargetConditions:
     - faction{f=Somar}
     - isPlayer cast avisJugador
@@ -93,9 +93,12 @@ AvisoCatap:
     - Skill{s=MarcCatapult3} @Target
     - delay 45
     - message{m="&aModificacion sold- <caster.var.sold>"} @NearestPlayer
+revSoldCtp:
+  Skills:
+    - msg{m="catapulteando?"} @World
 avisJugador:
   Skills:
-    - msg{m="Se te invito a ser catapultero"} @Target
+    - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
 Mira:
  Skills:
     - particles{p=Electric_Spark;size=60;a=1;uel=true;forwardOffset=3;yOffset=5;vd=1} @Self
