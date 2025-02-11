@@ -66,7 +66,6 @@ MarcCatapult2:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
-    - msg{m="marcando al tercero ahora"} @NearestPlayer
     - clearthreat @Self
 MarcCatapult3:
   TargetConditions:
@@ -75,7 +74,6 @@ MarcCatapult3:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
-    - msg{m="marcando al tercero ahora"} @NearestPlayer
     - clearthreat @Self
 AvisoCatap:
   Conditions:
@@ -92,7 +90,7 @@ AvisoCatap:
     - delay 45
     - Skill{s=MarcCatapult3} @Target
     - delay 45
-    - message{m="&aModificacion sold- <caster.var.sold>"} @NearestPlayer
+    - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   Skills:
     - msg{m="catapulteando?"} @World

@@ -35,7 +35,7 @@ SomarSoldier:
   AITargetSelectors:
     - clear
     - atacker
-    - players
+    - spesificFaction{f=SomarEnemies}
   AIgoalSelectors:
     - 0 clear
     - 1 meleeatack
