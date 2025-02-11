@@ -94,6 +94,7 @@ revSoldCtp:
     - faction{f=SomarCatapultero}
   Skills:
     - msg{m="&9catapulteando?"} @World ~onTimer:40
+#Esto ya funciona, solo hay que cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 avisJugador:
   Skills:
     - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target

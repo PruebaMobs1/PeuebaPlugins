@@ -6315,3 +6315,75 @@ expected <block end>, but found '<block sequence start>'
 [20:43:16] [Server thread/INFO]: [CJML5067: Killed 160 entities]
 [20:43:21] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
 [20:43:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:44:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:44:13] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:44:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/64965, uuid='ccf1ad5c-9c3e-40fa-9a32-4b7d81440335', l='ServerLevel[world]', x=-328.00, y=62.00, z=506.36, cpos=[-21, 31], tl=1092, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65072, uuid='619759a0-0300-4f14-9da8-2cf66d052431', l='ServerLevel[world]', x=-328.45, y=62.00, z=509.66, cpos=[-21, 31], tl=435, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/64833, uuid='cd4a7136-df1d-491b-bb46-210bb0943edf', l='ServerLevel[world]', x=-344.32, y=62.00, z=514.26, cpos=[-22, 32], tl=1236, v=true] died: Catapulta Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65073, uuid='0fb089ae-389b-4984-ab67-5cc734431f8a', l='ServerLevel[world]', x=-347.21, y=62.00, z=510.48, cpos=[-22, 31], tl=435, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65153, uuid='7259c16c-977a-465a-8c19-769b4c32718b', l='ServerLevel[world]', x=-344.02, y=62.00, z=524.35, cpos=[-22, 32], tl=195, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/64946, uuid='448340de-3ced-4f77-9e73-9d144a110b51', l='ServerLevel[world]', x=-338.01, y=62.00, z=525.62, cpos=[-22, 32], tl=1092, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65152, uuid='d470a5dd-3a8a-460e-9370-f02af141ed44', l='ServerLevel[world]', x=-342.79, y=62.00, z=523.99, cpos=[-22, 32], tl=195, v=true] died: Soldado Somar was killed
+[20:44:23] [Server thread/INFO]: [CJML5067: Killed 162 entities]
+[20:44:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:44:24] [Server thread/INFO]: [CJML5067: Killed 81 entities]
+[20:44:30] [Server thread/INFO]: CJML5067 issued server command: /time set day
+[20:44:30] [Server thread/INFO]: [CJML5067: Set the time to 1000]
+[20:44:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:44:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
+[20:46:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..4]
+[20:46:41] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65557, uuid='1782d145-8127-45e1-9449-ead311072c9c', l='ServerLevel[world]', x=-328.00, y=62.00, z=524.32, cpos=[-21, 32], tl=2500, v=true] died: Soldado Somar was killed
+[20:46:41] [Server thread/INFO]: [CJML5067: Killed Soldado Somar]
+[20:46:44] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..4]
+[20:47:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:47:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/65558, uuid='d7b54bb7-723f-4d18-8211-f9a070b36ca7', l='ServerLevel[world]', x=-328.12, y=62.00, z=510.38, cpos=[-21, 31], tl=2926, v=true] died: Soldado Somar was killed
+[20:47:02] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/65459, uuid='4642a119-9e74-41d6-8799-692b53f5fd13', l='ServerLevel[world]', x=-334.83, y=62.00, z=509.62, cpos=[-21, 31], tl=2986, v=true] died: Catapulta Somar was killed
+[20:47:02] [Server thread/INFO]: [CJML5067: Killed 132 entities]
+[20:47:04] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:47:04] [Server thread/INFO]: [CJML5067: Killed 173 entities]
+[20:47:33] [Server thread/INFO]: CJML5067 lost connection: Disconnected
+[20:47:33] [Server thread/INFO]: CJML5067 left the game
+[20:48:26] [Server thread/INFO]: Stopping the server
+[20:48:26] [Server thread/INFO]: Stopping server
+[20:48:26] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.7
+[20:48:26] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:48:26] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:48:26] [Server thread/INFO]: [MythicMobs] - 
+[20:48:26] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[20:48:26] [Server thread/INFO]: [MythicMobs] - 
+[20:48:26] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:48:26] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[20:48:26] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[20:48:26] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:48:26] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:48:26] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[20:48:26] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[20:48:26] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[20:48:26] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[20:48:26] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:48:26] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:48:26] [Server thread/INFO]: Saving players
+[20:48:26] [Server thread/INFO]: Saving worlds
+[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 256 block chunks, 89 entity chunks, 0 poi chunks in world 'world' in 0.23s
+[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:48:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:48:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:48:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:48:26] [Server thread/INFO]: Flushing Chunk IO
+[20:48:26] [Server thread/INFO]: Closing Thread Pool
+[20:48:26] [Server thread/INFO]: Closing Server
