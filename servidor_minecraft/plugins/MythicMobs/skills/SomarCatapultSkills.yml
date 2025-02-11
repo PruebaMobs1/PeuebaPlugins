@@ -80,8 +80,6 @@ AvisoCatap:
   Conditions:
     - targets{a=>2} true
     - variableEquals{var=caster.sold;value="false"} orElseCast revSoldCtp
-  TargetConditions:
-    - faction{f=Somar}
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
@@ -92,8 +90,10 @@ AvisoCatap:
     - delay 45
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
+  TargetConditions:
+    - faction{f=SomarCatapultero}
   Skills:
-    - msg{m="&9catapulteando?"} @World
+    - msg{m="&9catapulteando?"} @World ~onTimer:40
 avisJugador:
   Skills:
     - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
