@@ -15,11 +15,9 @@ Posicion1:
   Skills:
     - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 AtaqueSomarSoldier:
-  Cooldown: 20
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
     - variableEquals{key=caster.Animacion;value="death"} false
-  Cooldown: 1
   Skills:
     - cancelevent
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
