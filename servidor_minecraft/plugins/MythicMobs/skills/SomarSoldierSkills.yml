@@ -3,12 +3,17 @@ Pruebavariable:
     - message{m="&aCarapultero? - <caster.var.catapulta>"} @NearestPlayer
 pruebaFaccion:
   Conditions:
-    faction{f=Somar} orElseCast noFaccion
+    - faction{faction=Somar} orElseCast noFaccion
   Skills:
     - msg{m="&4Faccion> Somar"} @NearestPlayer
 noFaccion:
   Skills:
     - msg{m="&9Faccion cambiada"} @NearestPlayer
+Posicion1:
+  Conditions:
+    - variableEquals{key=caster.var.posc;value=lejos} castInstead Espera
+  Skills:
+    - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 AtaqueSomarSoldier:
   Cooldown: 20
   Conditions:
@@ -187,11 +192,6 @@ acabarkillAnimation:
 MuerteNormAnimation:
   Skills:
     - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
-Posicion1:
-  Conditions:
-    - variableEquals{key=caster.var.posc;value=lejos} castInstead Espera
-  Skills:
-    - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 PrepareModelSomar:
   Skills:
     - model{mid=SomarSoldier;n="Somar Soldier"}

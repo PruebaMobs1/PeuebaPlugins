@@ -35,9 +35,7 @@ SomarSoldier:
   AITargetSelectors:
     - clear
     - atacker
-    - monsters
     - players
-    - specificfaction{f=CatapultaSomar}
   AIgoalSelectors:
     - 0 clear
     - 1 meleeatack
@@ -57,7 +55,7 @@ SomarSoldier:
     - skill{s=persIdle;sync=true} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
     - skill{s=Pruebavariable} ~onTimer:10
-    - skill{s=Posicion1} ~onTimer:10
+#    - skill{s=Posicion1} ~onTimer:10
 
   #Enemigos de Somar
 

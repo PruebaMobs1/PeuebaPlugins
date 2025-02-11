@@ -4,17 +4,15 @@ SomarCatapult:
   Faction: CatapultaSomar
   AITargetSelectors:
     - clear
-    - atacker
-    - player
     - specificfaction{f=Somar}
   AIgoalSelectors:
     - 0 clear
   Options:
     FollowRange: 100
     movementspeed: 0
-    noIA: false
+    noIA: true
   Modules:
-    ThreatTable: false
+    ThreatTable: true
   Health: 200
   damage: 75
   Skills:
@@ -24,5 +22,5 @@ SomarCatapult:
     - skill{s=AvisoCatap} @EIR{r=15} ~onTimer:40
     - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5
     - skill{s=Accion;Sync=true} ~onDamaged
-    - projectile{bullet=block;material=STONE} @Target ~onTimer:35
+    - projectile{bullet=block;material=STONE} @Target ~onTimer:20
     - message{m="Carapultero? - <caster.var.sold>"} @NearestPlayer ~onTimer:40

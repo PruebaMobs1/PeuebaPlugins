@@ -56,8 +56,9 @@ montar:
 MarcCatapult1:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
-    - setFaction{f=SomarCatapultero}
+    - setFaction{faction=SomarCatapulta}
     - projectile{bullet=block;material=STONE}
+    - clearthreat @Self
 MarcCatapult2:
   TargetConditions:
     - faction{f=Somar}
@@ -66,6 +67,7 @@ MarcCatapult2:
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - msg{m="marcando al tercero ahora"} @NearestPlayer
+    - clearthreat @Self
 MarcCatapult3:
   TargetConditions:
     - faction{f=Somar}
@@ -74,6 +76,7 @@ MarcCatapult3:
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - msg{m="marcando al tercero ahora"} @NearestPlayer
+    - clearthreat @Self
 AvisoCatap:
   Conditions:
     - targets{a>2} true
