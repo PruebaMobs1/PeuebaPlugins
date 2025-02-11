@@ -21,14 +21,14 @@ AtaqueSomarSoldier:
   Skills:
     - cancelevent
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-#    - message{m="inicio"} @NearestPlayer
+    - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
-  Conditions:
-    - variableEquals{key=caster.ataque;value="false"}
+  Cooldown: 1
   Skills:
-    - message{m="Ataque"} @World
+#    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
+#    - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
@@ -42,7 +42,7 @@ AtaqueBase:
   - state{mid=SomarSoldier;s=animationAtaqueComun;li=0;lo=1;pr=0} @Self
   - delay 7
   - damage{m=1} @target
-  - delay 2
+  - delay 1
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - delay 2
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
@@ -67,9 +67,8 @@ Estocada:
   - state{mid=SomarSoldier;s=animationAtaqueEstocadaDerecha;li=0;lo=1;pr=1} @Self
   - delay 18
   - damage{m=5} @LivingInCone{a=20;r=4;limit=1}
-  - delay 1
-  - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - delay 2
+  - setVariable{key=caster.ataque;t=String;value="false"} @Self
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 #  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
