@@ -22,19 +22,18 @@ AtaqueSomarSoldier:
     - cancelevent
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer
-    - skill{s=AtaqueUnico}
+    - skill{s=AtaqueArea}
 AtaqueUnico:
-  Cooldown: 3
-  Conditions:
-  - targets{a=>1} castInstead AtaqueArea
+  Cooldown: 1
   Skills:
 #    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
 #    - message{m="Ataque"} @World
 AtaqueArea:
-  Cooldown: 3
+  Cooldown: 1
+  Conditions:
+    - targets{a=<2} CastInstead AtaqueUnico
   Skills:
-    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=
       [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster;ignore=samefaction}],
       [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster;ignore=samefaction}],
@@ -76,8 +75,9 @@ Estocada:
 #  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
   Conditions:
-    - targets{a=2to3} true
+    - targets{a=2to4} true
   Skills:
+    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea1} @Self
     - delay 11
     - throw{velocity=10;velocityY=1} 
@@ -89,8 +89,9 @@ AtaqueArea1:
 #    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea2:
   Conditions:
-    - targets{a=3to4} orElseCast AtaqueArea1
+    - targets{a=2to4} orElseCast AtaqueArea1
   Skills:
+    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
     - delay 15
     - throw{velocity=5;velocityY=1} 
@@ -103,6 +104,7 @@ AtaqueArea3:
   Conditions:
     - targets{a=>5} orElseCast AtaqueArea2
   Skills:
+    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea3} @Self
     - delay 20
     - throw{velocity=30;velocityY=2} 
