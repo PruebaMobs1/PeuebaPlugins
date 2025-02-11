@@ -79,10 +79,8 @@ MarcCatapult3:
     - clearthreat @Self
 AvisoCatap:
   Conditions:
-    - targets{a>2} true
-    - variableEquals{var=caster.sold;value="false"} true
-  TargetConditions:
-    - faction{f=Somar}
+  - targets{a>3} true
+  - variableEquals{var=caster.sold;value="false"} true
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
@@ -91,7 +89,7 @@ AvisoCatap:
     - delay 45
     - Skill{s=MarcCatapult3} @Target
     - delay 45
-    - message{m="&a- <caster.var.sold>"} @NearestPlayer
+    - message{m="&aModificacion sold- <caster.var.sold>"} @NearestPlayer
 Mira:
  Skills:
     - particles{p=Electric_Spark;size=60;a=1;uel=true;forwardOffset=3;yOffset=5;vd=1} @Self
