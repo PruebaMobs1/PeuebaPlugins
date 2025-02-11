@@ -79,7 +79,7 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
     - targets{a=>2} true
-    - variableEquals{var=caster.sold;value="false"} Cast revSoldCtp
+    - variableEquals{var=caster.sold;value="false"} orElseCast revSoldCtp
   TargetConditions:
     - faction{f=Somar}
   Skills:
