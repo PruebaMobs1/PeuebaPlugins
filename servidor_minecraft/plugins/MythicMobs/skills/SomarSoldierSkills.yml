@@ -15,6 +15,7 @@ Posicion1:
   Skills:
     - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 AtaqueSomarSoldier:
+  Cooldown: 1
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
     - variableEquals{key=caster.Animacion;value="death"} false
@@ -26,7 +27,7 @@ AtaqueSomarSoldier:
 AtaqueUnico:
   Skills:
   - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
-#  - message{m="Ataque"} @World
+  - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
   - cancelevent
