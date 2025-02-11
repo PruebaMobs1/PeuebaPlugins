@@ -24,12 +24,13 @@ AtaqueSomarSoldier:
     - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
-  Cooldown: 10
+  Cooldown: 3
   Skills:
 #    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
 #    - message{m="Ataque"} @World
 AtaqueArea:
+  Cooldown: 10
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=
@@ -79,8 +80,9 @@ AtaqueArea1:
     - delay 11
     - throw{velocity=10;velocityY=1} 
     - damage{m=1}
-    - delay 26
+    - delay 24
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
+    - delay 2
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 #    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea2:
