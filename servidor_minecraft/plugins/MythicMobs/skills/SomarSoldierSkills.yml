@@ -20,19 +20,19 @@ AtaqueSomarSoldier:
     - variableEquals{key=caster.Animacion;value="death"} false
   Skills:
     - cancelevent
-    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - message{m="inicio"} @NearestPlayer
     - randomskill{s=AtaqueUnico,AtaqueArea 50}
 AtaqueUnico:
-  
+  Cooldown: 2
   Skills:
+    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
 #    - message{m="Ataque"} @World
 AtaqueArea:
   Skills:
-  - cancelevent
-  - randomskill{s=
+    - setVariable{key=caster.ataque;t=String;value="true"} @Self
+    - randomskill{s=
       [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster;ignore=samefaction}],
       [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster;ignore=samefaction}],
       [- skill{s=AtaqueArea3} @EIR{r=3;target=monster;ignore=samefaction}]}
