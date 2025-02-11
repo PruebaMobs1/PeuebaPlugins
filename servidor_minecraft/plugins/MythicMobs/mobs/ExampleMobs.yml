@@ -52,11 +52,11 @@ SomarSoldier:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
     - skill{s=AtaqueSomarSoldier;sync=true} ~onAttack
     - skill{s=DamagedAnimation;sync=true} ~onDamaged 0.2
-    - skill{s=pruebaFaccion} ~onTimer:15
     - skill{s=persIdle;sync=true} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
     - skill{s=Pruebavariable} ~onTimer:10
 #    - skill{s=Posicion1} ~onTimer:10
+#    - skill{s=pruebaFaccion} ~onTimer:15
 
   #Enemigos de Somar
 
