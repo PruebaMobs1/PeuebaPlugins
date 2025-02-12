@@ -90,13 +90,14 @@ AvisoCatap:
     - delay 45
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
+  Conditions:
+    -targets{a=<3}
   TargetConditions:
     - faction{f=SomarCatapultero}
   Skills:
     - msg{m="&9catapulteando?"} @EIR{r=10} ~onTimer:40
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 EncontSolds:
-
   Skills:
 
 avisJugador:
