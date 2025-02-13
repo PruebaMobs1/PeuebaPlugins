@@ -89,19 +89,17 @@ AvisoCatap:
     - delay 30 
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
-  Conditions:
-    - targets{a=<2}
   TargetConditions:
     - faction{f=SomarCatapultero}
   Skills:
-    - msg{m="&9No catapult?"} @World
+    - msg{m="&9No catapult?"}
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 #EncontSolds:
 #  Skills:
 
-avisJugador:
-  Skills:
-    - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
+#avisJugador:
+#  Skills:
+#    - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
 Mira:
  Skills:
     - particles{p=Electric_Spark;size=60;a=1;uel=true;forwardOffset=3;yOffset=5;vd=1} @Self
