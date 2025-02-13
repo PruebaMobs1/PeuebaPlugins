@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m="&e Catapultero - <target.var.catapulta>"} @World
+    - message{m="&e Catapultero - <caster.var.catapulta>"} @NearestPlayer
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
@@ -218,4 +218,5 @@ PrepareModelSomar:
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
+    - setvariable{var=target.catapulta;type=Integer;val=0} @Self
   

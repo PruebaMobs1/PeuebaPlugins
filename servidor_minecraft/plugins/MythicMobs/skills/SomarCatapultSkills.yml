@@ -2,7 +2,7 @@ CPrepareModelSomar:
   Skills:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
-    - setvariable{var=caster.sold;t=string;value="false"}
+    - setvariable{var=caster.solds;t=string;value="false"}
     - setFaction{faction=Somar} @NearestPlayer
 Disparar:
   TriggerConditions:
@@ -74,6 +74,7 @@ MarcCatapult3:
     - clearthreat @Self
 reclutCatapulteros:
   Conditions:
+    - targets{a=>2}
     - variableEquals{var=caster.solds;t=String;value="false"}
   TargetConditions:
     - faction{faction=Somar}
