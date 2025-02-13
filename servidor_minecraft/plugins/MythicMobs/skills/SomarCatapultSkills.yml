@@ -79,7 +79,6 @@ MarcCatapult3:
 reclutCatapulteros:
   Conditions:
     - targets{a=>2}
-    - variableEquals{var=caster.sold;t=string;value="false"}
   TargetConditions:
     - faction{faction=Somar}
   Skills:
@@ -90,17 +89,19 @@ reclutCatapulteros:
     - delay 30
     - Skill{s=MarcCatapult3} @Target
     - delay 30 
-    - message{m="&a reclutamiento Terminado- <caster.var.sold>"} @NearestPlayer
+    - message{m="&a Reclutamiento Terminado - <caster.var.recSold>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
-    - msg{m="&Catapulteando"} @World
+    - msg{m="&9 Catapulteando"} @World
     - skill{s=contarCtprs}
 contarCtprs:
   Conditions:
     - targets{a=1to2}
+    - variableEquals{var=caster.recSold;t=string;value="false"}
   Skills:
+    - msg{m="&C Perdimos Catapulteros!"} @World
     - setvariable{var=caster.recSold;t=string;value="false"} @Self
     - skill{s=reclutCatapulteros} @EIR{r=15}
 
