@@ -79,27 +79,29 @@ MarcCatapult3:
 reclutCatapulteros:
   Conditions:
     - targets{a=>2}
+    - variableEquals{var=caster.sold;t=string;value="false"}
   TargetConditions:
     - faction{faction=Somar}
   Skills:
-    - setvariable{var=caster.sold;t=string;value="true"} @Self
+    - setvariable{var=caster.recSold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
     - delay 30
     - Skill{s=MarcCatapult2} @Target
     - delay 30
     - Skill{s=MarcCatapult3} @Target
     - delay 30 
-    - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
+    - message{m="&a reclutamiento Terminado- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
-    - msg{m="&9No catapult?"} @World
+    - msg{m="&Catapulteando"} @World
     - skill{s=contarCtprs}
 contarCtprs:
   Conditions:
     - targets{a=1to2}
   Skills:
+    - setvariable{var=caster.recSold;t=string;value="false"} @Self
     - skill{s=reclutCatapulteros} @EIR{r=15}
 
 
