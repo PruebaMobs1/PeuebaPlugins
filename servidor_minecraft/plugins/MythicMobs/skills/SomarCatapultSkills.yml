@@ -82,6 +82,7 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 reclutCatapulteros:
+  Cooldown: 30
   Conditions:
     - variableInRange{var=caster.solds;t=Integer;value=0to2}
   TargetConditions:
@@ -89,11 +90,11 @@ reclutCatapulteros:
   Skills:
     - setvariable{var=caster.solds;t=Integer;value=-1} @Self
     - Skill{s=MarcCatapult1} @Target
-    - delay 30
+    - delay 15
     - Skill{s=MarcCatapult2} @Target
-    - delay 30
+    - delay 15
     - Skill{s=MarcCatapult3} @Target
-    - delay 30 
+    - delay 50
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
@@ -102,7 +103,7 @@ revSoldCtp:
     - setvariable{var=caster.sold1;t=INTEGER;value=0}
     - setvariable{var=caster.sold2;t=INTEGER;value=0}
     - setvariable{var=caster.sold3;t=INTEGER;value=0}
-    - delay 20
+    - delay 10
     - Skill{s=ctprsReport}
     - message{m="&a Cambiados - <caster.var.sold1> - <caster.var.sold2> - <caster.var.sold3>"} @NearestPlayer
     - msg{m="&9 Catapulteando"} @World
