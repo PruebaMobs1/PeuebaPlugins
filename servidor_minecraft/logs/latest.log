@@ -2187,3 +2187,181 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for l
 [17:59:44] [Server thread/INFO]: [CJML5067: Killed 217 entities]
 [17:59:52] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
 [17:59:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[18:01:55] [Server thread/INFO]: [Mythic] Reloading plugin...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Items...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[18:01:55] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 62 skills.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[18:01:55] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[18:01:55] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[18:01:55] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[18:02:01] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:02:01] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/39140, uuid='8fc27bcb-413e-4cb8-aaf7-ef67843b6431', l='ServerLevel[world]', x=-328.40, y=62.00, z=536.99, cpos=[-21, 33], tl=2451, v=true] died: Soldado Somar was killed
+[18:02:01] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/39028, uuid='ac944ddc-89e7-42c9-b2e2-fa826038ab46', l='ServerLevel[world]', x=-340.28, y=62.00, z=524.41, cpos=[-22, 32], tl=2578, v=true] died: Catapulta Somar was killed
+[18:02:01] [Server thread/INFO]: [CJML5067: Killed 221 entities]
+[18:02:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:02:02] [Server thread/INFO]: [CJML5067: Killed 101 entities]
+[18:02:04] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[18:02:11] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[18:09:20] [Server thread/INFO]: [Mythic] Reloading plugin...
+[18:09:20] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[18:09:20] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[18:09:20] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Items...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[18:09:21] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 62 skills.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[18:09:21] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[18:09:21] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[18:09:21] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.skills.placeholders.PlaceholderString.get(io.lumine.mythic.core.skills.placeholders.PlaceholderMeta)" because "this.actionVar" is null
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.handleOutcome(SkillCondition.java:438)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:09:24] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.skills.placeholders.PlaceholderString.get(io.lumine.mythic.core.skills.placeholders.PlaceholderMeta)" because "this.actionVar" is null
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.handleOutcome(SkillCondition.java:438)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:09:26] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.skills.placeholders.PlaceholderString.get(io.lumine.mythic.core.skills.placeholders.PlaceholderMeta)" because "this.actionVar" is null
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.handleOutcome(SkillCondition.java:438)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:09:28] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:09:30] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:30] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:30] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:30] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: java.lang.NullPointerException
+[18:09:32] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:32] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:32] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:32] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: java.lang.NullPointerException
+[18:09:34] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition faction
+[18:09:34] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[18:09:34] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: faction{faction=SomarCatapultero} cast
+[18:09:34] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: java.lang.NullPointerException
+[18:09:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:09:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/39913, uuid='6ed9138b-13cd-4240-89f4-dc0240e2f984', l='ServerLevel[world]', x=-329.60, y=62.00, z=526.66, cpos=[-21, 32], tl=8901, v=true] died: Soldado Somar was killed
+[18:09:36] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/39748, uuid='25314ebd-651c-4fd9-a934-eb11d61bdf5e', l='ServerLevel[world]', x=-344.92, y=62.00, z=528.21, cpos=[-22, 33], tl=9027, v=true] died: Catapulta Somar was killed
+[18:09:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/39894, uuid='2a1d8b68-7f68-4eba-9b31-f652549d22d5', l='ServerLevel[world]', x=-333.14, y=62.00, z=532.23, cpos=[-21, 33], tl=8901, v=true] died: Soldado Somar was killed
+[18:09:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/39932, uuid='b37e4a55-ba79-4e96-8ec5-6ab1f3947ef5', l='ServerLevel[world]', x=-337.33, y=63.00, z=537.00, cpos=[-22, 33], tl=8901, v=true] died: Soldado Somar was killed
+[18:09:36] [Server thread/INFO]: [CJML5067: Killed 142 entities]
+[18:09:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:09:37] [Server thread/INFO]: [CJML5067: Killed 114 entities]
+[18:09:40] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[18:09:40] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[18:09:40] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[18:09:40] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[18:09:40] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[18:09:41] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[18:09:41] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[18:09:41] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[18:09:41] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[18:09:41] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[18:09:41] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[18:09:41] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[18:09:41] [Craft Scheduler Thread - 72 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[18:09:41] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[18:09:41] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[18:09:41] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[18:09:41] [Craft Scheduler Thread - 47 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
+[18:10:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:10:03] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/41588, uuid='339d5a2c-73a8-4085-8d59-b8d991e634e2', l='ServerLevel[world]', x=-340.61, y=62.00, z=527.36, cpos=[-22, 32], tl=467, v=true] died: Catapulta Somar was killed
+[18:10:03] [Server thread/INFO]: [CJML5067: Killed 132 entities]
+[18:10:06] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:10:06] [Server thread/INFO]: [CJML5067: Killed 146 entities]
+[18:10:09] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[18:10:15] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:10:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/42087, uuid='1755038a-7e7a-4b2e-904e-6876c1d64e37', l='ServerLevel[world]', x=-333.04, y=62.00, z=524.30, cpos=[-21, 32], tl=104, v=true] died: Catapulta Somar was killed
+[18:10:15] [Server thread/INFO]: [CJML5067: Killed 151 entities]
+[18:10:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:10:16] [Server thread/INFO]: [CJML5067: Killed 96 entities]
+[18:10:18] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[18:10:41] [Server thread/INFO]: CJML5067 issued server command: /summon cow
+[18:10:41] [Server thread/INFO]: [CJML5067: Summoned new Cow]
+[18:10:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarEnemies
+[18:11:01] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:11:01] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/42366, uuid='a32a35b5-369a-4c37-8ec2-bd6d61ee8c34', l='ServerLevel[world]', x=-336.25, y=62.00, z=521.74, cpos=[-22, 32], tl=867, v=true] died: Catapulta Somar was killed
+[18:11:01] [Server thread/INFO]: Named entity EntityZombie['Soldado Enemigo'/42553, uuid='c7f3da09-0a97-409c-8a63-4e16f41f60e9', l='ServerLevel[world]', x=-333.41, y=62.00, z=525.68, cpos=[-21, 32], tl=133, v=true] died: Soldado Enemigo was killed
+[18:11:01] [Server thread/INFO]: [CJML5067: Killed 123 entities]
+[18:11:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[18:11:02] [Server thread/INFO]: [CJML5067: Killed 94 entities]

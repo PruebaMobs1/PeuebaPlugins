@@ -77,8 +77,6 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 AvisoCatap:
-  Conditions:
-    - targets{a=0to2}
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
@@ -89,8 +87,10 @@ AvisoCatap:
     - delay 30 
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
+  Conditions:
+    - targets{a=1to2}
   TargetConditions:
-    - faction{faction=SomarCatapultero}
+    - faction{faction=SomarCatapultero} cast 
   Skills:
     - msg{m="&9No catapult?"} @World
     - skill{s=AvisoCatap}
