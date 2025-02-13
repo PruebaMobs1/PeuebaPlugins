@@ -73,7 +73,8 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 reclutCatapulteros:
-  Cooldown: 30
+  Conditions:
+    - variableEquals{var=caster.solds;t=String;value="false"}
   TargetConditions:
     - faction{faction=Somar}
   Skills:
@@ -95,7 +96,6 @@ revSoldCtp:
 ctprsPerdidos:
   Conditions:
     - targets{a=1to2}
-  TargetConditions:
     - variableEquals{var=caster.solds;t=String;value="false"}
   Skills:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
