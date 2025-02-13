@@ -14,20 +14,6 @@ Posicion1:
     - variableEquals{key=caster.var.posc;value=lejos} castInstead Espera
   Skills:
     - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
-Catapultero:
-  Conditions:
-    - faction{faction=SomarCatapultero}
-  Skills:
-    - variableSubtract{var=target.solds;t=Integer;amount=1} ~onDeath #Resta la variable de catapulteros a la catapultaa al morir
-#Actuar normal de SOldado
-SinCTP:
-  Conditions:
-    - faction{faction=Somar}
-  Skills:
-    - skill{s=PrepareModelSomar} @Self ~onSpawn
-    - skill{s=AtaqueSomarSoldier;sync=true} @EIR{r=5;target=player,SomarEnemies} ~onAttack
-    - skill{s=DamagedAnimation;sync=true} ~onDamaged 0.2
-    - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
 AtaqueSomarSoldier:
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
@@ -207,6 +193,11 @@ MuerteExtAnimation:
     - Signal{s=killerAnimation}
     - state{mid=SomarSoldier;s=death2} @Self
     - msg{m=intentoEnviarSenal} @NearestPlayer
+cambiarCataputaVar:
+  Skills:
+    - variableSubstract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
+
+
 acabarkillAnimation:
   Skills:
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
