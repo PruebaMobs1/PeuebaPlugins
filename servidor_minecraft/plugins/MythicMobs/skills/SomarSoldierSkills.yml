@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m="&ataque? - <caster.var.ataque>"} @NearestPlayer
+    - message{m="&e Catapultero - <target.var.Catapulta>"} @NearestPlayer
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
