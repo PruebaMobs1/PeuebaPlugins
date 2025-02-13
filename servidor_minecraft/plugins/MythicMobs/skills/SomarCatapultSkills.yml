@@ -90,7 +90,7 @@ AvisoCatap:
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
-    - faction{faction=Somar} true
+    - faction{faction=Somar} false
   Skills:
     - msg{m="&9No catapult?"} @World
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
