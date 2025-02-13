@@ -77,8 +77,6 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 AvisoCatap:
-  Conditions:
-    - targets{a=>2} true
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
@@ -90,9 +88,9 @@ AvisoCatap:
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   Conditions:
-    - targets{a=1to2}
+    - targets{a=1to3} orElseCast AvisoCatap
   TargetConditions:
-    - faction{faction=Somar}
+    - faction{faction=SomarCatapultero}
   Skills:
     - msg{m="&9No catapult?"} @World
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
