@@ -96,15 +96,6 @@ revSoldCtp:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
     - msg{m="&9 Catapulteando"} @World
-    - skill{s=contarCtprs}
-contarCtprs:
-  Conditions:
-    - targets{a=1to2}
-    - variableEquals{var=caster.solds;t=Integer;value=>0}
-  Skills:
-    - msg{m="&C Perdimos Catapulteros!"} @World
-    - setvariable{var=caster.recSold;t=string;value="false"} @Self
-    - skill{s=reclutCatapulteros} @EIR{r=15}
 
 
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
