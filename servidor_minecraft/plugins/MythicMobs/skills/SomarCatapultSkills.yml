@@ -79,6 +79,7 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 reclutCatapulteros:
+  Cooldown: 30
   TargetConditions:
     - faction{faction=Somar}
   Skills:
@@ -95,7 +96,7 @@ revSoldCtp:
   TargetConditions:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
-    - msg{m="&9 Catapulteando"} @World
+    - msg{m="&9 Soldados cerca"} @World
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
   Conditions:
