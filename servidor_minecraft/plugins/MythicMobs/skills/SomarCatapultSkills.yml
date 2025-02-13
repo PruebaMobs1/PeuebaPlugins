@@ -90,7 +90,7 @@ AvisoCatap:
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   Conditions:
-    - targets{a=>2}
+    - targets{a=0to2}
   TargetConditions:
     - faction{f=Somar}
   Skills:
