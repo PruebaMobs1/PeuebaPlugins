@@ -90,8 +90,6 @@ AvisoCatap:
     - delay 45
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
-  Conditions:
-    -targets{a=<3}
   TargetConditions:
     - faction{f=SomarCatapultero}
   Skills:
