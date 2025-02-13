@@ -79,7 +79,6 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
     - targets{a=>2} true
-    - variableEquals{var=caster.sold;value="false"}
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
@@ -87,16 +86,15 @@ AvisoCatap:
     - Skill{s=MarcCatapult2} @Target
     - delay 30
     - Skill{s=MarcCatapult3} @Target
-    - delay 30
-    - skill{s=revSoldCtp} ~onTimer:40
+    - delay 30 
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   Conditions:
-    -targets{a=<3}
+    - targets{a=>2}
   TargetConditions:
-    - faction{f=SomarCatapultero}
+    - faction{f=Somar}
   Skills:
-    - msg{m="&9catapulteando?"} @World
+    - msg{m="&9No catapult?"} @World
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 #EncontSolds:
 #  Skills:
