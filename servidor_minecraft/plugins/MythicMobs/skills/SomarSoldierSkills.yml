@@ -193,9 +193,11 @@ MuerteExtAnimation:
     - Signal{s=killerAnimation}
     - state{mid=SomarSoldier;s=death2} @Self
     - msg{m=intentoEnviarSenal} @NearestPlayer
-cambiarCataputaVar:
+restarCataputaSolds:
+  Conditions:
+    Faction{faction=SomarCatapultero}
   Skills:
-    - variableSubstract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
+    - variableSubtract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
 
 
 acabarkillAnimation:

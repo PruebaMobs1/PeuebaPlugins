@@ -55,9 +55,12 @@ montar:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
+  TargetCondition:
+    - variableEq{var=target.catapulta;t=INTEGER;value=1}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
     - setFaction{faction=SomarCatapulta}
+    - variableAdd{var=caster.solds;t=Integer;value=1} @Self
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult2:
@@ -66,6 +69,7 @@ MarcCatapult2:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setFaction{f=SomarCatapultero}
+    - variableAdd{var=caster.solds;t=Integer;value=1} @Self
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult3:
@@ -74,6 +78,7 @@ MarcCatapult3:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     - setFaction{f=SomarCatapultero}
+    - variableAdd{var=caster.solds;t=Integer;value=1} @Self
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 reclutCatapulteros:
