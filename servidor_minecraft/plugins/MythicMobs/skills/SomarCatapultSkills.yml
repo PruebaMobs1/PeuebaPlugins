@@ -56,7 +56,7 @@ montar:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
   TargetCondition:
-    - variableEq{var=target.catapulta;t=INTEGER;value=1}
+    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
     - setFaction{faction=SomarCatapulta}
@@ -65,7 +65,7 @@ MarcCatapult1:
     - clearthreat @Self
 MarcCatapult2:
   TargetConditions:
-    - faction{f=Somar}
+    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setFaction{f=SomarCatapultero}
@@ -74,7 +74,7 @@ MarcCatapult2:
     - clearthreat @Self
 MarcCatapult3:
   TargetConditions:
-    - faction{f=Somar}
+    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     - setFaction{f=SomarCatapultero}
@@ -83,7 +83,7 @@ MarcCatapult3:
     - clearthreat @Self
 reclutCatapulteros:
   Conditions:
-    - variableInRange{var=caster.solds;value=<3}
+    - variableInRange{var=caster.solds;value=0to2}
   TargetConditions:
     - faction{faction=Somar}
   Skills:
