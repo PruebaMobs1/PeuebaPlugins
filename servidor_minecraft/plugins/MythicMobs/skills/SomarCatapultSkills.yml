@@ -79,15 +79,16 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
     - targets{a=>2} true
-    - variableEquals{var=caster.sold;value="false"} Cast revSoldCtp
+    - variableEquals{var=caster.sold;value="false"}
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
-    - delay 45
+    - delay 30
     - Skill{s=MarcCatapult2} @Target
-    - delay 45
+    - delay 30
     - Skill{s=MarcCatapult3} @Target
-    - delay 45
+    - delay 30
+    - skills{s=revSoldCtp}
     - message{m="&a sold ctprs encontrados- <caster.var.sold>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
