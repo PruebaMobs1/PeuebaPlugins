@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m="&e Catapultero - <target.var.Catapulta>"} @NearestPlayer
+    - message{m="&ataque? - <caster.var.ataque>"} @NearestPlayer
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
@@ -198,11 +198,7 @@ restarCataputaSolds:
     Faction{faction=SomarCatapultero}
   Skills:
     - variableSubtract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
-reportCtpr:
-  Conditions:
-    - variableEquals{var=target.catapulta;t=INTEGER;value=1}
-  Skills:
-    - setvariable{var=target.sold1;t=INTEGER;value="true"}
+
 
 acabarkillAnimation:
   Skills:

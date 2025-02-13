@@ -3,11 +3,7 @@ CPrepareModelSomar:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
     - setvariable{var=caster.sold;t=string;value="false"}
-    - setvariable{var=caster.sold1;t=INTEGER;value=0} @Self
-    - setvariable{var=caster.sold2;t=INTEGER;value=0} @Self
-    - setvariable{var=caster.sold3;t=INTEGER;value=0} @Self
     - setFaction{faction=Somar} @NearestPlayer
-    - setvariable{var=caster.solds;t=Integer;value=0} @Self
 Disparar:
   TriggerConditions:
     - itemissimilar{item=iron_axe;slot=hand} false
@@ -59,6 +55,8 @@ montar:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
+  TargetCondition:
+    - variableEquals{var=target.catapulta;t=INTEGER;value=1}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
     - setFaction{faction=SomarCatapulta}
@@ -66,6 +64,8 @@ MarcCatapult1:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult2:
+  TargetConditions:
+    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setFaction{f=SomarCatapultero}
@@ -82,37 +82,32 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 reclutCatapulteros:
-  Cooldown: 30
-  Conditions:
-    - variableInRange{var=caster.solds;t=Integer;value=0to2}
   TargetConditions:
     - faction{faction=Somar}
   Skills:
-    - setvariable{var=caster.solds;t=Integer;value=-1} @Self
+    - setvariable{var=caster.solds;t=String;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
-    - delay 15
+    - delay 30
     - Skill{s=MarcCatapult2} @Target
-    - delay 15
+    - delay 30
     - Skill{s=MarcCatapult3} @Target
-    - delay 50
-    - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
+    - delay 30 
+    - setvariable{var=caster.solds;t=String;value="false"} @Self
+    - message{m="&a Reclutamiento Terminado - <caster.var.recSold>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
-    - setvariable{var=caster.sold1;t=INTEGER;value=0}
-    - setvariable{var=caster.sold2;t=INTEGER;value=0}
-    - setvariable{var=caster.sold3;t=INTEGER;value=0}
-    - delay 10
-    - Skill{s=ctprsReport}
-    - message{m="&a Cambiados - <caster.var.sold1> - <caster.var.sold2> - <caster.var.sold3>"} @NearestPlayer
     - msg{m="&9 Catapulteando"} @World
-ctprsReport:
+    - skill{s=ctprsPerdidos}
+ctprsPerdidos:
+  Conditions:
+    - targets{a=1to2}
   TargetConditions:
-    - variableInRange{var=target.catapulta;t=INTEGER;value=1to3}
+    - variableEquals{var=target.catapulta;t=String;value="false"}
   Skills:
-    - sudoSkill{s=reportCtpr;target=@Self}
-
+    - setvariable{var=caster.solds;t=String;value="false"} @Self
+    - skill{s=reclutCatapulteros} @EIR{r=15}
 
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 #EncontSolds:

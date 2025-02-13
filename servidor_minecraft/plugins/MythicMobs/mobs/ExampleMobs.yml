@@ -54,7 +54,7 @@ SomarSoldier:
     - skill{s=persIdle;sync=true} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
     - skill{s=restarCataputaSolds} ~onDeath
-    - skill{s=Pruebavariable} ~onTimer:20
+#    - skill{s=Pruebavariable} ~onTimer:1
 #    - skill{s=Posicion1} ~onTimer:10
 #    - skill{s=pruebaFaccion} ~onTimer:15
 
