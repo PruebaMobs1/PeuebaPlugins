@@ -19,7 +19,7 @@ SomarCatapult:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
     - skill{s=montar} @Trigger ~onInteract
     - skill{s=Mira} @Self ~onTimer:10
-    - skill{s=revSoldCtp} @NearestPlayer ~onTimer:40
+    - skill{s=revSoldCtp} @PIR{r=15} ~onTimer:40
     - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5
     - skill{s=Accion;Sync=true} ~onDamaged
     - projectile{bullet=block;material=STONE} @Target ~onTimer:20
