@@ -55,24 +55,18 @@ montar:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
-  TargetCondition:
-    - variableEquals{var=target.catapulta;t=INTEGER;value=1}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
     - setFaction{faction=SomarCatapulta}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult2:
-  TargetConditions:
-    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult3:
-  TargetConditions:
-    - variableEquals{var=target.catapulta;t=INTEGER;value=UNDEFINED}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     - setFaction{f=SomarCatapultero}
@@ -91,7 +85,7 @@ reclutCatapulteros:
     - Skill{s=MarcCatapult3} @Target
     - delay 30 
     - setvariable{var=caster.solds;t=String;value="false"} @Self
-    - message{m="&a Reclutamiento Terminado - <caster.var.recSold>"} @NearestPlayer
+    - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
     - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
@@ -102,7 +96,7 @@ ctprsPerdidos:
   Conditions:
     - targets{a=1to2}
   TargetConditions:
-    - variableEquals{var=target.catapulta;t=String;value="false"}
+    - variableEquals{var=caster.solds;t=String;value="false"}
   Skills:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - skill{s=reclutCatapulteros} @EIR{r=15}

@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m="&ataque? - <caster.var.ataque>"} @NearestPlayer
+    - message{m="&e Catapultero - <target.var.catapulta>"} @NearestPlayer
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
@@ -193,11 +193,11 @@ MuerteExtAnimation:
     - Signal{s=killerAnimation}
     - state{mid=SomarSoldier;s=death2} @Self
     - msg{m=intentoEnviarSenal} @NearestPlayer
-restarCataputaSolds:
-  Conditions:
-    Faction{faction=SomarCatapultero}
-  Skills:
-    - variableSubtract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
+#restarCataputaSolds:
+#  Conditions:
+#    Faction{faction=SomarCatapultero}
+#  Skills:
+#    - variableSubtract{var=target.solds;t=Integer;value=1} @UniqueIdentifier{uuid=<caster.var.Catapultuuid>}
 
 
 acabarkillAnimation:
