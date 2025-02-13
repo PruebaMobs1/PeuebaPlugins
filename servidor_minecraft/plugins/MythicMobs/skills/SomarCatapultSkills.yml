@@ -79,7 +79,7 @@ MarcCatapult3:
 AvisoCatap:
   Conditions:
     - targets{a=>2} true
-    - variableEquals{var=caster.sold;value="false"} orElseCast revSoldCtp
+    - variableEquals{var=caster.sold;value="false"} cast revSoldCtp
   Skills:
     - setvariable{var=caster.sold;t=string;value="true"} @Self
     - Skill{s=MarcCatapult1} @Target
