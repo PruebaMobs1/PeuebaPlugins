@@ -185,7 +185,6 @@ MuerteExtAnimation:
   Conditions:
 #    - chance{c=1} true
     - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
-    - faction{faction=SomarCatapultero} cast avisarIda
   TargetConditions:
     - isLiving true
   Skills:
@@ -203,7 +202,7 @@ IrACataputa:
 avisarIda:
   Skills:
     - setvariable{var=target.sold1;t=String;value=true} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-    - projectile{bullet=block;material=STONE} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - projectile{bullet=block;material=STONE;syo=4;mr=500;md=500} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 acabarkillAnimation:
   Skills:
