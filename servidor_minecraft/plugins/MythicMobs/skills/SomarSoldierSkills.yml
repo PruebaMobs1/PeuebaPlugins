@@ -199,10 +199,24 @@ IrACataputa:
   Conditions:
   Skills:
     - goto{} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+
 avisarIda:
+  Conditions:
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=1}
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=2}
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=3}
+#Como soldado 1
+avisarIda1:
   Skills:
-    - setvariable{var=target.sold1;t=String;value=true} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-    - projectile{bullet=block;material=STONE;syo=4;mr=500;md=500} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold1;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+#Como soldado 2
+avisarIda2:
+  Skills:
+    - setvariable{var=target.sold2;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+#Como soldado 3
+avisarIda3:
+  Skills:
+    - setvariable{var=target.sold3;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 acabarkillAnimation:
   Skills:
