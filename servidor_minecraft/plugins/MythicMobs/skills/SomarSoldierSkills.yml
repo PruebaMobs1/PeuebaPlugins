@@ -202,19 +202,25 @@ IrACataputa:
 
 avisarIda:
   Conditions:
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=1}
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=2}
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=3}
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=2} castInstead avisarIda2
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=3} castInstead avisarIda3
 #Como soldado 1
 avisarIda1:
+  Conditions:
+    - faction{faction=SomarCatapultero}
   Skills:
     - setvariable{var=target.sold1;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Como soldado 2
 avisarIda2:
+  Conditions:
+    - faction{faction=SomarCatapultero}
   Skills:
     - setvariable{var=target.sold2;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Como soldado 3
 avisarIda3:
+  Conditions:
+    - faction{faction=SomarCatapultero}
   Skills:
     - setvariable{var=target.sold3;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
