@@ -95,15 +95,12 @@ reclutCatapulteros:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
-  TargetConditions:
-    - faction{faction=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
     - msg{m="&9 Soldados cerca"} @World
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
   Conditions:
-    - targets{a=1to2}
-    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead reclutCatapulteros
+    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1
 #    - variableEquals{var=caster.sold2;t=String;value="false"}
 #    - variableEquals{var=caster.sold3;t=String;value="false"} 
   Skills:
