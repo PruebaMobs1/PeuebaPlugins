@@ -69,6 +69,8 @@ MarcCatapult2:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
+    - setvariable{var=caster.sold2;t=String;value=true}
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
@@ -77,6 +79,8 @@ MarcCatapult3:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
+    - setvariable{var=caster.sold3;t=String;value=true}
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self

@@ -1,7 +1,6 @@
 Pruebavariable:
   Skills:
     - message{m="&e Catapultero - <caster.var.catapulta> - de catapulta - <caster.var.catapultuuid>"} @NearestPlayer
-    - skill{s=IrACataputa}
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
@@ -186,6 +185,7 @@ MuerteExtAnimation:
   Conditions:
 #    - chance{c=1} true
     - variableEquals{var=caster.atackeruuid;type=STRING;val="noUiid"} false
+    - faction{faction=SomarCatapultero} cast avisarIda
   TargetConditions:
     - isLiving true
   Skills:
@@ -198,9 +198,12 @@ MuerteExtAnimation:
 #Ir a catapulta
 IrACataputa:
   Conditions:
-    - faction{faction=SomarCatapultero}
   Skills:
     - goto{} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+avisarIda:
+  Skills:
+    - setvariable{var=target.sold1;t=String;value=true} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - projectile{bullet=block;material=STONE} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 acabarkillAnimation:
   Skills:
