@@ -20,6 +20,7 @@ lanzarBloque:
 ContornoVariabs: 
   TargetConditions:
     - (isMythicMob || isPlayer) true
+    - isLiving true
   Skills:
     - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270}
     - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60}
@@ -59,9 +60,9 @@ MarcCatapult1:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
-    - setvariable{var=caster.sold1;t=String;value=true}
+    - setvariable{var=caster.sold1;t=String;value="true"}
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
-    - setFaction{faction=SomarCatapulta}
+    - setFaction{faction=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult2:
@@ -69,7 +70,7 @@ MarcCatapult2:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
-    - setvariable{var=caster.sold2;t=String;value=true}
+    - setvariable{var=caster.sold2;t=String;value="true"}
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
@@ -79,7 +80,7 @@ MarcCatapult3:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
-    - setvariable{var=caster.sold3;t=String;value=true}
+    - setvariable{var=caster.sold3;t=String;value="true"}
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}

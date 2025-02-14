@@ -210,19 +210,19 @@ avisarIda1:
   Conditions:
     - faction{faction=SomarCatapultero}
   Skills:
-    - setvariable{var=target.sold1;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold1;t=String;value="false"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Como soldado 2
 avisarIda2:
   Conditions:
     - faction{faction=SomarCatapultero}
   Skills:
-    - setvariable{var=target.sold2;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold2;t=String;value="false"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Como soldado 3
 avisarIda3:
   Conditions:
     - faction{faction=SomarCatapultero}
   Skills:
-    - setvariable{var=target.sold3;t=String;value=false} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold3;t=String;value="false"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 acabarkillAnimation:
   Skills:
