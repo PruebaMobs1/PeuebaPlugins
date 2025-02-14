@@ -59,6 +59,8 @@ MarcCatapult1:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
+    - setvariable{var=caster.sold1;t=String;value=true}
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{faction=SomarCatapulta}
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
