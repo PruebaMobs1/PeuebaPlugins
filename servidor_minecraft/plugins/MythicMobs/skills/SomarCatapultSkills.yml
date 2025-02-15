@@ -102,7 +102,8 @@ reclutCatapulteros:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
-  
+  TargetConditions:
+    - faction{f=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
     - msg{m="&9 Soldados cerca"} @World
     - skill{s=ctprsPerdidos}
