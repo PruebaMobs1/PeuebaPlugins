@@ -205,10 +205,10 @@ PosicSoldCatapultero:
     - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaEncontrada
   Skills:
     - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
-    - setai{ai=false} @Self
     - skill{s=IrACataputa}
 CatapultaEncontrada:
   Skills:
+    - setai{ai=false} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
 avisarIda:
   Conditions:
