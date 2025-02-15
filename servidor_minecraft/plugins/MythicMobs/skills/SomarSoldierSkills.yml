@@ -201,15 +201,15 @@ IrACataputa:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
   Conditions:
-    - (variableEquals{var=caster.catapulta;t=INTEGER;value=1} || variableEquals{var=caster.catapulta;t=INTEGER;value=2} || variableEquals{var=caster.catapulta;t=INTEGER;value=3}) true
+    - faction{f=SomarCatapultero} true
     - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaEncontrada
   Skills:
-    - msg{m="&e llendo"}
+    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - setai{ai=false} @Self
     - skill{s=IrACataputa}
 CatapultaEncontrada:
   Skills:
-    - setai{ai=false} @Self
-
+    - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
