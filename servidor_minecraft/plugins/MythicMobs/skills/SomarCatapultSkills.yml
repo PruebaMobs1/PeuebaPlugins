@@ -105,7 +105,6 @@ revSoldCtp:
   TargetConditions:
     - faction{f=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
-    - msg{m="&9 Soldados cerca"} @World
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
   Conditions:
@@ -113,8 +112,7 @@ ctprsPerdidos:
     - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
     - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3
   Skills:
-    - setvariable{var=caster.solds;t=String;value="false"} @Self
-    - skill{s=reclutCatapulteros} @EIR{r=15}
+    - msg{m="&9 Soldados cerca"} @World
 
 #cambiar el valor de variable o algo para que se reinicie el proceso cambiando todas las facciones nuevamente
 #EncontSolds:
