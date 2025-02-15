@@ -103,7 +103,7 @@ reclutCatapulteros:
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
-    - faction{f=SomarCatapultero} orElseCast reclutCatapulteros
+    - faction{f=SomarCatapultero} orElseCast reclutCatapulteros @EIR{r=25}
   Skills:
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
