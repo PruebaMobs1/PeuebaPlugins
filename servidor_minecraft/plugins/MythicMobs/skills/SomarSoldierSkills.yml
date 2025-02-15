@@ -201,7 +201,7 @@ IrACataputa:
       || variableEquals{var=caster.catapulta;t=INTEGER;value=3}
   Skills:
     - setai{ai=false} @Self
-    - goto{} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 avisarIda:
   Conditions:
