@@ -197,11 +197,12 @@ MuerteExtAnimation:
 #Ir a catapulta
 IrACataputa:
   Conditions:
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=1} || variableEquals{var=caster.catapulta;t=INTEGER;value=2} 
-      || variableEquals{var=caster.catapulta;t=INTEGER;value=3}
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=1} || variableEquals{var=caster.catapulta;t=INTEGER;value=2} || variableEquals{var=caster.catapulta;t=INTEGER;value=3}
   Skills:
-    - setai{ai=false} @Self
+    - msg{m="llendo"}
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - delay 300
+    - setai{ai=false} @Self
 
 avisarIda:
   Conditions:
