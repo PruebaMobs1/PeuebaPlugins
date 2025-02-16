@@ -93,12 +93,13 @@ reclutCatapulteros:
     - faction{faction=Somar}
   Skills:
     - setvariable{var=caster.solds;t=String;value="true"} @Self
+    - delay 20
     - Skill{s=MarcCatapult1} @Target
-    - delay 30
+    - delay 20
     - Skill{s=MarcCatapult2} @Target
-    - delay 30
+    - delay 20
     - Skill{s=MarcCatapult3} @Target
-    - delay 30 
+    - delay 20 
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
