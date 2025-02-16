@@ -196,7 +196,7 @@ MuerteExtAnimation:
 
 #Ir a catapulta
 IrACataputa:
-  Cooldown: 100
+  Cooldown: 50
   Skills:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
@@ -207,6 +207,8 @@ PosicSoldCatapultero:
     - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
     - skill{s=IrACataputa}
 CatapultaEncontrada:
+  Conditions:
+    - variableEquals{var=caster.catapulta;t=String;value=1} castInstead mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere} @Self
   Skills:
     - setai{ai=false} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
