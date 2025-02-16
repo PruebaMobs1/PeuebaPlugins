@@ -208,7 +208,7 @@ PosicSoldCatapultero:
     - skill{s=IrACataputa}
 CatapultaEncontrada:
   Conditions:
-    - variableEquals{var=caster.catapulta;t=String;value=1} castInstead mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere} @Self
+    - variableEquals{var=caster.catapulta;t=String;value=1}
   Skills:
     - setai{ai=false} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
