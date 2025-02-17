@@ -9,11 +9,6 @@ pruebaFaccion:
 noFaccion:
   Skills:
     - msg{m="&9Faccion cambiada"} @NearestPlayer
-Posicion1:
-  Conditions:
-    - variableEquals{key=caster.var.posc;value=lejos} castInstead Espera
-  Skills:
-    - goto{x=<Target.l.x>;y=<Target.l.y>;z=<Target.l.z>}
 AtaqueSomarSoldier:
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
@@ -196,20 +191,26 @@ MuerteExtAnimation:
 
 #Ir a catapulta
 IrACataputa:
-  Cooldown: 50
+  Cooldown: 80
   Skills:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
   Conditions:
     - faction{f=SomarCatapultero} true
-    - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaEncontrada
+    - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
   Skills:
     - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
     - skill{s=IrACataputa}
-CatapultaEncontrada:
+CatapultaAlcanzada:
+  Conditions:
+    - variableEquals{var=caster.catapultero;t=Integer;value=1}
   Skills:
-    - setai{ai=false} @Self
+    - skill{s=CtpPosicion1} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+CtpPosicion1:
+    Skills:
+
+      - MountModel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
