@@ -210,6 +210,7 @@ CatapultaAlcanzada:
 CtpPosicion1:
     Skills:
       - msg{m="&e Moontando - soldado - <caster.var.catapulta>"} @NearestPlayer
+      - sudoSkill{s=montarCtp;t=@EIR{r=10}} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1

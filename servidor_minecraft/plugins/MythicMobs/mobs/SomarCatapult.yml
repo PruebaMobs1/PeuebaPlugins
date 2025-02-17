@@ -17,7 +17,7 @@ SomarCatapult:
   damage: 75
   Skills:
     - skill{s=CPrepareModelSomar} @Self ~onSpawn
-    - skill{s=montar} @Trigger ~onInteract
+    - skill{s=montarCtp} @Trigger ~onInteract
     - skill{s=Mira} @Self ~onTimer:10
     - skill{s=revSoldCtp} @EIR{r=40} ~onTimer:40
     - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5

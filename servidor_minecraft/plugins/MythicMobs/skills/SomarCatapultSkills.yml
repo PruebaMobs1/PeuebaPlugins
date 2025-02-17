@@ -52,7 +52,7 @@ explotar:
     - delay 10
     - throw{velocity=15;velocityY=5} @EntitiesNearOrigin{r=7}
     - effect:particles @RandomLocationsNearOrigin{r=10;a=20}
-montar:
+montarCtp:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
