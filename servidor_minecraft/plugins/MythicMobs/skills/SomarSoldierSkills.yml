@@ -209,8 +209,7 @@ CatapultaAlcanzada:
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
 CtpPosicion1:
     Skills:
-
-      - MountModel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
+      - msg{m="&e Moontando - soldado - <caster.var.catapulta>"} @NearestPlayer
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
