@@ -55,7 +55,7 @@ SomarSoldier:
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
     - skill{s=avisarIda} ~onDeath
 #    - skill{s=Pruebavariable} ~onTimer:20
-    - skill{s=PosicSoldCatapultero} ~onTimer:40
+    - skill{s=PosicSoldCatapultero} ~onTimer:100
 #    - skill{s=pruebaFaccion} ~onTimer:15
 
   #Enemigos de Somar
