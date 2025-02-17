@@ -211,7 +211,7 @@ CtpPosicion1:
     Skills:
       - msg{m="&e Moontando *** "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - setrotation{yaw=<caster.l.yaw>}
+#      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - setai{ai=false} @Self
 avisarIda:
   Conditions:
