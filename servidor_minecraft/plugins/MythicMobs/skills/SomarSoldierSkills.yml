@@ -199,7 +199,7 @@ PosicSoldCatapultero:
     - faction{f=SomarCatapultero} true
     - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
   Skills:
-    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
+#    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
     - skill{s=IrACataputa}
 CatapultaAlcanzada:
   Conditions:
@@ -210,12 +210,12 @@ CatapultaAlcanzada:
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
 CtpPosicion1:
     Skills:
-      - msg{m="&e Moontando *** "} @NearestPlayer
+      - msg{m="&e Montando *** "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-
 CtpPosicion2:
     Skills:
+      - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
       - msg{m="&e Posición <caster.var.posc> "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
