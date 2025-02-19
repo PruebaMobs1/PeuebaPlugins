@@ -203,8 +203,7 @@ PosicSoldCatapultero:
     - skill{s=IrACataputa}
 CatapultaAlcanzada:
   Conditions:
-    - variableEquals{var=caster.catapulta;t=Integer;value=1}
-    - variableEquals{var=caster.catapulta;t=Integer;value=2} castInstead CtpPosicion2
+    - variableEquals{var=caster.catapulta;t=Integer;value=1} || variableEquals{var=caster.catapulta;t=Integer;value=2}
   Skills:
     - skill{s=CtpPosicion1} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
