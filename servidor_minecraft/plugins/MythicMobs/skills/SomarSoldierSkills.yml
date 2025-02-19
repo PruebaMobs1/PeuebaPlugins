@@ -191,7 +191,7 @@ MuerteExtAnimation:
 
 #Ir a catapulta
 IrACataputa:
-  Cooldown: 120
+  Cooldown: 300
   Skills:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
@@ -212,6 +212,7 @@ CtpPosicion1:
       - msg{m="&e Moontando *** "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - delay 10
       - setai{ai=false} @Self
 avisarIda:
   Conditions:
