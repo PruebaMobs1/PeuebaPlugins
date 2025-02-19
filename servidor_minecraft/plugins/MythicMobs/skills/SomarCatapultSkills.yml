@@ -26,6 +26,7 @@ ContornoVariabs:
     - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60}
     - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190}
     - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10}
+    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20}
 Accion:
   TriggerConditions:
     - variableEquals{key=caster.posc;value="derecha"} Cast GirarDerecha

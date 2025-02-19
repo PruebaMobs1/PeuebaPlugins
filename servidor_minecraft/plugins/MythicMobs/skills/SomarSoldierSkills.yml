@@ -191,13 +191,13 @@ MuerteExtAnimation:
 
 #Ir a catapulta
 IrACataputa:
-  Cooldown: 300
+  Cooldown: 50
   Skills:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
   Conditions:
     - faction{f=SomarCatapultero} true
-    - (variableEquals{var=caster.posc;t=String;value="lejos"} true || variableEquals{var=caster.posc;t=String;value=UNDEFINED} true) false castInstead CatapultaAlcanzada
+    - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
   Skills:
 #    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
     - skill{s=IrACataputa}
@@ -207,7 +207,7 @@ CatapultaAlcanzada:
     - variableEquals{var=caster.catapulta;t=Integer;value=2} cast CtpPosicion2
   Skills:
 #    - skill{s=CtpPosicion1} @Self
-    - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
 CtpPosicion1:
     Skills:
       - msg{m="&e Montando *** "} @NearestPlayer
