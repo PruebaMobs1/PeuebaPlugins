@@ -204,6 +204,7 @@ PosicSoldCatapultero:
 CatapultaAlcanzada:
   Conditions:
     - variableEquals{var=caster.catapulta;t=Integer;value=1}
+    - variableEquals{var=caster.catapulta;t=Integer;value=2} castInstead CtpPosicion2
   Skills:
     - skill{s=CtpPosicion1} @Self
     - msg{m="&c llego - soldado - <caster.var.catapulta>"} @NearestPlayer
@@ -212,8 +213,12 @@ CtpPosicion1:
       - msg{m="&e Moontando *** "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 10
-      - setai{ai=false} @Self
+
+CtpPosicion2:
+    Skills:
+      - msg{m="&e Posición <caster.var.posc> "} @NearestPlayer
+      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+#      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
