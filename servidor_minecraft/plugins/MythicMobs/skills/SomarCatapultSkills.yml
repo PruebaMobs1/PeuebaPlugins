@@ -22,11 +22,16 @@ ContornoVariabs:
     - (isMythicMob || isPlayer) true
     - isLiving true
   Skills:
-    - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270}
-    - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60}
-    - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190}
-    - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10}
-    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20}
+    - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270;conditions=[
+                              - (isMythic true || isPlayer true) true]}
+    - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60;conditions=[
+                              - (isMythic true || isPlayer true) true]}
+    - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190;conditions=[
+                              - (isMythic true || isPlayer true) true]}
+    - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10;conditions=[
+                              - (isMythic true || isPlayer true) true]}
+    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20;conditions=[
+                              - isMythic true]}
 Accion:
   TriggerConditions:
     - variableEquals{key=caster.posc;value="derecha"} Cast GirarDerecha
