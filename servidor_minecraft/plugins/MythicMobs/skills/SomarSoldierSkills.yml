@@ -216,7 +216,7 @@ CtpPosicion1:
 CtpPosicion2:
     Skills:
 #      - msg{m="&e Posición <caster.var.posc> "} @NearestPlayer
-      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - buscar
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
   Conditions:
