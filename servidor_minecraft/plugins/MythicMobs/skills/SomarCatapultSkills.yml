@@ -61,6 +61,9 @@ explotar:
 montarCtp:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
+DesmontarCtp:
+  Skills:
+    - DismountModel{driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}

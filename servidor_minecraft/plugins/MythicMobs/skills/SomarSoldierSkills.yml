@@ -225,7 +225,7 @@ buscLadoCtpDere:
     Skills:
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - delay 20
-      - goto{} @Forward{a=7}
+      - sudoSkill{s=DesmontarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - msg{m="&c girando"} @NearestPlayer
 
 avisarIda:
