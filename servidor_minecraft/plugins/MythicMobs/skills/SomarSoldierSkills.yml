@@ -216,13 +216,16 @@ CtpPosicion1:
 CtpPosicion2:
     Skills:
 #      - msg{m="&e Posición <caster.var.posc> "} @NearestPlayer
-      - skill{s=buscLadoCtpDere} ~onTimer:40
+      - skill{s=buscLadoCtpDere}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 buscLadoCtpDere:
+    Cooldown: 100
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
-      - setrotation{yaw=<target.l.yaw>}
+      - setrotation{relative=true;pitch=0;yaw=15} @Self
+      - msg{m="&e girando"} @NearestPlayer
+
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
