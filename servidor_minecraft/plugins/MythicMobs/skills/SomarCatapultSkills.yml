@@ -5,8 +5,6 @@ CPrepareModelSomar:
     - setvariable{var=caster.solds;t=string;value="false"}
     - setFaction{faction=Somar} @NearestPlayer
 Disparar:
-  TriggerConditions:
-    - itemissimilar{item=iron_axe;slot=hand} false
   Skills:
     - skill{s=lanzarBloque}
 lanzarBloque:
@@ -34,10 +32,9 @@ ContornoVariabs:
                               - isMythic true]}
 Accion:
   TriggerConditions:
-    - variableEquals{key=caster.posc;value="derecha"} Cast GirarDerecha
-    - variableEquals{key=caster.posc;value="izquierda"} Cast GirarIzquierda
-    - variableEquals{key=caster.posc;value="atras"} Cast Disparar
-#    - variableEquals{key=target.posc;value="lejos"} true
+    - variableEquals{key=caster.posc;value="derecha"} itemissimilar{item=iron_axe;slot=hand} false) Cast GirarDerecha
+    - (variableEquals{key=caster.posc;value="izquierda"} && itemissimilar{item=iron_axe;slot=hand} false) Cast GirarIzquierda
+    - (variableEquals{key=caster.posc;value="atras"} && itemissimilar{item=iron_axe;slot=hand} false) Cast Disparar
   Skills:
     - cancelevent
 #    - message{m="interactuando"} @NearestPlayer
