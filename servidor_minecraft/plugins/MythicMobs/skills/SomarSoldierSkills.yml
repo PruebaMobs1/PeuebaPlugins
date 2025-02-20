@@ -225,7 +225,7 @@ buscLadoCtpDere:
     Skills:
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - delay 20
-      - DismountModel{driver=false;pbone=asientoprinc,asientoIzq,asientoDere} @Self
+      - DismountModel{driver=false;pbone=asientoIzq} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - delay 40
       - msg{m="&c girando"} @NearestPlayer
 
