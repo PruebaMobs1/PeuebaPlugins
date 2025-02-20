@@ -37,13 +37,13 @@ Accion:
     - variableEquals{key=caster.posc;value="atras"} Cast Disparar
 #    - variableEquals{key=target.posc;value="lejos"} true
   Skills:
-    - skill{s=filtrarDano}
+    - cancelevent
 #    - message{m="interactuando"} @NearestPlayer
 filtrarDano:
-  Conditions:
-    - itemissimilar{item=iron_axe;slot=hand} true
+  TriggerConditions:
+    - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
+      || itemissimilar{item=golden_axe} || itemissimilar{item=netherite_axe}) orElseCast Accion
   Skills:
-
 GirarDerecha:
   Skills:
     - cancelevent

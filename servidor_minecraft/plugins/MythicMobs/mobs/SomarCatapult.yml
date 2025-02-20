@@ -21,6 +21,6 @@ SomarCatapult:
     - skill{s=Mira} @Self ~onTimer:10
     - skill{s=revSoldCtp} @EIR{r=40} ~onTimer:40
     - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:5
-    - skill{s=Accion;Sync=true} ~onDamaged
+    - skill{s=filtrarDano;Sync=true} ~onDamaged
     - projectile{bullet=block;material=STONE} @Target ~onTimer:20
     - message{m="Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:40
