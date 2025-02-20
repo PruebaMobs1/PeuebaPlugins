@@ -32,12 +32,18 @@ ContornoVariabs:
                               - isMythic true]}
 Accion:
   TriggerConditions:
-    - variableEquals{key=caster.posc;value="derecha"} itemissimilar{item=iron_axe;slot=hand} false) Cast GirarDerecha
-    - (variableEquals{key=caster.posc;value="izquierda"} && itemissimilar{item=iron_axe;slot=hand} false) Cast GirarIzquierda
-    - (variableEquals{key=caster.posc;value="atras"} && itemissimilar{item=iron_axe;slot=hand} false) Cast Disparar
+    - variableEquals{key=caster.posc;value="derecha"} Cast GirarDerecha
+    - variableEquals{key=caster.posc;value="izquierda"} Cast GirarIzquierda
+    - variableEquals{key=caster.posc;value="atras"} Cast Disparar
+#    - variableEquals{key=target.posc;value="lejos"} true
   Skills:
-    - cancelevent
+    - skill{s=filtrarDano}
 #    - message{m="interactuando"} @NearestPlayer
+filtrarDano:
+  Conditions:
+    - itemissimilar{item=iron_axe;slot=hand} true
+  Skills:
+
 GirarDerecha:
   Skills:
     - cancelevent
