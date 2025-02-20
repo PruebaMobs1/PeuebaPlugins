@@ -219,15 +219,12 @@ CtpPosicion2:
       - skill{s=buscLadoCtpDere}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 buscLadoCtpDere:
-    Cooldown: 200
+    Cooldown:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
-      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 20
-      - DismountModel{driver=false;pbone=asientoIzq} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 40
       - msg{m="&c girando"} @NearestPlayer
+      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 avisarIda:
   Conditions:
