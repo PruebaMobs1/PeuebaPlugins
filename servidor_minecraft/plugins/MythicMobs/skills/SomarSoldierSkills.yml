@@ -224,7 +224,8 @@ buscLadoCtpDere:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
       - msg{m="&c girando"} @NearestPlayer
-      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - delay 20
+      - sudoSkill{s=DesmontarCtp;t=@UniqueIdentifier{uuid=<caster.var.catapultuuid>}} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 
 avisarIda:
   Conditions:
