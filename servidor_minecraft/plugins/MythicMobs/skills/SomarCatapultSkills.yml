@@ -66,7 +66,13 @@ montarCtp:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
 DesmontarCtp:
   Skills:
+    - dismountall{mid=CatapultaSomarfinal;p=asientoprinc,asientoIzq,asientoDere;sync=true} @self
+DesmontarIzqCtp:
+  Skills:
     - dismountall{mid=CatapultaSomarfinal;p=asientoIzq;sync=true} @self
+DesmontarDereCtp:
+  Skills:
+    - dismountall{mid=CatapultaSomarfinal;p=asientoDere;sync=true} @self
 MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
