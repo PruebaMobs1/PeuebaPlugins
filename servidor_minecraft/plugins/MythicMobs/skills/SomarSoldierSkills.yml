@@ -216,14 +216,15 @@ CtpPosicion1:
 CtpPosicion2:
     Skills:
 #      - msg{m="&e Posición <caster.var.posc> "} @NearestPlayer
-      - skill{s=buscLadoCtpDere}
+      - skill{s=buscLadoCtpIzq}
 #      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-buscLadoCtpDere:
+buscLadoCtpIzq:
     Cooldown:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
-      - msg{m="&c girando"} @NearestPlayer
+      - msg{m="&c montando"} @NearestPlayer
+      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
       - delay 20
       - sudoSkill{s=DesmontarCtp} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
