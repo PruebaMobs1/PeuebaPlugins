@@ -225,7 +225,7 @@ buscLadoCtpIzq:
     Skills:
       - msg{m="&c montando"} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 20
+      - delay 10
       - sudoSkill{s=DesmontarCtp} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
   Conditions:
