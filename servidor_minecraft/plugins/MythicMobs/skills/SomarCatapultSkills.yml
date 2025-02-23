@@ -3,10 +3,16 @@ CPrepareModelSomar:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
+    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
     - setFaction{faction=Somar} @NearestPlayer
+soldsApuntar:
+  Skills:
+    - 
 Disparar:
   Skills:
     - skill{s=lanzarBloque}
+#CargarBloque:
+
 lanzarBloque:
   Cooldown: 15
   Skills:
