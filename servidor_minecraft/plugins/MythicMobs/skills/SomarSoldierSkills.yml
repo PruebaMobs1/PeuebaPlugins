@@ -209,6 +209,7 @@ CatapultaAlcanzada:
   Skills:
 #    - skill{s=CtpPosicion1} @Self
     - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - setai{ai=false}
 CtpPosicion1:
     Skills:
       - msg{m="&e Montando *** "} @NearestPlayer
