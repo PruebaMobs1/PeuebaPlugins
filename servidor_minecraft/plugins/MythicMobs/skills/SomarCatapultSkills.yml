@@ -5,9 +5,9 @@ CPrepareModelSomar:
     - setvariable{var=caster.solds;t=string;value="false"}
     - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
     - setFaction{faction=Somar} @NearestPlayer
-soldsApuntar:
-  Skills:
-    - 
+#soldsApuntar:
+#  Skills:
+#    - 
 Disparar:
   Skills:
     - skill{s=lanzarBloque}
@@ -136,6 +136,7 @@ reclutCatapulteros:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
+  Cooldown: 50
   TargetConditions:
     - faction{f=SomarCatapultero} orElseCast reclutCatapulteros @EIR{r=50}
   Skills:
