@@ -205,6 +205,7 @@ CatapultaAlcanzada:
   Conditions:
     - variableEquals{var=caster.catapulta;t=Integer;value=1} cast CtpPosicion1
     - variableEquals{var=caster.catapulta;t=Integer;value=2} cast CtpPosicion2
+    - variableEquals{var=caster.catapulta;t=Integer;value=3} cast CtpPosicion3
   Skills:
 #    - skill{s=CtpPosicion1} @Self
     - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
