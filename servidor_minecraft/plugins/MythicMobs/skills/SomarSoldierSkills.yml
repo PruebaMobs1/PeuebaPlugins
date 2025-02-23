@@ -207,26 +207,25 @@ CatapultaAlcanzada:
     - variableEquals{var=caster.catapulta;t=Integer;value=2} cast CtpPosicion2
     - variableEquals{var=caster.catapulta;t=Integer;value=3} cast CtpPosicion3
   Skills:
-#    - skill{s=CtpPosicion1} @Self
-    - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
-    - setai{ai=false}
 CtpPosicion1:
     Skills:
-      - msg{m="&e Montando *** "} @NearestPlayer
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-#      - setrotation{yaw=<target.l.yaw>}  @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+      - setai{ai=false}
 CtpPosicion2:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
-      - msg{m="&c montando"} @NearestPlayer
       - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+      - setai{ai=false}
 CtpPosicion3:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
-      - msg{m="&c montando"} @NearestPlayer
       - sudoSkill{s=soldEmpjCtpDere;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+      - setai{ai=false}
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
