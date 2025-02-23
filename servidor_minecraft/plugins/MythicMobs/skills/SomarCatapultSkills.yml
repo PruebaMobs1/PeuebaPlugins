@@ -13,7 +13,7 @@ lanzarBloque:
     - state{mid=CatapultaSomarfinal;s=animationLanzarBloque3} @Self
 #    - message{m="disparando"} @NearestPlayer
     - delay 55
-    - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;onHitBlockSkill=explotar;dd=300} @Forward{a=10}
+    - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;onHitBlockSkill=explocion;dd=300} @Forward{a=10}
 
 ContornoVariabs: 
   TargetConditions:
@@ -54,7 +54,7 @@ GirarIzquierda:
     - cancelevent
     - message{m="interactuandoI"} @NearestPlayer
     - setrotation{relative=true;pitch=0;yaw=-15} @Self
-explotar:
+explocion:
   Skills:
     - explosion{fire=true;y=10;bd=true} @Origin
     - effect:particles @RandomLocationsNearOrigin{r=4;a=7}
