@@ -64,6 +64,15 @@ explotar:
 montarCtp:
   Skills:
     - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=asientoprinc,asientoIzq,asientoDere}
+soldEmpjCtp:
+  Skills:
+    - dismountall{mid=CatapultaSomarfinal;p=asientoprinc,asientoIzq,asientoDere;sync=true} @self
+soldEmpjCtpDere:
+  Skills:
+    - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=empujar_posc_Dere}
+soldEmpjCtpIzq:
+  Skills:
+    - mountmodel{mid=CatapultaSomarfinal;mode=walking;driver=false;pbone=empujar_posc_Izq}
 DesmontarCtp:
   Skills:
     - dismountall{mid=CatapultaSomarfinal;p=asientoprinc,asientoIzq,asientoDere;sync=true} @self

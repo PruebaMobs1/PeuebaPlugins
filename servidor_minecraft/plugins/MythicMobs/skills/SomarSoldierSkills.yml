@@ -224,18 +224,14 @@ buscLadoCtpIzq:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
       - msg{m="&c montando"} @NearestPlayer
-      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 5
-      - sudoSkill{s=DesmontarIzqCtp} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 buscLadoCtpDere:
     Cooldown:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
       - msg{m="&c montando"} @NearestPlayer
-      - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - delay 10
-      - sudoSkill{s=DesmontarDereCtp} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+      - sudoSkill{s=soldEmpjCtpDere;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 avisarIda:
   Conditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=1} castInstead avisarIda1
