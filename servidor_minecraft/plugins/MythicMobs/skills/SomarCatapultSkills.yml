@@ -92,31 +92,31 @@ MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=1}
-    - setvariable{var=caster.sold1;t=String;value="true"}
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
-    - setFaction{faction=SomarCatapultero}
-    - projectile{bullet=block;material=STONE}
+    - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
+    - setvariable{var=caster.sold1;t=String;value="true"} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - setFaction{faction=SomarCatapultero} @Target
+    - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=2}
-    - setvariable{var=caster.sold2;t=String;value="true"}
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
-    - setFaction{f=SomarCatapultero}
+    - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
+    - setvariable{var=caster.sold2;t=String;value="true"} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult3:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=3}
-    - setvariable{var=caster.sold3;t=String;value="true"}
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
-    - setFaction{f=SomarCatapultero}
-    - projectile{bullet=block;material=STONE}
+    - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
+    - setvariable{var=caster.sold3;t=String;value="true"} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - setFaction{f=SomarCatapultero} @Target
+    - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 reclutCatapulteros:
   Conditions:
@@ -125,13 +125,14 @@ reclutCatapulteros:
   TargetConditions:
     - faction{faction=Somar}
   Skills:
+    - message{m="&a Reclutamiento Iniciado - <caster.var.solds>"} @NearestPlayer
     - setvariable{var=caster.solds;t=String;value="true"} @Self
     - delay 20
-    - Skill{s=MarcCatapult1} @Target
+    - Skill{s=MarcCatapult1}
     - delay 20
-    - Skill{s=MarcCatapult2} @Target
+    - Skill{s=MarcCatapult2}
     - delay 20
-    - Skill{s=MarcCatapult3} @Target
+    - Skill{s=MarcCatapult3}
     - delay 20 
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
@@ -147,7 +148,7 @@ ctprsPerdidos:
     - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
     - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3
   Skills:
-    - msg{m="&9 Soldados completos"} @World
+    - msg{m="&9 Soldados completos"} @NearestPlayer
 
 #avisJugador:
 #  Skills:
