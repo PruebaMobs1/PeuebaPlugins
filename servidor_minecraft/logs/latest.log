@@ -312,3 +312,632 @@
 [20:32:09] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
 [20:32:09] [Server thread/INFO]: [CJML5067: Killed 94 entities]
 [20:32:14] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 10
+[20:34:41] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:34:41] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 79 skills.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:34:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:34:41] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:34:41] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 21 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:49] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 16 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:50] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 13 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 15 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:52] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 21 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:53] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 12 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:54] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 10 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:55] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 7 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:56] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/ERROR]: Thread Craft Scheduler Thread - 12 - MythicMobs failed main thread check: getNearbyEntities
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277) ~[MythicMobs-5.7.2 (1).jar:?]
+	at java.util.Collection.removeIf(Collection.java:583) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93) ~[MythicMobs-5.7.2 (1).jar:?]
+	at io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184) ~[MythicMobs-5.7.2 (1).jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Condition lookingAt
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Condition Line: lookingat{b=@Self} true
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: java.lang.IllegalStateException: Asynchronous getNearbyEntities!
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.getNearbyEntities(CraftWorld.java:1132)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1188)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1167)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftWorld.rayTraceEntities(CraftWorld.java:1161)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.conditions.all.LookingAtCondition.check(LookingAtCondition.java:54)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.lambda$evaluateTargets$2(SkillCondition.java:277)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.Collection.removeIf(Collection.java:583)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateTargets(SkillCondition.java:272)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:368)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.executeMobTimerSkills(SkillExecutor.java:251)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:233)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:181)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:184)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:34:59] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:37:27] [Server thread/INFO]: [Mythic] Reloading plugin...
+[20:37:27] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[20:37:27] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[20:37:27] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:37:28] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 79 skills.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:37:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:37:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[20:37:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[20:37:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2721, uuid='6e51e7d0-eb4f-4ac9-88ef-f0a133bc1891', l='ServerLevel[world]', x=-306.16, y=68.00, z=477.68, cpos=[-20, 29], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2740, uuid='15caf383-1ba0-45c0-9614-067e02d6d13f', l='ServerLevel[world]', x=-307.93, y=69.00, z=478.36, cpos=[-20, 29], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2701, uuid='e12e2375-08b4-4cdb-a27e-6dad5a89c6ae', l='ServerLevel[world]', x=-328.41, y=66.00, z=482.03, cpos=[-21, 30], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2606, uuid='ce84d3ab-c72d-4d69-93d5-33fcd359446c', l='ServerLevel[world]', x=-338.60, y=62.00, z=513.40, cpos=[-22, 32], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2741, uuid='1a342bd4-b42d-4f86-9ff4-1ede77ad4f06', l='ServerLevel[world]', x=-349.87, y=67.00, z=553.57, cpos=[-22, 34], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2609, uuid='3eee5efc-8609-4d37-bba2-1275574ceb48', l='ServerLevel[world]', x=-322.60, y=67.00, z=476.71, cpos=[-21, 29], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2627, uuid='82611384-9526-4a6e-a1de-8e051b5fb255', l='ServerLevel[world]', x=-323.66, y=67.00, z=486.45, cpos=[-21, 30], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2682, uuid='7963cf48-e38a-46cb-9aed-dbbc1cb72339', l='ServerLevel[world]', x=-304.62, y=69.00, z=484.97, cpos=[-20, 30], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2702, uuid='7e0a880c-76ca-4225-ab6e-dc2d89c4fb39', l='ServerLevel[world]', x=-322.99, y=67.00, z=483.58, cpos=[-21, 30], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2607, uuid='066cc706-01fb-42a4-99ed-ca322c87a511', l='ServerLevel[world]', x=-300.44, y=66.00, z=496.00, cpos=[-19, 30], tl=6394, v=true] died: Soldado Somar was killed
+[20:37:33] [Server thread/INFO]: [CJML5067: Killed 130 entities]
+[20:37:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:37:34] [Server thread/INFO]: [CJML5067: Killed 94 entities]
+[20:37:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 10
+[20:37:50] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:37:58] [Server thread/WARN]: CJML5067 moved too quickly! -0.5902666919773196,-1.3266532682272043,10.057397454917805
+[20:39:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:39:47] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
+[20:39:47] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
+[20:41:30] [Server thread/INFO]: CJML5067 issued server command: /gamemode creative
+[20:41:30] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
+[20:42:34] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
+[20:42:34] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
+[20:42:51] [Server thread/INFO]: CJML5067 issued server command: /gamemode creative
+[20:42:51] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
+[20:42:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:42:55] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/3908, uuid='2f745193-e998-4f03-aa27-3f1c10798f91', l='ServerLevel[world]', x=-325.87, y=69.00, z=516.64, cpos=[-21, 32], tl=6085, v=true] died: Catapulta Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3792, uuid='f9061131-2c00-441d-a05c-c016cb238e5a', l='ServerLevel[world]', x=-321.65, y=70.00, z=509.39, cpos=[-21, 31], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3678, uuid='e22f06df-1d0b-4f98-93a5-19425b7cb5d4', l='ServerLevel[world]', x=-324.92, y=68.99, z=513.36, cpos=[-21, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3811, uuid='66c6d141-e66b-496f-9196-a0ee75b881a2', l='ServerLevel[world]', x=-323.33, y=68.99, z=518.95, cpos=[-21, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3707, uuid='85fea067-4e33-4da2-ad84-4b1893d63696', l='ServerLevel[world]', x=-322.77, y=71.71, z=519.57, cpos=[-21, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3754, uuid='77db2a34-0bf0-4b59-bc65-8d69ce684f40', l='ServerLevel[world]', x=-323.71, y=76.52, z=516.00, cpos=[-21, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4438, uuid='dd1fd3a8-e467-4b2e-ba09-479f297b7fd3', l='ServerLevel[world]', x=-330.08, y=62.00, z=533.98, cpos=[-21, 33], tl=3941, v=true] died: Catapulta Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3679, uuid='5dac1b4c-b16e-45cb-8994-18c6b8ee990e', l='ServerLevel[world]', x=-309.45, y=70.00, z=488.61, cpos=[-20, 30], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3849, uuid='bd2090dc-6fcd-4ebb-becb-7c09a785e903', l='ServerLevel[world]', x=-284.19, y=68.00, z=458.04, cpos=[-18, 28], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3717, uuid='6935b0a3-0f6c-4fc5-ab33-535cae74756d', l='ServerLevel[world]', x=-295.55, y=64.00, z=506.67, cpos=[-19, 31], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3830, uuid='6480ea7b-111b-4b71-8bbb-c2a20c42db9b', l='ServerLevel[world]', x=-324.68, y=71.84, z=512.57, cpos=[-21, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3773, uuid='a3485008-9589-4810-9794-b4a1bef5a017', l='ServerLevel[world]', x=-313.69, y=71.00, z=512.45, cpos=[-20, 32], tl=6329, v=true] died: Soldado Somar was killed
+[20:42:55] [Server thread/INFO]: [CJML5067: Killed 153 entities]
+[20:42:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[20:42:55] [Server thread/INFO]: [CJML5067: Killed 95 entities]
+[20:42:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:42:59] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:42:59] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[20:43:00] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[20:43:09] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[20:43:21] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
