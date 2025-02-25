@@ -94,6 +94,7 @@ MarcCatapult1:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=1}
     - setvariable{var=caster.sold1;t=String;value="true"}
+    - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{faction=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
@@ -104,6 +105,7 @@ MarcCatapult2:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=2}
     - setvariable{var=caster.sold2;t=String;value="true"}
+    - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
@@ -114,6 +116,7 @@ MarcCatapult3:
   Skills:
     - setvariable{var=target.catapulta;t=INTEGER;value=3}
     - setvariable{var=caster.sold3;t=String;value="true"}
+    - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
     - setFaction{f=SomarCatapultero}
     - projectile{bullet=block;material=STONE}
@@ -144,9 +147,9 @@ revSoldCtp:
     - skill{s=ctprsPerdidos} @EIR{r=50}
 ctprsPerdidos:
   Conditions:
-    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1
-    - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
-    - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3
+    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1 @Target
+    - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2 @Target
+    - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3 @Target
   Skills:
     - msg{m="&9 Soldados completos"} @NearestPlayer
 
