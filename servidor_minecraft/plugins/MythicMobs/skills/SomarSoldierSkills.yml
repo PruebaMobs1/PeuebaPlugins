@@ -1,6 +1,6 @@
 Pruebavariable:
   Skills:
-    - message{m="&e Catapultero - <caster.var.catapulta> - de catapulta - <caster.var.catapultuuid>"} @NearestPlayer
+    - message{m="&e Catapultero - <caster.var.catapulta> - de catapulta - <caster.var.catapultuuid>"}
 pruebaFaccion:
   Conditions:
     - faction{faction=Somar} orElseCast noFaccion
@@ -210,21 +210,21 @@ CatapultaAlcanzada:
 CtpPosicion1:
     Skills:
       - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+#      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
       - setai{ai=false}
 CtpPosicion2:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
       - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+#      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
       - setai{ai=false}
 CtpPosicion3:
     Conditions:
       - variableEquals{var=caster.posc;t=String;value="derecha"} false
     Skills:
       - sudoSkill{s=soldEmpjCtpDere;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+#      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
       - setai{ai=false}
 avisarIda:
   Conditions:
