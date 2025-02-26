@@ -101,9 +101,9 @@ MarcCatapult1:
     - delay 10
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - sudoSkill{s=reportarseACatapult} @Target
-    - setFaction{faction=SomarCatapultero} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
+    - sudoSkill{s=reportarseACatapult1} @Target
+    - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
@@ -112,9 +112,9 @@ MarcCatapult2:
     - delay 10
     - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - sudoSkill{s=reportarseACatapult} @Target
-    - setFaction{f=SomarCatapultero} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
+    - sudoSkill{s=reportarseACatapult2} @Target
+    - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult3:
@@ -123,8 +123,8 @@ MarcCatapult3:
     - delay 10
     - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - sudoSkill{s=reportarseACatapult} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
+    - sudoSkill{s=reportarseACatapult3} @Target
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self

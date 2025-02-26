@@ -189,14 +189,7 @@ MuerteExtAnimation:
     - state{mid=SomarSoldier;s=death2} @Self
     - msg{m=intentoEnviarSenal} @NearestPlayer
 
-#Ir a catapulta
-reportarseACatapult:
-  Conditions:
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=1} cast reportarseACatapult1
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=2} cast reportarseACatapult2
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=3} cast reportarseACatapult3
-  Skills:
-    - msg{m="reportandose soldado <caster.var.catapulta>"}
+#Reportarse a catapulta
 reportarseACatapult1:
   Skills:
     - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
