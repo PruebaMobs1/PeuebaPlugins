@@ -98,11 +98,11 @@ MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
+    - setFaction{faction=SomarCatapultero} @Target
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
     - sudoSkill{s=reportarseACatapult1} @Target
-    - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
