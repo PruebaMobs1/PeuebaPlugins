@@ -137,6 +137,8 @@ reclutCatapulteros:
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
   Cooldown: 20
+  Conditions:
+    - targets{t=>0}
   TargetConditions:
     - faction{f=SomarCatapultero} orElseCast reclutCatapulteros
   Skills:
