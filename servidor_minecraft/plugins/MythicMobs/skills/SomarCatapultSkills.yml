@@ -128,6 +128,7 @@ MarcCatapult3:
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
+
 reclutCatapulteros:
   Conditions:
     - targets{a=>2}
