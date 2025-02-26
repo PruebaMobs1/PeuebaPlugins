@@ -5,9 +5,9 @@ CPrepareModelSomar:
     - setvariable{var=caster.solds;t=string;value="false"}
 #    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
     - setvariable{var=caster.sold1;t=String;value="false"}
-    - delay 30
+    - delay 10
     - setvariable{var=caster.sold2;t=String;value="false"}
-    - delay 30
+    - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
 #    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
