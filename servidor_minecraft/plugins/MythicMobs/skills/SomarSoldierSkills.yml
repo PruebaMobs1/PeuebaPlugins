@@ -198,6 +198,7 @@ reportarseACatapult2:
     - setvariable{var=target.sold2;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 reportarseACatapult3:
   Skills:
+    - msg{m=&e Reporte} @NearestPlayer
     - setvariable{var=target.sold3;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 IrACataputa:
   Cooldown: 50
