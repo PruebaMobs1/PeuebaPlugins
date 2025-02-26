@@ -150,7 +150,7 @@ reclutCatapulteros:
 revSoldCtp:
   Cooldown: 20
   TargetConditions:
-    - faction{f=SomarCatapultero} orElseCast reclutCatapulteros
+    - faction{f=Somar} true
   Skills:
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
