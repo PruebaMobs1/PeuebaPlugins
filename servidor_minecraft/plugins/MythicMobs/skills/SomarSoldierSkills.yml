@@ -191,17 +191,21 @@ MuerteExtAnimation:
 
 #Ir a catapulta
 reportarseACatapult:
+  Conditions:
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=1} cast reportarseACatapult1
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=2} cast reportarseACatapult2
+    - variableEquals{var=caster.catapulta;t=INTEGER;value=3} cast reportarseACatapult3
   Skills:
-    - msg{m="reportandose soldado <caster.sold>"}
+    - msg{m="reportandose soldado <caster.var.catapulta>"}
 reportarseACatapult1:
   Skills:
     - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 reportarseACatapult2:
   Skills:
-    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold2;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 reportarseACatapult3:
   Skills:
-    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold3;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 IrACataputa:
   Cooldown: 50
   Skills:
