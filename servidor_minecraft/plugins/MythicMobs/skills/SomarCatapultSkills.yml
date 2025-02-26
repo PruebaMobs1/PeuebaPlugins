@@ -95,13 +95,9 @@ DesmontarDereCtp:
     - dismountall{mid=CatapultaSomarfinal;p=asientoDere;sync=true} @self
 
 MarcCatapult1:
-  Conditions:
-    - variableEquals{var=caster.sold1;t=String;value="false"} true
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
-
-    - delay 10
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
@@ -111,7 +107,7 @@ MarcCatapult1:
     - clearthreat @Self
 MarcCatapult2:
   Conditions:
-    - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
+    - variableEquals{var=caster.sold2;t=String;value="true"} castInstead MarcCatapult2
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
@@ -124,7 +120,7 @@ MarcCatapult2:
     - clearthreat @Self
 MarcCatapult3:
   Conditions:
-    - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
+    - variableEquals{var=caster.sold3;t=String;value="true"} castInstead MarcCatapult2
   Skills:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
@@ -156,16 +152,17 @@ reclutCatapulteros:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
-  Cooldown: 20
+  TargetConditions:
+    - faction{f=Somar} orElseCast ctprsPerdidos
+  Skills:
+ctprsPerdidos:
   Conditions:
-    - (variableEquals{var=caster.sold3;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold1;t=String;value="false"}) castInstead ctprsPerdidos
+    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1
+    - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
+    - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3
   Skills:
     - msg{m="&9 Soldados completos"} @NearestPlayer
-ctprsPerdidos:
-  TargetConditions:
-    - faction{f=Somar} castInstead MarcCatapult3
-  Skills:
-    - msg{m="No hay mas soldados"}
+
 #avisJugador:
 #  Skills:
 #    - msg{m="Se te invito a ser catapultero, en el puesto <target.var.catapulta>"} @Target
