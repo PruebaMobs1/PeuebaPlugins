@@ -93,6 +93,7 @@ DesmontarIzqCtp:
 DesmontarDereCtp:
   Skills:
     - dismountall{mid=CatapultaSomarfinal;p=asientoDere;sync=true} @self
+
 MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
@@ -107,6 +108,8 @@ MarcCatapult1:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
+  Conditions:
+    - variableEquals{var=caster.sold2;t=String;value="true"} castInstead MarcCatapult2
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
@@ -118,6 +121,8 @@ MarcCatapult2:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult3:
+  Conditions:
+    - variableEquals{var=caster.sold3;t=String;value="true"} castInstead MarcCatapult2
   Skills:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
