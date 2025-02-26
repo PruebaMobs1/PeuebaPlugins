@@ -156,10 +156,9 @@ reclutCatapulteros:
     - setvariable{var=caster.solds;t=String;value="false"} @Self
     - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
+  Cooldown: 20
   Conditions:
-    - variableEquals{var=caster.sold3;t=String;value="false"}  
-      || variableEquals{var=caster.sold2;t=String;value="false"} 
-      || variableEquals{var=caster.sold1;t=String;value="false"} castInstead ctprsPerdidos
+    - (variableEquals{var=caster.sold3;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold1;t=String;value="false"}) castInstead ctprsPerdidos
   Skills:
     - msg{m="&9 Soldados completos"} @NearestPlayer
 ctprsPerdidos:
