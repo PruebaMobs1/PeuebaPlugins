@@ -3,8 +3,13 @@ CPrepareModelSomar:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
-    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
-    - setFaction{faction=Somar} @NearestPlayer
+#    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
+    - setvariable{var=caster.sold1;t=String;value="false"}
+    - delay 30
+    - setvariable{var=caster.sold2;t=String;value="false"}
+    - delay 30
+    - setvariable{var=caster.sold3;t=String;value="false"}
+#    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
 #    - 
@@ -92,31 +97,31 @@ MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
+    - clearthreat @Self
     - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
     - setvariable{var=caster.sold1;t=String;value="true"}
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
-    - clearthreat @Self
 MarcCatapult2:
   Skills:
+    - clearthreat @Self
     - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
     - setvariable{var=caster.sold2;t=String;value="true"}
     - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
-    - clearthreat @Self
 MarcCatapult3:
   Skills:
+    - clearthreat @Self
     - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
     - setvariable{var=caster.sold3;t=String;value="true"}
     - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
-    - clearthreat @Self
 reclutCatapulteros:
   Conditions:
     - targets{a=>2}
@@ -142,7 +147,7 @@ revSoldCtp:
   Skills:
     - skill{s=ctprsPerdidos}
 ctprsPerdidos:
-  Cooldown: 20
+  Cooldown: 10
   Conditions:
     - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1
     - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
