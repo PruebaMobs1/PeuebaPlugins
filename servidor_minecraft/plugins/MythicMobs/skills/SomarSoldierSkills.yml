@@ -190,6 +190,18 @@ MuerteExtAnimation:
     - msg{m=intentoEnviarSenal} @NearestPlayer
 
 #Ir a catapulta
+reportarseACatapult:
+  Skills:
+    - msg{m="reportandose soldado <caster.sold>"}
+reportarseACatapult1:
+  Skills:
+    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+reportarseACatapult2:
+  Skills:
+    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+reportarseACatapult3:
+  Skills:
+    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 IrACataputa:
   Cooldown: 50
   Skills:

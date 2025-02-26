@@ -97,28 +97,28 @@ MarcCatapult1:
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
-    - setvariable{var=caster.sold1;t=String;value="true"}
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - sudoSkill{s=reportarseACatapult} @Target
     - setFaction{faction=SomarCatapultero} @Target
+    - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
-    - setvariable{var=caster.sold2;t=String;value="true"}
     - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - sudoSkill{s=reportarseACatapult} @Target
     - setFaction{f=SomarCatapultero} @Target
+    - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult3:
   Skills:
-    - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
-    - setvariable{var=caster.sold3;t=String;value="true"}
     - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
+    - sudoSkill{s=reportarseACatapult} @Target
+    - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
