@@ -205,6 +205,7 @@ reportarseACatapult3:
     - setvariable{var=caster.sold3;t=String;value="reclutando"}@UniqueIdentifier{uuid=<caster.var.catapultuuid>}
     - delay 10
     - setvariable{var=target.sold3;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+#Ir a catapulta
 IrACataputa:
   Cooldown: 50
   Skills:
