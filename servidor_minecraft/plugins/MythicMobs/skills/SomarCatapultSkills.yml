@@ -10,9 +10,12 @@ CPrepareModelSomar:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
 #    - setFaction{faction=Somar} @NearestPlayer
-soldsApuntar:
+#soldsApuntar:
+#  Skills:
+#    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
+Avanzar:
   Skills:
-    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
+    - 
 Disparar:
   Skills:
     - skill{s=lanzarBloque}
