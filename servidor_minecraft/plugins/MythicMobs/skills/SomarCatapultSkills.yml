@@ -13,13 +13,10 @@ CPrepareModelSomar:
 #soldsApuntar:
 #  Skills:
 #    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
-Avanzar:
-  Skills:
-    - state{s=animationEmpujarDerecha;mid=SomarSoldier} @MIR{r=6;conditions=[
-                                                                     - (hasaura{aura=Plagued} || 
-                                                                       haspotioneffect{type=WITHER;d=1to999999;l=0to254}) true 
-                                                                     ]}
-}
+
+#Avanzar:
+#  Skills:
+
 Disparar:
   Skills:
     - skill{s=lanzarBloque}
