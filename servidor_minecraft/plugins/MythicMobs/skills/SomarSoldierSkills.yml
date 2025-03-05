@@ -194,17 +194,17 @@ reportarseACatapult1:
   Skills:
     - setvariable{var=caster.sold1;t=String;value="reclutando"}@UniqueIdentifier{uuid=<caster.var.catapultuuid>}
     - delay 10
-    - setvariable{var=target.sold1;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold1;t=String;value="<caster.uuid>"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 reportarseACatapult2:
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}@UniqueIdentifier{uuid=<caster.var.catapultuuid>}
     - delay 10
-    - setvariable{var=target.sold2;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold2;t=String;value="<caster.uuid>"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 reportarseACatapult3:
   Skills:
     - setvariable{var=caster.sold3;t=String;value="reclutando"}@UniqueIdentifier{uuid=<caster.var.catapultuuid>}
     - delay 10
-    - setvariable{var=target.sold3;t=String;value="true"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - setvariable{var=target.sold3;t=String;value="<caster.uuid>"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Ir a catapulta
 IrACataputa:
   Cooldown: 50
