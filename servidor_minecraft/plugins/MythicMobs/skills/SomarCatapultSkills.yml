@@ -15,7 +15,7 @@ CPrepareModelSomar:
 #    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
 Avanzar:
   Skills:
-    - state{s=animationEmpujarDerecha;mid=SomarSoldier} @EIR{r=}
+    - state{s=animationEmpujarDerecha;mid=SomarSoldier} @MIR{r=6;}
 Disparar:
   Skills:
     - skill{s=lanzarBloque}
