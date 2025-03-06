@@ -215,8 +215,8 @@ PosicSoldCatapultero:
     - faction{f=SomarCatapultero} true
     - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
   Skills:
-#    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
-    - skill{s=IrACataputa}
+    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
+#    - skill{s=IrACataputa}
 CatapultaAlcanzada:
   Conditions:
     - variableEquals{var=caster.catapulta;t=Integer;value=1} cast CtpPosicion1

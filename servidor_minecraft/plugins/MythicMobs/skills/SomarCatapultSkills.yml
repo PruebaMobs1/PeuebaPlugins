@@ -14,10 +14,18 @@ CPrepareModelSomar:
 #  Skills:
 #    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
 
-#Avanzar:
+#AvanzarAnimation:
 #  Skills:
-#     - @UniqueIdentifier{uuid=<caster.var.sold2>}
-#     - @UniqueIdentifier{uuid=<caster.var.sold3>}
+#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
+#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
+
+#EmpujarDerechaAnimation:
+#  Skills:
+#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
+
+#EmpujarIzquierdaAnimation:
+#  Skills:
+#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
 
 Disparar:
   Skills:
@@ -111,6 +119,7 @@ MarcCatapult1:
     - sudoSkill{s=reportarseACatapult1} @Target
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
+    - sudoSkill{s=IrACataputa;t=@Self} @Target
     - clearthreat @Self
 MarcCatapult2:
   Cooldown: 20
