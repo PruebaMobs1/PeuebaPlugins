@@ -119,7 +119,6 @@ MarcCatapult1:
     - sudoSkill{s=reportarseACatapult1} @Target
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
-    - sudoSkill{s=IrACataputa;t=@Self} @Target
     - clearthreat @Self
 MarcCatapult2:
   Cooldown: 20
@@ -134,7 +133,6 @@ MarcCatapult2:
     - sudoSkill{s=reportarseACatapult2} @Target
     - setFaction{f=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
-    - sudoSkill{s=IrACataputa;t=@Self} @Target
     - clearthreat @Self
 MarcCatapult3:
   Cooldown: 20
@@ -149,8 +147,7 @@ MarcCatapult3:
     - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
     - sudoSkill{s=reportarseACatapult3} @Target
     - setFaction{f=SomarCatapultero} @Target
-    - missile{bullet=block;material=STONE} @Target
-    - sudoSkill{s=IrACataputa;t=@Self} @Target
+    - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 
 reclutCatapulteros:

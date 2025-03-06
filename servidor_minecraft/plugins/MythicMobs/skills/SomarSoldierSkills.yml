@@ -207,7 +207,7 @@ reportarseACatapult3:
     - setvariable{var=target.sold3;t=String;value="<caster.uuid>"} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #Ir a catapulta
 IrACataputa:
-  Cooldown: 50
+  Cooldown: 80
   Skills:
     - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
@@ -215,8 +215,8 @@ PosicSoldCatapultero:
     - faction{f=SomarCatapultero} true
     - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
   Skills:
-    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
-#    - skill{s=IrACataputa}
+#    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - skill{s=IrACataputa}
 CatapultaAlcanzada:
   Conditions:
     - variableEquals{var=caster.catapulta;t=Integer;value=1} cast CtpPosicion1
