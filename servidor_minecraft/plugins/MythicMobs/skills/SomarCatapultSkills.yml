@@ -109,7 +109,6 @@ DesmontarDereCtp:
     - dismountall{mid=CatapultaSomarfinal;p=asientoDere;sync=true} @self
 
 MarcCatapult1:
-  Cooldown: 20
   TargetConditions:
     - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
   Skills:
@@ -121,10 +120,10 @@ MarcCatapult1:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult2:
-  Cooldown: 20
   Conditions:
-    - variableEquals{var=caster.sold2;t=String;value="true"} castInstead MarcCatapult1
+    - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
   Skills:
+    - skill{s=Pruebas}
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
     - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
@@ -135,7 +134,6 @@ MarcCatapult2:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 MarcCatapult3:
-  Cooldown: 20
   Conditions:
     - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
   Skills:
@@ -175,11 +173,11 @@ revSoldCtp:
     - msg{m="&9No objetivos"} @NearestPlayer
 ctprsPerdidos:
   Conditions:
-  - (variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead MarcCatapult3
+  - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold1;t=String;value="false"}) castInstead MarcCatapult3
   Skills:
-  - globalcooldown{ticks=60}
+  - globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
-Prueba:
+Pruebas:
   Skills:
   - msg{m="&9 si ejecuta"} @NearestPlayer
 
