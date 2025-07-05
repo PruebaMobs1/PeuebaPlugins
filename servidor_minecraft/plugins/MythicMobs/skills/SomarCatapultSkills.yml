@@ -174,8 +174,6 @@ revSoldCtp:
   Skills:
 ctprsPerdidos:
   Conditions:
-    - variableEquals{var=caster.sold1;t=String;value="false"} castInstead MarcCatapult1
-    - variableEquals{var=caster.sold2;t=String;value="false"} castInstead MarcCatapult2
     - variableEquals{var=caster.sold3;t=String;value="false"} castInstead MarcCatapult3
   Skills:
     - globalcooldown{ticks=60}

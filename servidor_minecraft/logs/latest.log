@@ -1,676 +1,203 @@
-[11:58:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:58:38] [ServerMain/INFO]: Loaded 1174 recipes
-[11:58:39] [ServerMain/INFO]: Loaded 1271 advancements
-[11:58:39] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:58:39] [Server thread/INFO]: Loading properties
-[11:58:40] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[11:58:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:58:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:58:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:33:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:33:51] [ServerMain/INFO]: Loaded 1174 recipes
+[21:33:51] [ServerMain/INFO]: Loaded 1271 advancements
+[21:33:51] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:33:51] [Server thread/INFO]: Loading properties
+[21:33:52] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[21:33:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:33:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:33:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[11:58:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[11:58:44] [Server thread/INFO]: Default game type: SURVIVAL
-[11:58:44] [Server thread/INFO]: Generating keypair
-[11:58:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:58:45] [Server thread/INFO]: Using epoll channel type
-[11:58:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:58:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[11:58:46] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[11:58:48] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[11:58:48] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[11:58:48] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[11:58:48] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[11:58:48] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
-[11:58:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:58:48] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
-[11:58:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:58:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:58:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:58:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:58:49] [Server thread/INFO]: Preparing level "world"
-[11:58:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:58:52] [Server thread/INFO]: Time elapsed: 1991 ms
-[11:58:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:58:52] [Server thread/INFO]: Time elapsed: 67 ms
-[11:58:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:58:52] [Server thread/INFO]: Time elapsed: 148 ms
-[11:58:52] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[11:58:54] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
-[11:58:54] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[11:59:02] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
-[11:59:02] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
-[11:59:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[11:59:10] [Server thread/INFO]: [MythicMobs] Loading Items...
-[11:59:10] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[11:59:10] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[11:59:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[11:59:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[11:59:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[11:59:12] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[11:59:12] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[11:59:12] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[11:59:15] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[11:59:15] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[11:59:15] [Server thread/INFO]: Running delayed init tasks
-[11:59:15] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:59:15] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:59:15] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:59:15] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[11:59:15] [Server thread/INFO]: Done (35.403s)! For help, type "help"
-[11:59:15] [Server thread/INFO]: Timings Reset
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:59:16] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[11:59:17] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[11:59:17] [Craft Scheduler Thread - 5 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[11:59:22] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:59:22] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[12:01:45] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[12:01:45] [Server thread/INFO]: CJML5067 joined the game
-[12:01:46] [Server thread/INFO]: CJML5067[/127.240.192.59:45637] logged in with entity id 19 at ([world]-356.91327733399703, 78.53056471225953, 542.0088688223684)
-[12:02:07] [Server thread/INFO]: CJML5067 issued server command: /weather clear
-[12:02:07] [Server thread/INFO]: [CJML5067: Set the weather to clear]
-[12:02:12] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:02:15] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:15] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:18] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:18] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:18] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:24] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:24] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:24] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:27] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:27] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:27] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:30] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:30] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:30] [Craft Scheduler Thread - 10 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:39] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:39] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:39] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:43] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:02:45] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:02:45] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:03:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:03:37] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/175, uuid='c35b2d5a-3e0a-4c9d-9bbb-a07937fbd968', l='ServerLevel[world]', x=-333.15, y=62.00, z=520.41, cpos=[-21, 32], tl=1697, v=true] died: Catapulta Somar was killed
-[12:03:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/371, uuid='1c8fcc11-f419-4305-b3d1-59bc937ad8d6', l='ServerLevel[world]', x=-334.75, y=61.99, z=523.44, cpos=[-21, 32], tl=1086, v=true] died: Soldado Somar was killed
-[12:03:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/369, uuid='e4af0160-1c52-4448-8a74-0cf0434f0a35', l='ServerLevel[world]', x=-335.39, y=69.52, z=520.60, cpos=[-21, 32], tl=1087, v=true] died: Soldado Somar was killed
-[12:03:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/370, uuid='162d9761-7031-4ffc-bf9d-dfee112ca3cf', l='ServerLevel[world]', x=-335.16, y=61.99, z=517.65, cpos=[-21, 32], tl=1087, v=true] died: Soldado Somar was killed
-[12:03:37] [Server thread/INFO]: [CJML5067: Killed 139 entities]
-[12:03:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:03:39] [Server thread/INFO]: [CJML5067: Killed 164 entities]
-[12:03:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:03:50] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:03:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/987, uuid='76221b43-4b3c-4a72-9816-12de0d978e89', l='ServerLevel[world]', x=-338.51, y=62.00, z=531.55, cpos=[-22, 33], tl=68, v=true] died: Soldado Somar was killed
-[12:03:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/948, uuid='af5b88ac-8fe0-4c53-9985-a5e577c339bf', l='ServerLevel[world]', x=-338.46, y=62.00, z=527.23, cpos=[-22, 32], tl=68, v=true] died: Soldado Somar was killed
-[12:03:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/947, uuid='5c803e67-23c4-4a34-b77a-2fb6f7931ce7', l='ServerLevel[world]', x=-338.62, y=62.00, z=524.91, cpos=[-22, 32], tl=68, v=true] died: Soldado Somar was killed
-[12:03:50] [Server thread/INFO]: [CJML5067: Killed 155 entities]
-[12:04:01] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:04:01] [Server thread/INFO]: [CJML5067: Killed 192 entities]
-[12:04:03] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:04:06] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:04:06] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1450, uuid='a90f6f12-d2f9-4ae2-83ec-6b63b17b1969', l='ServerLevel[world]', x=-347.61, y=65.00, z=517.86, cpos=[-22, 32], tl=48, v=true] died: Soldado Somar was killed
-[12:04:06] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1430, uuid='41af25a0-e96b-4bf7-8a33-c4868d932b2f', l='ServerLevel[world]', x=-347.61, y=65.00, z=517.86, cpos=[-22, 32], tl=48, v=true] died: Soldado Somar was killed
-[12:04:06] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1429, uuid='bad2a94e-3c6b-4a6e-824e-9551fbfbf87a', l='ServerLevel[world]', x=-347.61, y=65.00, z=517.86, cpos=[-22, 32], tl=48, v=true] died: Soldado Somar was killed
-[12:04:06] [Server thread/INFO]: [CJML5067: Killed 194 entities]
-[12:04:16] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:04:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2611ms or 52 ticks behind
-[12:08:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:08:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1788, uuid='1b4115f9-cb9e-4ac2-8966-ab47c7578c0c', l='ServerLevel[world]', x=-322.92, y=67.00, z=490.95, cpos=[-21, 30], tl=4484, v=true] died: Soldado Somar was killed
-[12:08:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1787, uuid='81b57786-cdbf-49ae-aa45-b4571e18a348', l='ServerLevel[world]', x=-305.95, y=68.00, z=501.96, cpos=[-20, 31], tl=4484, v=true] died: Soldado Somar was killed
-[12:08:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1789, uuid='975bf487-10b6-4499-aff8-2ec49beaeba7', l='ServerLevel[world]', x=-330.68, y=63.00, z=558.48, cpos=[-21, 34], tl=4484, v=true] died: Soldado Somar was killed
-[12:08:02] [Server thread/INFO]: [CJML5067: Killed 214 entities]
-[12:08:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:08:03] [Server thread/INFO]: [CJML5067: Killed 144 entities]
-[12:08:08] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:09:03] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarEnemies
-[12:11:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2657, uuid='f7fabb3f-efca-49ba-8792-b6956478acee', l='ServerLevel[world]', x=-338.82, y=62.00, z=535.71, cpos=[-22, 33], tl=3825, v=true] died: Soldado Somar was slain by Soldado Enemigo
-[12:12:20] [Server thread/INFO]: Named entity EntityZombie['Soldado Enemigo'/2866, uuid='76501573-fd58-4e45-bd71-5445bc6c80f4', l='ServerLevel[world]', x=-327.58, y=62.00, z=534.15, cpos=[-21, 33], tl=3922, v=true] died: Soldado Enemigo was slain by Soldado Somar
-[12:12:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:12:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2677, uuid='630fa184-d85b-459d-af3a-08e9cba47ce3', l='ServerLevel[world]', x=-317.34, y=64.00, z=542.29, cpos=[-20, 33], tl=5447, v=true] died: Soldado Somar was killed
-[12:12:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2678, uuid='1639c34a-b0e5-422d-90b5-42c53c4e79d8', l='ServerLevel[world]', x=-349.44, y=72.00, z=571.00, cpos=[-22, 35], tl=5447, v=true] died: Soldado Somar was killed
-[12:12:40] [Server thread/INFO]: [CJML5067: Killed 153 entities]
-[12:12:43] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:12:43] [Server thread/INFO]: [CJML5067: Killed 147 entities]
-[12:12:47] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:13:02] [Server thread/INFO]: CJML5067 issued server command: /gamemode
-[12:13:12] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
-[12:13:12] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
-[12:13:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:13:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3767, uuid='53671bd2-796e-45e1-8a97-e49dd981c899', l='ServerLevel[world]', x=-316.48, y=70.00, z=506.59, cpos=[-20, 31], tl=1059, v=true] died: Soldado Somar was killed
-[12:13:40] [Server thread/INFO]: [CJML5067: Killed 154 entities]
-[12:13:42] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:13:42] [Server thread/INFO]: [CJML5067: Killed 140 entities]
-[12:13:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:15:24] [Server thread/INFO]: CJML5067 was slain by Soldado Somar
-[12:18:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:18:27] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4230, uuid='7eebf7a1-479e-4439-98c2-15fb12c78176', l='ServerLevel[world]', x=-343.61, y=63.00, z=540.99, cpos=[-22, 33], tl=5635, v=true] died: Soldado Somar was killed
-[12:18:27] [Server thread/INFO]: [CJML5067: Killed 157 entities]
-[12:18:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:18:29] [Server thread/INFO]: [CJML5067: Killed 153 entities]
-[12:18:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:20:08] [Server thread/INFO]: CJML5067 was slain by Soldado Somar
-[12:20:20] [Server thread/INFO]: CJML5067 issued server command: /time set day
-[12:20:20] [Server thread/INFO]: [CJML5067: Set the time to 1000]
-[12:20:34] [Server thread/INFO]: CJML5067 issued server command: /time set day
-[12:20:34] [Server thread/INFO]: [CJML5067: Set the time to 1000]
-[12:20:47] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:20:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5177, uuid='b36fa75f-d16f-4985-9340-3966b29cb37c', l='ServerLevel[world]', x=-327.56, y=62.00, z=520.03, cpos=[-21, 32], tl=2724, v=true] died: Soldado Somar was killed
-[12:20:47] [Server thread/INFO]: [CJML5067: Killed 161 entities]
-[12:20:48] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:20:48] [Server thread/INFO]: [CJML5067: Killed 89 entities]
-[12:21:00] [Server thread/INFO]: CJML5067 issued server command: /weather clear
-[12:21:00] [Server thread/INFO]: [CJML5067: Set the weather to clear]
-[12:21:26] [Server thread/INFO]: CJML5067 issued server command: /gamemode creative
-[12:21:26] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
-[12:21:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:21:46] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:21:46] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:21:46] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:21:46] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:21:47] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
-[12:21:50] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:21:53] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:21:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:21:56] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:21:56] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:22:03] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:03] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:03] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:03] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:04] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:04] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:04] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:04] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:06] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:06] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:06] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:06] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:07] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:07] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:07] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:07] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:08] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:08] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:08] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:08] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:09] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:09] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:09] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:09] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:10] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:10] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:10] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:10] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:11] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:11] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:11] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:11] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:12] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:12] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:12] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:12] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:13] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:13] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:13] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:13] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:14] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:14] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:14] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:14] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:16] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:16] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:16] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:16] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:16] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:22:17] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:17] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:17] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:17] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:18] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:18] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:18] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:18] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:19] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:19] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:19] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:19] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:20] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:20] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:20] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:20] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:21] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:22] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:22] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:22] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:22] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:23] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:23] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:23] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:23] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:24] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:24] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:24] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:24] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:25] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:25] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:25] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:25] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:26] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:26] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:26] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:26] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:27] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:27] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:27] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:27] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:28] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:28] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:28] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:28] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:29] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:29] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:29] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:29] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:30] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:30] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:30] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:30] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:31] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:31] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:31] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:31] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:22:33] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:33] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:33] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:33] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="lejos"}
-[12:22:38] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:38] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:38] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:38] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="atras"}
-[12:22:39] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:39] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:39] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:39] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="atras"}
-[12:22:40] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:40] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:40] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:40] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="atras"}
-[12:22:41] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:41] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:41] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:41] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="atras"}
-[12:22:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:22:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:22:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:22:42] [Craft Scheduler Thread - 16 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="atras"}
-[12:22:42] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:22:42] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5849, uuid='f4532cde-da42-48f5-a397-d494529205d2', l='ServerLevel[world]', x=-337.44, y=62.00, z=527.21, cpos=[-22, 32], tl=1133, v=true] died: Catapulta Somar was killed
-[12:22:42] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6096, uuid='72c12194-975d-42f8-ad7e-61eb5219570f', l='ServerLevel[world]', x=-334.92, y=61.99, z=529.53, cpos=[-21, 33], tl=520, v=true] died: Soldado Somar was killed
-[12:22:42] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5997, uuid='c3095523-ad8e-4f8f-9dcc-f42e6ee51f19', l='ServerLevel[world]', x=-335.28, y=69.52, z=526.58, cpos=[-21, 32], tl=969, v=true] died: Soldado Somar was killed
-[12:22:42] [Server thread/INFO]: [CJML5067: Killed 144 entities]
-[12:22:44] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:22:44] [Server thread/INFO]: [CJML5067: Killed 149 entities]
-[12:22:47] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:22:51] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 2
-[12:22:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:24:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:24:10] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6543, uuid='ab2d40ca-2e41-4791-924a-dfe2ad6451f2', l='ServerLevel[world]', x=-332.55, y=69.52, z=520.16, cpos=[-21, 32], tl=1575, v=true] died: Soldado Somar was killed
-[12:24:10] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6503, uuid='0c2c5140-a1fb-4ebf-a38a-e5fa2c36185c', l='ServerLevel[world]', x=-347.00, y=62.00, z=513.34, cpos=[-22, 32], tl=1670, v=true] died: Soldado Somar was killed
-[12:24:10] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6590, uuid='390df89f-cbd2-4467-84e4-7d98aa9a268d', l='ServerLevel[world]', x=-334.24, y=62.00, z=518.67, cpos=[-21, 32], tl=1469, v=true] died: Catapulta Somar was killed
-[12:24:10] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6544, uuid='972f1498-258b-45bb-9c7a-e277657d7f81', l='ServerLevel[world]', x=-330.94, y=61.99, z=517.74, cpos=[-21, 32], tl=1575, v=true] died: Soldado Somar was killed
-[12:24:10] [Server thread/INFO]: [CJML5067: Killed 150 entities]
-[12:24:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:24:11] [Server thread/INFO]: [CJML5067: Killed 145 entities]
-[12:24:14] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:24:14] [Server thread/INFO]: [CJML5067: Killed 132 entities]
-[12:24:14] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:24:14] [Server thread/INFO]: [CJML5067: Killed 76 entities]
-[12:41:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:41:08] [Server thread/INFO]: [CJML5067: Killed 136 entities]
-[12:41:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:41:11] [Server thread/INFO]: [CJML5067: Killed 179 entities]
-[12:41:19] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:41:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:42:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9908, uuid='432afb2e-de16-4975-b1a2-af8430218123', l='ServerLevel[world]', x=-342.58, y=61.99, z=524.53, cpos=[-22, 32], tl=1630, v=true] died: Soldado Somar was slain by CJML5067
-[12:43:07] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:43:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:43:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9928, uuid='22bce579-1267-4995-9f3a-e1b924de7d5c', l='ServerLevel[world]', x=-347.32, y=61.99, z=521.17, cpos=[-22, 32], tl=2285, v=true] died: Soldado Somar was killed
-[12:43:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10205, uuid='33faa089-763e-456b-a988-9f3302832b9c', l='ServerLevel[world]', x=-334.09, y=62.00, z=528.39, cpos=[-21, 33], tl=370, v=true] died: Soldado Somar was killed
-[12:43:25] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/9776, uuid='46f91d53-ec83-4064-8817-4ef2323292b2', l='ServerLevel[world]', x=-343.90, y=62.00, z=521.37, cpos=[-22, 32], tl=2522, v=true] died: Catapulta Somar was killed
-[12:43:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9907, uuid='3954a7c3-7021-4615-be53-59e71a50d122', l='ServerLevel[world]', x=-345.18, y=69.52, z=523.22, cpos=[-22, 32], tl=2285, v=true] died: Soldado Somar was killed
-[12:43:26] [Server thread/INFO]: [CJML5067: Killed 175 entities]
-[12:43:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:43:27] [Server thread/INFO]: [CJML5067: Killed 115 entities]
-[12:43:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:43:30] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:43:32] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:35] [Craft Scheduler Thread - 34 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:38] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:41] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:44] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:44] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:43:47] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:43:47] [Craft Scheduler Thread - 8 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:44:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:44:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10739, uuid='a9267ede-1efd-4347-959c-1c410c90c70e', l='ServerLevel[world]', x=-333.77, y=61.99, z=528.44, cpos=[-21, 33], tl=790, v=true] died: Soldado Somar was killed
-[12:44:24] [Server thread/INFO]: [CJML5067: Killed Soldado Somar]
-[12:44:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:45:07] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:45:07] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10740, uuid='52c7163a-db99-4c90-927e-df9fc55ef77c', l='ServerLevel[world]', x=-332.87, y=61.99, z=531.03, cpos=[-21, 33], tl=1656, v=true] died: Soldado Somar was killed
-[12:45:07] [Server thread/INFO]: [CJML5067: Killed Soldado Somar]
-[12:47:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:48:48] [Server thread/INFO]: [Mythic] Reloading plugin...
-[12:48:48] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[12:48:48] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[12:48:48] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Items...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[12:48:49] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[12:48:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[12:48:49] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[12:48:49] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[12:48:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:49:04] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:49:04] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10522, uuid='d4225cc3-2b70-4c5d-9a78-9de8cbb09831', l='ServerLevel[world]', x=-330.79, y=62.00, z=528.32, cpos=[-21, 33], tl=6688, v=true] died: Catapulta Somar was killed
-[12:49:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10895, uuid='db573035-8452-4df6-b49e-e7be9730b2a0', l='ServerLevel[world]', x=-332.30, y=61.99, z=525.25, cpos=[-21, 32], tl=5300, v=true] died: Soldado Somar was killed
-[12:49:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11330, uuid='209528f1-a8f6-4148-8a82-8c3d68869b54', l='ServerLevel[world]', x=-340.66, y=65.00, z=553.97, cpos=[-22, 34], tl=1725, v=true] died: Soldado Somar was killed
-[12:49:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10738, uuid='c73c0691-1188-443a-ac86-3d4eae8147da', l='ServerLevel[world]', x=-333.02, y=69.52, z=528.13, cpos=[-21, 33], tl=6391, v=true] died: Soldado Somar was killed
-[12:49:04] [Server thread/INFO]: [CJML5067: Killed 135 entities]
-[12:49:06] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:49:06] [Server thread/INFO]: [CJML5067: Killed 172 entities]
-[12:49:11] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:49:14] [Craft Scheduler Thread - 32 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:49:16] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:49:17] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[12:50:17] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:50:17] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11998, uuid='a5a011c7-7cea-44f6-bfa4-384628d42555', l='ServerLevel[world]', x=-346.92, y=71.00, z=570.60, cpos=[-22, 35], tl=1220, v=true] died: Soldado Somar was killed
-[12:50:17] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11997, uuid='c48bfbca-4ca1-47a6-9e03-425c6d18bbec', l='ServerLevel[world]', x=-339.38, y=75.52, z=539.75, cpos=[-22, 33], tl=1220, v=true] died: Soldado Somar was killed
-[12:50:17] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/11880, uuid='fba61c77-efcd-4ff0-b345-4578cb89ed32', l='ServerLevel[world]', x=-340.52, y=68.00, z=541.68, cpos=[-22, 33], tl=1317, v=true] died: Catapulta Somar was killed
-[12:50:17] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12015, uuid='5c563b50-98e2-401a-a0db-868e955561bc', l='ServerLevel[world]', x=-351.88, y=74.00, z=568.02, cpos=[-22, 35], tl=1220, v=true] died: Soldado Somar was killed
-[12:50:17] [Server thread/INFO]: [CJML5067: Killed 194 entities]
-[12:50:18] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[12:50:18] [Server thread/INFO]: [CJML5067: Killed 89 entities]
-[12:50:26] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:50:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:50:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:50:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12638, uuid='b8ab1559-1140-42cc-89ea-e2ba20e31d99', l='ServerLevel[world]', x=-338.29, y=61.99, z=532.29, cpos=[-22, 33], tl=424, v=true] died: Soldado Somar was killed
-[12:50:53] [Server thread/INFO]: [CJML5067: Killed Soldado Somar]
-[12:50:58] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[12:51:02] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:02] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:02] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:02] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:03] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:03] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:03] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:03] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:04] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:04] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:04] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:04] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:05] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:06] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:06] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:06] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:06] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:07] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:07] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:07] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:07] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:08] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:08] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:08] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:08] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:09] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:09] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:09] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:09] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:10] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:10] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:10] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:10] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:11] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:11] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:11] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:11] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:12] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:12] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:12] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:12] [Craft Scheduler Thread - 37 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:13] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:13] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:13] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:13] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:14] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:14] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:14] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:14] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:15] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:15] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:15] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:15] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:16] [Craft Scheduler Thread - 33 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:16] [Craft Scheduler Thread - 33 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:16] [Craft Scheduler Thread - 33 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:16] [Craft Scheduler Thread - 33 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:17] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:17] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:17] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:17] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:18] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:18] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:18] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:18] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:19] [Craft Scheduler Thread - 38 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:19] [Craft Scheduler Thread - 38 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:19] [Craft Scheduler Thread - 38 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:19] [Craft Scheduler Thread - 38 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:20] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:20] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:20] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:20] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:21] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:21] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:21] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:21] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:22] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:22] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:22] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:22] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:23] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:23] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:23] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:23] [Craft Scheduler Thread - 40 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:24] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:24] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:24] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:24] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:25] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:25] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:25] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:25] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:26] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:26] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:26] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:26] [Craft Scheduler Thread - 36 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:51:27] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:27] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:27] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:27] [Craft Scheduler Thread - 39 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:28] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:28] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:28] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:28] [Craft Scheduler Thread - 35 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,distance=..5]
-[12:51:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12637, uuid='0617a948-67a0-4cfb-a2ed-7941cd15d792', l='ServerLevel[world]', x=-338.25, y=61.99, z=531.95, cpos=[-22, 33], tl=1150, v=true] died: Soldado Somar was killed
-[12:51:29] [Server thread/INFO]: [CJML5067: Killed Soldado Somar]
-[12:51:29] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[12:51:29] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[12:51:29] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[12:51:29] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[12:51:39] [Server thread/INFO]: CJML5067 lost connection: Disconnected
-[12:51:39] [Server thread/INFO]: CJML5067 left the game
-[12:51:42] [Server thread/INFO]: Stopping the server
-[12:51:42] [Server thread/INFO]: Stopping server
-[12:51:42] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.7
-[12:51:42] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[12:51:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[12:51:42] [Server thread/INFO]: [MythicMobs] - 
-[12:51:42] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[12:51:42] [Server thread/INFO]: [MythicMobs] - 
-[12:51:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[12:51:42] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[12:51:42] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[12:51:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[12:51:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[12:51:42] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[12:51:42] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[12:51:42] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[12:51:42] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[12:51:42] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[12:51:42] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[12:51:42] [Server thread/INFO]: Saving players
-[12:51:43] [Server thread/INFO]: Saving worlds
-[12:51:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saved 33 block chunks, 136 entity chunks, 0 poi chunks in world 'world' in 0.12s
-[12:51:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:51:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[12:51:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:51:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:51:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[12:51:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:51:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:51:43] [Server thread/INFO]: Flushing Chunk IO
-[12:51:43] [Server thread/INFO]: Closing Thread Pool
-[12:51:43] [Server thread/INFO]: Closing Server
+[21:33:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:33:54] [Server thread/INFO]: Default game type: SURVIVAL
+[21:33:54] [Server thread/INFO]: Generating keypair
+[21:33:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:33:55] [Server thread/INFO]: Using epoll channel type
+[21:33:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:33:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[21:33:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[21:33:56] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[21:33:56] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[21:33:56] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[21:33:56] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[21:33:56] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
+[21:33:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:33:56] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
+[21:33:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:33:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:33:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:33:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:33:56] [Server thread/INFO]: Preparing level "world"
+[21:33:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:33:58] [Server thread/INFO]: Time elapsed: 473 ms
+[21:33:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:33:58] [Server thread/INFO]: Time elapsed: 277 ms
+[21:33:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:33:58] [Server thread/INFO]: Time elapsed: 121 ms
+[21:33:58] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[21:33:59] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[21:33:59] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[21:34:04] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
+[21:34:04] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
+[21:34:08] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[21:34:09] [Server thread/INFO]: [MythicMobs] Loading Items...
+[21:34:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[21:34:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[21:34:10] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[21:34:10] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[21:34:10] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[21:34:10] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[21:34:10] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[21:34:10] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[21:34:11] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[21:34:11] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[21:34:11] [Server thread/INFO]: Running delayed init tasks
+[21:34:11] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[21:34:11] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[21:34:11] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[21:34:11] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
+[21:34:12] [Server thread/INFO]: Done (20.150s)! For help, type "help"
+[21:34:12] [Server thread/INFO]: Timings Reset
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[21:34:12] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[21:34:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[21:34:16] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[21:34:16] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[21:35:13] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[21:35:14] [Server thread/INFO]: CJML5067 joined the game
+[21:35:14] [Server thread/INFO]: CJML5067[/127.240.192.59:57321] logged in with entity id 294 at ([world]-342.94163533126545, 62.0, 531.7163851047183)
+[21:35:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:35:27] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/100, uuid='1adcae2e-4bb8-4dcf-91fc-d68c2d0c28aa', l='ServerLevel[world]', x=-323.30, y=68.00, z=516.94, cpos=[-21, 32], tl=2324, v=true] died: Soldado Somar was killed
+[21:35:27] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/96, uuid='f3aa888f-bca8-4a17-bb79-897faa2cd310', l='ServerLevel[world]', x=-347.51, y=62.00, z=532.20, cpos=[-22, 33], tl=2863, v=true] died: Soldado Somar was killed
+[21:35:27] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/101, uuid='d707d66a-0cfb-46f2-b5e5-421250add5fa', l='ServerLevel[world]', x=-333.70, y=62.00, z=535.37, cpos=[-21, 33], tl=2975, v=true] died: Catapulta Somar was killed
+[21:35:27] [Server thread/INFO]: [CJML5067: Killed 134 entities]
+[21:35:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:35:28] [Server thread/INFO]: [CJML5067: Killed 113 entities]
+[21:38:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[21:38:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:38:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:38:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[21:39:17] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[21:39:17] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[21:39:17] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[21:39:17] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[21:39:18] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[21:39:18] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[21:39:18] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[21:39:18] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[21:39:30] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[21:39:30] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[21:39:30] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[21:39:30] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[21:39:31] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
+[21:39:31] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[21:39:31] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
+[21:39:31] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
+[21:39:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:39:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1031, uuid='1e7779cc-0497-4fa9-8922-2c03d48b8214', l='ServerLevel[world]', x=-341.23, y=69.52, z=534.09, cpos=[-22, 33], tl=1419, v=true] died: Soldado Somar was killed
+[21:39:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1062, uuid='95b5199c-61dd-471c-872a-f3e89875a5c9', l='ServerLevel[world]', x=-342.48, y=61.99, z=536.78, cpos=[-22, 33], tl=1306, v=true] died: Soldado Somar was killed
+[21:39:40] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/885, uuid='ae1d4b97-1ad1-486c-8812-788bba680438', l='ServerLevel[world]', x=-343.39, y=62.00, z=533.48, cpos=[-22, 33], tl=1559, v=true] died: Catapulta Somar was killed
+[21:39:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1087, uuid='b0cd4268-5bea-480c-afb1-b42a369d3e82', l='ServerLevel[world]', x=-326.13, y=64.75, z=522.93, cpos=[-21, 32], tl=1266, v=true] died: Soldado Somar was killed
+[21:39:40] [Server thread/INFO]: [CJML5067: Killed 143 entities]
+[21:39:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:39:40] [Server thread/INFO]: [CJML5067: Killed 85 entities]
+[21:43:28] [Server thread/INFO]: [Mythic] Reloading plugin...
+[21:43:28] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[21:43:28] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[21:43:28] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[21:43:28] [Server thread/INFO]: [MythicMobs] Loading Items...
+[21:43:28] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[21:43:28] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[21:43:29] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[21:43:29] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[21:43:29] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[21:43:29] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[21:43:29] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[21:43:29] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[21:43:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:43:33] [Server thread/INFO]: [CJML5067: Killed 132 entities]
+[21:43:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
+[21:43:34] [Server thread/INFO]: [CJML5067: Killed 96 entities]
+[21:43:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
