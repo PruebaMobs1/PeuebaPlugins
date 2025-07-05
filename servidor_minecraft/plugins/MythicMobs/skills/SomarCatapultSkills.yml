@@ -123,7 +123,7 @@ MarcCatapult1:
 MarcCatapult2:
   Cooldown: 20
   Conditions:
-    - variableEquals{var=caster.sold2;t=String;value="true"} castInstead MarcCatapult2
+    - variableEquals{var=caster.sold2;t=String;value="true"} castInstead MarcCatapult1
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
