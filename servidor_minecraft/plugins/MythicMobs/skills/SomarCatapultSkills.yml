@@ -148,24 +148,6 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 
-reclutCatapulteros:
-  Conditions:
-    - targets{a=>2}
-    - variableEquals{var=caster.solds;t=String;value="false"}
-  TargetConditions:
-    - faction{faction=Somar}
-  Skills:
-    - message{m="&a Reclutamiento Iniciado - <caster.var.solds>"} @NearestPlayer
-    - setvariable{var=caster.solds;t=String;value="true"} @Self
-    - delay 20
-    - Skill{s=MarcCatapult1} @Target
-    - delay 20
-    - Skill{s=MarcCatapult2} @Target
-    - delay 20
-    - Skill{s=MarcCatapult3} @Target
-    - delay 20 
-    - setvariable{var=caster.solds;t=String;value="false"} @Self
-    - message{m="&a Reclutamiento Terminado - <caster.var.solds>"} @NearestPlayer
 revSoldCtp:
   TargetConditions:
     - faction{f=Somar} castInstead ctprsPerdidos
