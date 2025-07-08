@@ -150,14 +150,14 @@ MarcCatapult3:
 
 revSoldCtp:
   TargetConditions:
-    - faction{f=Somar} castInstead ctprsPerdidos
+    - faction{f=Somar} castInstead MarcCatapult3
   Skills:
     - msg{m="&9No objetivos"} @NearestPlayer
 ctprsPerdidos:
-  Cooldown: 20
+  Cooldown: 25
   Conditions:
   - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} 
-    || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead MarcCatapult3
+    || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead revSoldCtp
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
