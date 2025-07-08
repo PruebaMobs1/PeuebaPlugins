@@ -283,6 +283,7 @@ PrepareModelSomar:
     - defaultstate{mid=SomarSoldier;type=death;state=death1}
     - setVariable{key=caster.ataque;t=String;value="false"}
     - setVariable{key=caster.Animacion;t=String;value="idle"}
+    - defaultstate{mid=SomarSoldier;type=idle;state=SupuestoIdle} @Self
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
     - setvariable{var=target.catapulta;type=Integer;val=0} @Self
   
