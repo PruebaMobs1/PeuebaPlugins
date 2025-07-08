@@ -156,7 +156,8 @@ revSoldCtp:
     - msg{m="&9No objetivos"} @NearestPlayer
 ctprsPerdidos:
   Conditions:
-  - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead MarcCatapult3
+  - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} 
+    || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead MarcCatapult3
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
