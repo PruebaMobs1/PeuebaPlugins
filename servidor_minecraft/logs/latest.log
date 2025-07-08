@@ -1,334 +1,144 @@
-[19:29:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:29:18] [ServerMain/INFO]: Loaded 1174 recipes
-[19:29:19] [ServerMain/INFO]: Loaded 1271 advancements
-[19:29:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[19:29:20] [Server thread/INFO]: Loading properties
-[19:29:20] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[19:29:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:29:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:29:23] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:09:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:09:54] [ServerMain/INFO]: Loaded 1174 recipes
+[20:09:55] [ServerMain/INFO]: Loaded 1271 advancements
+[20:09:55] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:09:55] [Server thread/INFO]: Loading properties
+[20:09:55] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[20:09:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:09:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:09:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:29:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:29:24] [Server thread/INFO]: Default game type: SURVIVAL
-[19:29:24] [Server thread/INFO]: Generating keypair
-[19:29:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:29:25] [Server thread/INFO]: Using epoll channel type
-[19:29:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:29:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:29:25] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[19:29:26] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[19:29:26] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[19:29:26] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[19:29:26] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[19:29:26] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
-[19:29:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:29:26] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
-[19:29:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:29:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:29:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:29:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:29:27] [Server thread/INFO]: Preparing level "world"
-[19:29:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:29:30] [Server thread/INFO]: Time elapsed: 1002 ms
-[19:29:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:29:30] [Server thread/INFO]: Time elapsed: 331 ms
-[19:29:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:29:31] [Server thread/INFO]: Time elapsed: 219 ms
-[19:29:31] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
-[19:29:31] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
-[19:29:31] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[19:29:39] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
-[19:29:39] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
-[19:29:45] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:29:46] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:29:46] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:29:46] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:29:47] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:29:47] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:29:47] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:29:47] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[19:29:47] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[19:29:47] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
-[19:29:49] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[19:29:49] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[19:29:49] [Server thread/INFO]: Running delayed init tasks
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[19:29:49] [Server thread/INFO]: Done (29.247s)! For help, type "help"
-[19:29:49] [Server thread/INFO]: Timings Reset
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:29:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[19:29:50] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[19:29:50] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[19:29:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2628ms or 52 ticks behind
-[19:29:54] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:29:54] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[19:30:58] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[19:30:59] [Server thread/INFO]: CJML5067 joined the game
-[19:30:59] [Server thread/INFO]: CJML5067[/127.240.192.59:52329] logged in with entity id 461 at ([world]-336.71435453890314, 74.25061343910592, 517.4936061607374)
-[19:31:04] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/50, uuid='b813ad22-a2e9-4c88-9562-6e0270cd522d', l='ServerLevel[world]', x=-330.20, y=62.00, z=514.85, cpos=[-21, 32], tl=2153, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/346, uuid='519d16c2-5064-45a4-b071-dc9ebf947790', l='ServerLevel[world]', x=-311.65, y=71.00, z=501.44, cpos=[-20, 31], tl=2152, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/313, uuid='e1a8cff3-ea96-4362-ace5-cda2c0e9eb28', l='ServerLevel[world]', x=-335.10, y=62.00, z=505.36, cpos=[-21, 31], tl=2118, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/51, uuid='85e4f711-9560-49a0-a068-3bfdfa75b6be', l='ServerLevel[world]', x=-337.32, y=62.00, z=507.33, cpos=[-22, 31], tl=2259, v=true] died: Catapulta Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/345, uuid='765fc5fa-f554-458a-889a-4d3df1df06c4', l='ServerLevel[world]', x=-301.19, y=65.00, z=500.16, cpos=[-19, 31], tl=2152, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/178, uuid='c5a6dd11-3869-40de-897b-632ceff14f4b', l='ServerLevel[world]', x=-323.25, y=66.00, z=530.74, cpos=[-21, 33], tl=2118, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/176, uuid='86c5ba41-60b3-4d01-b607-045a94926684', l='ServerLevel[world]', x=-338.81, y=62.00, z=518.67, cpos=[-22, 32], tl=2328, v=true] died: Catapulta Somar was killed
-[19:31:04] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/344, uuid='a2e870fc-7fb1-4f85-b414-49dc80adef15', l='ServerLevel[world]', x=-316.69, y=68.00, z=500.19, cpos=[-20, 31], tl=2117, v=true] died: Soldado Somar was killed
-[19:31:04] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[19:31:05] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:31:05] [Server thread/INFO]: [CJML5067: Killed 109 entities]
-[19:31:10] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[19:32:40] [Server thread/INFO]: [Mythic] Reloading plugin...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:32:40] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:32:40] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:32:40] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[19:32:40] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[19:33:11] [Server thread/INFO]: CJML5067 lost connection: Timed out
-[19:33:11] [Server thread/INFO]: CJML5067 left the game
-[19:33:40] [User Authenticator #1/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[19:33:41] [Server thread/INFO]: CJML5067 joined the game
-[19:33:41] [Server thread/INFO]: CJML5067[/127.240.192.59:36389] logged in with entity id 1004 at ([world]-336.1623056518759, 62.0, 514.8446608430377)
-[19:33:45] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:33:45] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/707, uuid='33d1a9ff-d3b6-451e-9cfd-9380014ec217', l='ServerLevel[world]', x=-318.39, y=69.00, z=504.29, cpos=[-20, 31], tl=3099, v=true] died: Soldado Somar was killed
-[19:33:45] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/728, uuid='ff4c2fb0-4bff-479a-a2e0-f60e22265093', l='ServerLevel[world]', x=-323.60, y=68.00, z=516.46, cpos=[-21, 32], tl=3099, v=true] died: Soldado Somar was killed
-[19:33:45] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/708, uuid='2fffcfa3-b0bb-4337-a850-5f6df61f7651', l='ServerLevel[world]', x=-330.95, y=62.00, z=518.00, cpos=[-21, 32], tl=3099, v=true] died: Soldado Somar was killed
-[19:33:45] [Server thread/INFO]: [CJML5067: Killed 147 entities]
-[19:33:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:33:46] [Server thread/INFO]: [CJML5067: Killed 96 entities]
-[19:33:47] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:33:47] [Server thread/INFO]: [CJML5067: Killed 80 entities]
-[19:33:48] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:33:48] [Server thread/INFO]: [CJML5067: Killed 63 entities]
-[19:33:52] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[19:35:36] [Server thread/INFO]: [Mythic] Reloading plugin...
-[19:35:36] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:35:36] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:35:36] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:35:37] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:35:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:35:37] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[19:35:37] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[19:35:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:35:41] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1420, uuid='eb4217f8-d57d-4d61-b1c0-1e801aa5dfdf', l='ServerLevel[world]', x=-314.54, y=65.00, z=528.48, cpos=[-20, 33], tl=2187, v=true] died: Soldado Somar was killed
-[19:35:42] [Server thread/INFO]: [CJML5067: Killed 142 entities]
-[19:35:42] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:35:42] [Server thread/INFO]: [CJML5067: Killed 92 entities]
-[19:35:44] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[19:35:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:35:54] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1817, uuid='35ed6a23-6651-4062-b479-ba7ed17f7982', l='ServerLevel[world]', x=-322.17, y=65.00, z=521.61, cpos=[-21, 32], tl=202, v=true] died: Soldado Somar was killed
-[19:35:54] [Server thread/INFO]: [CJML5067: Killed 121 entities]
-[19:35:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:35:56] [Server thread/INFO]: [CJML5067: Killed 138 entities]
-[19:36:21] [Server thread/INFO]: [Mythic] Reloading plugin...
-[19:36:21] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:36:21] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:36:21] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:36:21] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:36:21] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:36:21] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:36:22] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:36:22] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:36:22] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:36:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:36:22] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[19:36:22] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[19:36:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:25] [Server thread/INFO]: [CJML5067: Killed 148 entities]
-[19:36:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:27] [Server thread/INFO]: [CJML5067: Killed 133 entities]
-[19:36:28] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[19:36:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2510, uuid='47240cfc-31d5-4f05-86b0-e4d5ee72b279', l='ServerLevel[world]', x=-327.84, y=62.00, z=514.40, cpos=[-21, 32], tl=162, v=true] died: Soldado Somar was killed while fighting CJML5067
-[19:36:37] [Server thread/INFO]: [CJML5067: Killed 150 entities]
-[19:36:38] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:38] [Server thread/INFO]: [CJML5067: Killed 104 entities]
-[19:36:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:39] [Server thread/INFO]: [CJML5067: Killed 73 entities]
-[19:36:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:36:40] [Server thread/INFO]: [CJML5067: Killed 76 entities]
-[19:36:43] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[19:37:29] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:29] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 3 models loaded.
-[19:37:30] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[19:37:30] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[19:37:31] [Server thread/INFO]: [Mythic] Reloading plugin...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Items...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[19:37:31] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[19:37:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[19:37:31] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[19:37:31] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[19:37:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:37:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3025, uuid='cf3f7fba-c93d-4af2-bf2e-1be6a8863716', l='ServerLevel[world]', x=-317.40, y=69.00, z=502.40, cpos=[-20, 31], tl=1059, v=true] died: Soldado Somar was killed
-[19:37:36] [Server thread/INFO]: [CJML5067: Killed 154 entities]
-[19:37:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player]
-[19:37:37] [Server thread/INFO]: [CJML5067: Killed 100 entities]
-[19:37:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[20:09:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:09:58] [Server thread/INFO]: Default game type: SURVIVAL
+[20:09:58] [Server thread/INFO]: Generating keypair
+[20:09:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:09:59] [Server thread/INFO]: Using epoll channel type
+[20:09:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:09:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[20:09:59] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[20:09:59] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:09:59] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:09:59] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[20:09:59] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
+[20:09:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:09:59] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
+[20:10:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:10:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:10:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:10:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:10:00] [Server thread/INFO]: Preparing level "world"
+[20:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:10:01] [Server thread/INFO]: Time elapsed: 475 ms
+[20:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:10:02] [Server thread/INFO]: Time elapsed: 238 ms
+[20:10:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:10:02] [Server thread/INFO]: Time elapsed: 124 ms
+[20:10:02] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[20:10:02] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[20:10:02] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[20:10:07] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data
+[20:10:07] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/data/worlds
+[20:10:12] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Items...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[20:10:13] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 82 skills.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[20:10:13] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[20:10:13] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[20:10:14] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[20:10:14] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[20:10:15] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[20:10:15] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[20:10:15] [Server thread/INFO]: Running delayed init tasks
+[20:10:15] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[20:10:15] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[20:10:15] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[20:10:15] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
+[20:10:15] [Server thread/INFO]: Done (20.033s)! For help, type "help"
+[20:10:15] [Server thread/INFO]: Timings Reset
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[20:10:16] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[20:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2588ms or 51 ticks behind
+[20:10:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[20:10:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[20:15:48] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[20:15:50] [Server thread/INFO]: CJML5067 joined the game
+[20:15:50] [Server thread/INFO]: CJML5067[/127.240.192.59:57621] logged in with entity id 175 at ([world]-344.34950282932436, 62.0, 512.7286273208666)
+[20:18:52] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
