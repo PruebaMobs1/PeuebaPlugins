@@ -276,7 +276,7 @@ MuerteNormAnimation:
     - defaultstate{mid=SomarSoldier;type=death;state=death1} @Self
 PrepareModelSomar:
   Skills:
-    - model{mid=SomarSoldier;n="Somar Soldier";mode=}
+    - model{mid=SomarSoldier;n="Somar Soldier"}
     - delay 1
     - partvis{mid=SomarSoldier;p=auxblock}
     - partvis{mid=SomarSoldier;p=left_arco;v=false}
