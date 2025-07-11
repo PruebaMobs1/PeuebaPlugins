@@ -19,7 +19,6 @@ AtaqueSomarSoldier:
     - message{m="inicio"} @NearestPlayer
     - skill{s=AtaqueArea}
 AtaqueUnico:
-  Cooldown: 1
   Skills:
 #    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
