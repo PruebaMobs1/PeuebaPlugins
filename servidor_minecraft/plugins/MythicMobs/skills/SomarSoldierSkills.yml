@@ -16,7 +16,7 @@ AtaqueSomarSoldier:
   Skills:
     - cancelevent
     - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-    - message{m="inicio"} @NearestPlayer
+    - message{m="inicio," <target.selector.size>} @NearestPlayer
     - skill{s=AtaqueArea}
 AtaqueUnico:
   Skills:
