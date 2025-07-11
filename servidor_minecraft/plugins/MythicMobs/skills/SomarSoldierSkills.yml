@@ -25,7 +25,6 @@ AtaqueUnico:
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
     - message{m="Ataque Unico"} @World
 AtaqueArea:
-  Cooldown: 1
   Conditions:
     - targets{a=<2} CastInstead AtaqueUnico
   Skills:
