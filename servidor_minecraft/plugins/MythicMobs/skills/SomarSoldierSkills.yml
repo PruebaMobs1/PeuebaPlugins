@@ -30,7 +30,7 @@ AtaqueArea:
   - randomskill{s=
     [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster;ignore=samefaction}],
     [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster;ignore=samefaction}],
-    [- skill{s=AtaqueArea3} @EIR{r=3;target=monster;ignore=samefaction}];fbs=persIdle}
+    [- skill{s=AtaqueArea3} @EIR{r=3;target=monster;ignore=samefaction}];fbs=AtaqueUnico}
 AtaqueBase:
   Skills:
   - setVariable{key=caster.ataque;t=String;value="true"} @Self
@@ -61,6 +61,7 @@ Estocada:
   - setVariable{key=caster.ataque;t=String;value="true"} @Self
   - state{mid=SomarSoldier;s=animationAtaqueEstocadaDerecha;li=0;lo=1;pr=1} @Self
   - delay 18
+  - throw{velocity=3;velocityY=1} 
   - damage{m=5} @LivingInCone{a=20;r=4;limit=1}
   - delay 2
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
