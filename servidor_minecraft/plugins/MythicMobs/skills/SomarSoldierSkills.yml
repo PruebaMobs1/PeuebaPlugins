@@ -83,7 +83,7 @@ AtaqueArea1:
 #    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea2:
   Conditions:
-    - targets{a=2to4} orElseCast AtaqueArea1
+    - targets{a=2to4}
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
