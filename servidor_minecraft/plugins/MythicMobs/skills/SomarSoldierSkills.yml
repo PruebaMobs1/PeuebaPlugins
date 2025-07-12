@@ -19,13 +19,11 @@ AtaqueSomarSoldier:
     - message{m="inicio,"<skill.targets>}
     - skill{s=AtaqueArea}
 AtaqueUnico:
-  Cooldown: 5
   Skills:
 #    - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - randomskill{s=AtaqueBase,AtaqueBase2,Estocada}
     - message{m="Ataque Unico"} @World
 AtaqueArea:
-  Cooldown: 5
   Conditions:
   - targets{a=2} castInstead AtaqueUnico
   Skills:
@@ -71,7 +69,7 @@ Estocada:
 #  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
   Conditions:
-    - targets{a=2to4}
+    - targets{a=2to3} true
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea1} @Self
@@ -85,7 +83,7 @@ AtaqueArea1:
     - message{m="Ataque area uno1"} @NearestPlayer
 AtaqueArea2:
   Conditions:
-    - targets{a=2to4}
+    - targets{a=3to4} orElseCast AtaqueArea1
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
@@ -98,7 +96,7 @@ AtaqueArea2:
 #    - message{m="finAtaque"} @NearestPlayer
 AtaqueArea3:
   Conditions:
-    - targets{a=>5} # orElseCast AtaqueArea2
+    - targets{a=>5} orElseCast AtaqueArea2
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea3} @Self
