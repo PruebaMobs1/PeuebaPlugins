@@ -80,10 +80,10 @@ AtaqueArea1:
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - delay 2
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-#    - message{m="finAtaque"} @NearestPlayer
+    - message{m="Ataque area uno1"} @NearestPlayer
 AtaqueArea2:
   Conditions:
-    - targets{a=2to4}
+    - targets{a=2to4} orElseCast AtaqueArea1
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
