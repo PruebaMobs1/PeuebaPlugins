@@ -69,7 +69,7 @@ Estocada:
 #  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
   Conditions:
-    - targets{a=2to4} true
+    - targets{a=2to4}
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea1} @Self
@@ -83,7 +83,7 @@ AtaqueArea1:
     - message{m="Ataque area uno1"} @NearestPlayer
 AtaqueArea2:
   Conditions:
-    - targets{a=2to4} orElseCast AtaqueArea1
+    - targets{a=2to4}
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
