@@ -47,7 +47,7 @@ AtaqueBase2:
   - setVariable{key=caster.ataque;t=String;value="true"} @Self
 #  - partvis{mid=SomarSoldier;p=left_sword} @Self
   - delay 1
-  - state{mid=SomarSoldier;s=animationAtaqueComun2;li=0;lo=0;pr=0} @Self
+  - state{mid=SomarSoldier;s=animationAtaqueComun2} @Self
   - delay 13
   - damage{m=1.5} @LivingInCone{a=20;r=3;limit=1}
   - delay 1
@@ -74,7 +74,7 @@ Estocada:
   - setVariable{key=caster.ataque;t=String;value="true"} @Self
   - state{mid=SomarSoldier;s=animationAtaqueEstocadaDerecha;li=0;lo=1;pr=1} @Self
   - delay 18
-  - throw{velocity=3;velocityY=1} 
+  - throw{velocity=7;velocityY=2} 
   - damage{m=5} @LivingInCone{a=20;r=4;limit=1}
   - delay 2
   - setVariable{key=caster.ataque;t=String;value="false"} @Self
@@ -85,7 +85,7 @@ AtaqueArea1:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea1} @Self
     - delay 11
-    - throw{velocity=15;velocityY=-1} 
+    - throw{velocity=12;velocityY=-1} 
     - damage{m=1}
     - delay 24
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
@@ -97,7 +97,7 @@ AtaqueArea2:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
     - delay 15
-    - throw{velocity=10;velocityY=2} 
+    - throw{velocity=9;velocityY=2} 
     - basedamage{m=2}   
     - delay 40
     - setVariable{key=caster.ataque;t=String;value="false"} @Self

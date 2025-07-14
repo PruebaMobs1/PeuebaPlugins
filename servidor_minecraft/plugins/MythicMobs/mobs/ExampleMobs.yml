@@ -49,7 +49,7 @@ SomarSoldier:
   damage: 75
   Skills:
     - skill{s=PrepareModelSomar} @Self ~onSpawn
-    - skill{s=AtaqueSomarSoldier;sync=true} @EIR{r=5;ignore=samefaction;sort=NEAREST} ~onAttack #targetplayers=true;
+    - skill{s=AtaqueSomarSoldier;sync=true} @EIR{r=5;ignore=samefaction} ~onAttack #targetplayers=true;
 #    - skill{s=DamagedAnimation;sync=true} ~onDamaged 0.2
 #    - skill{s=persIdle;sync=true} @Self ~onTimer:1
     - skill{s=MuerteExtAnimation;sync=true} @UniqueIdentifier{uuid=<caster.var.atackeruuid>} ~onDeath 
