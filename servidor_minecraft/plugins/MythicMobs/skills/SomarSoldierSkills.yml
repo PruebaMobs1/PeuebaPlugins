@@ -15,7 +15,7 @@ AtaqueSomarSoldier:
     - variableEquals{key=caster.Animacion;value="death"} false
   Skills:
     - cancelevent
-    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
+#    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
     - message{m="inicio,"<skill.targets>}
     - skill{s=AtaqueArea}
 AtaqueUnico:
@@ -160,7 +160,7 @@ DamagedAnimation:
     - variableEquals{key=caster.Animacion;value="dmg"} castinstead InmunityPerAnimation
   Skills:
     - setVariable{key=caster.Animacion;t=String;value="dmg"} @Self
-    - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
+#    - partvis{mid=SomarSoldier;p=right_sword;v=false} @Self
     - state{mid=SomarSoldier;s=AnimationDamaged} @Self
     - skill{s=MarcarAtacker}
     - delay 21
@@ -267,7 +267,7 @@ avisarIda3:
 
 acabarkillAnimation:
   Skills:
-    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
+#    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
 #    - msg{m=intento}
     - state{mid=SomarSoldier;s=animationAcabarRival} @Self
 MuerteNormAnimation:
