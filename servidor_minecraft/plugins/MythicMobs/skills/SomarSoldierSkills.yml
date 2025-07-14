@@ -25,11 +25,11 @@ AtaqueUnico:
     - message{m="Ataque Unico"} @World
 AtaqueArea:
   Conditions:
-  - targets{a=<2} castInstead AtaqueUnico
+  - targets{a=>2} orElseCast AtaqueUnico
   Skills:
   - randomskill{s=
-    [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster;ignore=samefaction}],
-    [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster;ignore=samefaction}],
+    [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster,player;ignore=samefaction}],
+    [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster,player;ignore=samefaction}],
     [- skill{s=AtaqueArea3} @EIR{r=3;target=monster;ignore=samefaction}];fbs=AtaqueUnico}
 AtaqueBase:
   Skills:
@@ -68,8 +68,6 @@ Estocada:
   - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
 #  - message{m="finAtaque"} @NearestPlayer
 AtaqueArea1:
-  Conditions:
-    - targets{a=2to3} true
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea1} @Self
@@ -82,8 +80,6 @@ AtaqueArea1:
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
     - message{m="Ataque area uno1"} @NearestPlayer
 AtaqueArea2:
-  Conditions:
-    - targets{a=3to4} orElseCast AtaqueArea1
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
     - state{mid=SomarSoldier;s=animationAtaqueArea2} @Self
