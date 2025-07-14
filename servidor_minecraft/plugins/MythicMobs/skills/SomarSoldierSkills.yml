@@ -25,7 +25,7 @@ AtaqueUnico:
     - message{m="Ataque Unico"} @World
 AtaqueArea:
   Conditions:
-  - targets{a=>2} orElseCast AtaqueUnico
+  - targets{a=>1} orElseCast AtaqueUnico
   Skills:
   - randomskill{s=
     [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster,player;ignore=samefaction}],
