@@ -42,8 +42,9 @@ lanzarBloque:
 
 ContornoVariabs: 
   TargetConditions:
-    - (isMythicMob || isPlayer) true
-    - isLiving true
+#   - (isMythicMob || isPlayer) true
+  - isLiving true
+  - gamemode
   Skills:
     - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270;conditions=[
                               - (isMythic true || isPlayer true) true]}
@@ -137,7 +138,7 @@ MarcCatapult3:
   Conditions:
     - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
   Skills:
-    - delay 5
+    - delay 3
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
     - delay 10
     - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
