@@ -78,7 +78,7 @@ AtaqueArea1:
     - setVariable{key=caster.ataque;t=String;value="false"} @Self
     - delay 2
     - setVariable{key=caster.Animacion;t=String;value="idle"} @Self
-    - message{m="Ataque area uno1"} @NearestPlayer
+#    - message{m="Ataque area uno1"} @NearestPlayer
 AtaqueArea2:
   Skills:
     - setVariable{key=caster.ataque;t=String;value="true"} @Self
