@@ -16,7 +16,6 @@ AtaqueSomarSoldier:
   Skills:
     - cancelevent
 #    - partvis{mid=SomarSoldier;p=right_sword;v=true} @Self
-    - message{m="inicio,"<skill.targets>}
     - skill{s=AtaqueArea}
 AtaqueUnico:
   Skills:
@@ -27,6 +26,7 @@ AtaqueArea:
   Conditions:
   - targets{a=>1} orElseCast AtaqueUnico
   Skills:
+  - message{m="Ataque area"} @World
   - randomskill{s=
     [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster,player;ignore=samefaction}],
     [- skill{s=AtaqueArea2} @LivingInCone{a=120;r=2;target=monster,player;ignore=samefaction}],
