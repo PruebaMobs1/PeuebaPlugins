@@ -9,7 +9,7 @@ CPrepareModelSomar:
     - setvariable{var=caster.sold2;t=String;value="false"}
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
-    - command{c="minecraft:summon zombie ~ ~5 ~"} 
+    - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 #    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
