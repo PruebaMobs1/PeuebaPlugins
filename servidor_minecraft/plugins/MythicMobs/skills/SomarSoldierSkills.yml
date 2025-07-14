@@ -25,7 +25,7 @@ AtaqueUnico:
     - message{m="Ataque Unico"} @World
 AtaqueArea:
   Conditions:
-  - targets{a=2} castInstead AtaqueUnico
+  - targets{a=<2} castInstead AtaqueUnico
   Skills:
   - randomskill{s=
     [- skill{s=AtaqueArea1} @LivingInCone{a=90;r=2;target=monster;ignore=samefaction}],
@@ -34,7 +34,7 @@ AtaqueArea:
 AtaqueBase:
   Skills:
   - setVariable{key=caster.ataque;t=String;value="true"} @Self
-  - state{mid=SomarSoldier;s=animationAtaqueComun;li=0;lo=1;pr=0} @Self
+  - state{mid=SomarSoldier;s=animationAtaqueComun} @Self
   - delay 7
   - damage{m=1} @target
   - delay 1
