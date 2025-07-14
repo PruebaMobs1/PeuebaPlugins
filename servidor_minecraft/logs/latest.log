@@ -307,3 +307,52 @@
 [13:21:30] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
 [13:21:51] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
 [13:21:51] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
+[13:23:05] [Server thread/INFO]: Named entity EntityZombie['Soldado Enemigo'/1235, uuid='5888544b-6214-4450-abab-3537faa5237b', l='ServerLevel[world]', x=-337.18, y=62.00, z=525.85, cpos=[-22, 32], tl=7525, v=true] died: Soldado Enemigo was slain by Soldado Somar
+[13:23:14] [Server thread/INFO]: CJML5067 was slain by Soldado Somar
+[13:26:24] [Server thread/INFO]: [Mythic] Reloading plugin...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[13:26:24] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Items...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[13:26:24] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[13:26:24] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 83 skills.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[13:26:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[13:26:25] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[13:26:25] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[13:26:51] [Server thread/INFO]: CJML5067 issued server command: /summon zombie
+[13:26:51] [Server thread/INFO]: [CJML5067: Summoned new Zombie]
+[13:27:23] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarEnemies
+[13:27:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1541, uuid='fc2dcb07-c2f7-4e74-a9d8-da1acd634af9', l='ServerLevel[world]', x=-318.64, y=65.00, z=522.52, cpos=[-20, 32], tl=9696, v=true] died: Soldado Somar was slain by Soldado Enemigo
+[13:27:30] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[13:28:17] [Server thread/INFO]: CJML5067 issued server command: /gamemode creative
+[13:28:17] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
+[13:28:24] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[13:28:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarEnemies
+[13:28:32] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
+[13:28:32] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
+[13:30:07] [Server thread/INFO]: CJML5067 issued server command: /summon minecraft:wolf
+[13:30:07] [Server thread/INFO]: [CJML5067: Summoned new Wolf]
+[13:30:22] [Server thread/INFO]: CJML5067 issued server command: /give @s minecraft:bone
+[13:30:22] [Server thread/INFO]: [CJML5067: Gave 1 [Bone] to CJML5067]
+[13:30:27] [Server thread/INFO]: CJML5067 issued server command: /give @s minecraft:bone 20
+[13:30:27] [Server thread/INFO]: [CJML5067: Gave 20 [Bone] to CJML5067]
+[13:30:37] [Server thread/INFO]: CJML5067 has made the advancement [Best Friends Forever]
+[13:30:40] [Server thread/INFO]: CJML5067 issued server command: /summon minecraft:wolf
+[13:30:40] [Server thread/INFO]: [CJML5067: Summoned new Wolf]
+[13:30:46] [Server thread/INFO]: CJML5067 issued server command: /summon minecraft:wolf
+[13:30:46] [Server thread/INFO]: [CJML5067: Summoned new Wolf]
+[13:30:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
+[13:31:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2905, uuid='f038f671-32a8-4425-8ec0-fa80820676fa', l='ServerLevel[world]', x=-327.57, y=62.00, z=504.78, cpos=[-21, 31], tl=506, v=true] died: Soldado Somar was slain by Wolf
+[13:31:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2513, uuid='845f2d72-d787-492a-8145-287573b4184f', l='ServerLevel[world]', x=-328.72, y=62.00, z=536.28, cpos=[-21, 33], tl=3719, v=true] died: Soldado Somar was slain by Soldado Enemigo
+[13:31:46] [Server thread/INFO]: Named entity EntityZombie['Soldado Enemigo'/2294, uuid='0a3045b9-9224-4591-a523-fb2c27bfd144', l='ServerLevel[world]', x=-328.12, y=62.00, z=525.84, cpos=[-21, 32], tl=5270, v=true] died: Soldado Enemigo was slain by Soldado Somar
+[13:31:50] [Server thread/INFO]: Named entity EntityZombie['Soldado Enemigo'/2540, uuid='bf11ebae-34a9-4ff3-be29-8b38a113e7eb', l='ServerLevel[world]', x=-328.03, y=62.57, z=527.79, cpos=[-21, 32], tl=4075, v=true] died: Soldado Enemigo was slain by Wolf
