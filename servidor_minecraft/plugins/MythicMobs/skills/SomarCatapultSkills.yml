@@ -14,7 +14,7 @@ CPrepareModelSomar:
 
 ordenaVariabP:
   Skills:
-  - 
+  - projectile{bullet=block;material=STONE} @Siblings
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
@@ -88,6 +88,7 @@ filtrarDano:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
       || itemissimilar{item=golden_axe} || itemissimilar{item=netherite_axe}) orElseCast Accion
   Skills:
+  - skill{s=ordenaVariabP}
 GirarDerecha:
   Skills:
     - cancelevent
