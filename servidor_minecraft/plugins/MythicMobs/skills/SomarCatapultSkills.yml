@@ -32,7 +32,7 @@ ObtenerVarPriori:
 
 Pruebas:
   Skills:
-  - msg{m="<world.var.priori>"} @NearestPlayer
+  - msg{m="Priori statica para catapultas <world.var.priori>"} @NearestPlayer
 #    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
@@ -88,13 +88,13 @@ Accion:
 #    - variableEquals{key=target.posc;value="lejos"} true
   Skills:
     - cancelevent
-#    - message{m="interactuando"} @NearestPlayer
+    - message{m="Priori de catapulta <caster.var.priori>"} @NearestPlayer #temporal para ver ajuste de prioridad por catapulta
 filtrarDano:
   TriggerConditions:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
       || itemissimilar{item=golden_axe} || itemissimilar{item=netherite_axe}) orElseCast Accion
   Skills:
-  - skill{s=ordenaVariabP}
+  - skill{s=ordenaVariabP} @LivingInWorld
 GirarDerecha:
   Skills:
     - cancelevent
