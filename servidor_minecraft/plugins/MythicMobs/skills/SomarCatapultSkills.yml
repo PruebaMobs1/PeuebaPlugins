@@ -14,8 +14,10 @@ CPrepareModelSomar:
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
 ordenaVariabP:
+  Conditions:
+  - variableEquals{var=priori;s=caster;value=<<target.var.priori>}
   TargetConditions:
-    - (isMythicMob true && variableisset{s=caster;var=priori} && variableInRange{var=priori;s=caster;value=<target.var.priori>}) true
+  - (isMythicMob true && variableisset{s=caster;var=priori}) true
   Skills:
   - message{m="la variable coincide"} @NearestPlayer
 #  - variablesubtract{}
