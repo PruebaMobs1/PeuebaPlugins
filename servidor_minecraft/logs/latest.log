@@ -341,3 +341,88 @@
 [13:53:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1226)
 [13:53:10] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
 [13:53:10] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:53:11] [Server thread/INFO]: Summoned new Armor Stand
+[13:55:10] [Server thread/INFO]: [Mythic] Reloading plugin...
+[13:55:10] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[13:55:10] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[13:55:10] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Items...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[13:55:11] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 85 skills.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[13:55:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[13:55:11] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[13:55:11] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[13:55:17] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[13:55:18] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Condition variableIsSet
+[13:55:18] [Server thread/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[13:55:18] [Server thread/WARN]: [MythicMobs] --| Condition Line: variableisset{var=world.priori} castInstead
+[13:55:18] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.skills.placeholders.PlaceholderString.get(io.lumine.mythic.core.skills.placeholders.PlaceholderMeta)" because "this.actionVar" is null
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.handleOutcome(SkillCondition.java:451)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateCaster(SkillCondition.java:210)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:390)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.handleOutcome(SkillCondition.java:454)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillCondition.evaluateCaster(SkillCondition.java:210)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:390)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:351)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:129)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:515)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:461)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:458)
+[13:55:18] [Server thread/WARN]: 	at MythicMobs-5.7.2 (1).jar//io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:458)
+[13:55:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[13:55:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482)
+[13:55:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1646)
+[13:55:18] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:447)
+[13:55:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1525)
+[13:55:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1226)
+[13:55:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[13:55:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:55:19] [Server thread/INFO]: Summoned new Armor Stand
+[13:55:21] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[13:55:21] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/3829, uuid='5221402c-9341-4785-8170-7db8727a3aa4', l='ServerLevel[world]', x=-332.91, y=62.00, z=534.92, cpos=[-21, 33], tl=2625, v=true] died: Catapulta Somar was killed
+[13:55:21] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2934, uuid='763c2c98-de16-4639-9d02-ebb6134dbd06', l='ServerLevel[world]', x=-327.83, y=66.00, z=528.15, cpos=[-21, 33], tl=9600, v=true] died: Catapulta Somar was killed
+[13:55:21] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4179, uuid='4e08cb3c-c31e-4326-aab5-5568e4281ea5', l='ServerLevel[world]', x=-336.96, y=70.00, z=550.23, cpos=[-22, 34], tl=80, v=true] died: Catapulta Somar was killed
+[13:55:21] [Server thread/INFO]: [CJML5067: Killed 130 entities]
+[13:55:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[13:55:22] [Server thread/INFO]: [CJML5067: Killed 88 entities]
+[13:56:09] [Server thread/INFO]: [Mythic] Reloading plugin...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Items...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[13:56:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 85 skills.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[13:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[13:56:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[13:56:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[13:56:14] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[13:56:16] [Server thread/INFO]: Summoned new Armor Stand
+[13:56:21] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[13:56:22] [Server thread/INFO]: Summoned new Armor Stand
+[13:56:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[13:56:27] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4699, uuid='8a6f8d70-6298-421a-91ff-a01586635153', l='ServerLevel[world]', x=-338.50, y=66.00, z=538.92, cpos=[-22, 33], tl=133, v=true] died: Catapulta Somar was killed
+[13:56:27] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4576, uuid='ae4f6f0f-f6eb-4dc7-81c3-0185607c415f', l='ServerLevel[world]', x=-337.49, y=70.00, z=550.92, cpos=[-22, 34], tl=267, v=true] died: Catapulta Somar was killed
+[13:56:27] [Server thread/INFO]: [CJML5067: Killed 124 entities]
+[13:56:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[13:56:29] [Server thread/INFO]: [CJML5067: Killed 119 entities]

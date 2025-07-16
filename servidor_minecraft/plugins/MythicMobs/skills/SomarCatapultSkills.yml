@@ -12,16 +12,17 @@ CPrepareModelSomar:
     - setvariable{var=caster.sold3;t=String;value="false"}
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
+ordenaVariabP:
+  Skills:
+  - 
 CrearVarPriori:
   Conditions:
-  - variableisset{var=world.priori} castInstead ObtenerVarPriori
+  - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
   Skills:
   - setvariable{var=world.priori;type=INTEGER;value=1}
 ObtenerVarPriori:
-  Conditions:
-  - variableisset{var=world.priori} castInstead
   Skills:
-  - variableadd{var=world.priori;value=1}
+  - variableadd{var=world.priori;a=1}
 
 Pruebas:
   Skills:
