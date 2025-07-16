@@ -14,7 +14,7 @@ CPrepareModelSomar:
 
 ordenaVariabP:
   Skills:
-  - projectile{bullet=block;material=STONE} @Siblings
+  - projectile{bullet=block;material=STONE} @LivingInWorld{targetsamefaction=true}
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
