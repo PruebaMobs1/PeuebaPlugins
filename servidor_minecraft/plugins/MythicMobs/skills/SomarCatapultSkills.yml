@@ -3,6 +3,7 @@ CPrepareModelSomar:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
+    - skill{s=CrearVarPriori}
 #    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
     - setvariable{var=caster.sold1;t=String;value="false"}
     - delay 10
@@ -13,9 +14,14 @@ CPrepareModelSomar:
 
 CrearVarPriori:
   Conditions:
-  - variableisSet{var=world.priori} false
+  - variableisset{var=world.priori} castInstead ObtenerVarPriori
   Skills:
-  - setvariable{var=world.priori;value=1}    
+  - setvariable{var=world.priori;type=INTEGER;value=1}
+ObtenerVarPriori:
+  Conditions:
+  - variableisset{var=world.priori} castInstead
+  Skills:
+  - variableadd{var=world.priori;value=1}
 
 Pruebas:
   Skills:
