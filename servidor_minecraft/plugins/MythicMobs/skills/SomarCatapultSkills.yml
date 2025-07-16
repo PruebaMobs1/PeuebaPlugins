@@ -15,7 +15,7 @@ CPrepareModelSomar:
 
 ordenaVariabP:
   TargetConditions:
-    - variableEquals{key=caster.priori;value=7}
+    - variableisset{s=caster;var=priori}
   Skills:
   - message{m="la variable coincide"} @NearestPlayer
   - projectile{bullet=block;material=STONE} 
@@ -94,7 +94,7 @@ filtrarDano:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
       || itemissimilar{item=golden_axe} || itemissimilar{item=netherite_axe}) orElseCast Accion
   Skills:
-  - skill{s=ordenaVariabP} @LivingInWorld
+  - skill{s=ordenaVariabP} @EIR{r=20}
 GirarDerecha:
   Skills:
     - cancelevent
