@@ -14,8 +14,8 @@ CPrepareModelSomar:
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
 ordenaVariabP:
-  Conditions:
-    - variableEquals{key=target.priori;value=<world.var.priori>}
+  TargetConditions:
+    - variableEquals{key=caster.priori;value=7}
   Skills:
   - message{m="la variable coincide"} @NearestPlayer
   - projectile{bullet=block;material=STONE} 
