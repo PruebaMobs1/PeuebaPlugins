@@ -10,6 +10,16 @@ CPrepareModelSomar:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
+
+CrearVarPriori:
+  Conditions:
+  - variableisSet{var=world.priori} false
+  Skills:
+  - setvariable{var=world.priori;value=1}    
+
+Pruebas:
+  Skills:
+  - msg{m="<world.var.priori>"} @NearestPlayer
 #    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
@@ -163,9 +173,6 @@ ctprsPerdidos:
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
-Pruebas:
-  Skills:
-  - msg{m="&9 si ejecuta"} @NearestPlayer
 
 #avisJugador:
 #  Skills:
