@@ -14,8 +14,11 @@ CPrepareModelSomar:
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
 ordenaVariabP:
+  Conditions:
+    - variableEquals{key=target.priori;value=<world.var.priori>}
   Skills:
-  - projectile{bullet=block;material=STONE} @Siblings
+  - message{m="la variable coincide"} @NearestPlayer
+  - projectile{bullet=block;material=STONE} 
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
@@ -24,6 +27,8 @@ CrearVarPriori:
 ObtenerVarPriori:
   Skills:
   - variableadd{var=world.priori;a=1}
+  - delay 5
+  - setvariable{var=caster.priori;type=INTEGER;value=<world.var.priori>}
 
 Pruebas:
   Skills:
