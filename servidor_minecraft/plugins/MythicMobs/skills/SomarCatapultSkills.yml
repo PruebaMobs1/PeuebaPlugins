@@ -15,9 +15,10 @@ CPrepareModelSomar:
 
 ordenaVariabP:
   TargetConditions:
-    - (isMythicMob true && variableisset{s=caster;var=priori}) true
+    - (isMythicMob true && variableisset{s=caster;var=priori} && variableInRange{var=caster.priori;value=>"<caster.var.priori>"}) true
   Skills:
   - message{m="la variable coincide"} @NearestPlayer
+#  - variablesubtract{}
   - projectile{bullet=block;material=STONE} 
 CrearVarPriori:
   Conditions:
