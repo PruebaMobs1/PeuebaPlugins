@@ -41,7 +41,7 @@ CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
   Skills:
-  - setvariable{var=world.priori;type=INTEGER;value=1}
+  - setvariable{var=world.priori;type=INTEGER;value=1;save=true}
   - setvariable{var=caster.priori;type=INTEGER;value=1}
 ObtenerVarPriori:
   Skills:
@@ -206,6 +206,7 @@ ctprsPerdidos:
   - variableEquals{var=caster.priori;t=Integer;value=1}
   Skills:
   #- globalcooldown{ticks=20}
+  - setvariable{var=caster.priori;t=String;value=0}
   - msg{m="&9 Soldados completos"} @NearestPlayer
 
 #avisJugador:
