@@ -23,6 +23,7 @@ AvisOrdenaVariabP: #variableprioridad
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE}
   - SudoSkill{s=asignarseVariabP;setcasterastrigger=true}
+  - variablesubtract{var=world.priori;type=INTEGER;a=1}
 
 asignarseVariabP:
  Conditions:
@@ -31,7 +32,7 @@ asignarseVariabP:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} trigger
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
+  - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
 
 CrearVarPriori:
   Conditions:
