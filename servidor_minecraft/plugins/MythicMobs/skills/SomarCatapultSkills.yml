@@ -153,8 +153,8 @@ DesmontarDereCtp:
     - dismountall{mid=CatapultaSomarfinal;p=asientoDere;sync=true} @self
 
 MarcCatapult1:
-  TargetConditions:
-    - variableEquals{var=caster.catapulta;t=INTEGER;value=0}
+  Conditions:
+#    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   Skills:
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
@@ -166,6 +166,7 @@ MarcCatapult1:
 MarcCatapult2:
   Conditions:
     - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
+#    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   Skills:
     - skill{s=Pruebas}
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
@@ -180,6 +181,7 @@ MarcCatapult2:
 MarcCatapult3:
   Conditions:
     - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
+#    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   Skills:
     - delay 3
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
