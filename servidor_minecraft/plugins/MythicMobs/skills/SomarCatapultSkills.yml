@@ -19,7 +19,7 @@ AvisOrdenaVariabP: #variableprioridad
   TargetConditions:
   - (isMythicMob true && variableisset{s=caster;var=priori}) true
   Skills:
-  - message{m="la variable coincide  <world.var.priori>"} @NearestPlayer
+  - message{m="la variable coincide"}
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} 
   - SudoSkill{s=asignarseVariabP;setcasterastrigger=true}
@@ -28,9 +28,10 @@ asignarseVariabP:
  Conditions:
   - variableInRange{var=caster.priori;value=><trigger.var.priori>}
  Skills:
-  - message{m="la variable coincide  <world.var.priori>"} @NearestPlayer
+  - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
-  - projectile{bullet=block;material=STONE} 
+  - projectile{bullet=block;material=STONE} trigger
+  - variablesubtract{var=target.priori;type=INTEGER;a=1}
 
 CrearVarPriori:
   Conditions:
