@@ -22,9 +22,10 @@ AvisOrdenaVariabP: #variableprioridad
   - message{m="la variable coincide"}
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE}
-  - SudoSkill{s=asignarseVariabP;setcasterastrigger=true}
+  - SudoSkill{s=restarVariabP;setcasterastrigger=true}
+  - variablesubtract{var=world.priori;type=INTEGER;a=1}
 
-asignarseVariabP:
+restarVariabP:
  Conditions:
   - variableInRange{var=caster.priori;value=><trigger.var.priori>}
  Skills:
