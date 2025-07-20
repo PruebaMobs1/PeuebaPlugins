@@ -1255,3 +1255,131 @@
 [02:10:07] [Server thread/INFO]: [CJML5067: Killed 201 entities]
 [02:10:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
 [02:10:08] [Server thread/INFO]: [CJML5067: Killed 78 entities]
+[02:15:16] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:15:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:15:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:15:16] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:15:16] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:15:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:15:33] [Server thread/INFO]: [CJML5067: Killed 117 entities]
+[02:15:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:15:34] [Server thread/INFO]: [CJML5067: Killed 79 entities]
+[02:15:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[02:15:37] [Server thread/INFO]: Summoned new Armor Stand
+[02:15:41] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[02:15:43] [Server thread/INFO]: Summoned new Armor Stand
+[02:15:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:15:46] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/31059, uuid='b17e77b0-e32e-48d5-8ea8-72abfc98904c', l='ServerLevel[world]', x=-334.49, y=62.00, z=528.84, cpos=[-21, 33], tl=198, v=true] died: Catapulta Somar was killed
+[02:15:46] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/31232, uuid='454bff9c-61f5-488b-9ebc-334e72788ede', l='ServerLevel[world]', x=-328.11, y=70.00, z=515.32, cpos=[-21, 32], tl=89, v=true] died: Catapulta Somar was killed
+[02:15:46] [Server thread/INFO]: [CJML5067: Killed 122 entities]
+[02:15:46] [lumine-scheduler-72/WARN]: [MythicMobs] ✗ Configuration Error in Condition variableInRange
+[02:15:46] [lumine-scheduler-72/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[02:15:46] [lumine-scheduler-71/WARN]: [MythicMobs] ✗ Configuration Error in Condition variableInRange
+[02:15:46] [lumine-scheduler-71/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[02:15:46] [lumine-scheduler-72/WARN]: [MythicMobs] --| Condition Line: variableInRange{var=caster.priori;value=><trigger.var.priori>}
+[02:15:46] [lumine-scheduler-71/WARN]: [MythicMobs] --| Condition Line: variableInRange{var=caster.priori;value=><trigger.var.priori>}
+[02:15:46] [lumine-scheduler-72/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.skills.variables.VariableRegistry.getFloat(String)" because "registry" is null
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.conditions.all.VariableInRangeCondition.check(VariableInRangeCondition.java:54)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillCondition.evaluateCaster(SkillCondition.java:255)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:397)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:358)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.SudoSkillMechanic.cast(SudoSkillMechanic.java:65)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:529)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:427)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:160)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:544)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.mobs.MobType.lambda$executeSkills$8(MobType.java:1342)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:15:46] [lumine-scheduler-72/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:15:46] [lumine-scheduler-71/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.skills.variables.VariableRegistry.getFloat(String)" because "registry" is null
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.conditions.all.VariableInRangeCondition.check(VariableInRangeCondition.java:54)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillCondition.evaluateCaster(SkillCondition.java:255)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:397)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:358)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.SudoSkillMechanic.cast(SudoSkillMechanic.java:65)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:529)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:427)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:160)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:544)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.mobs.MobType.lambda$executeSkills$8(MobType.java:1342)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:15:46] [lumine-scheduler-71/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:18:34] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:18:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:18:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:18:34] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:18:35] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:18:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:18:35] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:18:35] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:18:45] [Server thread/INFO]: CJML5067 issued server command: /weather clear
+[02:18:45] [Server thread/INFO]: [CJML5067: Set the weather to clear]
+[02:18:49] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[02:18:50] [Server thread/INFO]: Summoned new Armor Stand
+[02:18:52] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:18:52] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/32008, uuid='ef0f62ce-560a-4aba-94f2-8b5d4626cd4c', l='ServerLevel[world]', x=-323.91, y=70.00, z=511.22, cpos=[-21, 31], tl=68, v=true] died: Catapulta Somar was killed
+[02:18:52] [lumine-scheduler-71/WARN]: [MythicMobs] ✗ Configuration Error in Condition variableInRange
+[02:18:52] [lumine-scheduler-71/WARN]: [MythicMobs] --| Error Message: An internal error occurred
+[02:18:52] [lumine-scheduler-71/WARN]: [MythicMobs] --| Condition Line: variableInRange{var=caster.priori;value=><trigger.var.priori>}
+[02:18:52] [lumine-scheduler-71/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.core.skills.variables.VariableRegistry.getFloat(String)" because "registry" is null
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.conditions.all.VariableInRangeCondition.check(VariableInRangeCondition.java:54)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillCondition.evaluateCaster(SkillCondition.java:255)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:397)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.isUsable(MetaSkill.java:358)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.SudoSkillMechanic.cast(SudoSkillMechanic.java:65)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:529)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:427)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.mechanics.MetaSkillMechanic.cast(MetaSkillMechanic.java:160)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:544)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.core.mobs.MobType.lambda$executeSkills$8(MobType.java:1342)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at MythicMobs-5.9.5.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:18:52] [lumine-scheduler-71/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:18:52] [Server thread/INFO]: [CJML5067: Killed 205 entities]

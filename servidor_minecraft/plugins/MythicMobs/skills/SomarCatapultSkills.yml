@@ -18,12 +18,11 @@ AvisOrdenaVariabP: #variableprioridad
 #  Conditions:
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
-  - (isMythicMob true && variableisset{s=caster;var=priori}) true
+  - (isMythicMob true && variableisset{s=caster;var=priori}) cast restarVariabPGlobal
   Skills:
   - message{m="la variable coincide"}
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE}
-  - variablesubtract{var=world.priori;type=INTEGER;a=1} @self
   - SudoSkill{s=restarVariabP;setcasterastrigger=true}
 
 restarVariabP:
@@ -34,6 +33,10 @@ restarVariabP:
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} trigger
   - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
+
+restarVariabPGlobal:
+  Skills:
+  - variablesubtract{var=world.priori;type=INTEGER;a=1} @self
 
 CrearVarPriori:
   Conditions:
