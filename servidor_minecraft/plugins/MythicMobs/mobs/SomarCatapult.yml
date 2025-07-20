@@ -24,5 +24,6 @@ SomarCatapult:
     - skill{s=filtrarDano;Sync=true} ~onDamaged
 #    - skill{s=soldsApuntar} @Forward{a=30} ~onTimer:20
     - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
+    - skill{s=restarVariabPGlobal} ~onDeath
     - skill{s=Pruebas} ~onTimer:100 
 #    - message{m="Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:40

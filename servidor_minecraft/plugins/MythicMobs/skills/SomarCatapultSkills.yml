@@ -1,16 +1,15 @@
 CPrepareModelSomar:
   Skills:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
+    - skill{s=CrearVarPriori}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
-    - skill{s=CrearVarPriori}
 #    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
     - setvariable{var=caster.sold1;t=String;value="false"}
     - delay 10
     - setvariable{var=caster.sold2;t=String;value="false"}
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
-#    - variablesubtract{var=world.priori;type=INTEGER;a=1}
 #    - sudoparent @NearestPlayer
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
@@ -18,7 +17,7 @@ AvisOrdenaVariabP: #variableprioridad
 #  Conditions:
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
-  - (isMythicMob true && variableisset{s=caster;var=priori}) cast restarVariabPGlobal
+  - (isMythicMob true && variableisset{s=caster;var=priori})
   Skills:
   - message{m="la variable coincide"}
 #  - variablesubtract{}
