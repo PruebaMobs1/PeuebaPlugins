@@ -18,9 +18,12 @@ ordenaVariabP:
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
   - (isMythicMob true && variableisset{s=caster;var=priori}) true
-  - variableInRange{var=world.priori;value=><caster.var.priori>}
   Skills:
   - message{m="la variable coincide  <target.var.priori>"}
+  - setvariable{var=skill.priori_temp;type=INTEGER;value=<target.var.priori>}
+  - delay 10
+  - message{m="la variable coincide  <skill.var.priori_temp>"} @NearestPlayer
+
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} 
 CrearVarPriori:
