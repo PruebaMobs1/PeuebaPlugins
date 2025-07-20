@@ -13,19 +13,25 @@ CPrepareModelSomar:
 #    - sudoparent @NearestPlayer
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
-ordenaVariabP:
+AvisOrdenaVariabP: #variableprioridad
 #  Conditions:
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
   - (isMythicMob true && variableisset{s=caster;var=priori}) true
   Skills:
-  - message{m="la variable coincide  <target.var.priori>"}
-  - setvariable{var=skill.priori_temp;type=INTEGER;value=<target.var.priori>}
-  - delay 10
-  - message{m="la variable coincide  <skill.var.priori_temp>"} @NearestPlayer
-
+  - message{m="la variable coincide  <world.var.priori>"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} 
+  - SudoSkill{s=asignarseVariabP;setcasterastrigger=true}
+
+asignarseVariabP:
+ Conditions:
+  - variableInRange{var=caster.priori;value=><trigger.var.priori>}
+ Skills:
+  - message{m="la variable coincide  <world.var.priori>"} @NearestPlayer
+#  - variablesubtract{}
+  - projectile{bullet=block;material=STONE} 
+
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
@@ -102,7 +108,7 @@ filtrarDano:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
       || itemissimilar{item=golden_axe} || itemissimilar{item=netherite_axe}) orElseCast Accion
   Skills:
-  - skill{s=ordenaVariabP} @LivingInWorld
+  - skill{s=AvisOrdenaVariabP} @LivingInWorld
 GirarDerecha:
   Skills:
     - cancelevent
