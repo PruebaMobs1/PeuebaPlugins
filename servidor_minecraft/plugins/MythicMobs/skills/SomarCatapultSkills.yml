@@ -203,7 +203,7 @@ ctprsPerdidos:
   Cooldown: 5
   Conditions:
   - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead revSoldCtp
-  - variableEquals{var=caster.priori;t=Integer;value=1}
+#  - variableEquals{var=caster.priori;t=Integer;value=1}
   Skills:
   #- globalcooldown{ticks=20}
   - setvariable{var=caster.priori;t=String;value=0}
