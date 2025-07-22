@@ -26,16 +26,17 @@ AvisOrdenaVariabP: #variableprioridad
 
 restarVariabP:
  Conditions:
+  - variableisset{s=caster;var=priori}
   - variableInRange{var=caster.priori;value=><trigger.var.priori>}
  Skills:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
-  - projectile{bullet=block;material=STONE} trigger
+  - projectile{bullet=block;material=STONE} @trigger
   - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
 
 restarVariabPGlobal:
   Skills:
-  - variablesubtract{var=world.priori;type=INTEGER;a=1} @self
+  - variablesubtract{var=world.priori;type=INTEGER;a=1}
 
 CrearVarPriori:
   Conditions:
