@@ -15,9 +15,8 @@ CPrepareModelSomar:
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
 AvisOrdenaVariabP: #variableprioridad
-  Conditions:
+#  Conditions:
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
-  - variableisset{s=target;var=priori}
   TargetConditions:
   - isMythicMob true
   Skills:
@@ -28,7 +27,7 @@ AvisOrdenaVariabP: #variableprioridad
 
 restarVariabP:
  Conditions:
-  - variableisset{s=target;var=priori}
+  - isMythicMob true
   - variableInRange{var=caster.priori;value=><trigger.var.priori>}
  Skills:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
@@ -39,7 +38,6 @@ restarVariabP:
 restarVariabPGlobal:
   Skills:
   - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
-
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
