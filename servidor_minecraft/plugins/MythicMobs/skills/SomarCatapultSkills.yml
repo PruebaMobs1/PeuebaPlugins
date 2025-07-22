@@ -165,6 +165,10 @@ MarcCatapult1:
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
+#Se cierra el reclutamiento por catapulta y se baja la prioridad
+    - SudoSkill{s=restarVariabP;setcasterastrigger=true} @LivingInWorld
+    - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
+    - skill{s=restarVariabPGlobal} 
 MarcCatapult2:
   Conditions:
     - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
@@ -204,14 +208,10 @@ revSoldCtp:
 ctprsPerdidos:
   Cooldown: 5
   Conditions:
-  - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead revSoldCtp
-  - variableEquals{var=caster.priori;value=1}
+  - ((variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) && variableEquals{var=caster.priori;value=1}) castInstead revSoldCtp
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
-  - SudoSkill{s=restarVariabP;setcasterastrigger=true} @LivingInWorld
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
-  - skill{s=restarVariabPGlobal} 
 
 #avisJugador:
 #  Skills:
