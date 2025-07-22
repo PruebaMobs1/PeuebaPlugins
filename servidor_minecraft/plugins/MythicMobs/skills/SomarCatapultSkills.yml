@@ -36,6 +36,8 @@ restarVariabP:
   - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
 
 restarVariabPGlobal:
+  Conditions:
+  - variableInRange{var=caster.priori;value=>0}
   Skills:
   - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 CrearVarPriori:
@@ -168,7 +170,7 @@ MarcCatapult1:
 #Se cierra el reclutamiento por catapulta y se baja la prioridad
     - SudoSkill{s=restarVariabP;setcasterastrigger=true} @LivingInWorld
     - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
-    - skill{s=restarVariabPGlobal} 
+    - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 MarcCatapult2:
   Conditions:
     - variableEquals{var=caster.priori;value=1}
