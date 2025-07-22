@@ -26,8 +26,8 @@ AvisOrdenaVariabP: #variableprioridad
 
 restarVariabP:
  Conditions:
-  - variableisset{s=caster;var=priori}
   - variableInRange{var=caster.priori;value=><trigger.var.priori>}
+  - variableisset{s=target;var=priori}
  Skills:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
@@ -36,7 +36,7 @@ restarVariabP:
 
 restarVariabPGlobal:
   Skills:
-  - variablesubtract{var=world.priori;type=INTEGER;a=1}
+  - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 
 CrearVarPriori:
   Conditions:
