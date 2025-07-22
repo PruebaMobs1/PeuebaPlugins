@@ -689,3 +689,186 @@
 [15:50:01] [lumine-scheduler-28/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
 [15:50:01] [lumine-scheduler-28/WARN]: [MythicMobs] --| Mechanic Line: variableadd{var=world.priori;t=Integer;a=1}
 [15:50:02] [Server thread/INFO]: Summoned new Armor Stand
+[15:50:44] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:50:44] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/11368, uuid='ed5fe66d-3e71-4d73-ad42-b03e2b62eb8e', l='ServerLevel[world]', x=-343.50, y=72.00, z=494.10, cpos=[-22, 30], tl=877, v=true] died: Catapulta Somar was killed
+[15:50:44] [lumine-scheduler-27/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSubtract
+[15:50:44] [lumine-scheduler-27/WARN]: [MythicMobs] --| Skill: restarVariabPGlobal | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[15:50:44] [lumine-scheduler-27/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
+[15:50:44] [lumine-scheduler-27/WARN]: [MythicMobs] --| Mechanic Line: variablesubtract{var=world.priori;type=INTEGER;a=1}
+[15:50:44] [Server thread/INFO]: [CJML5067: Killed 103 entities]
+[15:50:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:50:46] [Server thread/INFO]: [CJML5067: Killed 82 entities]
+[15:53:47] [Server thread/INFO]: [Mythic] Reloading plugin...
+[15:53:47] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[15:53:47] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[15:53:47] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Items...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[15:53:48] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[15:53:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[15:53:48] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[15:53:48] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[15:53:53] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[15:53:53] [lumine-scheduler-30/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableAdd
+[15:53:53] [lumine-scheduler-30/WARN]: [MythicMobs] --| Skill: ObtenerVarPriori | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[15:53:53] [lumine-scheduler-30/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
+[15:53:53] [lumine-scheduler-30/WARN]: [MythicMobs] --| Mechanic Line: variableadd{var=world.priori;t=Integer;a=1}
+[15:53:54] [Server thread/INFO]: Summoned new Armor Stand
+[15:54:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[15:54:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:54:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12133, uuid='01580101-b163-43f5-a428-b8b150d41a74', l='ServerLevel[world]', x=-335.37, y=65.00, z=495.00, cpos=[-21, 30], tl=447, v=true] died: Soldado Somar was killed
+[15:54:25] [lumine-scheduler-29/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSubtract
+[15:54:25] [lumine-scheduler-29/WARN]: [MythicMobs] --| Skill: restarVariabPGlobal | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[15:54:25] [lumine-scheduler-29/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
+[15:54:25] [lumine-scheduler-29/WARN]: [MythicMobs] --| Mechanic Line: variablesubtract{var=world.priori;type=INTEGER;a=1}
+[15:54:25] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/12008, uuid='21cda9ed-f508-4912-8131-6d4291f5895a', l='ServerLevel[world]', x=-343.50, y=72.00, z=494.10, cpos=[-22, 30], tl=635, v=true] died: Catapulta Somar was killed
+[15:54:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12172, uuid='0d533754-3968-44a5-882d-80f0a1f8b129', l='ServerLevel[world]', x=-348.71, y=66.00, z=501.61, cpos=[-22, 31], tl=447, v=true] died: Soldado Somar was killed
+[15:54:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12132, uuid='306ec003-4ac6-452d-ac42-d8056e65ea84', l='ServerLevel[world]', x=-336.50, y=66.25, z=494.56, cpos=[-22, 30], tl=447, v=true] died: Soldado Somar was killed
+[15:54:25] [Server thread/INFO]: [CJML5067: Killed 112 entities]
+[15:54:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:54:25] [Server thread/INFO]: [CJML5067: Killed 71 entities]
+[15:54:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:54:26] [Server thread/INFO]: [CJML5067: Killed 36 entities]
+[15:54:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:54:27] [Server thread/INFO]: [CJML5067: Killed 43 entities]
+[15:54:30] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[15:54:30] [lumine-scheduler-30/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableAdd
+[15:54:30] [lumine-scheduler-30/WARN]: [MythicMobs] --| Skill: ObtenerVarPriori | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[15:54:30] [lumine-scheduler-30/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
+[15:54:30] [lumine-scheduler-30/WARN]: [MythicMobs] --| Mechanic Line: variableadd{var=world.priori;t=Integer;a=1}
+[15:54:32] [Server thread/INFO]: Summoned new Armor Stand
+[15:54:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[15:55:44] [Server thread/INFO]: [Mythic] Reloading plugin...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Items...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[15:55:44] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[15:55:44] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[15:55:44] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[15:55:44] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[15:56:08] [Server thread/INFO]: [Mythic] Reloading plugin...
+[15:56:08] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[15:56:08] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[15:56:08] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Items...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[15:56:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[15:56:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[15:56:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[15:56:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[15:56:15] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[15:56:15] [lumine-scheduler-32/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableAdd
+[15:56:15] [lumine-scheduler-32/WARN]: [MythicMobs] --| Skill: ObtenerVarPriori | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
+[15:56:15] [lumine-scheduler-32/WARN]: [MythicMobs] --| Error Message: Could not perform math operation on non-numeric variable type
+[15:56:15] [lumine-scheduler-32/WARN]: [MythicMobs] --| Mechanic Line: variableadd{var=world.priori;t=Integer;a=1}
+[15:56:16] [Server thread/INFO]: Summoned new Armor Stand
+[15:56:19] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:56:19] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/12798, uuid='c891ba93-8c36-405b-a281-2ca1515473ad', l='ServerLevel[world]', x=-343.50, y=72.00, z=494.10, cpos=[-22, 30], tl=93, v=true] died: Catapulta Somar was killed
+[15:56:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12629, uuid='13e87e19-1e73-4d4c-beee-b91637cc06da', l='ServerLevel[world]', x=-345.23, y=68.00, z=488.88, cpos=[-22, 30], tl=2127, v=true] died: Soldado Somar was killed
+[15:56:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12608, uuid='5485b572-bdfc-4e0b-b441-d7b1f614e0f0', l='ServerLevel[world]', x=-344.93, y=66.00, z=494.55, cpos=[-22, 30], tl=2127, v=true] died: Soldado Somar was killed
+[15:56:19] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/12477, uuid='65d58cad-a222-4631-b9bf-0677d81fca75', l='ServerLevel[world]', x=-343.50, y=72.00, z=494.10, cpos=[-22, 30], tl=2185, v=true] died: Catapulta Somar was killed
+[15:56:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12628, uuid='90b7afa1-4e57-4c58-bddf-55f856f032e9', l='ServerLevel[world]', x=-337.44, y=64.00, z=496.68, cpos=[-22, 31], tl=2127, v=true] died: Soldado Somar was killed
+[15:56:19] [Server thread/INFO]: [CJML5067: Killed 122 entities]
+[15:56:20] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:56:20] [Server thread/INFO]: [CJML5067: Killed 86 entities]
+[15:56:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[15:56:24] [Server thread/INFO]: Summoned new Armor Stand
+[15:56:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:56:26] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/13074, uuid='e7f1b29b-3052-4e8f-8eb7-54004c05a0b1', l='ServerLevel[world]', x=-343.50, y=72.00, z=494.10, cpos=[-22, 30], tl=71, v=true] died: Catapulta Somar was killed
+[15:56:26] [Server thread/INFO]: [CJML5067: Killed 110 entities]
+[15:56:26] [Server thread/INFO]: CJML5067 issued server command: /
+[15:56:28] [Server thread/INFO]: CJML5067 issued server command: /
+[15:56:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:56:29] [Server thread/INFO]: [CJML5067: Killed 119 entities]
+[15:56:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:56:30] [Server thread/INFO]: [CJML5067: Killed 45 entities]
+[15:56:55] [Server thread/INFO]: [Mythic] Reloading plugin...
+[15:56:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[15:56:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[15:56:55] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Items...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[15:56:56] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[15:56:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[15:56:56] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[15:56:56] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[15:57:00] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[15:57:02] [Server thread/INFO]: Summoned new Armor Stand
+[15:57:25] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[15:57:58] [Server thread/INFO]: [Mythic] Reloading plugin...
+[15:57:58] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[15:57:58] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[15:57:58] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Items...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[15:57:59] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 88 skills.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[15:57:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[15:57:59] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[15:57:59] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[15:57:59] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:04] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:10] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:16] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:22] [Craft Scheduler Thread - 0 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:28] [Craft Scheduler Thread - 0 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:34] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[15:58:38] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:58:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13674, uuid='b3a3fb6a-9440-4958-bb5d-199c287e2a05', l='ServerLevel[world]', x=-351.55, y=69.42, z=477.73, cpos=[-22, 29], tl=1463, v=true] died: Soldado Somar was killed
+[15:58:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13694, uuid='6c8f4a62-2eaf-4626-b69d-e39392f48fe6', l='ServerLevel[world]', x=-347.99, y=68.00, z=480.42, cpos=[-22, 30], tl=1463, v=true] died: Soldado Somar was killed
+[15:58:38] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/13516, uuid='c63d8a4d-0f3d-4a0a-addf-64aa7686e936', l='ServerLevel[world]', x=-343.08, y=72.00, z=494.08, cpos=[-22, 30], tl=1963, v=true] died: Catapulta Somar was killed
+[15:58:38] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13695, uuid='6ce74d14-4938-4609-95a2-16d9db583cc8', l='ServerLevel[world]', x=-350.55, y=68.00, z=490.55, cpos=[-22, 30], tl=1463, v=true] died: Soldado Somar was killed
+[15:58:38] [Server thread/INFO]: [CJML5067: Killed 121 entities]
+[15:58:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[15:58:39] [Server thread/INFO]: [CJML5067: Killed 74 entities]
