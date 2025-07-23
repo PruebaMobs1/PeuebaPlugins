@@ -179,7 +179,7 @@ MarcCatapult1:
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
 #Se cierra el reclutamiento por catapulta y se baja la prioridad
-    - sudoskill{s=restarVariabP2} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
+    - sudoskill{s=restarVariabP2;t=@LivingInWorld} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
     - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self       # pero la comparaci[on en la condici[n del restar esta mal
     - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 MarcCatapult2:
