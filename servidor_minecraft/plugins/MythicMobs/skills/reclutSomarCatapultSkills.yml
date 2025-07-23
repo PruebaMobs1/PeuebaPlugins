@@ -13,9 +13,10 @@ obtenerNevaVarPriori:
 
 RotarPrioridad:
   Conditions:
-  - variableInRange{var=caster.tempPriori;val=<<world.catapultas>} orElseCast resetearPriori
+  - variableInRange{var=caster.tempPriori;val=<<world.var.catapultas>} orElseCast resetearPriori
   Skills:
-  - variableadd{var=caster.tempPriori;val=1}
+  - variableadd{var=caster.tempPriori;val=1} @self
+  - delay 0
   - msg{m=variableRotada prioridad> <caster.var.tempPriori>} @NearestPlayer
 
 resetearPriori:
