@@ -1,17 +1,16 @@
 RecCPrepareModel:
   Skills:
-  - setvariable{var=world.catapultas;val=0}
+  - setvariable{var=world.catapultas;val=0;save=true}
   - setvariable{var=caster.tempPriori;val=0}
   - skill{s=DarVarPriori}
 
-DarVarPriori:
+obtenerNevaVarPriori:
   Skills:
-  - variableadd{var=world.priori;t=Integer;a=1}
+  - variableadd{var=world.catapultas;t=Integer;a=1}
   - delay 5
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>}
 
 RotarPrioridad:
-  Cooldown: 20
   Conditions:
   - variableInRange{var=caster.tempPriori;val=<<world.catapultas>} orElseCast resetearPriori
   Skills:
