@@ -36,9 +36,9 @@ restarVariabP:
   - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
 
 restarVariabP2:
- Conditions:
+ TargetConditions:
   - isMythicMob true
-  - (variableisset{s=target;var=priori} && variableInRange{var=target.priori;value=>0}) true
+  - (variableisset{s=caster;var=priori} && variableInRange{var=caster.priori;value=>0}) true
  Skills:
   - message{m="Debo restar variable p"} @NearestPlayer
 #  - variablesubtract{}
@@ -178,6 +178,7 @@ MarcCatapult1:
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
+    - delay 10
 #Se cierra el reclutamiento por catapulta y se baja la prioridad
     - skill{s=restarVariabP2} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
     - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self       # pero la comparaci[on en la condici[n del restar esta mal
