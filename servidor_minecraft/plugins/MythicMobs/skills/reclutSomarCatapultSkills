@@ -1,13 +1,19 @@
 RecCPrepareModel:
   Skills:
   - setvariable{var=world.priori;val=0}
+  - setvariable{var=caster.tempPriori;val=0}
   - skill{s=DarVarPriori}
 
 DarVarPriori:
   Skills:
   - variableadd{var=world.priori;t=Integer;a=1}
   - delay 5
-  - setvariable{var=caster.priori;type=INTEGER;value=<world.var.priori>}
+  - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>}
+
+RotarPrioridad:
+  Skills:
+  - variableadd{var=caster.tempPriori;val=0}
+  - msg{m=variableRotada prioridad> <caster.var.tempPriori>} @NearestPlayer
 
 RecCfiltrarDano:
   Skills:
