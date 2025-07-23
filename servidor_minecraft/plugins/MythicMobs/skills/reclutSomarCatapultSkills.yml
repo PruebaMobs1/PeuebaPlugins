@@ -1,7 +1,7 @@
 RecCPrepareModelSomar:
   Skills:
   - variableUnset{var=world.catapultas;t=Integer}
-  - setvariable{var=world.catapultas;t=Integer;val=10;save=true}
+  - setvariable{var=world.catapultas;t=Integer;val=0;save=true}
   - setvariable{var=caster.tempPriori;val=0}
 #  - skill{s=obtenerNevaVarPriori}
 
@@ -9,7 +9,7 @@ obtenerNevaVarPriori:
   Skills:
   - variableadd{var=world.catapultas;t=Integer;a=1}
   - delay 5
-  - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>}
+  - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>} @Self
 
 RotarPrioridad:
   Conditions:
