@@ -1,7 +1,7 @@
 CPrepareModelSomar:
   Skills:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
-    - skill{s=CrearVarPriori}
+#    - skill{s=CrearVarPriori}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
 #    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
