@@ -1,8 +1,8 @@
-RecCPrepareModel:
+RecCPrepareModelSomar:
   Skills:
   - setvariable{var=world.catapultas;val=0;save=true}
   - setvariable{var=caster.tempPriori;val=0}
-  - skill{s=DarVarPriori}
+#  - skill{s=obtenerNevaVarPriori}
 
 obtenerNevaVarPriori:
   Skills:
@@ -11,8 +11,8 @@ obtenerNevaVarPriori:
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>}
 
 RotarPrioridad:
-  Conditions:
-  - variableInRange{var=caster.tempPriori;val=<<world.catapultas>} orElseCast resetearPriori
+#  Conditions:
+#  - variableInRange{var=caster.tempPriori;val=<<world.catapultas>} orElseCast resetearPriori
   Skills:
   - variableadd{var=caster.tempPriori;val=1}
   - msg{m=variableRotada prioridad> <caster.var.tempPriori>} @NearestPlayer
