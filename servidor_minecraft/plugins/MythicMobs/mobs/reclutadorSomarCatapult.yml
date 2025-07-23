@@ -1,0 +1,29 @@
+reclutadorSomarCatapult:
+  Type: armor_stand
+  Display: 'Catapulta Somar'
+  Faction: CatapultaSomar
+  AITargetSelectors:
+    - clear
+    - specificfaction{f=Somar}
+  AIgoalSelectors:
+    - 0 clear
+  Options:
+    FollowRange: 100
+    movementspeed: 0
+    noIA: false
+  Modules:
+    ThreatTable: true
+  Health: 200
+  damage: 75
+  Skills:
+#    - skill{s=CPrepareModelSomar} @Self ~onSpawn
+#    - skill{s=montarCtp} @Trigger ~onInteract
+#    - skill{s=Mira} @Self ~onTimer:10
+#    - skill{s=ctprsPerdidos} @EIR{r=40} ~onTimer:60
+#    - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:20
+    - skill{s=filtrarDano;Sync=true} ~onDamaged
+#    - skill{s=soldsApuntar} @Forward{a=30} ~onTimer:20
+#    - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
+#    - skill{s=restarVariabPGlobal} ~onDeath
+#    - skill{s=Pruebas} ~onTimer:100 
+#    - message{m="Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:100
