@@ -1,0 +1,24 @@
+RecCPrepareModel:
+  Skills:
+  - setvariable{var=world.catapultas;val=0}
+  - setvariable{var=caster.tempPriori;val=0}
+  - skill{s=DarVarPriori}
+
+DarVarPriori:
+  Conditions:
+  - variableInRange{var=caster.tempPriori;val=<<world.catapultas>}
+  Skills:
+  - variableadd{var=world.priori;t=Integer;a=1}
+  - delay 5
+  - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>}
+
+RotarPrioridad:
+  Skills:
+  - variableadd{var=caster.tempPriori;val=0}
+  - msg{m=variableRotada prioridad> <caster.var.tempPriori>} @NearestPlayer
+
+RecCfiltrarDano:
+  Skills:
+  - cancelevent
+
+

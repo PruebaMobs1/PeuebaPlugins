@@ -21,7 +21,7 @@ reclutadorSomarCatapult:
 #    - skill{s=Mira} @Self ~onTimer:10
 #    - skill{s=ctprsPerdidos} @EIR{r=40} ~onTimer:60
 #    - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:20
-    - skill{s=filtrarDano;Sync=true} ~onDamaged
+    - skill{s=RecCfiltrarDano;Sync=true} ~onDamaged
 #    - skill{s=soldsApuntar} @Forward{a=30} ~onTimer:20
 #    - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
 #    - skill{s=restarVariabPGlobal} ~onDeath
