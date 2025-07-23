@@ -11,6 +11,16 @@ obtenerNevaVarPriori:
   - delay 5
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>} @Self
 
+restarVariabP:
+ Conditions:
+  - isMythicMob true
+  - variableInRange{var=caster.priori;value=><trigger.var.priori>}
+ Skills:
+  - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
+#  - variablesubtract{}
+  - projectile{bullet=block;material=STONE} @trigger
+  - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
+
 RotarPrioridad:
   Conditions:
   - variableInRange{var=caster.tempPriori;val=<<world.var.catapultas>} orElseCast resetearPriori

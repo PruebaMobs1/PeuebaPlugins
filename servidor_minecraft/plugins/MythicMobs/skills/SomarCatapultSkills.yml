@@ -26,16 +26,6 @@ AvisOrdenaVariabP: #variableprioridad
   - projectile{bullet=block;material=STONE}
   - SudoSkill{s=restarVariabP;setcasterastrigger=true}
 
-restarVariabP:
- Conditions:
-  - isMythicMob true
-  - variableInRange{var=caster.priori;value=><trigger.var.priori>}
- Skills:
-  - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
-#  - variablesubtract{}
-  - projectile{bullet=block;material=STONE} @trigger
-  - variablesubtract{var=target.priori;type=INTEGER;a=1} @Self
-
 restarVariabP2:
  TargetConditions:
   - isMythicMob true
