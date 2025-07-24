@@ -25,7 +25,8 @@ restarVariabPGlobal:
   Conditions:
   - variableInRange{var=caster.priori;value=>0}
   Skills:
-  - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
+  - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
+
 CrearVarPriori:
   Conditions:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
