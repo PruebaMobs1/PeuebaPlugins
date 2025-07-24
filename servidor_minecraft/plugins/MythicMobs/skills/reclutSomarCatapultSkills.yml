@@ -9,7 +9,7 @@ obtenerNevaVarPriori:
   Skills:
   - variableadd{var=world.catapultas;t=Integer;a=1}
   - delay 5
-  - setvariable{var=target.priori;type=INTEGER;value=<world.var.priori>} @Self
+  - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>} @Self
 
 restarVariabP:
  Conditions:
@@ -19,7 +19,7 @@ restarVariabP:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} @trigger
-  - skill{s=restarVariabPCadena} @LivingInWorld
+  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
   - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
 
 restarVariabPCadena:

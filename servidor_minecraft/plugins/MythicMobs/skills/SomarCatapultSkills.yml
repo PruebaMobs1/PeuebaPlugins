@@ -12,7 +12,6 @@ CPrepareModelSomar:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
 #    - sudoparent @NearestPlayer
-#    - variableUnset{s=world;var=priori}
     - command{c="summon minecraft:armor_stand ~ ~1 ~";at=true;op=true} @self
 
 AvisOrdenaVariabP: #variableprioridad
@@ -56,7 +55,7 @@ ObtenerVarPriori:
 
 Pruebas:
   Skills:
-  - msg{m="Priori statica para catapultas <world.var.priori>"} @NearestPlayer
+  - msg{m="Priori statica para catapultas <world.var.catapultas>"} @NearestPlayer
 #    - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
