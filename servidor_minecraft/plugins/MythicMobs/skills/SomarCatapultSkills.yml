@@ -2,6 +2,7 @@ CPrepareModelSomar:
   Skills:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
 #    - skill{s=CrearVarPriori}
+#    - skill para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
     - skill{s=obtenerNevaVarPriori}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}

@@ -8,7 +8,7 @@ pruebaFaccion:
     - msg{m="&4Faccion> Somar"} @NearestPlayer
 noFaccion:
   Skills:
-    - msg{m="&9Faccion cambiada"} @NearestPlayer
+    - msg{m="&9Facci[on no es Somar"} @NearestPlayer
 AtaqueSomarSoldier:
   Conditions:
     - variableEquals{key=caster.Animacion;value="dmg"} false
