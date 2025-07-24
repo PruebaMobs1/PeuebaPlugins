@@ -36,18 +36,6 @@ restarVariabP2:
   - projectile{bullet=block;material=STONE}
   - variablesubtract{var=target.priori;type=INTEGER;a=1}
 
-
-restarVariabPGlobal:
-  Conditions:
-  - variableInRange{var=caster.priori;value=>0}
-  Skills:
-  - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
-CrearVarPriori:
-  Conditions:
-  - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
-  Skills:
-  - setvariable{var=world.priori;type=INTEGER;value=1;save=true}
-  - setvariable{var=caster.priori;type=INTEGER;value=1}
 ObtenerVarPriori:
   Skills:
   - variableadd{var=world.priori;t=Integer;a=1}

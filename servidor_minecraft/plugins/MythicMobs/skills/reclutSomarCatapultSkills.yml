@@ -19,14 +19,18 @@ restarVariabP:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} @trigger
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
-  - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
+  - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
 
-restarVariabPCadena:
-  TargetConditions:
-  - variableEquals{var=caster.priori;value=>}
+restarVariabPGlobal:
+  Conditions:
+  - variableInRange{var=caster.priori;value=>0}
   Skills:
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
+  - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
+CrearVarPriori:
+  Conditions:
+  - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
+  Skills:
+  - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
 
 RotarPrioridad:
   Conditions:
