@@ -5,6 +5,10 @@ RecCPrepareModelSomar:
   - setvariable{var=caster.tempPriori;val=0}
 #  - skill{s=obtenerNevaVarPriori}
 
+presentarReclutCtp:
+  Skill:
+  - signal{}
+
 obtenerNevaVarPriori:
   Skills:
   - variableadd{var=world.catapultas;t=Integer;a=1}
