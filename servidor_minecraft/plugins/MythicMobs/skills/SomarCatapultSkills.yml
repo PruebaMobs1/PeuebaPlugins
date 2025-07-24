@@ -15,8 +15,8 @@ CPrepareModelSomar:
 #    - sudoparent @NearestPlayer
 
 InvocarReclutador:
-  TargetConditions:
-  
+  Conditions:
+  - entitytype{t=WITCH} true false
   Skill:
   - summon{type=reclutadorSomarCatapult;amount=1;radius=4} @self
 
