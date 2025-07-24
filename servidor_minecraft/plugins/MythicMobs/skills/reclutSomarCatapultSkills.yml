@@ -24,9 +24,9 @@ restarVariabP:
 
 restarVariabPCadena:
   TargetConditions:
-  - variableEquals{var=caster.priori;value=>>}
+  - variableEquals{var=caster.priori;value=>}
   Skills:
-  - variablesubtract{var=target.priori;type=INTEGER;a=1}
+  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
 
 RotarPrioridad:
   Conditions:
