@@ -19,6 +19,7 @@ AvisOrdenaVariabP: #variableprioridad
 #  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
   - isMythicMob true
+  - variableisset{s=caster;var=priori}
   Skills:
   - message{m="la variable coincide"}
 #  - variablesubtract{}
