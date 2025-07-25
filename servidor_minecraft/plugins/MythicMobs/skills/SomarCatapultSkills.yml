@@ -16,9 +16,9 @@ CPrepareModelSomar:
 
 InvocarReclutador:
   Conditions:
-  - variableEquals{var=world.catapultas;t=integer;value=-1}
+  - variableEquals{var=world.catapultas;t=integer;value=>0}
   Skill:
-  - msg{m=No Existía} @NearestPlayer
+  - message{m="No Existía"} @NearestPlayer
   - summon{type=reclutadorSomarCatapult;amount=1;radius=4}
 
 AvisOrdenaVariabP: #variableprioridad
@@ -156,7 +156,7 @@ MarcCatapult1:
     - clearthreat @Self
     - delay 30
 #Se cierra el reclutamiento por catapulta y se baja la prioridad
-    - skill{s=restarVariabP2} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
+#    - skill{s=restarVariabP2} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
     - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self       # pero la comparaci[on en la condici[n del restar esta mal
     - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 MarcCatapult2:
