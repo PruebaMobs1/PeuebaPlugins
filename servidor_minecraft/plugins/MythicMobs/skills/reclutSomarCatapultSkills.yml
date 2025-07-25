@@ -5,14 +5,7 @@ RecCPrepareModelSomar:
   - setvariable{var=caster.tempPriori;val=0}
 #  - skill{s=obtenerNevaVarPriori}
 
-obtenerNevaVarPriori:
-  Skills:
-  - variableadd{var=world.catapultas;t=Integer;a=1}
-  - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>} @Self
-
 AvisOrdenaVariabP: #variableprioridad
-#  Conditions:
-#  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
   TargetConditions:
   - isMythicMob true
   - variableisset{s=caster;var=priori}
@@ -23,8 +16,9 @@ AvisOrdenaVariabP: #variableprioridad
   - SudoSkill{s=restarVariabP;setcasterastrigger=true;sync=true}
 
 #ReordenarVariabP: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
-  Skills:
-  
+#  Skills:
+#  - skill{s=obtenerNevaVarPriori} @LivingInWorld{sort=RANDOM}
+
 restarVariabP:
  Conditions:
   - isMythicMob true
@@ -47,6 +41,11 @@ CrearVarPriori:
   - variableisset{s=world;var=priori} castInstead ObtenerVarPriori
   Skills:
   - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
+
+obtenerNevaVarPriori:
+  Skills:
+  - variableadd{var=world.catapultas;t=Integer;a=1}
+  - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>}
 
 RotarPrioridad:
   Conditions:

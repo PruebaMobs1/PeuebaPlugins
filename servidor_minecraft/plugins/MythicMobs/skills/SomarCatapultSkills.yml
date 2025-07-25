@@ -4,7 +4,7 @@ CPrepareModelSomar:
 #    - skill{s=CrearVarPriori}
     - delay 10
     - skill{s=InvocarReclutador} #para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
-    - skill{s=obtenerNevaVarPriori}
+    - skill{s=obtenerNevaVarPriori} @Self
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
 #    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
