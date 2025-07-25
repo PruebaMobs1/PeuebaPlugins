@@ -9,13 +9,13 @@ inMortalizarReclutador:
   Skills:
   - skill{s=restarVariabPGlobal} @self
   - delay 40
-  - sudoskill{s=RespawnearReclutador;setcasterastrigger=true} @LivingInWorld
+  - skill{s=RespawnearReclutador} @LivingInWorld
 
 RespawnearReclutador: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
   Conditions:
-  - variableEquals{var=world.Catapultas;val=>0}
+  - variableEquals{var=world.catapultas;val==>0}
   Skills:
-  - summon{type=reclutadorSomarCatapult;amount=1;radius=1} @Trigger
+  - summon{type=reclutadorSomarCatapult;amount=1;radius=1} @self
 
 AvisOrdenaVariabP: #variableprioridad
   TargetConditions:
