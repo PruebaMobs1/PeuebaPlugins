@@ -22,22 +22,9 @@ InvocarReclutador:
   - message{m="No Existía reclutador"} @NearestPlayer
   - summon{type=reclutadorSomarCatapult;amount=1;radius=4} @Self
 
-AvisOrdenaVariabP: #variableprioridad
-#  Conditions:
-#  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
-  TargetConditions:
-  - isMythicMob true
-  - variableisset{s=caster;var=priori}
-  Skills:
-  - message{m="la variable coincide"}
-#  - variablesubtract{}
-  - projectile{bullet=block;material=STONE}
-  - SudoSkill{s=restarVariabP;setcasterastrigger=true;sync=true}
-
 ObtenerVarPriori:
   Skills:
   - variableadd{var=world.priori;t=Integer;a=1}
-  - delay 5
   - setvariable{var=caster.priori;type=INTEGER;value=<world.var.priori>}
 
 Pruebas:

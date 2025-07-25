@@ -10,6 +10,21 @@ obtenerNevaVarPriori:
   - variableadd{var=world.catapultas;t=Integer;a=1}
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>} @Self
 
+AvisOrdenaVariabP: #variableprioridad
+#  Conditions:
+#  - comparevalues{value1="<caster.var.priori>";type=Integer;operator=>;value2="<target.var.priori>"}
+  TargetConditions:
+  - isMythicMob true
+  - variableisset{s=caster;var=priori}
+  Skills:
+  - message{m="la variable coincide"}
+#  - variablesubtract{}
+  - projectile{bullet=block;material=STONE}
+  - SudoSkill{s=restarVariabP;setcasterastrigger=true;sync=true}
+
+#ReordenarVariabP: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
+  Skills:
+  
 restarVariabP:
  Conditions:
   - isMythicMob true
