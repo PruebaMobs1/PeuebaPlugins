@@ -24,6 +24,6 @@ reclutadorSomarCatapult:
     - skill{s=RecCfiltrarDano;Sync=true} ~onDamaged
     - skill{s=RotarPrioridad} @Self ~onTimer:60
 #    - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
-    - variableUnset{var=world.catapultas} @Self ~onDeath
+    - skill{s=inMortalizarReclutador;executeafterdeath=true} @Self ~onDeath
 #    - skill{s=Pruebas} ~onTimer:100 
 #    - message{m="Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:100
