@@ -2,7 +2,7 @@ CPrepareModelSomar:
   Skills:
     - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
 #    - skill{s=CrearVarPriori}
-    - skill{s=InvocarReclutador} @LivingInWorld{type=reclutadorSomarCatapult} #para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
+    - skill{s=InvocarReclutador} @LivingInWorld{target=reclutadorSomarCatapult} #para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
     - skill{s=obtenerNevaVarPriori}
     - delay 10
     - setvariable{var=caster.solds;t=string;value="false"}
@@ -15,8 +15,8 @@ CPrepareModelSomar:
 #    - sudoparent @NearestPlayer
 
 InvocarReclutador:
-#  TargetConditions:
-#  - entitytype{t=reclutadorSomarCatapult} true
+  Conditions:
+  - variableEquals{var=world.catapultas;t=integer;value=-1}
   Skill:
   - msg{m=Existe} @NearestPlayer
 #  - skill{s=presentarReclutCtp}
