@@ -11,14 +11,16 @@ obtenerNevaVarPriori:
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>} @Self
 
 restarVariabP:
- Conditions:
+  Conditions:
   - isMythicMob true
-  - variableInRange{var=caster.priori;value=><trigger.var.priori>}
- Skills:
+  - variableisset{var=target.priori;type=integer}
+  TargetConditions:
+  - variableInRange{var=caster.priori;value=3}
+  Skills:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} @trigger
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
+  - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
 
 restarVariabPGlobal:
 #  Conditions:
