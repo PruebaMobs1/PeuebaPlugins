@@ -16,7 +16,7 @@ SomarCatapult:
   Health: 200
   damage: 75
   Skills:
-    - skill{s=CPrepareModelSomar} @Self ~onSpawn
+    - skill{s=CPrepareModelSomar;sync=true} @Self ~onSpawn
     - skill{s=montarCtp} @Trigger ~onInteract
     - skill{s=Mira} @Self ~onTimer:10
     - skill{s=ctprsPerdidos} @EIR{r=40} ~onTimer:60

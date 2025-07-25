@@ -8,7 +8,6 @@ RecCPrepareModelSomar:
 obtenerNevaVarPriori:
   Skills:
   - variableadd{var=world.catapultas;t=Integer;a=1}
-  - delay 5
   - setvariable{var=target.priori;type=INTEGER;value=<world.var.catapultas>} @Self
 
 restarVariabP:
