@@ -7,9 +7,15 @@ RecCPrepareModelSomar:
 
 inMortalizarReclutador:
   Skills:
-  - skill{s=restarVariabPGlobal}
+  - skill{s=restarVariabPGlobal} @self
   - delay 40
-  - summon{type=reclutadorSomarCatapult;amount=1;radius=4} @Self
+  - sudoskill{s=RespawnearReclutador;setcasterastrigger=true} @LivingInWorld
+
+  RespawnearReclutador: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
+  TargetConditions:
+  - variableisset{var=caster.priori}
+  Skills:
+  - summon{type=reclutadorSomarCatapult;amount=1;radius=1} @Trigger
 
 AvisOrdenaVariabP: #variableprioridad
   TargetConditions:
@@ -21,10 +27,6 @@ AvisOrdenaVariabP: #variableprioridad
   - projectile{bullet=block;material=STONE}
   - SudoSkill{s=restarVariabPriFiltrado;setcasterastrigger=true;sync=true}
 
-#ReordenarVariabP: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
-#  Skills:
-#  - skill{s=obtenerNevaVarPriori} @LivingInWorld{type=SomarCatapult;sort=RANDOM} # Esto si la variable aumentase antes de la nueva selecion
-#Pero no creo
 restarVariabPriFiltrado:
  Conditions:
   - isMythicMob true
