@@ -2,7 +2,7 @@ RecCPrepareModelSomar:
   Skills:
 #  - variableUnset{var=world.catapultas;t=Integer}
   - setvariable{var=world.catapultas;t=Integer;val=0;save=true}
-  - setvariable{var=world.tempPriori;val=0}
+  - setvariable{var=world.tempPriori;t=Integer;val=0}
 #  - skill{s=obtenerNevaVarPriori}
 
 AvisOrdenaVariabP: #variableprioridad
@@ -53,11 +53,12 @@ RotarPrioridad:
   Skills:
   - variableadd{var=world.tempPriori;val=1} @self
   - delay 0
-  - msg{m=variableRotada prioridad> <caster.var.tempPriori>} @NearestPlayer
+  - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 
 resetearPriori:
   Skills:
   - setvariable{var=world.tempPriori;type=INTEGER;value=0}
+  - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 RecCfiltrarDano:
   TriggerConditions:
   - itemissimilar{item=bone} false
