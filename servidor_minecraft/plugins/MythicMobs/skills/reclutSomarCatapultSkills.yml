@@ -17,8 +17,8 @@ AvisOrdenaVariabP: #variableprioridad
 
 #ReordenarVariabP: #En caso peculiar de que el reclutador muera (recordar condicion del hueso en inventario, por ejemplo)
 #  Skills:
-#  - skill{s=obtenerNevaVarPriori} @LivingInWorld{sort=RANDOM}
-
+#  - skill{s=obtenerNevaVarPriori} @LivingInWorld{type=SomarCatapult;sort=RANDOM} # Esto si la variable aumentase antes de la nueva selecion
+#Pero no creo
 restarVariabP:
  Conditions:
   - isMythicMob true
