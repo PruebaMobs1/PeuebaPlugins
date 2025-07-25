@@ -520,3 +520,225 @@
 [03:49:43] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
 [03:49:43] [Server thread/INFO]: [CJML5067: Killed 165 entities]
 [03:49:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[03:49:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:49:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8797, uuid='e9588902-b2e5-48d0-885e-878f59a800f0', l='ServerLevel[world]', x=-349.15, y=67.00, z=501.80, cpos=[-22, 31], tl=149, v=true] died: Catapulta Somar was killed
+[03:49:54] [Server thread/INFO]: [CJML5067: Killed 160 entities]
+[03:49:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:49:54] [Server thread/INFO]: [CJML5067: Killed 79 entities]
+[03:51:18] [Server thread/INFO]: [Mythic] Reloading plugin...
+[03:51:18] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:51:18] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:51:18] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:51:19] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 94 skills.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:51:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:51:19] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[03:51:19] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[03:51:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s reclutadorSomarCatapult
+[03:51:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:51:30] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/9305, uuid='534b4169-359d-4eab-adfa-f99172560041', l='ServerLevel[world]', x=-349.15, y=66.00, z=501.80, cpos=[-22, 31], tl=56, v=true] died: Reclutador de Catapultas Somar was killed
+[03:51:30] [Server thread/INFO]: [CJML5067: Killed 118 entities]
+[03:51:31] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:51:31] [Server thread/INFO]: [CJML5067: Killed 82 entities]
+[03:51:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[03:51:34] [Server thread/WARN]: [MythicMobs] Task #4412 for MythicMobs v5.9.5-f13ab4a1 generated an exception
+net.objecthunter.exp4j.tokenizer.UnknownFunctionOrVariableException: Unknown function or variable 'UNDEFINED' at pos 0 in expression 'UNDEFINED'
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.parseFunctionOrVariable(Tokenizer.java:177) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.nextToken(Tokenizer.java:116) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.shuntingyard.ShuntingYard.convertToRPN(ShuntingYard.java:46) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.ExpressionBuilder.build(ExpressionBuilder.java:188) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.VariableSetMechanic.castAtEntity(VariableSetMechanic.java:65) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeTargetedEntitySkill$16(SkillMechanic.java:622) ~[MythicMobs-5.9.5.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeTargetedEntitySkill(SkillMechanic.java:618) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeSkills$12(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.runMechanic(SkillMechanic.java:612) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.9.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:56:51] [Server thread/INFO]: [Mythic] Reloading plugin...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:56:51] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 94 skills.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:56:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:56:51] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[03:56:51] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[03:56:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:56:57] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/9510, uuid='1e3d7baa-c0cd-4c2f-922b-a8b7a141f284', l='ServerLevel[world]', x=-349.15, y=67.00, z=501.80, cpos=[-22, 31], tl=6459, v=true] died: Catapulta Somar was killed
+[03:56:57] [Server thread/INFO]: [CJML5067: Killed 121 entities]
+[03:56:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:56:58] [Server thread/INFO]: [CJML5067: Killed 69 entities]
+[03:57:00] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[03:57:01] [Server thread/WARN]: [MythicMobs] Task #4795 for MythicMobs v5.9.5-f13ab4a1 generated an exception
+net.objecthunter.exp4j.tokenizer.UnknownFunctionOrVariableException: Unknown function or variable 'UNDEFINED' at pos 0 in expression 'UNDEFINED'
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.parseFunctionOrVariable(Tokenizer.java:177) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.nextToken(Tokenizer.java:116) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.shuntingyard.ShuntingYard.convertToRPN(ShuntingYard.java:46) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.ExpressionBuilder.build(ExpressionBuilder.java:188) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.VariableSetMechanic.castAtEntity(VariableSetMechanic.java:65) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeTargetedEntitySkill$16(SkillMechanic.java:622) ~[MythicMobs-5.9.5.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeTargetedEntitySkill(SkillMechanic.java:618) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeSkills$12(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.runMechanic(SkillMechanic.java:612) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.9.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:18] [Server thread/INFO]: -------------======== Mythic ========-------------
+[03:57:18] [Server thread/INFO]:  
+[03:57:18] [Server thread/INFO]: /mm mobs ► Mob-related commands
+[03:57:18] [Server thread/INFO]: /mm items ► Items-related commands
+[03:57:18] [Server thread/INFO]: /mm skills ► Skill-related commands
+[03:57:18] [Server thread/INFO]: /mm spawners ► Spawner-related commands
+[03:57:18] [Server thread/INFO]: /mm utility ► Some helpful utility commands
+[03:57:18] [Server thread/INFO]: /mm reload ► Reloads all configuration files and mobs
+[03:57:18] [Server thread/INFO]: /mm debug [level] ► Enables console debugging output
+[03:57:18] [Server thread/INFO]: /mm version ► Plugin version information
+[03:57:18] [Server thread/INFO]:  
+[03:57:18] [Server thread/INFO]: ----------------- www.mythiccraft.io -----------------
+[03:57:20] [Server thread/INFO]: [Mythic] Reloading plugin...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:57:20] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 94 skills.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:57:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:57:20] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[03:57:20] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[03:57:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:25] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10470, uuid='7216f901-409b-4331-9e4f-0b215edcbfda', l='ServerLevel[world]', x=-349.15, y=67.00, z=501.80, cpos=[-22, 31], tl=504, v=true] died: Catapulta Somar was killed
+[03:57:25] [Server thread/INFO]: [CJML5067: Killed 116 entities]
+[03:57:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:26] [Server thread/INFO]: [CJML5067: Killed 76 entities]
+[03:57:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[03:57:31] [Server thread/WARN]: [MythicMobs] Task #4960 for MythicMobs v5.9.5-f13ab4a1 generated an exception
+net.objecthunter.exp4j.tokenizer.UnknownFunctionOrVariableException: Unknown function or variable 'UNDEFINED' at pos 0 in expression 'UNDEFINED'
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.parseFunctionOrVariable(Tokenizer.java:177) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.nextToken(Tokenizer.java:116) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.shuntingyard.ShuntingYard.convertToRPN(ShuntingYard.java:46) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.ExpressionBuilder.build(ExpressionBuilder.java:188) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.VariableSetMechanic.castAtEntity(VariableSetMechanic.java:65) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeTargetedEntitySkill$16(SkillMechanic.java:622) ~[MythicMobs-5.9.5.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeTargetedEntitySkill(SkillMechanic.java:618) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeSkills$12(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.runMechanic(SkillMechanic.java:612) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.9.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:34] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10796, uuid='a2b50c69-24d1-44b3-8d5c-16d2d97bf4aa', l='ServerLevel[world]', x=-349.15, y=67.00, z=501.80, cpos=[-22, 31], tl=115, v=true] died: Catapulta Somar was killed
+[03:57:34] [Server thread/INFO]: [CJML5067: Killed 108 entities]
+[03:57:35] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:35] [Server thread/INFO]: [CJML5067: Killed 74 entities]
+[03:57:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:55] [Server thread/INFO]: [CJML5067: Killed 115 entities]
+[03:57:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[03:57:55] [Server thread/INFO]: [CJML5067: Killed 70 entities]
+[03:57:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[03:57:59] [Server thread/WARN]: [MythicMobs] Task #5070 for MythicMobs v5.9.5-f13ab4a1 generated an exception
+net.objecthunter.exp4j.tokenizer.UnknownFunctionOrVariableException: Unknown function or variable 'UNDEFINED' at pos 0 in expression 'UNDEFINED'
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.parseFunctionOrVariable(Tokenizer.java:177) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.tokenizer.Tokenizer.nextToken(Tokenizer.java:116) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.shuntingyard.ShuntingYard.convertToRPN(ShuntingYard.java:46) ~[MythicMobs-5.9.5.jar:?]
+	at net.objecthunter.exp4j.ExpressionBuilder.build(ExpressionBuilder.java:188) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.VariableSetMechanic.castAtEntity(VariableSetMechanic.java:65) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeTargetedEntitySkill$16(SkillMechanic.java:622) ~[MythicMobs-5.9.5.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeTargetedEntitySkill(SkillMechanic.java:618) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeSkills$12(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.runMechanic(SkillMechanic.java:612) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:573) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:490) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:502) ~[MythicMobs-5.9.5.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.9.5.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:59:51] [Server thread/INFO]: [Mythic] Reloading plugin...
+[03:59:51] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[03:59:51] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[03:59:51] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Items...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[03:59:52] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 94 skills.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[03:59:52] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[03:59:52] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[03:59:52] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
