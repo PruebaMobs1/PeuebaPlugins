@@ -18,8 +18,8 @@ InvocarReclutador:
   Conditions:
   - variableEquals{var=world.catapultas;t=integer;value=-1}
   Skill:
-  - msg{m=Existe} @NearestPlayer
-#  - skill{s=presentarReclutCtp}
+  - msg{m=No Existía} @NearestPlayer
+  - summon{type=reclutadorSomarCatapult;amount=1;radius=4}
 
 AvisOrdenaVariabP: #variableprioridad
 #  Conditions:
@@ -32,16 +32,6 @@ AvisOrdenaVariabP: #variableprioridad
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE}
   - SudoSkill{s=restarVariabP;setcasterastrigger=true}
-
-restarVariabP2:
- TargetConditions:
-  - isMythicMob true
-  - (variableisset{s=caster;var=priori} && variableInRange{var=caster.priori;value=>0}) true
- Skills:
-  - message{m="Debo restar variable p"} @NearestPlayer
-#  - variablesubtract{}
-  - projectile{bullet=block;material=STONE}
-  - variablesubtract{var=target.priori;type=INTEGER;a=1}
 
 ObtenerVarPriori:
   Skills:

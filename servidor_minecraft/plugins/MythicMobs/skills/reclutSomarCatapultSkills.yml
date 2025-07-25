@@ -22,8 +22,8 @@ restarVariabP:
   - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
 
 restarVariabPGlobal:
-  Conditions:
-  - variableInRange{var=caster.priori;value=>0}
+#  Conditions:
+#  - variableInRange{var=caster.priori;value=>0}
   Skills:
   - variablesubtract{var=world.catapultas;type=INTEGER;a=1} @Self
 
