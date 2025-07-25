@@ -18,7 +18,7 @@ restarVariabP:
   - message{m="Me enviaron <trigger.var.priori> y es menor que el mio"} @NearestPlayer
 #  - variablesubtract{}
   - projectile{bullet=block;material=STONE} @trigger
-  - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self
+  - variablesubtract{var=caster.priori;type=INTEGER;a=1}
 
 restarVariabPGlobal:
 #  Conditions:
