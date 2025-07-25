@@ -16,9 +16,9 @@ CPrepareModelSomar:
 
 InvocarReclutador:
   Conditions:
-  - variableEquals{var=world.catapultas;t=integer;value=>0}
+  - variableisset{var=world.catapultas} false
   Skill:
-  - message{m="No Existía"} @NearestPlayer
+  - message{m="No Existía"} @PIR{r=20}
   - summon{type=reclutadorSomarCatapult;amount=1;radius=4}
 
 AvisOrdenaVariabP: #variableprioridad
