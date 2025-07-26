@@ -63,6 +63,10 @@ RotarPrioridad:
   - delay 0
   - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 
+SumarPrioridad:
+  Skills:
+  -
+
 resetearPriori:
   Skills:
   - setvariable{var=world.tempPriori;type=INTEGER;value=0}
