@@ -133,7 +133,7 @@ DesmontarDereCtp:
 MarcCatapult1:
   Conditions:
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
-    - variableEquals{var=caster.priori;value=1}
+    - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
   Skills:
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
@@ -149,7 +149,7 @@ MarcCatapult1:
     - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 MarcCatapult2:
   Conditions:
-    - variableEquals{var=caster.priori;value=1}
+    - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
     - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   Skills:
@@ -165,7 +165,7 @@ MarcCatapult2:
     - clearthreat @Self
 MarcCatapult3:
   Conditions:
-    - variableEquals{var=caster.priori;value=1}
+    - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
     - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   Skills:
