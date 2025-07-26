@@ -69,7 +69,7 @@ resetearPriori:
   - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 RecCfiltrarDano:
   TriggerConditions:
-  - itemissimilar{item=bone} false
+  - damaecause{dENTITY_ATTACK itemissimilar{item=bone} false
   Skills:
   - cancelevent
 
