@@ -1,10 +1,9 @@
 reclutadorSomarCatapult:
   Type: iron_golem
   Display: 'Reclutador de Catapultas Somar'
-  Faction: CatapultaSomar
+  Faction: Reclutador_Catapultas_Somar
   AITargetSelectors:
     - clear
-    - specificfaction{f=Somar}
   AIgoalSelectors:
     - 0 clear
   Options:
@@ -12,8 +11,8 @@ reclutadorSomarCatapult:
     movementspeed: 0
     noIA: false
   Modules:
-    ThreatTable: true
-  Health: 200
+    ThreatTable: false
+  Health: 20000
   damage: 75
   Skills:
     - skill{s=RecCPrepareModelSomar;sync=true} @Self ~onSpawn

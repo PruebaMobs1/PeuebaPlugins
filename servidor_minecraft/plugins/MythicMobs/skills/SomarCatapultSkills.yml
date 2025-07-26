@@ -142,11 +142,6 @@ MarcCatapult1:
     - setFaction{faction=SomarCatapultero} @Target
     - projectile{bullet=block;material=STONE} @Target
     - clearthreat @Self
-    - delay 30
-#Se cierra el reclutamiento por catapulta y se baja la prioridad
-#    - skill{s=restarVariabP2} @LivingInWorld #Debo hace que el restar cumpla su funcion en este caso tambi[en,
-    - variablesubtract{var=caster.priori;type=INTEGER;a=1} @Self       # pero la comparaci[on en la condici[n del restar esta mal
-    - variablesubtract{var=world.priori;type=INTEGER;a=1} @Self
 MarcCatapult2:
   Conditions:
     - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
