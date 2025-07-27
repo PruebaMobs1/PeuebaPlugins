@@ -26,4 +26,4 @@ SomarCatapult:
     - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
     - skill{s=restarVariabPGlobal} ~onDeath
 #    - skill{s=Pruebas} ~onTimer:100 
-    - message{m="Catapulta <caster.uuid>> Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:100
+    - message{m="Catapulta priori <caster.var.priori>> Carapultero 1? - <caster.var.sold1> - Carapultero 2? - <caster.var.sold2> - Carapultero 3? - <caster.var.sold3>"} @NearestPlayer ~onTimer:100
