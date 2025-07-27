@@ -59,13 +59,18 @@ RotarPrioridad:
   Conditions:
   - variableInRange{var=world.tempPriori;val=<<world.var.catapultas>} orElseCast resetearPriori
   Skills:
-  - variableadd{var=world.tempPriori;val=1} @self
-  - delay 0
+  - setvariable{var=skill.tempPriori;type=INTEGER;value=<world.var.tempPriori>+1}
+#  - variableadd{var=skill.tempPriori;val=1} 
+  - setvariable{var=world.tempPriori;type=INTEGER;value=<world.var.catapultas>+1}
+  - delay 60
+  - setvariable{var=world.tempPriori;type=INTEGER;value=<skill.var.tempPriori>}
   - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 
-SumarPrioridad:
+SumarPrioridadCondicional: #Solo para cuando hay un valor de 0
+  Conditions:
+  - variableInRange{var=world.tempPriori;val=0}
   Skills:
-  -
+  - variableadd{var=world.tempPriori;val=1} @self
 
 resetearPriori:
   Skills:
