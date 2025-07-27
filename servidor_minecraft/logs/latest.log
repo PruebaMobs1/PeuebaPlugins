@@ -1,1340 +1,237 @@
-[00:18:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:18:58] [ServerMain/INFO]: Loaded 1174 recipes
-[00:18:59] [ServerMain/INFO]: Loaded 1271 advancements
-[00:18:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[00:18:59] [Server thread/INFO]: Loading properties
-[00:18:59] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[00:19:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:19:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:19:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[02:03:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:03:50] [ServerMain/INFO]: Loaded 1174 recipes
+[02:03:50] [ServerMain/INFO]: Loaded 1271 advancements
+[02:03:50] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[02:03:50] [Server thread/INFO]: Loading properties
+[02:03:51] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[02:03:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:03:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:03:53] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[00:19:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[00:19:02] [Server thread/INFO]: Default game type: SURVIVAL
-[00:19:02] [Server thread/INFO]: Generating keypair
-[00:19:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:19:03] [Server thread/INFO]: Using epoll channel type
-[00:19:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:19:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[00:19:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[00:19:04] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[00:19:04] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
-[00:19:04] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[00:19:04] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[00:19:04] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
-[00:19:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:19:04] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
-[00:19:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:19:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:19:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:19:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:19:04] [Server thread/INFO]: Preparing level "world"
-[00:19:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:19:06] [Server thread/INFO]: Time elapsed: 804 ms
-[00:19:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:19:06] [Server thread/INFO]: Time elapsed: 177 ms
-[00:19:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:19:06] [Server thread/INFO]: Time elapsed: 158 ms
-[00:19:06] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
-[00:19:07] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
-[00:19:07] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[00:19:18] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:19:19] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:19:19] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:19:19] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:19:20] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:19:20] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:19:20] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:19:20] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[00:19:20] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[00:19:20] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
-[00:19:21] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[00:19:21] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[00:19:21] [Server thread/INFO]: Running delayed init tasks
-[00:19:21] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[00:19:21] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[00:19:21] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[00:19:21] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[00:19:21] [Server thread/INFO]: Done (22.222s)! For help, type "help"
-[00:19:21] [Server thread/INFO]: Timings Reset
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[00:19:22] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[00:19:26] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[00:19:26] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[00:24:31] [Server thread/INFO]: -------------======== Mythic ========-------------
-[00:24:31] [Server thread/INFO]:  
-[00:24:31] [Server thread/INFO]: /mm mobs ► Mob-related commands
-[00:24:31] [Server thread/INFO]: /mm items ► Items-related commands
-[00:24:31] [Server thread/INFO]: /mm skills ► Skill-related commands
-[00:24:31] [Server thread/INFO]: /mm spawners ► Spawner-related commands
-[00:24:31] [Server thread/INFO]: /mm utility ► Some helpful utility commands
-[00:24:31] [Server thread/INFO]: /mm reload ► Reloads all configuration files and mobs
-[00:24:31] [Server thread/INFO]: /mm debug [level] ► Enables console debugging output
-[00:24:31] [Server thread/INFO]: /mm version ► Plugin version information
-[00:24:31] [Server thread/INFO]:  
-[00:24:31] [Server thread/INFO]: ----------------- www.mythiccraft.io -----------------
-[00:24:35] [Server thread/INFO]: [Mythic] Reloading plugin...
-[00:24:35] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[00:24:35] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[00:24:35] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:24:36] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:24:36] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:24:36] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[00:24:36] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[00:25:09] [Server thread/INFO]: [Mythic] Reloading plugin...
-[00:25:09] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[00:25:09] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[00:25:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:25:10] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:25:10] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:25:10] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[00:25:10] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[00:25:26] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[00:25:27] [Server thread/INFO]: CJML5067 joined the game
-[00:25:27] [Server thread/INFO]: CJML5067[/127.240.192.59:54707] logged in with entity id 137 at ([world]-341.0809235405335, 74.14985730312867, 509.12632831706884)
-[00:25:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:25:30] [Server thread/INFO]: [CJML5067: Killed 99 entities]
-[00:25:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:25:32] [Server thread/INFO]: [CJML5067: Killed 95 entities]
-[00:25:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:26:06] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:26:26] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:26:44] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:27:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:27:24] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/479, uuid='ed2c3a2a-5afc-4132-ae79-c4a6e70fbcd1', l='ServerLevel[world]', x=-347.21, y=62.00, z=505.05, cpos=[-22, 31], tl=2178, v=true] died: Reclutador de Catapultas Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/746, uuid='a75e185a-89ae-44b9-a5b3-aebfd1fe80dd', l='ServerLevel[world]', x=-322.93, y=70.00, z=513.22, cpos=[-21, 32], tl=799, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/652, uuid='ef01dbaf-a3d0-4bc8-8051-c2755fe37cf6', l='ServerLevel[world]', x=-340.52, y=62.00, z=511.82, cpos=[-22, 31], tl=1152, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/653, uuid='509fc69a-3389-4cc8-b638-a262903278bb', l='ServerLevel[world]', x=-340.66, y=62.00, z=520.57, cpos=[-22, 32], tl=1152, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/786, uuid='1b638435-acaa-4166-8414-dfc1191c7a46', l='ServerLevel[world]', x=-342.01, y=62.00, z=507.97, cpos=[-22, 31], tl=799, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/374, uuid='abd086ce-8d5c-4f1d-9769-cb6c46ddcdb5', l='ServerLevel[world]', x=-336.68, y=62.00, z=524.05, cpos=[-22, 32], tl=2187, v=true] died: Catapulta Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/747, uuid='d05f272f-4d8e-4eaa-af1a-4c3570f84d85', l='ServerLevel[world]', x=-331.35, y=62.00, z=518.97, cpos=[-21, 32], tl=799, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/654, uuid='c7d137ec-0f5c-4768-a3b4-e517ee27d4bd', l='ServerLevel[world]', x=-314.02, y=70.00, z=516.13, cpos=[-20, 32], tl=1152, v=true] died: Soldado Somar was killed
-[00:27:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/496, uuid='7809207a-7ee8-4196-8cbc-75a44268d130', l='ServerLevel[world]', x=-344.92, y=62.00, z=513.86, cpos=[-22, 32], tl=1547, v=true] died: Catapulta Somar was killed
-[00:27:24] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[00:27:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:27:24] [Server thread/INFO]: [CJML5067: Killed 80 entities]
-[00:27:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:27:25] [Server thread/INFO]: [CJML5067: Killed 46 entities]
-[00:27:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:27:26] [Server thread/INFO]: [CJML5067: Killed 40 entities]
-[00:27:55] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:27:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:28:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:28:08] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:32:31] [Server thread/INFO]: [Mythic] Reloading plugin...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:32:31] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:32:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:32:31] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[00:32:31] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[00:32:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:32:37] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/1284, uuid='731f6939-a97f-4c26-93d9-d98c397c8b32', l='ServerLevel[world]', x=-310.96, y=71.00, z=511.35, cpos=[-20, 31], tl=5626, v=true] died: Reclutador de Catapultas Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1290, uuid='a293d342-21ad-4720-a6ad-f5829511a02e', l='ServerLevel[world]', x=-346.53, y=62.00, z=508.47, cpos=[-22, 31], tl=5548, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1311, uuid='529992fe-b3b7-41f3-8798-1b621953024e', l='ServerLevel[world]', x=-332.40, y=62.00, z=522.30, cpos=[-21, 32], tl=5548, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/1179, uuid='95203dc4-5c33-4765-b069-c532a93a317b', l='ServerLevel[world]', x=-336.02, y=62.00, z=518.61, cpos=[-22, 32], tl=5635, v=true] died: Catapulta Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1473, uuid='6f22e2c5-9310-45c2-aeb1-104ddaff6848', l='ServerLevel[world]', x=-337.90, y=62.00, z=514.81, cpos=[-22, 32], tl=5385, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1475, uuid='9f415273-fb42-4ffb-8492-0d90e46b5bcf', l='ServerLevel[world]', x=-308.70, y=69.00, z=481.02, cpos=[-20, 30], tl=5385, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1472, uuid='72e7446b-eed8-4f61-8a2f-2b39270b520c', l='ServerLevel[world]', x=-335.72, y=62.00, z=510.02, cpos=[-21, 31], tl=5385, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1291, uuid='ef719b9a-7ed0-417b-b9d7-f55f7d3e3929', l='ServerLevel[world]', x=-332.32, y=62.00, z=517.53, cpos=[-21, 32], tl=5548, v=true] died: Soldado Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/1354, uuid='480c592f-0d93-4792-9ddd-6c85ee9026c1', l='ServerLevel[world]', x=-344.92, y=62.00, z=518.25, cpos=[-22, 32], tl=5501, v=true] died: Catapulta Somar was killed
-[00:32:37] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeleton King'/1761, uuid='11266877-ce1c-4536-be57-def8ce4a2260', l='ServerLevel[world]', x=-405.35, y=64.00, z=488.33, cpos=[-26, 30], tl=2710, v=true] died: Skeleton King was killed
-[00:32:37] [Server thread/INFO]: [CJML5067: Killed 119 entities]
-[00:32:38] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:32:38] [Server thread/INFO]: [CJML5067: Killed 94 entities]
-[00:32:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:32:42] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:32:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:32:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:51] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:51] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:32:57] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:57] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:57] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:57] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:32:57] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:33:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2540, uuid='66badeb5-ef6d-444d-b40f-2b6f818908af', l='ServerLevel[world]', x=-335.22, y=62.00, z=513.83, cpos=[-21, 32], tl=611, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2307, uuid='15602d0d-61f3-4ebd-9643-434d328b94cc', l='ServerLevel[world]', x=-330.03, y=68.00, z=505.27, cpos=[-21, 31], tl=801, v=true] died: Catapulta Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2438, uuid='7c5786d7-4e71-452c-b313-1f09139bb43e', l='ServerLevel[world]', x=-339.57, y=62.00, z=523.33, cpos=[-22, 32], tl=667, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/2250, uuid='47b158ad-a200-4861-b3d7-56276909299d', l='ServerLevel[world]', x=-323.98, y=69.00, z=515.20, cpos=[-21, 32], tl=842, v=true] died: Reclutador de Catapultas Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2500, uuid='328843d5-e55a-4e90-858e-81bd2a314a4a', l='ServerLevel[world]', x=-338.09, y=62.00, z=530.98, cpos=[-22, 33], tl=611, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2133, uuid='abd81d22-468d-4267-afc3-e2b095165bd8', l='ServerLevel[world]', x=-344.92, y=62.00, z=507.32, cpos=[-22, 31], tl=851, v=true] died: Catapulta Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2520, uuid='556ab9a3-bcdd-4241-b38c-1f4a91e40bc7', l='ServerLevel[world]', x=-326.17, y=66.00, z=516.63, cpos=[-21, 32], tl=611, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2439, uuid='de457fee-591e-4ad0-94ac-de3d64137f86', l='ServerLevel[world]', x=-338.31, y=62.00, z=506.38, cpos=[-22, 31], tl=667, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2437, uuid='e4f9f6e2-2282-4351-a7bd-f60757ea0287', l='ServerLevel[world]', x=-324.97, y=67.00, z=516.68, cpos=[-21, 32], tl=667, v=true] died: Soldado Somar was killed
-[00:33:22] [Server thread/INFO]: [CJML5067: Killed 109 entities]
-[00:33:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:33:23] [Server thread/INFO]: [CJML5067: Killed 75 entities]
-[00:34:15] [Server thread/INFO]: [Mythic] Reloading plugin...
-[00:34:15] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[00:34:15] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[00:34:15] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:34:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:34:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:34:16] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[00:34:16] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[00:34:19] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:34:19] [Server thread/INFO]: [CJML5067: Killed 103 entities]
-[00:34:20] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:34:20] [Server thread/INFO]: [CJML5067: Killed 66 entities]
-[00:34:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:34:26] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:27] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:28] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:34:30] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:36] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:34:44] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3194, uuid='eea3eb64-ca48-4eb7-a6db-8231f689587c', l='ServerLevel[world]', x=-330.41, y=62.00, z=523.91, cpos=[-21, 32], tl=307, v=true] died: Soldado Somar was slain by Reclutador de Catapultas Somar
-[00:34:52] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:34:52] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3215, uuid='0563d44d-4ded-4034-b890-c50d07454592', l='ServerLevel[world]', x=-341.11, y=62.00, z=515.66, cpos=[-22, 32], tl=474, v=true] died: Soldado Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3131, uuid='7c3179b4-7106-49c4-a5da-f92f460e5c41', l='ServerLevel[world]', x=-324.01, y=67.00, z=518.28, cpos=[-21, 32], tl=524, v=true] died: Soldado Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/3069, uuid='3744b4f0-a3d2-42f5-9062-5f65e0445bf0', l='ServerLevel[world]', x=-332.00, y=62.00, z=525.18, cpos=[-21, 32], tl=590, v=true] died: Reclutador de Catapultas Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3195, uuid='16278822-44b5-4e16-91fb-589e47bd6f10', l='ServerLevel[world]', x=-342.79, y=62.00, z=518.44, cpos=[-22, 32], tl=474, v=true] died: Soldado Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3130, uuid='fc3b7bec-d9ea-4120-ae52-28e3d18954ae', l='ServerLevel[world]', x=-326.40, y=63.00, z=531.99, cpos=[-21, 33], tl=524, v=true] died: Soldado Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/3254, uuid='30c1aee9-1d34-49c4-bc90-ffeeadc988a8', l='ServerLevel[world]', x=-337.38, y=62.00, z=515.47, cpos=[-22, 32], tl=427, v=true] died: Catapulta Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2958, uuid='3b47600e-229d-4fd3-9a0e-a16ead129fed', l='ServerLevel[world]', x=-335.97, y=62.00, z=531.59, cpos=[-21, 33], tl=599, v=true] died: Catapulta Somar was killed
-[00:34:52] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3129, uuid='f91627d3-1344-4946-ab11-5af17fda2ad2', l='ServerLevel[world]', x=-330.43, y=62.00, z=519.67, cpos=[-21, 32], tl=524, v=true] died: Soldado Somar was killed
-[00:34:52] [Server thread/INFO]: [CJML5067: Killed 109 entities]
-[00:34:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:34:53] [Server thread/INFO]: [CJML5067: Killed 95 entities]
-[00:34:55] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:34:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:35:01] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:03] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:04] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:06] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:09] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:35:28] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/3712, uuid='c3cb773f-97e3-4ac9-aa2f-3e5c3115e4c9', l='ServerLevel[world]', x=-333.71, y=62.00, z=511.97, cpos=[-21, 31], tl=617, v=true] died: Catapulta Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3906, uuid='ec0bcacd-96f2-4a8b-9b5a-357eb74827d1', l='ServerLevel[world]', x=-335.60, y=62.00, z=505.29, cpos=[-21, 31], tl=482, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3824, uuid='4b2f1e35-dd88-4cbe-97c0-8671c5faaed8', l='ServerLevel[world]', x=-337.52, y=62.00, z=509.50, cpos=[-22, 31], tl=542, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3907, uuid='ccef2377-d0f6-47ef-87aa-c5bfcf084f59', l='ServerLevel[world]', x=-321.42, y=65.00, z=522.09, cpos=[-21, 32], tl=482, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3825, uuid='812401da-33c4-401c-b24c-d1c9fc6c0845', l='ServerLevel[world]', x=-337.67, y=62.00, z=517.92, cpos=[-22, 32], tl=542, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/3549, uuid='69fdb57d-654c-493d-b85c-d2ea9c168076', l='ServerLevel[world]', x=-339.66, y=62.00, z=504.40, cpos=[-22, 31], tl=664, v=true] died: Catapulta Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/3673, uuid='5492e8ba-304a-44bd-aeac-2af33f716f34', l='ServerLevel[world]', x=-346.87, y=62.00, z=515.88, cpos=[-22, 32], tl=655, v=true] died: Reclutador de Catapultas Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3886, uuid='23af602a-e8aa-4309-970b-9a0d919750d5', l='ServerLevel[world]', x=-323.99, y=67.00, z=518.20, cpos=[-21, 32], tl=482, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/3864, uuid='d795b0e0-8c58-4b5a-92cc-c30bc2c0b634', l='ServerLevel[world]', x=-323.97, y=64.80, z=532.44, cpos=[-21, 33], tl=542, v=true] died: Soldado Somar was killed
-[00:35:28] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[00:35:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:35:28] [Server thread/INFO]: [CJML5067: Killed 77 entities]
-[00:35:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:35:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:35:37] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:35:39] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:36:16] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/4221, uuid='fc894e69-e43f-4619-85fd-f861c820636b', l='ServerLevel[world]', x=-346.86, y=62.00, z=500.15, cpos=[-22, 31], tl=886, v=true] died: Reclutador de Catapultas Somar was killed
-[00:36:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4391, uuid='b759c3ad-a15b-498d-a238-6f561b099976', l='ServerLevel[world]', x=-325.02, y=67.00, z=515.99, cpos=[-21, 32], tl=782, v=true] died: Soldado Somar was killed
-[00:36:16] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4258, uuid='d9a7cb0f-cb48-4918-91c1-f714f1611611', l='ServerLevel[world]', x=-329.56, y=70.00, z=514.96, cpos=[-21, 32], tl=838, v=true] died: Catapulta Somar was killed
-[00:36:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4371, uuid='3f9bc14c-7d4c-44b7-a03f-b24118e931ec', l='ServerLevel[world]', x=-329.42, y=62.00, z=508.68, cpos=[-21, 31], tl=782, v=true] died: Soldado Somar was killed
-[00:36:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4411, uuid='b6e4298e-99f5-4ff3-8ef3-3e9f2571fefb', l='ServerLevel[world]', x=-325.98, y=66.00, z=527.83, cpos=[-21, 32], tl=782, v=true] died: Soldado Somar was killed
-[00:36:16] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4107, uuid='c3c872e6-970e-4604-87bb-5147d5124e5b', l='ServerLevel[world]', x=-337.23, y=62.00, z=500.08, cpos=[-22, 31], tl=895, v=true] died: Catapulta Somar was killed
-[00:36:16] [Server thread/INFO]: [CJML5067: Killed 128 entities]
-[00:36:17] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:36:17] [Server thread/INFO]: [CJML5067: Killed 82 entities]
-[00:36:20] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:36:23] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:36:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:39] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:42] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:45] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:36:48] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:24] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:30] [Craft Scheduler Thread - 21 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:33] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:36] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:37:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5211, uuid='29fc3790-b009-478b-9470-5f5224d73474', l='ServerLevel[world]', x=-320.00, y=68.00, z=502.85, cpos=[-21, 31], tl=695, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4929, uuid='2fa17323-4380-455c-a34a-cc8f457b9393', l='ServerLevel[world]', x=-331.08, y=62.00, z=513.08, cpos=[-21, 32], tl=1883, v=true] died: Catapulta Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/4911, uuid='97da6800-781c-4ff1-8ac4-b07cd8f4da82', l='ServerLevel[world]', x=-371.86, y=68.00, z=515.14, cpos=[-24, 32], tl=1939, v=true] died: Reclutador de Catapultas Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5067, uuid='0e306018-a08d-42af-b8ed-c3f7c52ace74', l='ServerLevel[world]', x=-332.15, y=62.00, z=497.98, cpos=[-21, 31], tl=1575, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5209, uuid='7b67485b-747a-4a7a-9419-7f49f2caa119', l='ServerLevel[world]', x=-347.00, y=62.00, z=536.61, cpos=[-22, 33], tl=695, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5087, uuid='056045ae-91c6-4f39-80db-d4cc452f2ef7', l='ServerLevel[world]', x=-344.34, y=62.00, z=529.56, cpos=[-22, 33], tl=1575, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5066, uuid='6db2d09f-0984-45a2-8856-20319baebcc2', l='ServerLevel[world]', x=-329.07, y=62.00, z=524.93, cpos=[-21, 32], tl=1575, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5210, uuid='05db7b11-df7d-453c-aa9a-d3d4678d199f', l='ServerLevel[world]', x=-334.93, y=62.00, z=516.93, cpos=[-21, 32], tl=695, v=true] died: Soldado Somar was killed
-[00:37:57] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4791, uuid='3d8755a5-b7fd-4fb4-8fc6-2504b88995cc', l='ServerLevel[world]', x=-332.27, y=62.00, z=506.92, cpos=[-21, 31], tl=1948, v=true] died: Catapulta Somar was killed
-[00:37:57] [Server thread/INFO]: [CJML5067: Killed 129 entities]
-[00:37:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:37:58] [Server thread/INFO]: [CJML5067: Killed 82 entities]
-[00:38:01] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:38:05] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:06] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:09] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:38:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:51] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:38:54] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:15] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5758, uuid='5803a55c-9065-4f38-be1a-e039db97b88c', l='ServerLevel[world]', x=-340.97, y=62.00, z=506.43, cpos=[-22, 31], tl=1319, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5693, uuid='5691e0b1-5198-4067-aea9-844972be8054', l='ServerLevel[world]', x=-334.00, y=65.00, z=551.09, cpos=[-21, 34], tl=1400, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5760, uuid='ca8775f3-cb39-4424-8126-d39c0d937ce6', l='ServerLevel[world]', x=-337.50, y=62.00, z=513.24, cpos=[-22, 32], tl=1319, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5881, uuid='6f7af4fd-4956-4972-8ddf-b59379071fbe', l='ServerLevel[world]', x=-333.75, y=62.00, z=512.05, cpos=[-21, 32], tl=602, v=true] died: Catapulta Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5547, uuid='39a93c26-2769-4f5f-af1a-b2695ae1e83a', l='ServerLevel[world]', x=-330.08, y=62.00, z=534.85, cpos=[-21, 33], tl=1494, v=true] died: Catapulta Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/5662, uuid='e2548dd1-cddd-4704-8475-adbb12ce65d7', l='ServerLevel[world]', x=-338.02, y=62.00, z=506.11, cpos=[-22, 31], tl=1485, v=true] died: Reclutador de Catapultas Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5759, uuid='3b9d43f5-2dc1-4288-8090-8baf6ebd2e3f', l='ServerLevel[world]', x=-343.66, y=62.00, z=522.97, cpos=[-22, 32], tl=1319, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5694, uuid='65600ca4-7c4c-4e28-8eac-bf78289a3f5d', l='ServerLevel[world]', x=-314.44, y=70.00, z=516.00, cpos=[-20, 32], tl=1400, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5692, uuid='9a8d885e-85e9-4e48-a24f-a400cea84a37', l='ServerLevel[world]', x=-324.11, y=65.25, z=544.68, cpos=[-21, 34], tl=1400, v=true] died: Soldado Somar was killed
-[00:39:15] [Server thread/INFO]: [CJML5067: Killed 131 entities]
-[00:39:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:39:16] [Server thread/INFO]: [CJML5067: Killed 95 entities]
-[00:39:18] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:39:26] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:27] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:30] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:37] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:39:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:42] [Craft Scheduler Thread - 18 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:45] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:48] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:39:51] [Craft Scheduler Thread - 1 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6431, uuid='18afdc86-cd3b-4b90-bd24-8a73b657d5c6', l='ServerLevel[world]', x=-315.40, y=70.00, z=505.40, cpos=[-20, 31], tl=832, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6482, uuid='89076a27-50bd-4ca7-9aea-09c82f63547a', l='ServerLevel[world]', x=-335.06, y=62.00, z=506.13, cpos=[-21, 31], tl=615, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6411, uuid='ecfdf97d-bb7f-4f0b-872a-006caf5a90f7', l='ServerLevel[world]', x=-345.92, y=62.00, z=512.26, cpos=[-22, 32], tl=832, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6278, uuid='638febf9-934a-4e6e-b97f-478b1346ddf9', l='ServerLevel[world]', x=-342.33, y=62.00, z=525.22, cpos=[-22, 32], tl=989, v=true] died: Catapulta Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6478, uuid='3b9fc7aa-15d3-46d6-b047-c45e6b71320b', l='ServerLevel[world]', x=-347.01, y=62.00, z=516.82, cpos=[-22, 32], tl=615, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6537, uuid='0acee232-07be-43be-82d9-a5e714013954', l='ServerLevel[world]', x=-344.92, y=62.00, z=500.08, cpos=[-22, 31], tl=565, v=true] died: Catapulta Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/6389, uuid='9577cb5e-6362-4391-bd6a-fcf1f9ca4b4a', l='ServerLevel[world]', x=-355.84, y=66.00, z=517.84, cpos=[-23, 32], tl=980, v=true] died: Reclutador de Catapultas Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6477, uuid='3b846989-f32d-4d72-bc69-f05bde2bce98', l='ServerLevel[world]', x=-328.46, y=62.00, z=502.46, cpos=[-21, 31], tl=615, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6410, uuid='9a53686d-f343-4d97-8649-70aefe22fdd8', l='ServerLevel[world]', x=-341.30, y=62.00, z=502.98, cpos=[-22, 31], tl=832, v=true] died: Soldado Somar was killed
-[00:40:08] [Server thread/INFO]: [CJML5067: Killed 128 entities]
-[00:40:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:08] [Server thread/INFO]: [CJML5067: Killed 96 entities]
-[00:40:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:10] [Server thread/INFO]: [CJML5067: Killed 77 entities]
-[00:40:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:11] [Server thread/INFO]: [CJML5067: Killed 80 entities]
-[00:40:23] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:40:25] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:40:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:40:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7424, uuid='30a6841c-4fdc-4030-9edc-438417745b11', l='ServerLevel[world]', x=-347.74, y=65.00, z=509.01, cpos=[-22, 31], tl=35, v=true] died: Catapulta Somar was killed
-[00:40:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7176, uuid='b1ad5c24-da4c-46f8-819f-c117446119fa', l='ServerLevel[world]', x=-334.34, y=62.00, z=512.99, cpos=[-21, 32], tl=210, v=true] died: Catapulta Somar was killed
-[00:40:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7300, uuid='a23fc4b2-210c-4f58-921d-7893be04170e', l='ServerLevel[world]', x=-333.85, y=62.00, z=502.87, cpos=[-21, 31], tl=167, v=true] died: Catapulta Somar was killed
-[00:40:33] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/7282, uuid='d8448824-cac3-4d06-b6c1-51d1422bcdb5', l='ServerLevel[world]', x=-331.73, y=62.00, z=506.93, cpos=[-21, 31], tl=201, v=true] died: Reclutador de Catapultas Somar was killed
-[00:40:33] [Server thread/INFO]: [CJML5067: Killed 155 entities]
-[00:40:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:40:34] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[00:40:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:40:41] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:42] [Craft Scheduler Thread - 17 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:45] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:40:57] [Craft Scheduler Thread - 14 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:00] [Craft Scheduler Thread - 19 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:03] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:06] [Craft Scheduler Thread - 20 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:09] [Craft Scheduler Thread - 24 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:12] [Craft Scheduler Thread - 25 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:15] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7919, uuid='f1aae161-b745-4e0e-8a4c-355268cdd94b', l='ServerLevel[world]', x=-329.00, y=62.00, z=517.12, cpos=[-21, 32], tl=1047, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7879, uuid='9eaf3bbe-a18a-4259-8048-76ab7179d546', l='ServerLevel[world]', x=-346.59, y=62.00, z=498.01, cpos=[-22, 31], tl=1047, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7952, uuid='eb4b8bd2-9e93-4a4d-81bb-128c889a03c9', l='ServerLevel[world]', x=-344.92, y=63.00, z=534.92, cpos=[-22, 33], tl=965, v=true] died: Catapulta Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8067, uuid='304019df-7ebe-497a-ad77-3ffc7faa80a2', l='ServerLevel[world]', x=-325.03, y=65.00, z=539.03, cpos=[-21, 33], tl=722, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7742, uuid='33479ff7-df54-4e89-8d2a-369ca68fb6c4', l='ServerLevel[world]', x=-347.92, y=65.00, z=507.08, cpos=[-22, 31], tl=1134, v=true] died: Catapulta Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8088, uuid='431338e8-85d4-49ff-a80c-a91990d27630', l='ServerLevel[world]', x=-341.24, y=62.00, z=531.24, cpos=[-22, 33], tl=722, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/7856, uuid='bdc8c0f5-5643-4bd1-ba6c-36f8171fd000', l='ServerLevel[world]', x=-339.78, y=62.00, z=511.85, cpos=[-22, 31], tl=1125, v=true] died: Reclutador de Catapultas Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8068, uuid='44ce6104-ad64-4c36-afd7-8e0150f00019', l='ServerLevel[world]', x=-343.61, y=63.00, z=539.99, cpos=[-22, 33], tl=722, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7880, uuid='98f0ee5e-16a4-4aab-8345-4f1cdf634476', l='ServerLevel[world]', x=-337.33, y=62.00, z=497.97, cpos=[-22, 31], tl=1047, v=true] died: Soldado Somar was killed
-[00:41:33] [Server thread/INFO]: [CJML5067: Killed 129 entities]
-[00:41:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:41:34] [Server thread/INFO]: [CJML5067: Killed 92 entities]
-[00:41:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:41:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:42] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:52] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[00:41:56] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:41:57] [Craft Scheduler Thread - 7 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:00] [Craft Scheduler Thread - 23 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:03] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[00:42:13] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8542, uuid='55e06401-7e3e-4892-9ce3-aa01ae175f23', l='ServerLevel[world]', x=-324.63, y=66.00, z=530.67, cpos=[-21, 33], tl=695, v=true] died: Soldado Somar was killed while fighting Reclutador de Catapultas Somar
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8543, uuid='a3517d80-a3ae-494b-ac8e-366decf4610a', l='ServerLevel[world]', x=-326.00, y=65.00, z=520.11, cpos=[-21, 32], tl=695, v=true] died: Soldado Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8775, uuid='ff1b923f-9fbe-417d-8310-b9a9cb49c936', l='ServerLevel[world]', x=-342.00, y=62.00, z=507.72, cpos=[-22, 31], tl=354, v=true] died: Soldado Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8774, uuid='be213d7f-dc56-48b9-b61b-9422d4eb932c', l='ServerLevel[world]', x=-341.71, y=62.00, z=512.47, cpos=[-22, 32], tl=354, v=true] died: Soldado Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8636, uuid='93ba60e3-f60a-42e7-9101-6d415717a540', l='ServerLevel[world]', x=-343.27, y=62.00, z=516.20, cpos=[-22, 32], tl=425, v=true] died: Catapulta Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8387, uuid='6c641624-e5ca-46d8-9fe5-5f8c6df8fed5', l='ServerLevel[world]', x=-330.30, y=62.00, z=533.70, cpos=[-21, 33], tl=760, v=true] died: Catapulta Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/8502, uuid='d901a2c3-fc64-45df-9d92-a40af82b0549', l='ServerLevel[world]', x=-326.46, y=63.00, z=531.83, cpos=[-21, 33], tl=751, v=true] died: Reclutador de Catapultas Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8754, uuid='e8aa55ca-0b64-4c38-b496-07f08930fbd9', l='ServerLevel[world]', x=-341.47, y=62.00, z=505.40, cpos=[-22, 31], tl=354, v=true] died: Soldado Somar was killed
-[00:42:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8544, uuid='7e32fe6b-c3c1-4970-a86c-46258961b460', l='ServerLevel[world]', x=-332.66, y=62.00, z=529.35, cpos=[-21, 33], tl=695, v=true] died: Soldado Somar was killed
-[00:42:13] [Server thread/INFO]: [CJML5067: Killed 129 entities]
-[00:42:14] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[00:42:14] [Server thread/INFO]: [CJML5067: Killed 81 entities]
-[00:43:48] [Server thread/INFO]: [Mythic] Reloading plugin...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Items...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[00:43:48] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[00:43:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[00:43:48] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[00:43:48] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[00:56:13] [Server thread/INFO]: CJML5067 lost connection: Timed out
-[00:56:13] [Server thread/INFO]: CJML5067 left the game
+[02:03:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:03:53] [Server thread/INFO]: Default game type: SURVIVAL
+[02:03:53] [Server thread/INFO]: Generating keypair
+[02:03:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:03:54] [Server thread/INFO]: Using epoll channel type
+[02:03:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:03:54] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[02:03:55] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[02:03:55] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
+[02:03:55] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[02:03:55] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[02:03:55] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
+[02:03:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:03:55] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
+[02:03:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:03:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:03:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:03:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:03:56] [Server thread/INFO]: Preparing level "world"
+[02:03:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:03:58] [Server thread/INFO]: Time elapsed: 820 ms
+[02:03:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:04:00] [Server thread/INFO]: Time elapsed: 2017 ms
+[02:04:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:04:00] [Server thread/INFO]: Time elapsed: 227 ms
+[02:04:00] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
+[02:04:01] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[02:04:01] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[02:04:10] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:04:11] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:04:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:04:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:04:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:04:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:04:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 97 skills.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:04:12] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[02:04:12] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[02:04:12] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
+[02:04:13] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[02:04:13] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[02:04:14] [Server thread/INFO]: Running delayed init tasks
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
+[02:04:14] [Server thread/INFO]: Done (23.282s)! For help, type "help"
+[02:04:14] [Server thread/INFO]: Timings Reset
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:04:14] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
+[02:04:15] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[02:04:15] [Craft Scheduler Thread - 3 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[02:04:19] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
+[02:04:19] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[02:04:38] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[02:04:40] [Server thread/INFO]: CJML5067 joined the game
+[02:04:40] [Server thread/INFO]: CJML5067[/127.240.192.59:39117] logged in with entity id 152 at ([world]-348.1231121360385, 66.94706773494377, 499.74993733487344)
+[02:04:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:04:46] [Server thread/INFO]: [CJML5067: Killed 122 entities]
+[02:04:47] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:04:47] [Server thread/INFO]: [CJML5067: Killed 81 entities]
+[02:04:49] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[02:04:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[02:05:35] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:37] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:38] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:05:49] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
+[02:06:09] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:06:09] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/346, uuid='b65afd22-8006-4586-9da0-7361a87caef4', l='ServerLevel[world]', x=-349.42, y=66.00, z=504.06, cpos=[-22, 31], tl=1608, v=true] died: Catapulta Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/691, uuid='9883ad1e-2462-495a-9cc9-fe812c0bd851', l='ServerLevel[world]', x=-340.62, y=62.00, z=506.37, cpos=[-22, 31], tl=680, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/692, uuid='cc449472-2c5b-43a9-99be-d6a41d4f1f9c', l='ServerLevel[world]', x=-346.66, y=62.00, z=511.33, cpos=[-22, 31], tl=680, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/463, uuid='d7bd0649-a803-4f0b-acfa-32e623782fa6', l='ServerLevel[world]', x=-328.91, y=63.00, z=498.33, cpos=[-21, 31], tl=1599, v=true] died: Reclutador de Catapultas Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/780, uuid='86c20344-ea86-4f96-8844-4e670b56e8b1', l='ServerLevel[world]', x=-346.90, y=62.00, z=512.57, cpos=[-22, 32], tl=416, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/535, uuid='b6e06eda-7463-4687-9341-5cd7c9ef1d90', l='ServerLevel[world]', x=-336.58, y=62.00, z=528.46, cpos=[-22, 33], tl=1444, v=true] died: Catapulta Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/781, uuid='84675b83-d6be-4864-8b9d-24e61ecc3ee9', l='ServerLevel[world]', x=-353.60, y=65.00, z=517.60, cpos=[-23, 32], tl=416, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/801, uuid='41596c88-ac92-4c6c-9ca7-74c9833f7ea4', l='ServerLevel[world]', x=-346.95, y=62.00, z=522.65, cpos=[-22, 32], tl=416, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/690, uuid='880f62f8-99d6-4be7-b7a5-0967688223e9', l='ServerLevel[world]', x=-346.99, y=62.00, z=515.62, cpos=[-22, 32], tl=680, v=true] died: Soldado Somar was killed
+[02:06:09] [Server thread/INFO]: [CJML5067: Killed 130 entities]
+[02:06:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:06:10] [Server thread/INFO]: [CJML5067: Killed 90 entities]
+[02:07:51] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:07:51] [Server thread/INFO]: [CJML5067: Killed 122 entities]
+[02:07:52] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:07:52] [Server thread/INFO]: [CJML5067: Killed 85 entities]
+[02:07:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[02:07:54] [Server thread/INFO]: [CJML5067: Killed 67 entities]

@@ -155,8 +155,8 @@ MarcCatapult2:
   Skills:
     - skill{s=Pruebas}
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
-    - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - delay 10
+    - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
     - sudoSkill{s=reportarseACatapult2} @Target
