@@ -21,7 +21,7 @@ reclutadorSomarCatapult:
 #    - skill{s=ctprsPerdidos} @EIR{r=40} ~onTimer:60
 #    - skill{s=ContornoVariabs} @EIR{r=15} ~onTimer:20
     - skill{s=RecCfiltrarDano;Sync=true} ~onDamaged
-    - skill{s=RotarPrioridad} @Self ~onTimer:140
+    - skill{s=RotarPrioridad} @Self ~onTimer:240
 #    - skill{s=AvisOrdenaVariabP} @LivingInWorld ~onDeath
     - skill{s=inMortalizarReclutador;executeafterdeath=true} @Self ~onDeath
 #    - skill{s=Pruebas} ~onTimer:100 

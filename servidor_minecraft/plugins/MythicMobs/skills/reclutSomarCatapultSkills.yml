@@ -62,7 +62,7 @@ RotarPrioridad:
   - setvariable{var=skill.tempPriori;type=INTEGER;value=<world.var.tempPriori>+1}
 #  - variableadd{var=skill.tempPriori;val=1} 
   - setvariable{var=world.tempPriori;type=INTEGER;value=<world.var.catapultas>+1}
-  - delay 60
+  - delay 120
   - setvariable{var=world.tempPriori;type=INTEGER;value=<skill.var.tempPriori>}
   - msg{m=variableRotada prioridad> <world.var.tempPriori>} @NearestPlayer
 
