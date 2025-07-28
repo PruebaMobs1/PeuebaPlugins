@@ -158,7 +158,7 @@ MarcCatapult2:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER}
-  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
+  - variableEquals{var=target.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
@@ -177,7 +177,7 @@ MarcCatapult3:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER} true
-  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
+  - variableEquals{var=target.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
     - delay 5
@@ -197,7 +197,7 @@ revSoldCtp:
 
 ReclutarSolds:
   Skill:
-  - skill{s=MarcCatapult3} @LIR{r=30;limit=1}
+  - skill{s=MarcCatapult3} @EIR{r=30}
 
 ctprsPerdidos:
   Cooldown: 5
