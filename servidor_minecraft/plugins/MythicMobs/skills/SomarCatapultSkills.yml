@@ -197,8 +197,9 @@ revSoldCtp:
 
 ReclutarSolds:
   Cooldown: 2
-  Skill:
+  Skills:
   - skill{s=MarcCatapult3} @Target
+  - clearThreat @self
 ctprsPerdidos:
   Cooldown: 5
   Conditions:
