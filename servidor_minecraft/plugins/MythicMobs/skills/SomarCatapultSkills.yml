@@ -189,6 +189,10 @@ MarcCatapult3:
     - projectile{bullet=block;material=STONE} 
     - clearthreat @Self
 
+desocuparCatapulteros:
+  Skills:
+  - variableUnset{var=caster.catapultauuid;t=String;value="false"}
+  - variableUnset{var=caster.catapulta;t=String;value="false"}
 revSoldCtp:
   TargetConditions:
     - faction{f=Somar} castInstead ReclutarSolds
