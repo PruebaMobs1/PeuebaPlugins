@@ -293,5 +293,5 @@ PrepareModelSomar:
     - setVariable{key=caster.Animacion;t=String;value="idle"}
 #    - defaultstate{mid=SomarSoldier;type=idle;state=SupuestoIdle} @Self
     - setvariable{var=caster.atackeruuid;type=STRING;val="noUiid"} @Self
-    - setvariable{var=caster.catapulta;t=INTEGER;val=0}
+    - setvariable{var=caster.catapulta;t=INTEGER;val=0} 
   

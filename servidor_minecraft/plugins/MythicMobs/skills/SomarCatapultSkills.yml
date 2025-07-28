@@ -138,7 +138,7 @@ MarcCatapult1:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER}
-  - variableEquals{var=target.catapulta;t=INTEGER;val=0}
+  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold1;t=String;value="reclutando"}
     - delay 3
@@ -158,6 +158,7 @@ MarcCatapult2:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER}
+  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
@@ -176,6 +177,7 @@ MarcCatapult3:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER} true
+  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
     - delay 5
@@ -189,13 +191,13 @@ MarcCatapult3:
 
 revSoldCtp:
   TargetConditions:
-    - faction{f=Somar} castInstead ReclutarSolds @MIR{r=30;limit=1}
+    - faction{f=Somar} castInstead ReclutarSolds
   Skills:
     - msg{m="&9No objetivos"} @NearestPlayer
 
 ReclutarSolds:
   Skill:
-  - skill{s=MarcCatapult3}
+  - skill{s=MarcCatapult3} @LIR{r=30;limit=1}
 
 ctprsPerdidos:
   Cooldown: 5
