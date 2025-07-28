@@ -138,7 +138,7 @@ MarcCatapult1:
   TargetConditions:
   - isMythicMob true
   - variableisset{var=caster.catapulta;t=INTEGER}
-  - variableEquals{var=caster.catapulta;t=INTEGER;val=0}
+  - variableEquals{var=target.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold1;t=String;value="reclutando"}
     - delay 3
@@ -196,11 +196,11 @@ revSoldCtp:
     - msg{m="&9No objetivos"} @NearestPlayer
 
 ReclutarSolds:
-  Cooldown: 5
+  Cooldown: 2
   Skill:
-  - skill{s=MarcCatapult3} @EIR{r=30}
+  - skill{s=MarcCatapult3} @EIR{r=30;limit=1;sort=Random}
 ctprsPerdidos:
-  Cooldown: 20
+  Cooldown: 5
   Conditions:
   - (variableEquals{var=caster.sold1;t=String;value="false"} || variableEquals{var=caster.sold2;t=String;value="false"} || variableEquals{var=caster.sold3;t=String;value="false"}) castInstead revSoldCtp
   Skills:
