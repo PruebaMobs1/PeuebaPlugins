@@ -19,7 +19,7 @@ MuerteCatapulta:
   - skill{s=desocuparCatapulteros} @LivingInWorld
   - skill{s=restarVariabPGlobal}
   - skill{s=AvisOrdenaVariabP} @LivingInWorld
-  
+
 InvocarReclutador:
   Conditions:
   - variableEquals{var=world.catapultas;val=-1}
