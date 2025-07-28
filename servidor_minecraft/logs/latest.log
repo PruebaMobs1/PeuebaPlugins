@@ -1,1534 +1,200 @@
-[20:25:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:25:19] [ServerMain/INFO]: Loaded 1174 recipes
-[20:25:19] [ServerMain/INFO]: Loaded 1271 advancements
-[20:25:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[20:25:20] [Server thread/INFO]: Loading properties
-[20:25:20] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[20:25:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:25:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:25:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:33:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:33:11] [ServerMain/INFO]: Loaded 1174 recipes
+[22:33:11] [ServerMain/INFO]: Loaded 1271 advancements
+[22:33:12] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[22:33:12] [Server thread/INFO]: Loading properties
+[22:33:12] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[22:33:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:33:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:33:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:25:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:25:23] [Server thread/INFO]: Default game type: SURVIVAL
-[20:25:23] [Server thread/INFO]: Generating keypair
-[20:25:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:25:23] [Server thread/INFO]: Using epoll channel type
-[20:25:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:25:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[20:25:23] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[20:25:24] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[20:25:24] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
-[20:25:24] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[20:25:24] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[20:25:24] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
-[20:25:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:25:24] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
-[20:25:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:25:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:25:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:25:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:25:25] [Server thread/INFO]: Preparing level "world"
-[20:25:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:25:29] [Server thread/INFO]: Time elapsed: 3399 ms
-[20:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:25:29] [Server thread/INFO]: Time elapsed: 147 ms
-[20:25:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:25:29] [Server thread/INFO]: Time elapsed: 84 ms
-[20:25:29] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
-[20:25:30] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
-[20:25:30] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[20:25:39] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[20:25:40] [Server thread/INFO]: [MythicMobs] Loading Items...
-[20:25:40] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[20:25:40] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[20:25:41] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[20:25:41] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[20:25:41] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 98 skills.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[20:25:41] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[20:25:41] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[20:25:41] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
-[20:25:42] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[20:25:42] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[20:25:43] [Server thread/INFO]: Running delayed init tasks
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[20:25:43] [Server thread/INFO]: Done (22.931s)! For help, type "help"
-[20:25:43] [Server thread/INFO]: Timings Reset
-[20:25:43] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[20:25:43] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[20:25:44] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[20:25:44] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[20:25:44] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[20:25:44] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[20:25:44] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[20:25:45] [Server thread/INFO]: CJML5067 joined the game
-[20:25:45] [Server thread/INFO]: CJML5067[/127.240.192.59:44483] logged in with entity id 86 at ([world]-356.5861772375573, 88.53890171181733, 523.2368937024806)
-[20:25:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2639ms or 52 ticks behind
-[20:25:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[20:25:49] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[20:25:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[20:25:58] [Server thread/INFO]: [CJML5067: Killed 107 entities]
-[20:25:59] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[20:25:59] [Server thread/INFO]: [CJML5067: Killed 92 entities]
-[20:26:03] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 5
-[20:26:15] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 20
-[20:29:46] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1165, uuid='de8b3dc4-5050-4cc3-b853-89634581aa7b', l='ServerLevel[world]', x=-348.94, y=67.00, z=546.04, cpos=[-22, 34], tl=4218, v=true] died: Soldado Somar was slain by Reclutador de Catapultas Somar
-[20:30:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/907, uuid='c12cd103-5d44-46b7-afa8-4688ff75c7b9', l='ServerLevel[world]', x=-365.33, y=69.00, z=540.57, cpos=[-23, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/676, uuid='49eef248-8e26-494c-8b09-1c9838f5ddae', l='ServerLevel[world]', x=-338.84, y=62.00, z=500.77, cpos=[-22, 31], tl=5333, v=true] died: Catapulta Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1122, uuid='19a2be13-7b5d-4904-8317-2417a03d0ce9', l='ServerLevel[world]', x=-342.39, y=63.00, z=540.30, cpos=[-22, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/908, uuid='ff642a2e-8c9b-4b26-9d87-66947416286f', l='ServerLevel[world]', x=-373.39, y=70.00, z=543.39, cpos=[-24, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/906, uuid='f6380ee7-6882-4fc2-a7cc-6170081aede0', l='ServerLevel[world]', x=-346.55, y=62.00, z=505.66, cpos=[-22, 31], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/361, uuid='e8633d97-c3ca-40b2-a91d-624dda9f7061', l='ServerLevel[world]', x=-346.72, y=65.00, z=526.32, cpos=[-22, 32], tl=5333, v=true] died: Catapulta Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1124, uuid='08b9550e-8f24-4d26-93ab-fd12a3dd5017', l='ServerLevel[world]', x=-347.08, y=60.00, z=510.05, cpos=[-22, 31], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1123, uuid='1b69fc7d-46e4-4711-bf76-74a35b2185c9', l='ServerLevel[world]', x=-328.43, y=63.00, z=499.46, cpos=[-21, 31], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1043, uuid='f0277e1e-e971-41d2-b6f5-0ac78bb068d5', l='ServerLevel[world]', x=-344.28, y=62.00, z=529.38, cpos=[-22, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1282, uuid='281afbc8-63c4-4fe2-8e72-23dffbdaf2bf', l='ServerLevel[world]', x=-347.44, y=60.00, z=529.56, cpos=[-22, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/886, uuid='eaddba7a-f17d-4f4a-81b1-fb1e95a3702a', l='ServerLevel[world]', x=-350.54, y=68.00, z=547.47, cpos=[-22, 34], tl=5324, v=true] died: Reclutador de Catapultas Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1242, uuid='da038aee-60b0-44f2-93f9-ca048d88a934', l='ServerLevel[world]', x=-331.53, y=62.00, z=523.23, cpos=[-21, 32], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/904, uuid='3c415d50-f8b0-4afc-8023-3b4a6db0e24f', l='ServerLevel[world]', x=-356.05, y=66.00, z=540.05, cpos=[-23, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/902, uuid='cece3187-a1c3-4b27-98f6-acdd7e864c9d', l='ServerLevel[world]', x=-356.20, y=68.00, z=544.19, cpos=[-23, 34], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1082, uuid='07c5e631-a726-448a-9a5e-5f94f7e63477', l='ServerLevel[world]', x=-347.01, y=60.00, z=514.33, cpos=[-22, 32], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1163, uuid='8eb3ce34-ade1-4213-b8cb-e5d84e92e087', l='ServerLevel[world]', x=-354.09, y=68.00, z=495.35, cpos=[-23, 30], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/949, uuid='4e73188a-9f57-4c33-a581-34cf5ccc3694', l='ServerLevel[world]', x=-356.42, y=68.00, z=546.64, cpos=[-23, 34], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/781, uuid='809b0880-1de4-4780-bec7-06381b233c4e', l='ServerLevel[world]', x=-347.46, y=65.00, z=510.40, cpos=[-22, 31], tl=5333, v=true] died: Catapulta Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/466, uuid='dfbb7f07-76e9-44cb-b2f0-98904776859d', l='ServerLevel[world]', x=-350.16, y=67.00, z=539.36, cpos=[-22, 33], tl=5333, v=true] died: Catapulta Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/903, uuid='46da4c43-1675-40b1-b1ad-3cf818a4ccb0', l='ServerLevel[world]', x=-346.66, y=62.00, z=521.44, cpos=[-22, 32], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1243, uuid='35e2affa-6516-4477-876d-af62a24ef66a', l='ServerLevel[world]', x=-337.66, y=62.00, z=513.45, cpos=[-22, 32], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/571, uuid='f701c23b-705f-42de-abe0-e6e0bc67c9c2', l='ServerLevel[world]', x=-336.18, y=62.00, z=531.23, cpos=[-22, 33], tl=5333, v=true] died: Catapulta Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/905, uuid='de85aa4e-164b-4b6f-add4-95ace5e66894', l='ServerLevel[world]', x=-370.54, y=68.00, z=513.41, cpos=[-24, 32], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1164, uuid='2368e84b-e958-46b6-8a9e-9e34e71d919f', l='ServerLevel[world]', x=-338.35, y=62.00, z=508.54, cpos=[-22, 31], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1083, uuid='a579b740-0804-45a6-9d3f-3a98e2915bd1', l='ServerLevel[world]', x=-342.58, y=62.00, z=530.95, cpos=[-22, 33], tl=5098, v=true] died: Soldado Somar was killed
-[20:30:30] [Server thread/INFO]: [CJML5067: Killed 139 entities]
-[20:30:31] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[20:30:31] [Server thread/INFO]: [CJML5067: Killed 88 entities]
-[21:04:53] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:04:53] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:04:53] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:04:53] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:04:53] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:04:59] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:04:59] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeleton King'/2367, uuid='246d2eb5-0fd6-4461-b9e9-43040410495e', l='ServerLevel[world]', x=-333.46, y=65.00, z=556.30, cpos=[-21, 34], tl=37308, v=true] died: Skeleton King was killed
-[21:04:59] [Server thread/INFO]: [CJML5067: Killed 110 entities]
-[21:05:00] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:05:00] [Server thread/INFO]: [CJML5067: Killed 77 entities]
-[21:05:05] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 3
-[21:05:19] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 5
-[21:06:11] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[21:06:43] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 3
-[21:06:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:06:53] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/5855, uuid='099c5661-330a-4f1d-904d-9987459f60d4', l='ServerLevel[world]', x=-341.01, y=62.00, z=520.46, cpos=[-22, 32], tl=2134, v=true] died: Reclutador de Catapultas Somar was killed
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6149, uuid='c9943fd7-5ec5-4380-a384-db2afc5acc94', l='ServerLevel[world]', x=-346.62, y=65.00, z=518.21, cpos=[-22, 32], tl=199, v=true] died: Catapulta Somar was killed
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5923, uuid='d36c771d-8088-43d1-a163-14eb0de187d1', l='ServerLevel[world]', x=-346.98, y=62.00, z=500.58, cpos=[-22, 31], tl=1875, v=true] died: Soldado Somar was killed
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5883, uuid='1e736ddc-48ef-43cc-8ef6-82e5ce7ec1d1', l='ServerLevel[world]', x=-341.62, y=62.00, z=529.46, cpos=[-22, 33], tl=1875, v=true] died: Soldado Somar was killed
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5943, uuid='a7468164-13b5-4c7f-8fda-58960a8515bc', l='ServerLevel[world]', x=-345.99, y=62.00, z=522.70, cpos=[-22, 32], tl=1875, v=true] died: Soldado Somar was killed
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6359, uuid='bf59b743-6f71-4517-a83c-ba62365d4339', l='ServerLevel[world]', x=-346.62, y=65.00, z=518.21, cpos=[-22, 32], tl=199, v=true] died: Catapulta Somar was killed
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5750, uuid='85048e5a-df93-492d-85ea-023badc01158', l='ServerLevel[world]', x=-361.69, y=67.00, z=518.63, cpos=[-23, 32], tl=2143, v=true] died: Catapulta Somar was killed
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6254, uuid='973eb958-c23a-43fe-88ef-7f0e55c1e17d', l='ServerLevel[world]', x=-346.62, y=65.00, z=518.21, cpos=[-22, 32], tl=199, v=true] died: Catapulta Somar was killed
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5645, uuid='1aa1651f-521b-4db5-9ec0-a396e15d7c94', l='ServerLevel[world]', x=-353.64, y=65.00, z=523.87, cpos=[-23, 32], tl=2143, v=true] died: Catapulta Somar was killed
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6062, uuid='e01f9c41-632b-44fd-ab0f-64b94549f9de', l='ServerLevel[world]', x=-347.00, y=60.42, z=521.56, cpos=[-22, 32], tl=829, v=true] died: Soldado Somar was killed
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-34/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5884, uuid='6f1cd8e4-402c-41d4-8c19-b3cbf776c937', l='ServerLevel[world]', x=-338.39, y=62.00, z=501.61, cpos=[-22, 31], tl=1875, v=true] died: Soldado Somar was killed
-[21:06:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5963, uuid='a0e0e5c8-4594-4569-bf72-305378390658', l='ServerLevel[world]', x=-347.00, y=60.00, z=517.56, cpos=[-22, 32], tl=1875, v=true] died: Soldado Somar was killed
-[21:06:53] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5540, uuid='262f36c1-a8ea-4e21-b4d5-5ea4d74fb5bd', l='ServerLevel[world]', x=-349.29, y=65.00, z=530.02, cpos=[-22, 33], tl=2143, v=true] died: Catapulta Somar was killed
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:06:53] [Server thread/INFO]: [CJML5067: Killed 124 entities]
-[21:06:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:06:53] [Server thread/INFO]: [CJML5067: Killed 81 entities]
-[21:06:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:06:55] [Server thread/INFO]: [CJML5067: Killed 79 entities]
-[21:06:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:06:56] [Server thread/INFO]: [CJML5067: Killed 52 entities]
-[21:07:01] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:07:07] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 3
-[21:07:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:07:10] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/6976, uuid='2d0e1199-dd51-42b4-9169-2d96a8ab297a', l='ServerLevel[world]', x=-355.17, y=65.00, z=510.85, cpos=[-23, 31], tl=171, v=true] died: Reclutador de Catapultas Somar was killed
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7188, uuid='586b63ca-8b57-4eb6-99e3-e8287b5f8f8c', l='ServerLevel[world]', x=-341.30, y=62.00, z=521.04, cpos=[-22, 32], tl=48, v=true] died: Catapulta Somar was killed
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6978, uuid='0e8124b1-e495-494e-b3f3-87709a4ee1ba', l='ServerLevel[world]', x=-350.92, y=65.00, z=511.91, cpos=[-22, 31], tl=48, v=true] died: Catapulta Somar was killed
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7083, uuid='e2563b3e-ebda-41cd-b5b4-fc4235cabdf4', l='ServerLevel[world]', x=-347.57, y=65.00, z=518.63, cpos=[-22, 32], tl=48, v=true] died: Catapulta Somar was killed
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6869, uuid='623ef230-68bd-48c6-9cb2-33863c1eeae9', l='ServerLevel[world]', x=-339.06, y=62.00, z=527.61, cpos=[-22, 32], tl=180, v=true] died: Catapulta Somar was killed
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-32/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-35/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-29/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [lumine-scheduler-33/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:07:10] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[21:07:10] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:07:10] [Server thread/INFO]: [CJML5067: Killed 76 entities]
-[21:07:12] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:07:20] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:09:04] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:09:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:09:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7430, uuid='5361049b-5c75-4cdc-8c97-52a7e9383ae1', l='ServerLevel[world]', x=-345.63, y=65.00, z=511.82, cpos=[-22, 31], tl=2392, v=true] died: Catapulta Somar was killed
-[21:09:12] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:12] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableEquals condition.
-[21:09:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:09:28] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/7543, uuid='a0248979-2713-483f-a747-8c0cf3babc0a', l='ServerLevel[world]', x=-346.87, y=60.00, z=510.15, cpos=[-22, 31], tl=2698, v=true] died: Reclutador de Catapultas Somar was killed
-[21:09:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7595, uuid='3a9c789b-e204-48af-a74b-ec99114550b6', l='ServerLevel[world]', x=-347.44, y=60.00, z=517.56, cpos=[-22, 32], tl=2559, v=true] died: Soldado Somar was killed
-[21:09:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7597, uuid='5421fafb-efa5-4d64-8d66-69a30379a30a', l='ServerLevel[world]', x=-346.56, y=60.00, z=517.56, cpos=[-22, 32], tl=2559, v=true] died: Soldado Somar was killed
-[21:09:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7596, uuid='a113e44e-2efa-4b49-bcf8-6861d21033f6', l='ServerLevel[world]', x=-346.56, y=60.00, z=518.44, cpos=[-22, 32], tl=2559, v=true] died: Soldado Somar was killed
-[21:09:28] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[21:09:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:09:28] [Server thread/INFO]: [CJML5067: Killed 80 entities]
-[21:10:22] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:10:22] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:10:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:10:22] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:10:22] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:10:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:10:28] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[21:10:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:10:28] [Server thread/INFO]: [CJML5067: Killed 84 entities]
-[21:10:32] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:10:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:11:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:11:23] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8540, uuid='9f64c8a8-f3bb-467a-90e4-72dc40bdcf22', l='ServerLevel[world]', x=-341.63, y=62.00, z=514.54, cpos=[-22, 32], tl=1026, v=true] died: Catapulta Somar was killed
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:23] [lumine-scheduler-38/WARN]: [MythicMobs] Failed to process VariableIsSet condition.
-[21:11:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:11:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8675, uuid='5d1cf76a-6836-4fb4-b6ff-476adc9b1445', l='ServerLevel[world]', x=-347.44, y=60.00, z=530.44, cpos=[-22, 33], tl=972, v=true] died: Soldado Somar was killed
-[21:11:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8695, uuid='4d493ca6-b579-4321-97cc-28e6727ee2a8', l='ServerLevel[world]', x=-347.44, y=60.00, z=529.56, cpos=[-22, 33], tl=972, v=true] died: Soldado Somar was killed
-[21:11:33] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/8645, uuid='73337032-e1d8-45a3-a3b2-fcdcc70ac0ab', l='ServerLevel[world]', x=-347.00, y=60.00, z=514.00, cpos=[-22, 32], tl=1229, v=true] died: Reclutador de Catapultas Somar was killed
-[21:11:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8655, uuid='1a6301db-168d-48eb-9fc8-b7c3e8dea3a4', l='ServerLevel[world]', x=-346.56, y=60.00, z=530.44, cpos=[-22, 33], tl=972, v=true] died: Soldado Somar was killed
-[21:11:33] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[21:11:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:11:34] [Server thread/INFO]: [CJML5067: Killed 93 entities]
-[21:11:57] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:11:57] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:11:57] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:11:57] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:11:58] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:11:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:11:58] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:11:58] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:12:06] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:12:14] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:12:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:12:41] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/9035, uuid='d393ce84-cd6f-4694-a6db-0eb572568d85', l='ServerLevel[world]', x=-344.92, y=62.00, z=530.06, cpos=[-22, 33], tl=700, v=true] died: Catapulta Somar was killed
-[21:12:41] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:13:23] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:13:23] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:13:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:13:23] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:13:23] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:13:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:13:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9174, uuid='2947d24a-c54b-4095-8300-f750cb7e61bd', l='ServerLevel[world]', x=-346.56, y=60.00, z=517.56, cpos=[-22, 32], tl=1526, v=true] died: Soldado Somar was killed
-[21:13:30] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/9143, uuid='cafb40d5-0b9b-4267-9c4b-db2907d31a44', l='ServerLevel[world]', x=-346.90, y=62.00, z=529.13, cpos=[-22, 33], tl=1680, v=true] died: Reclutador de Catapultas Somar was killed
-[21:13:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9175, uuid='3e82b281-aec0-4cdd-8a3e-951afa86a010', l='ServerLevel[world]', x=-347.44, y=60.00, z=518.44, cpos=[-22, 32], tl=1526, v=true] died: Soldado Somar was killed
-[21:13:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9214, uuid='ae397ea7-f5b6-4bcc-939c-d9a547aca56b', l='ServerLevel[world]', x=-346.56, y=60.00, z=518.44, cpos=[-22, 32], tl=1526, v=true] died: Soldado Somar was killed
-[21:13:30] [Server thread/INFO]: [CJML5067: Killed 127 entities]
-[21:13:31] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:13:31] [Server thread/INFO]: [CJML5067: Killed 113 entities]
-[21:13:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:13:41] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:13:47] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:13:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9682, uuid='34a3eee6-d65c-4e41-8bb8-fb8bca291d1e', l='ServerLevel[world]', x=-346.18, y=62.00, z=522.00, cpos=[-22, 32], tl=223, v=true] died: Soldado Somar was killed
-[21:13:47] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/9873, uuid='0230c548-5b86-455f-9a37-443c533b6884', l='ServerLevel[world]', x=-335.99, y=62.00, z=505.26, cpos=[-21, 31], tl=116, v=true] died: Reclutador de Catapultas Somar was killed
-[21:13:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9702, uuid='3a97db0e-bd04-4b35-a9bd-8ff8445e3849', l='ServerLevel[world]', x=-339.34, y=62.00, z=505.45, cpos=[-22, 31], tl=223, v=true] died: Soldado Somar was killed
-[21:13:47] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/9768, uuid='1dceb6bb-1ad7-48f3-929c-b0032930fdda', l='ServerLevel[world]', x=-344.37, y=62.00, z=503.11, cpos=[-22, 31], tl=125, v=true] died: Catapulta Somar was killed
-[21:13:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9703, uuid='767da4e5-9a49-4644-8248-8dad95e66c37', l='ServerLevel[world]', x=-335.97, y=62.00, z=514.78, cpos=[-21, 32], tl=223, v=true] died: Soldado Somar was killed
-[21:13:47] [Server thread/INFO]: [CJML5067: Killed 134 entities]
-[21:13:48] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:13:48] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[21:13:50] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:13:58] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:16:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:16:54] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/10224, uuid='6344d86f-9fa5-4235-a0b5-a9f69b6806ec', l='ServerLevel[world]', x=-324.04, y=67.00, z=490.79, cpos=[-21, 30], tl=3653, v=true] died: Reclutador de Catapultas Somar was killed
-[21:16:54] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10245, uuid='48676813-c444-481c-9dd0-74f13c44304b', l='ServerLevel[world]', x=-344.03, y=62.00, z=507.77, cpos=[-22, 31], tl=3505, v=true] died: Soldado Somar was killed
-[21:16:54] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10265, uuid='8b9355d3-b667-421a-bbbd-80a5da03e78c', l='ServerLevel[world]', x=-332.45, y=62.00, z=503.43, cpos=[-21, 31], tl=3505, v=true] died: Soldado Somar was killed
-[21:16:54] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10266, uuid='c66d1b9a-9d14-440a-80d7-bd57a7b61ac7', l='ServerLevel[world]', x=-346.87, y=60.00, z=517.56, cpos=[-22, 32], tl=3505, v=true] died: Soldado Somar was killed
-[21:16:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10115, uuid='c121885e-1c72-455c-a33c-ca95180afcab', l='ServerLevel[world]', x=-343.63, y=66.00, z=497.86, cpos=[-22, 31], tl=3662, v=true] died: Catapulta Somar was killed
-[21:16:54] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[21:16:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:16:54] [Server thread/INFO]: [CJML5067: Killed 89 entities]
-[21:17:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:17:58] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[21:17:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:17:58] [Server thread/INFO]: [CJML5067: Killed 77 entities]
-[21:23:22] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:23:22] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:23:22] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:23:22] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:23:22] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:23:22] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:23:22] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:23:23] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:23:23] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:23:23] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:23:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:23:23] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:23:23] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:23:32] [Server thread/INFO]: CJML5067 issued server command: /weather clear
-[21:23:32] [Server thread/INFO]: [CJML5067: Set the weather to clear]
-[21:23:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:23:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:24:28] [Server thread/INFO]: CJML5067 issued server command: /gamemode survival
-[21:24:28] [Server thread/INFO]: [CJML5067: Set own game mode to Survival Mode]
-[21:24:29] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:29] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:29] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:29] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:30] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:30] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:30] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:30] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:31] [Craft Scheduler Thread - 9 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:31] [Craft Scheduler Thread - 9 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:31] [Craft Scheduler Thread - 9 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:31] [Craft Scheduler Thread - 9 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:32] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:32] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:32] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:32] [Craft Scheduler Thread - 3 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:33] [Craft Scheduler Thread - 28 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:33] [Craft Scheduler Thread - 28 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:33] [Craft Scheduler Thread - 28 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:33] [Craft Scheduler Thread - 28 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:34] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:34] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:34] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:34] [Craft Scheduler Thread - 15 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:35] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:35] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:35] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:35] [Craft Scheduler Thread - 26 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:36] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:36] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:36] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:36] [Craft Scheduler Thread - 27 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:24:40] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] ✗ Configuration Error in Mechanic variableSet
-[21:24:40] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Skill: ContornoVariabs | File: /workspaces/PeuebaPlugins/servidor_minecraft/plugins/MythicMobs/skills/SomarCatapultSkills.yml
-[21:24:40] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Error Message: Failed to get variable registry
-[21:24:40] [Craft Scheduler Thread - 22 - MythicMobs/WARN]: [MythicMobs] --| Mechanic Line: setvariable{var=target.posc;t=string;value="Muylejos"}
-[21:25:06] [Server thread/INFO]: CJML5067 issued server command: /gamemode creative
-[21:25:06] [Server thread/INFO]: [CJML5067: Set own game mode to Creative Mode]
-[21:25:18] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:25:20] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:25:20] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/11753, uuid='4d4156f5-d8cc-4be3-ac71-7d560f92aa7e', l='ServerLevel[world]', x=-332.13, y=62.00, z=534.92, cpos=[-21, 33], tl=2024, v=true] died: Catapulta Somar was killed
-[21:25:20] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:25:45] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:25:45] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11915, uuid='440ff840-3b70-46d2-b2bf-be86dc7b4273', l='ServerLevel[world]', x=-327.21, y=63.00, z=520.33, cpos=[-21, 32], tl=2417, v=true] died: Soldado Somar was killed
-[21:25:46] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11895, uuid='578afc0b-54f7-43e5-a2d9-153d4b2c136c', l='ServerLevel[world]', x=-347.44, y=60.00, z=509.56, cpos=[-22, 31], tl=2417, v=true] died: Soldado Somar was killed
-[21:25:46] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11894, uuid='fe92d89f-82ed-49b9-ace3-b5c1772fe556', l='ServerLevel[world]', x=-330.37, y=62.00, z=536.99, cpos=[-21, 33], tl=2417, v=true] died: Soldado Somar was killed
-[21:25:46] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/11859, uuid='1db6963b-08e5-4e97-9ef6-3bbc60db6b31', l='ServerLevel[world]', x=-343.01, y=62.00, z=534.11, cpos=[-22, 33], tl=2520, v=true] died: Reclutador de Catapultas Somar was killed
-[21:25:46] [Server thread/INFO]: [CJML5067: Killed 131 entities]
-[21:25:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:25:46] [Server thread/INFO]: [CJML5067: Killed 94 entities]
-[21:25:50] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:25:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:26:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:26:32] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/12521, uuid='13cd6a5a-0a95-45e8-9cd9-8593b7edb1aa', l='ServerLevel[world]', x=-330.08, y=62.00, z=533.67, cpos=[-21, 33], tl=834, v=true] died: Catapulta Somar was killed
-[21:26:32] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:27:06] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:27:06] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 99 skills.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:27:06] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:27:06] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:27:06] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:27:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:27:12] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12648, uuid='5fc7caef-fd20-4ab7-ba7f-b1eb18d21df2', l='ServerLevel[world]', x=-328.46, y=62.00, z=515.57, cpos=[-21, 32], tl=1461, v=true] died: Soldado Somar was killed
-[21:27:12] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12649, uuid='3422105d-00c8-4640-b3c4-7c7ebed74a20', l='ServerLevel[world]', x=-338.98, y=62.00, z=506.36, cpos=[-22, 31], tl=1461, v=true] died: Soldado Somar was killed
-[21:27:12] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/12688, uuid='b904ac95-342a-48f2-8ec8-c3974e206e62', l='ServerLevel[world]', x=-333.16, y=62.00, z=526.39, cpos=[-21, 32], tl=1461, v=true] died: Soldado Somar was killed
-[21:27:12] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/12626, uuid='05727a66-1d60-4299-9f80-b203c29e1227', l='ServerLevel[world]', x=-327.13, y=63.00, z=522.87, cpos=[-21, 32], tl=1620, v=true] died: Reclutador de Catapultas Somar was killed
-[21:27:12] [Server thread/INFO]: [CJML5067: Killed 127 entities]
-[21:27:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:27:12] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[21:27:15] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:27:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[21:27:54] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13191, uuid='cadf48de-45d5-4e10-b759-3c30106b2dce', l='ServerLevel[world]', x=-332.82, y=62.00, z=537.33, cpos=[-21, 33], tl=654, v=true] died: Soldado Somar was slain by Reclutador de Catapultas Somar
-[21:27:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:27:56] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/13056, uuid='9629d269-fe74-440c-b0c2-994911fece6c', l='ServerLevel[world]', x=-331.21, y=62.00, z=528.85, cpos=[-21, 33], tl=820, v=true] died: Catapulta Somar was killed
-[21:27:56] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:28:13] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:28:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13192, uuid='999594fd-320e-46e4-93f5-7f66449c9912', l='ServerLevel[world]', x=-327.49, y=63.00, z=526.14, cpos=[-21, 32], tl=1019, v=true] died: Soldado Somar was killed
-[21:28:13] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/13166, uuid='2d5b768a-9783-4a34-adf8-e9fdfd465b77', l='ServerLevel[world]', x=-331.11, y=62.00, z=536.28, cpos=[-21, 33], tl=1147, v=true] died: Reclutador de Catapultas Somar was killed
-[21:28:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13231, uuid='74b8e754-3dd8-4b7c-bb93-6c93152bb5d2', l='ServerLevel[world]', x=-333.36, y=62.00, z=530.61, cpos=[-21, 33], tl=1019, v=true] died: Soldado Somar was killed
-[21:28:13] [Server thread/INFO]: [CJML5067: Killed 117 entities]
-[21:28:13] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:28:13] [Server thread/INFO]: [CJML5067: Killed 93 entities]
-[21:34:50] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:34:50] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:34:50] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:34:50] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:34:50] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:34:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:35:06] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:35:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:35:26] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/14493, uuid='108a1a05-98e9-4ed2-893e-91d6db9c3e7f', l='ServerLevel[world]', x=-342.88, y=62.00, z=501.26, cpos=[-22, 31], tl=544, v=true] died: Catapulta Somar was killed
-[21:35:26] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:35:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:35:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:35:36] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/14641, uuid='422f493c-70fa-4be3-884c-229169e5091b', l='ServerLevel[world]', x=-331.58, y=62.00, z=534.92, cpos=[-21, 33], tl=590, v=true] died: Catapulta Somar was killed
-[21:35:36] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/14388, uuid='83df74bb-92b6-4713-bb90-10bd16c96162', l='ServerLevel[world]', x=-344.92, y=62.00, z=507.68, cpos=[-22, 31], tl=731, v=true] died: Catapulta Somar was killed
-[21:35:36] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeleton King'/14830, uuid='e468a374-e532-4bc4-86e7-246b91cd4de7', l='ServerLevel[world]', x=-371.50, y=57.02, z=619.50, cpos=[-24, 38], tl=184, v=true] died: Skeleton King was killed
-[21:35:36] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/14598, uuid='1b71aaf1-5dcd-4db2-a7a7-a71b7574fcb3', l='ServerLevel[world]', x=-350.77, y=68.00, z=489.76, cpos=[-22, 30], tl=722, v=true] died: Reclutador de Catapultas Somar was killed
-[21:35:36] [Server thread/INFO]: [CJML5067: Killed 130 entities]
-[21:35:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:35:36] [Server thread/INFO]: [CJML5067: Killed 88 entities]
-[21:35:43] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:35:49] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:36:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:36:27] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15249, uuid='26ae65bc-1201-4846-b341-c7746be0eaf6', l='ServerLevel[world]', x=-330.08, y=62.00, z=525.31, cpos=[-21, 32], tl=881, v=true] died: Catapulta Somar was killed
-[21:36:27] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:36:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:36:31] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:36:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[21:36:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15144, uuid='48c04a43-b851-4287-987e-f4fd3c2024c2', l='ServerLevel[world]', x=-330.08, y=62.00, z=533.20, cpos=[-21, 33], tl=1003, v=true] died: Catapulta Somar was killed
-[21:36:33] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:37:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:37:02] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/15354, uuid='952039d1-c6a8-4b1d-926e-cd9b49942dd7', l='ServerLevel[world]', x=-338.85, y=62.00, z=517.19, cpos=[-22, 32], tl=1587, v=true] died: Reclutador de Catapultas Somar was killed
-[21:37:02] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15392, uuid='8129192f-ce03-4760-9ec4-168815a39900', l='ServerLevel[world]', x=-344.92, y=66.00, z=498.10, cpos=[-22, 31], tl=1471, v=true] died: Catapulta Somar was killed
-[21:37:02] [Server thread/INFO]: [CJML5067: Killed 102 entities]
-[21:37:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:37:03] [Server thread/INFO]: [CJML5067: Killed 80 entities]
-[21:37:46] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:37:46] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:37:46] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:37:46] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:37:46] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:37:53] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:37:57] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:38:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..7]
-[21:38:12] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16157, uuid='c07c49b8-e1c8-4765-83bc-a3fe433e7803', l='ServerLevel[world]', x=-343.50, y=62.00, z=505.24, cpos=[-22, 31], tl=308, v=true] died: Catapulta Somar was killed
-[21:38:12] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:38:15] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..7]
-[21:38:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16030, uuid='e5e91008-cb3b-457b-8480-a333727c4dc7', l='ServerLevel[world]', x=-341.78, y=62.00, z=516.43, cpos=[-22, 32], tl=448, v=true] died: Catapulta Somar was killed
-[21:38:15] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[21:38:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:38:25] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15925, uuid='2151040b-ade1-46ad-8c25-581407d9cb43', l='ServerLevel[world]', x=-332.08, y=62.00, z=512.21, cpos=[-21, 32], tl=646, v=true] died: Catapulta Somar was killed
-[21:38:25] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/16136, uuid='2b8d1de8-d605-4a76-82af-7bd40167e2cc', l='ServerLevel[world]', x=-330.84, y=62.00, z=526.68, cpos=[-21, 32], tl=637, v=true] died: Reclutador de Catapultas Somar was killed
-[21:38:25] [Server thread/INFO]: [CJML5067: Killed 103 entities]
-[21:38:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:38:26] [Server thread/INFO]: [CJML5067: Killed 76 entities]
-[21:38:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:38:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:38:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..20]
-[21:38:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16680, uuid='3fc4e7e1-7ead-46cd-ab32-cdbe4f687c23', l='ServerLevel[world]', x=-359.32, y=66.00, z=503.42, cpos=[-23, 31], tl=473, v=true] died: Catapulta Somar was killed
-[21:38:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16575, uuid='5868ea3b-51aa-477f-b4ca-380ffc5f4c89', l='ServerLevel[world]', x=-346.00, y=66.00, z=505.95, cpos=[-22, 31], tl=473, v=true] died: Catapulta Somar was killed
-[21:38:54] [Server thread/INFO]: [CJML5067: Killed 2 entities]
-[21:39:25] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:39:25] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:39:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:39:25] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:39:25] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:39:35] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:39:35] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/16785, uuid='83980725-99d9-4c0b-b014-ad9cf8104383', l='ServerLevel[world]', x=-363.86, y=66.00, z=507.86, cpos=[-23, 31], tl=1276, v=true] died: Reclutador de Catapultas Somar was killed
-[21:39:35] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16808, uuid='25487e6b-a0f4-4df0-adda-803ee8838838', l='ServerLevel[world]', x=-326.52, y=73.00, z=513.25, cpos=[-21, 32], tl=1145, v=true] died: Catapulta Somar was killed
-[21:39:35] [Server thread/INFO]: [CJML5067: Killed 104 entities]
-[21:39:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:39:36] [Server thread/INFO]: [CJML5067: Killed 75 entities]
-[21:39:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:39:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:40:17] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..20]
-[21:40:17] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17232, uuid='4352d852-1b51-4ef9-a29a-1f4172b71a53', l='ServerLevel[world]', x=-344.92, y=62.00, z=519.85, cpos=[-22, 32], tl=758, v=true] died: Catapulta Somar was killed
-[21:40:17] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17337, uuid='efd898f5-6328-4d34-a2a4-0ae1a9999e40', l='ServerLevel[world]', x=-341.00, y=62.00, z=533.92, cpos=[-22, 33], tl=758, v=true] died: Catapulta Somar was killed
-[21:40:17] [Server thread/INFO]: [CJML5067: Killed 2 entities]
-[21:40:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:40:29] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17493, uuid='32b15859-36a7-4538-aa6d-43df45c36a35', l='ServerLevel[world]', x=-376.06, y=69.00, z=555.23, cpos=[-24, 34], tl=854, v=true] died: Catapulta Somar was killed
-[21:40:29] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/17453, uuid='b8e748fd-3b96-4ac3-935e-88b55df2c7fe', l='ServerLevel[world]', x=-334.14, y=67.00, z=545.81, cpos=[-21, 34], tl=994, v=true] died: Reclutador de Catapultas Somar was killed
-[21:40:29] [Server thread/INFO]: [CJML5067: Killed 105 entities]
-[21:40:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:40:30] [Server thread/INFO]: [CJML5067: Killed 72 entities]
-[21:40:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult 2
-[21:40:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:40:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..20]
-[21:40:46] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17956, uuid='03f3e5b0-a926-4479-ad0c-a04196b2868f', l='ServerLevel[world]', x=-364.76, y=67.00, z=519.63, cpos=[-23, 32], tl=247, v=true] died: Catapulta Somar was killed
-[21:40:46] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/18061, uuid='cd534c35-175c-497c-b773-8539a85eb80a', l='ServerLevel[world]', x=-362.38, y=66.00, z=526.62, cpos=[-23, 32], tl=247, v=true] died: Catapulta Somar was killed
-[21:40:46] [Server thread/INFO]: [CJML5067: Killed 2 entities]
-[21:40:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:40:56] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/18172, uuid='cb6b3e61-9805-49a5-9dbe-35fb1618ef8b', l='ServerLevel[world]', x=-348.79, y=65.00, z=525.79, cpos=[-22, 32], tl=450, v=true] died: Reclutador de Catapultas Somar was killed
-[21:40:56] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/18179, uuid='c9fc6f56-7a53-4da9-843c-592377e64157', l='ServerLevel[world]', x=-359.89, y=69.00, z=542.33, cpos=[-23, 33], tl=367, v=true] died: Catapulta Somar was killed
-[21:40:56] [Server thread/INFO]: [CJML5067: Killed 114 entities]
-[21:40:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:40:57] [Server thread/INFO]: [CJML5067: Killed 87 entities]
-[21:41:27] [Server thread/INFO]: [Mythic] Reloading plugin...
-[21:41:27] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[21:41:27] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[21:41:27] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Items...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[21:41:28] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[21:41:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[21:41:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[21:41:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[21:41:32] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:41:40] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:41:47] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[21:41:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..20]
-[21:41:56] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/18690, uuid='39b8d8c2-1412-4585-837b-d213183ca571', l='ServerLevel[world]', x=-363.67, y=66.00, z=506.66, cpos=[-23, 31], tl=462, v=true] died: Reclutador de Catapultas Somar was killed
-[21:41:56] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/18584, uuid='d5a73d5f-2fa7-4dc2-9573-b9a321d96c9f', l='ServerLevel[world]', x=-360.53, y=66.00, z=512.92, cpos=[-23, 32], tl=471, v=true] died: Catapulta Somar was killed
-[21:41:56] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/18771, uuid='cd36e53f-5ff2-4feb-a321-5244659085a1', l='ServerLevel[world]', x=-350.19, y=65.00, z=515.86, cpos=[-22, 32], tl=312, v=true] died: Catapulta Somar was killed
-[21:41:56] [Server thread/INFO]: [CJML5067: Killed 3 entities]
-[21:42:05] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:42:05] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/18920, uuid='c3cf33b6-bbf5-4f5d-8fd6-79e308d1ae8e', l='ServerLevel[world]', x=-326.27, y=66.00, z=539.92, cpos=[-21, 33], tl=364, v=true] died: Catapulta Somar was killed
-[21:42:05] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[21:42:06] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[21:42:06] [Server thread/INFO]: [CJML5067: Killed 91 entities]
-[22:00:16] [Server thread/INFO]: [Mythic] Reloading plugin...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Items...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[22:00:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[22:00:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[22:00:16] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[22:00:16] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[22:00:23] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:00:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[22:00:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..10]
-[22:00:56] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/21563, uuid='a9d4510e-72fb-4b2b-90ef-c8366c170088', l='ServerLevel[world]', x=-329.03, y=66.00, z=538.46, cpos=[-21, 33], tl=677, v=true] died: Catapulta Somar was killed
-[22:00:56] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
-[22:01:27] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21738, uuid='6663abc6-33e4-4f81-9283-6e099a1ed6f3', l='ServerLevel[world]', x=-343.86, y=62.00, z=534.79, cpos=[-22, 33], tl=1067, v=true] died: Soldado Somar was slain by Reclutador de Catapultas Somar
-[22:01:55] [Server thread/INFO]: [Mythic] Reloading plugin...
-[22:01:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[22:01:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[22:01:55] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Items...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[22:01:56] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[22:01:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[22:01:56] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[22:01:56] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[22:02:02] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:02:02] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/21668, uuid='bede0a8e-1c19-4ae0-953e-274bfe07f830', l='ServerLevel[world]', x=-341.15, y=62.00, z=535.31, cpos=[-22, 33], tl=1983, v=true] died: Reclutador de Catapultas Somar was killed
-[22:02:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21718, uuid='f09b3c0f-0407-4dec-a0f5-4d639d1881e7', l='ServerLevel[world]', x=-329.44, y=62.00, z=509.44, cpos=[-21, 31], tl=1762, v=true] died: Soldado Somar was killed
-[22:02:02] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21717, uuid='0ed278f2-95e9-49e4-968a-8b27b89c65f5', l='ServerLevel[world]', x=-328.00, y=62.00, z=536.65, cpos=[-21, 33], tl=1762, v=true] died: Soldado Somar was killed
-[22:02:02] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeleton King'/19408, uuid='be781729-4e83-4944-95fb-ab960f146449', l='ServerLevel[world]', x=-337.50, y=64.00, z=572.25, cpos=[-22, 35], tl=22988, v=true] died: Skeleton King was killed
-[22:02:02] [Server thread/INFO]: [CJML5067: Killed 132 entities]
-[22:02:03] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:02:03] [Server thread/INFO]: [CJML5067: Killed 96 entities]
-[22:02:05] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:02:09] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[22:02:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..10]
-[22:02:41] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22320, uuid='73efdfbc-cac7-40b6-98b4-426897c45d50', l='ServerLevel[world]', x=-340.24, y=62.00, z=523.79, cpos=[-22, 32], tl=634, v=true] died: Soldado Somar was killed
-[22:02:41] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/22186, uuid='372a582b-8129-41cf-95ac-ac6929917e54', l='ServerLevel[world]', x=-331.40, y=62.00, z=528.66, cpos=[-21, 33], tl=714, v=true] died: Catapulta Somar was killed
-[22:02:41] [Server thread/INFO]: [CJML5067: Killed 2 entities]
-[22:02:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:02:53] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/22298, uuid='e7b31cde-18e5-43ef-a311-dc1562129129', l='ServerLevel[world]', x=-329.33, y=62.00, z=518.67, cpos=[-21, 32], tl=956, v=true] died: Reclutador de Catapultas Somar was killed
-[22:02:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22319, uuid='c7d962ac-aa0c-4575-ae95-359d124b707a', l='ServerLevel[world]', x=-326.37, y=63.00, z=531.96, cpos=[-21, 33], tl=885, v=true] died: Soldado Somar was killed
-[22:02:53] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22340, uuid='99fdcd23-f9f2-492d-94c4-a2baf0b2fd01', l='ServerLevel[world]', x=-329.88, y=62.00, z=529.87, cpos=[-21, 33], tl=885, v=true] died: Soldado Somar was killed while fighting CJML5067
-[22:02:53] [Server thread/INFO]: [CJML5067: Killed 124 entities]
-[22:02:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:02:54] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[22:04:38] [Server thread/INFO]: [Mythic] Reloading plugin...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Items...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[22:04:38] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[22:04:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[22:04:38] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[22:04:38] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[22:04:45] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:04:45] [Server thread/INFO]: [CJML5067: Killed 123 entities]
-[22:04:46] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:04:46] [Server thread/INFO]: [CJML5067: Killed 88 entities]
-[22:04:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[22:04:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[22:05:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
-[22:05:12] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/23072, uuid='897313d9-9cb8-46b2-9a30-f74964d5850d', l='ServerLevel[world]', x=-329.08, y=62.00, z=530.08, cpos=[-21, 33], tl=487, v=true] died: Catapulta Somar was killed
-[22:05:12] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23239, uuid='8055c688-fbbc-4738-a015-29e0fac63285', l='ServerLevel[world]', x=-332.69, y=62.00, z=532.46, cpos=[-21, 33], tl=366, v=true] died: Soldado Somar was killed
-[22:05:12] [Server thread/INFO]: [CJML5067: Killed 2 entities]
-[22:05:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:05:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23199, uuid='ac01471f-478a-404d-bcab-66ed78f97c18', l='ServerLevel[world]', x=-342.32, y=62.00, z=525.71, cpos=[-22, 32], tl=702, v=true] died: Soldado Somar was killed
-[22:05:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23200, uuid='1f063dbc-7646-45f6-8e8e-a448657cce18', l='ServerLevel[world]', x=-341.65, y=62.00, z=526.95, cpos=[-22, 32], tl=702, v=true] died: Soldado Somar was killed
-[22:05:29] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/23179, uuid='f110d1d1-dd84-427d-b57e-5c1a539e496f', l='ServerLevel[world]', x=-328.00, y=62.00, z=512.10, cpos=[-21, 32], tl=814, v=true] died: Reclutador de Catapultas Somar was killed
-[22:05:29] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[22:05:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[22:05:30] [Server thread/INFO]: [CJML5067: Killed 88 entities]
-[22:05:34] [Server thread/INFO]: Stopping the server
-[22:05:34] [Server thread/INFO]: Stopping server
-[22:05:34] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.7
-[22:05:34] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.9.5-f13ab4a1
-[22:05:34] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[22:05:34] [Server thread/INFO]: [MythicMobs] - 
-[22:05:34] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[22:05:34] [Server thread/INFO]: [MythicMobs] - 
-[22:05:34] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[22:05:34] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[22:05:34] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[22:05:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[22:05:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[22:05:34] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[22:05:34] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[22:05:34] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[22:05:34] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[22:05:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[22:05:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[22:05:34] [Server thread/INFO]: Saving players
-[22:05:34] [Server thread/INFO]: CJML5067 lost connection: Server closed
-[22:05:34] [Server thread/INFO]: CJML5067 left the game
-[22:05:34] [Server thread/INFO]: Saving worlds
-[22:05:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 107 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[22:05:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:05:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:05:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:05:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:05:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:05:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:05:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:05:34] [Server thread/INFO]: Flushing Chunk IO
-[22:05:34] [Server thread/INFO]: Closing Thread Pool
-[22:05:34] [Server thread/INFO]: Closing Server
+[22:33:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:33:14] [Server thread/INFO]: Default game type: SURVIVAL
+[22:33:14] [Server thread/INFO]: Generating keypair
+[22:33:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:33:15] [Server thread/INFO]: Using epoll channel type
+[22:33:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:33:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[22:33:15] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[22:33:16] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[22:33:16] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
+[22:33:16] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[22:33:16] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[22:33:16] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
+[22:33:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:33:16] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
+[22:33:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:33:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:33:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:33:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:33:17] [Server thread/INFO]: Preparing level "world"
+[22:33:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:33:19] [Server thread/INFO]: Time elapsed: 1334 ms
+[22:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:33:19] [Server thread/INFO]: Time elapsed: 154 ms
+[22:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:33:19] [Server thread/INFO]: Time elapsed: 86 ms
+[22:33:19] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
+[22:33:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[22:33:21] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[22:33:31] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[22:33:32] [Server thread/INFO]: [MythicMobs] Loading Items...
+[22:33:32] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[22:33:32] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[22:33:33] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[22:33:33] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[22:33:33] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[22:33:33] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[22:33:33] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[22:33:33] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
+[22:33:34] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[22:33:34] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[22:33:34] [Server thread/INFO]: Running delayed init tasks
+[22:33:34] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[22:33:34] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[22:33:34] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[22:33:34] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
+[22:33:34] [Server thread/INFO]: Done (22.654s)! For help, type "help"
+[22:33:34] [Server thread/INFO]: Timings Reset
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[22:33:35] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[22:33:39] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[22:33:39] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[22:34:11] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[22:34:12] [Server thread/INFO]: CJML5067 joined the game
+[22:34:12] [Server thread/INFO]: CJML5067[/127.240.192.59:52197] logged in with entity id 159 at ([world]-340.6612661852739, 62.0, 526.072957035244)
+[22:34:21] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:34:21] [Server thread/INFO]: [CJML5067: Killed 122 entities]
+[22:34:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:34:22] [Server thread/INFO]: [CJML5067: Killed 83 entities]
+[22:34:24] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[22:34:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[22:35:06] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
+[22:35:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
+[22:35:12] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/396, uuid='41e763f9-3cbe-46d1-832c-16e6f19c08cd', l='ServerLevel[world]', x=-330.08, y=62.00, z=533.78, cpos=[-21, 33], tl=971, v=true] died: Catapulta Somar was killed
+[22:35:12] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[22:35:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:35:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/542, uuid='08138e35-9078-4034-8f38-fb0db4dce4dc', l='ServerLevel[world]', x=-327.56, y=62.00, z=537.44, cpos=[-21, 33], tl=1186, v=true] died: Soldado Somar was killed
+[22:35:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/521, uuid='ccdc0d1c-65ff-4db3-84d8-9d35e79ba9e9', l='ServerLevel[world]', x=-328.63, y=62.00, z=536.36, cpos=[-21, 33], tl=1186, v=true] died: Soldado Somar was killed
+[22:35:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/522, uuid='5d2dca0e-1ac6-41a1-9293-d62da9a0ec21', l='ServerLevel[world]', x=-337.38, y=62.00, z=505.28, cpos=[-22, 31], tl=1186, v=true] died: Soldado Somar was killed
+[22:35:29] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/510, uuid='c76bd66a-b243-4c74-bb6c-561aa8e7e12f', l='ServerLevel[world]', x=-335.67, y=62.00, z=525.50, cpos=[-21, 32], tl=1293, v=true] died: Reclutador de Catapultas Somar was killed
+[22:35:29] [Server thread/INFO]: [CJML5067: Killed 126 entities]
+[22:35:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
+[22:35:30] [Server thread/INFO]: [CJML5067: Killed Rotten Flesh]
+[22:35:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:35:33] [Server thread/INFO]: [CJML5067: Killed 202 entities]
+[22:35:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:35:33] [Server thread/INFO]: [CJML5067: Killed 83 entities]
+[22:39:59] [Server thread/INFO]: [Mythic] Reloading plugin...
+[22:39:59] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[22:39:59] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[22:39:59] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Items...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[22:40:00] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 100 skills.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[22:40:00] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[22:40:00] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[22:40:00] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[22:40:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:40:11] [Server thread/INFO]: [CJML5067: Killed 123 entities]
+[22:40:12] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:40:12] [Server thread/INFO]: [CJML5067: Killed 75 entities]
+[22:40:15] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
+[22:40:23] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
+[22:40:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
+[22:40:54] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf,distance=..5]
+[22:40:54] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/1815, uuid='bb2bbc85-c4c7-4191-b456-9f05b1f75259', l='ServerLevel[world]', x=-340.17, y=62.00, z=526.69, cpos=[-22, 32], tl=776, v=true] died: Catapulta Somar was killed
+[22:40:54] [Server thread/INFO]: [CJML5067: Killed Catapulta Somar]
+[22:41:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:41:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1997, uuid='621eedd9-74ac-4cf5-85e0-ccd65d2a6736', l='ServerLevel[world]', x=-327.97, y=62.00, z=529.61, cpos=[-21, 33], tl=893, v=true] died: Soldado Somar was killed
+[22:41:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1996, uuid='72da2c91-2381-4c28-8575-6fd6f60c5ab5', l='ServerLevel[world]', x=-345.62, y=62.00, z=507.29, cpos=[-22, 31], tl=893, v=true] died: Soldado Somar was killed
+[22:41:08] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2017, uuid='662896ac-44f6-403d-a5bb-e35c02c53a88', l='ServerLevel[world]', x=-328.02, y=62.00, z=530.70, cpos=[-21, 33], tl=893, v=true] died: Soldado Somar was killed
+[22:41:08] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/1924, uuid='a96ffe6f-5f8b-430b-aa0c-e1ca774fbcfb', l='ServerLevel[world]', x=-331.69, y=62.00, z=537.00, cpos=[-21, 33], tl=1058, v=true] died: Reclutador de Catapultas Somar was killed
+[22:41:08] [Server thread/INFO]: [CJML5067: Killed 125 entities]
+[22:41:09] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[22:41:09] [Server thread/INFO]: [CJML5067: Killed 82 entities]
