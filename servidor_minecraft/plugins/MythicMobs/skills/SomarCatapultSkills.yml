@@ -135,16 +135,19 @@ MarcCatapult1:
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
   - variableEquals{var=caster.sold1;t=String;value="false"} 
   - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
+  TargetConditions:
+  - isMythicMob true
+  - variableisset{var=caster.catapulta;t=INTEGER}
   - variableEquals{var=target.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold1;t=String;value="reclutando"}
     - delay 3
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
-    - sudoSkill{s=reportarseACatapult1} @Target
-    - setFaction{faction=SomarCatapultero} @Target
-    - projectile{bullet=block;material=STONE} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
+    - setvariable{var=target.catapulta;t=INTEGER;value=1}
+    - sudoSkill{s=reportarseACatapult1}
+    - setFaction{faction=SomarCatapultero}
+    - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 #    - variableadd{var=world.var.tempPriori;a=1} @Self
 MarcCatapult2:
@@ -152,39 +155,48 @@ MarcCatapult2:
     - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
     - variableEquals{var=caster.sold2;t=String;value="false"} orElseCast MarcCatapult1
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
-    - variableEquals{var=target.catapulta;t=INTEGER;val=0} false
+  TargetConditions:
+  - isMythicMob true
+  - variableisset{var=caster.catapulta;t=INTEGER}
   Skills:
     - setvariable{var=caster.sold2;t=String;value="reclutando"}
     - delay 10
     - message{m="&a Soldado - 2 por reclutar"} @NearestPlayer
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - setvariable{var=target.catapulta;t=INTEGER;value=2} @Target
-    - sudoSkill{s=reportarseACatapult2} @Target
-    - setFaction{f=SomarCatapultero} @Target
-    - projectile{bullet=block;material=STONE} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"}
+    - setvariable{var=target.catapulta;t=INTEGER;value=2}
+    - sudoSkill{s=reportarseACatapult2}
+    - setFaction{f=SomarCatapultero}
+    - projectile{bullet=block;material=STONE}
     - clearthreat @Self
 MarcCatapult3:
   Conditions:
     - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
     - variableEquals{var=caster.sold3;t=String;value="false"} orElseCast MarcCatapult2
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
-    - variableEquals{var=target.catapulta;t=INTEGER;val=0} false
+  TargetConditions:
+  - isMythicMob true
+  - variableisset{var=caster.catapulta;t=INTEGER} true
   Skills:
     - setvariable{var=caster.sold3;t=String;value="reclutando"}
     - delay 5
     - message{m="&a Soldado - 3 por reclutar"} @NearestPlayer
-    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
-    - setvariable{var=target.catapulta;t=INTEGER;value=3} @Target
-    - sudoSkill{s=reportarseACatapult3} @Target
-    - setFaction{f=SomarCatapultero} @Target
-    - projectile{bullet=block;material=STONE} @Target
+    - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} 
+    - setvariable{var=target.catapulta;t=INTEGER;value=3} 
+    - sudoSkill{s=reportarseACatapult3} 
+    - setFaction{f=SomarCatapultero} 
+    - projectile{bullet=block;material=STONE} 
     - clearthreat @Self
 
 revSoldCtp:
   TargetConditions:
-    - faction{f=Somar} castInstead MarcCatapult3
+    - faction{f=Somar} castInstead ReclutarSolds @MIR{r=30;limit=1}
   Skills:
     - msg{m="&9No objetivos"} @NearestPlayer
+
+ReclutarSolds:
+  Skill:
+  - skill{s=MarcCatapult3}
+
 ctprsPerdidos:
   Cooldown: 5
   Conditions:
