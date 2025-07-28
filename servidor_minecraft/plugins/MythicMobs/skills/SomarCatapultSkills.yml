@@ -14,7 +14,12 @@ CPrepareModelSomar:
     - delay 10
     - setvariable{var=caster.sold3;t=String;value="false"}
 #    - sudoparent @NearestPlayer
-
+MuerteCatapulta:
+  Skills:
+  - skill{s=desocuparCatapulteros} @LivingInWorld
+  - skill{s=restarVariabPGlobal}
+  - skill{s=AvisOrdenaVariabP} @LivingInWorld
+  
 InvocarReclutador:
   Conditions:
   - variableEquals{var=world.catapultas;val=-1}
@@ -192,8 +197,8 @@ MarcCatapult3:
 desocuparCatapulteros:
   TargetConditions:
   - isMythicMob
-  - variableisset{var=caster.catapultuuid}
-  - variableEquals{var=caster.catapultuuid;t=INTEGER;val=<caster.uuid>}
+  - variableisset{var=target.catapultuuid}
+  - variableEquals{var=target.catapultuuid;t=INTEGER;val=<caster.uuid>}
   Skills:
   - variableUnset{var=caster.catapultauuid}
   - setvariable{var=caster.catapulta;t=Integer;value=0}
