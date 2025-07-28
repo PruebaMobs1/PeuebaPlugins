@@ -133,11 +133,12 @@ DesmontarDereCtp:
 MarcCatapult1:
   Conditions:
 #    - variableEquals{var=target.catapulta;t=INTEGER;value=0}
-  - variableEquals{var=caster.sold1;t=String;value="false"}
+  - variableEquals{var=caster.sold1;t=String;value="false"} 
   - variableEquals{var=caster.priori;value=<world.var.tempPriori>}
-  - variableEquals{var=target.catapulta;t=INTEGER;val=0} false
+  - variableEquals{var=target.catapulta;t=INTEGER;val=0}
   Skills:
     - setvariable{var=caster.sold1;t=String;value="reclutando"}
+    - delay 3
     - message{m="&a Soldado - 1 por reclutar"} @NearestPlayer
     - setvariable{var=target.catapultuuid;t=String;value="<caster.uuid>"} @Target
     - setvariable{var=target.catapulta;t=INTEGER;value=1} @Target
