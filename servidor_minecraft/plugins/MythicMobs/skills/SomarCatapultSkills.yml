@@ -1,19 +1,19 @@
 CPrepareModelSomar:
   Skills:
-    - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
-#    - skill{s=CrearVarPriori}
-    - delay 10
-    - skill{s=InvocarReclutador} #para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
-    - skill{s=obtenerNevaVarPriori} @Self
-    - delay 10
-    - setvariable{var=caster.solds;t=string;value="false"}
-#    - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
-    - setvariable{var=caster.sold1;t=String;value="false"}
-    - delay 10
-    - setvariable{var=caster.sold2;t=String;value="false"}
-    - delay 10
-    - setvariable{var=caster.sold3;t=String;value="false"}
-#    - sudoparent @NearestPlayer
+  - model{mid=CatapultaSomarfinal;n="Somar Catapult";ride=true}
+# - skill{s=CrearVarPriori}
+  - delay 10
+  - skill{s=InvocarReclutador} #para invocar al reclutador si no esta creado{se debe utilizar: compareValues y su placeholder:<caster.type>}
+  - skill{s=obtenerNevaVarPriori} @Self
+  - delay 10
+  - setvariable{var=caster.solds;t=string;value="false"}
+#  - setvariable{var=caster.etapaSolds;t=string;value="sinSolds"}
+  - setvariable{var=caster.sold1;t=String;value="false"}
+  - delay 10
+  - setvariable{var=caster.sold2;t=String;value="false"}
+  - delay 10
+  - setvariable{var=caster.sold3;t=String;value="false"}
+#  - sudoparent @NearestPlayer
 MuerteCatapulta:
   Skills:
   - skill{s=desocuparCatapulteros} @LivingInWorld
@@ -68,9 +68,9 @@ lanzarBloque:
 
 ContornoVariabs: 
   TargetConditions:
-#   - (isMythicMob || isPlayer) true
-  - isLiving true
-  - gamemode
+  - (isMythicMob || isPlayer) true
+#  - isLiving true
+  - gamemode{g=survival}
   Skills:
     - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270;conditions=[
                               - (isMythic true || isPlayer true) true]}
@@ -78,9 +78,9 @@ ContornoVariabs:
                               - (isMythic true || isPlayer true) true]}
     - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190;conditions=[
                               - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10;conditions=[
+    - setvariable{var=target.posc;t=string;value="lejos"} @EIR{min=8;max=10;conditions=[
                               - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20;conditions=[
+    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIR{min=11;max=20;conditions=[
                               - isMythic true]}
 Accion:
   TriggerConditions:
