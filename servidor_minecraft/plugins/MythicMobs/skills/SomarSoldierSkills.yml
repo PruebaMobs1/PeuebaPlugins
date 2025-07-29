@@ -238,7 +238,7 @@ CtpPosicion1:
       - setai{ai=false}
 CtpPosicion2:
     Conditions:
-      - variableEquals{var=caster.posc;t=String;value="derecha"} false
+      - (variableEquals{var=caster.posc;t=String;value="derecha"} || variableEquals{var=caster.posc;t=String;value="izquierda"} || variableEquals{var=caster.posc;t=String;value="atras"})
     Skills:
       - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 #      - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
