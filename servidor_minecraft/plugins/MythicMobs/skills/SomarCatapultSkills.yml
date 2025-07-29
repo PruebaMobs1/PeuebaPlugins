@@ -68,29 +68,23 @@ lanzarBloque:
 
 ContornoVariabs: 
   TargetConditions:
-  - (isMythicMob || isPlayer) true
+  - (isMythicMob true || isPlayer true) true
 #  - isLiving true
-  - gamemode{g=survival}
   Skills:
-    - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270;conditions=[
-                              - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60;conditions=[
-                              - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190;conditions=[
-                              - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="lejos"} @EIR{min=8;max=10;conditions=[
-                              - (isMythic true || isPlayer true) true]}
-    - setvariable{var=target.posc;t=string;value="Muylejos"} @EIR{min=11;max=20;conditions=[
-                              - isMythic true]}
+  - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270}
+  - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60}
+  - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190}
+  - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10}
+  - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20}
 Accion:
   TriggerConditions:
-    - variableEquals{key=caster.posc;value="derecha"} Cast GirarDerecha
-    - variableEquals{key=caster.posc;value="izquierda"} Cast GirarIzquierda
-    - variableEquals{key=caster.posc;value="atras"} Cast Disparar
+  - variableEquals{key=target.posc;value="derecha"} Cast GirarDerecha
+  - variableEquals{key=target.posc;value="izquierda"} Cast GirarIzquierda
+  - variableEquals{key=target.posc;value="atras"} Cast Disparar
 #    - variableEquals{key=target.posc;value="lejos"} true
   Skills:
     - cancelevent
-    - message{m="Priori de catapulta <caster.var.priori>"} @NearestPlayer #temporal para ver ajuste de prioridad por catapulta
+    - message{m="Priori de catapulta <target.var.posc>"} @NearestPlayer #temporal para ver ajuste de prioridad por catapulta
 CfiltrarDano:
   TriggerConditions:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
