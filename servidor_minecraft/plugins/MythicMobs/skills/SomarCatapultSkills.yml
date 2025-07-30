@@ -174,7 +174,7 @@ MarcCatapult1:
   - sudoSkill{s=reportarseACatapult1}
   - delay 3
   - setvariable{var=target.catapulta;t=INTEGER;value=1}
-  - sudoSkill{s=PosicSoldCatapultero}
+  - sudoSkill{s=IrACataputa}
   - setFaction{faction=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - sudoSkill{s=PosicSoldCatapultero}
@@ -196,7 +196,7 @@ MarcCatapult2:
   - sudoSkill{s=reportarseACatapult2}
   - delay 10
   - setvariable{var=target.catapulta;t=INTEGER;value=2}
-  - sudoSkill{s=PosicSoldCatapultero}
+  - sudoSkill{s=IrACataputa}
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - clearthreat @Self

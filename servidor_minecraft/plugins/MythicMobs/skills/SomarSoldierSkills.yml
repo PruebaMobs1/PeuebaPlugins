@@ -216,7 +216,7 @@ reportarseACatapult3:
 #Ir a catapulta
 IrACataputa:
   Skills:
-    - goto{speedModifier=5;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - goto{speedModifier=5;sh=1;sv=1} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
   Conditions:
     - faction{f=SomarCatapultero} true
