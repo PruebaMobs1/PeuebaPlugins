@@ -217,7 +217,7 @@ reportarseACatapult3:
 IrACataputa:
   Cooldown: 80
   Skills:
-    - goto{speedModifier=1;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
+    - goto{speedModifier=5;sh=5;sv=5} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
   Conditions:
     - faction{f=SomarCatapultero} true
@@ -236,21 +236,21 @@ CtpPosicion1:
   - (variableEquals{var=caster.posc;t=String;value="derecha"} || variableEquals{var=caster.posc;t=String;value="izquierda"} || variableEquals{var=caster.posc;t=String;value="atras"})
   Skills:
   - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-#  - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+  - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
   - setai{ai=false}
 CtpPosicion2:
     Conditions:
     - (variableEquals{var=caster.posc;t=String;value="derecha"} || variableEquals{var=caster.posc;t=String;value="izquierda"} || variableEquals{var=caster.posc;t=String;value="atras"})
     Skills:
     - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-#     - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+     - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
     - setai{ai=false}
 CtpPosicion3:
     Conditions:
       - (variableEquals{var=caster.posc;t=String;value="derecha"} || variableEquals{var=caster.posc;t=String;value="izquierda"} || variableEquals{var=caster.posc;t=String;value="atras"})
     Skills:
     - sudoSkill{s=soldEmpjCtpDere;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-#    - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
     - setai{ai=false}
 
 avisarIda:
