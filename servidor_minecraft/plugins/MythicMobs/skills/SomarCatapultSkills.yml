@@ -71,11 +71,27 @@ ContornoVariabs:
   - (isMythicMob true || isPlayer true) true
 #  - isLiving true
   Skills:
-  - setvariable{var=target.posc;t=string;value="derecha"} @LivingInCone{a=120;r=5;rot=270}
-  - setvariable{var=target.posc;t=string;value="izquierda"} @LivingInCone{a=120;r=5;rot=60}
-  - setvariable{var=target.posc;t=string;value="atras"} @LivingInCone{a=30;r=12;rot=190}
-  - setvariable{var=target.posc;t=string;value="lejos"} @EIRR{min=8;max=10}
+  - skill{s=MarcarDerecha} @LivingInCone{a=120;r=5;rot=270}
+    - skill{s=MarcarIzquierda} @LivingInCone{a=120;r=5;rot=60}
+  - skill{s=MarcarAtras} @LivingInCone{a=30;r=12;rot=190}
+  - skill{s=MarcarLejos} @EIRR{min=8;max=10}
   - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20}
+
+MarcarDerecha:
+  Skills:
+  - setvariable{var=target.posc;t=string;value="derecha"}
+
+MarcarIzquierda:
+  Skills:
+  - setvariable{var=target.posc;t=string;value="Izquierda"}
+
+MarcarAtras:
+  Skills:
+  - setvariable{var=target.posc;t=string;value="Izquierda"}
+
+Marcarlejos:
+  Skills:
+  - setvariable{var=target.posc;t=string;value="lejos"}
 Accion:
   TriggerConditions:
   - variableEquals{key=target.posc;value="derecha"} Cast GirarDerecha
