@@ -70,38 +70,38 @@ lanzarBloque:
 ContornoVariabs: 
   Skills:
   - skill{s=MarcarDerecha} @LivingInCone{a=120;r=5;rot=270}
-    - skill{s=MarcarIzquierda} @LivingInCone{a=120;r=5;rot=60}
+  - skill{s=MarcarIzquierda} @LivingInCone{a=120;r=5;rot=60}
   - skill{s=MarcarAtras} @LivingInCone{a=30;r=12;rot=190}
   - skill{s=MarcarLejos} @EIRR{min=8;max=15}
   - skill{s=MarcarMuylejos} @EIRR{min=16;max=20}
 
 MarcarDerecha:
   TargetConditions:
-  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  - (isMythicMob true || isPlayer true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="derecha"}
 
 MarcarIzquierda:
   TargetConditions:
-  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  - (isMythicMob true || isPlayer true) true 
   Skills:
-  - setvariable{var=target.posc;t=string;value="Izquierda"}
+  - setvariable{var=target.posc;t=string;value="izquierda"}
 
 MarcarAtras:
   TargetConditions:
-  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  - (isMythicMob true || isPlayer true) true 
   Skills:
-  - setvariable{var=target.posc;t=string;value="Izquierda"}
+  - setvariable{var=target.posc;t=string;value="atras"}
 
 MarcarLejos:
   TargetConditions:
-  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  - (isMythicMob true || isPlayer true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="lejos"}
 
 MarcarMuylejos:
   TargetConditions:
-  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  - (isMythicMob true || isPlayer true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="Muylejos"}
 
