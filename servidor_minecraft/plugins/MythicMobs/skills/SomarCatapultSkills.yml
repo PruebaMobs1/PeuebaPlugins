@@ -34,7 +34,8 @@ ObtenerVarPriori:
 
 Pruebas:
   Skills:
-  - msg{m="Priori statica para catapultas <world.var.catapultas>, estancia prueba> <caster.stance>"} @NearestPlayer
+#  - msg{m="Priori statica para catapultas <world.var.catapultas>, estancia prueba> <caster.stance>"} @NearestPlayer
+  - message{m="Posc de jugador <target.var.posc>"} @NearestPlayer
 #   - setFaction{faction=Somar} @NearestPlayer
 #soldsApuntar:
 #  Skills:
@@ -67,31 +68,43 @@ lanzarBloque:
     - projectile{bullet=block;material=STONE;vO=1.3;g=0.17;v=21;syo=15;sfo=1.8;mr=500;int=0.001;onHitBlockSkill=explocion;dd=300} @Forward{a=10}
 
 ContornoVariabs: 
-  TargetConditions:
-  - (isMythicMob true || isPlayer true) true
-#  - isLiving true
   Skills:
   - skill{s=MarcarDerecha} @LivingInCone{a=120;r=5;rot=270}
     - skill{s=MarcarIzquierda} @LivingInCone{a=120;r=5;rot=60}
   - skill{s=MarcarAtras} @LivingInCone{a=30;r=12;rot=190}
-  - skill{s=MarcarLejos} @EIRR{min=8;max=10}
-  - setvariable{var=target.posc;t=string;value="Muylejos"} @EIRR{min=11;max=20}
+  - skill{s=MarcarLejos} @EIRR{min=8;max=15}
+  - skill{s=MarcarMuylejos} @EIRR{min=16;max=20}
 
 MarcarDerecha:
+  TargetConditions:
+  - (isMythicMob true || (isPlayer && gamemode) true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="derecha"}
 
 MarcarIzquierda:
+  TargetConditions:
+  - (isMythicMob true || (isPlayer && gamemode) true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="Izquierda"}
 
 MarcarAtras:
+  TargetConditions:
+  - (isMythicMob true || (isPlayer && gamemode) true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="Izquierda"}
 
-Marcarlejos:
+MarcarLejos:
+  TargetConditions:
+  - (isMythicMob true || (isPlayer && gamemode) true) true 
   Skills:
   - setvariable{var=target.posc;t=string;value="lejos"}
+
+MarcarMuylejos:
+  TargetConditions:
+  - (isMythicMob true || (isPlayer && gamemode) true) true 
+  Skills:
+  - setvariable{var=target.posc;t=string;value="Muylejos"}
+
 Accion:
   TriggerConditions:
   - variableEquals{key=target.posc;value="derecha"} Cast GirarDerecha
@@ -100,7 +113,7 @@ Accion:
 #    - variableEquals{key=target.posc;value="lejos"} true
   Skills:
     - cancelevent
-    - message{m="Priori de catapulta <target.var.posc>"} @NearestPlayer #temporal para ver ajuste de prioridad por catapulta
+    - message{m="Priori de catapulta <caster.var.priori>"} @NearestPlayer #temporal para ver ajuste de prioridad por catapulta
 CfiltrarDano:
   TriggerConditions:
     - (itemissimilar{item=iron_axe} || itemissimilar{item=stone_axe} || itemissimilar{item=diamond_axe} 
