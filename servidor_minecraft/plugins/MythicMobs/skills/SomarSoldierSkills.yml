@@ -221,7 +221,7 @@ IrACataputa:
 PosicSoldCatapultero:
   Conditions:
     - faction{f=SomarCatapultero} true
-    - variableEquals{var=caster.posc;t=String;value="lejos"} castInstead CatapultaAlcanzada
+    - (variableEquals{var=caster.posc;t=String;value="lejos"} || variableEquals{var=caster.posc;t=String;value="Muylejos"}) orElseCast CatapultaAlcanzada
   Skills:
 #    - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
     - skill{s=IrACataputa}
