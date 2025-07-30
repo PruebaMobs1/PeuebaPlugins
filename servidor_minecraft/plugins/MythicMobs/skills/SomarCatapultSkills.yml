@@ -177,6 +177,7 @@ MarcCatapult1:
   - sudoSkill{s=IrACataputa}
   - setFaction{faction=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
+  - delay 20
   - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
 #    - variableadd{var=world.var.tempPriori;a=1} @Self
@@ -199,6 +200,8 @@ MarcCatapult2:
   - sudoSkill{s=IrACataputa}
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
+  - delay 20
+  - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
 MarcCatapult3:
   Conditions:
@@ -219,6 +222,8 @@ MarcCatapult3:
   - sudoSkill{s=IrACataputa}
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
+  - delay 20
+  - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
 
 desocuparCatapulteros:
