@@ -218,9 +218,6 @@ IrACataputa:
   Skills:
     - goto{speedModifier=5;sh=0;sv=1} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
 PosicSoldCatapultero:
-  Conditions:
-    - faction{f=SomarCatapultero} true
-    - (variableEquals{var=caster.posc;t=String;value="lejos"} || variableEquals{var=caster.posc;t=String;value="Muylejos"}) orElseCast CatapultaAlcanzada
   Skills:
     - msg{m="&e llendo - soldado - <caster.var.catapulta>"} @NearestPlayer
 #    - skill{s=IrACataputa}
