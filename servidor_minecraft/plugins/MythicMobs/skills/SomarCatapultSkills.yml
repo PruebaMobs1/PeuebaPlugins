@@ -251,7 +251,7 @@ LlamarCatapulteros:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
   Skills:
-  - projectile{bullet=block;material=REDSTONE}
+  - projectile{bullet=BLOCK;material=REDSTONE}
 
 #soldsApuntar:
 #  Skills:
