@@ -14,7 +14,7 @@ CPrepareModelSomar:
   - delay 10
   - setvariable{var=caster.sold3;t=String;value="false"}
 #  - sudoparent @NearestPlayer
-  - s
+  - setvariable{var=caster.cicloDisp;t=String;value="false"}
 MuerteCatapulta:
   Skills:
   - skill{s=desocuparCatapulteros} @LivingInWorld
@@ -38,22 +38,6 @@ Pruebas:
 #  - msg{m="Priori statica para catapultas <world.var.catapultas>, estancia prueba> <caster.stance>"} @NearestPlayer
   - message{m="Posc de jugador <target.var.posc>"} @NearestPlayer
 #   - setFaction{faction=Somar} @NearestPlayer
-#soldsApuntar:
-#  Skills:
-#    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
-
-#AvanzarAnimation:
-#  Skills:
-#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
-#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
-
-#EmpujarDerechaAnimation:
-#  Skills:
-#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
-
-#EmpujarIzquierdaAnimation:
-#  Skills:
-#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
 
 Disparar:
   Skills:
@@ -181,6 +165,7 @@ MarcCatapult1:
   - delay 20
   - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
+  - setvariable{var=caster.cicloDisp;t=String;value="llamarCatapults"}
 #    - variableadd{var=world.var.tempPriori;a=1} @Self
 MarcCatapult2:
   Conditions:
@@ -255,10 +240,35 @@ ctprsPerdidos:
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
+  - skill{s=LlamarCatapulteros} @LivingInWorld
 
 #Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
 
+LlamarCatapulteros:
+  Conditions:
+  - variableEquals{var=caster.cicloDisp;t=String;value="llamarCatapults"}
+  TargetConditions:
+  - isMythicMob
+  - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
+  Skills:
+  - projectile{bullet=block;material=STONE}
 
+#soldsApuntar:
+#  Skills:
+#    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
+
+#AvanzarAnimation:
+#  Skills:
+#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
+#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
+
+#EmpujarDerechaAnimation:
+#  Skills:
+#     - state{mid=SomarSoldier;s=animationEmpujarDerecha} @UniqueIdentifier{uuid=<caster.var.sold2>}
+
+#EmpujarIzquierdaAnimation:
+#  Skills:
+#     - state{mid=SomarSoldier;s=animationEmpujarIzquierda} @UniqueIdentifier{uuid=<caster.var.sold3>}
 
 #avisJugador:
 #  Skills:
