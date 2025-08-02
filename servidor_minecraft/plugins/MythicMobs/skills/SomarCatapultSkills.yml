@@ -14,6 +14,7 @@ CPrepareModelSomar:
   - delay 10
   - setvariable{var=caster.sold3;t=String;value="false"}
 #  - sudoparent @NearestPlayer
+  - s
 MuerteCatapulta:
   Skills:
   - skill{s=desocuparCatapulteros} @LivingInWorld
@@ -254,6 +255,10 @@ ctprsPerdidos:
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
+
+#Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
+
+
 
 #avisJugador:
 #  Skills:
