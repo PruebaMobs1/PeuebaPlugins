@@ -163,7 +163,6 @@ MarcCatapult1:
   - setFaction{faction=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
-  - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
   - setvariable{var=caster.cicloDisp;t=String;value="llamarCatapults"}
 #    - variableadd{var=world.var.tempPriori;a=1} @Self
@@ -187,7 +186,6 @@ MarcCatapult2:
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
-  - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
 MarcCatapult3:
   Conditions:
@@ -209,7 +207,6 @@ MarcCatapult3:
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
-  - sudoSkill{s=PosicSoldCatapultero}
   - clearthreat @Self
 
 desocuparCatapulteros:
@@ -250,8 +247,12 @@ LlamarCatapulteros:
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
+
   Skills:
-  - projectile{bullet=BLOCK;material=REDSTONE}
+  - projectile{bullet=BLOCK;mat=REDSTONE}
+#  - sudoSkill{s=PosicSoldCatapultero}
+``- skill{s=montarCtp
+
 
 #soldsApuntar:
 #  Skills:
