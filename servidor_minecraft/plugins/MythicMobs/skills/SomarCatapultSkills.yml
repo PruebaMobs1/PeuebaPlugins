@@ -159,7 +159,6 @@ MarcCatapult1:
   - sudoSkill{s=reportarseACatapult1}
   - delay 3
   - setvariable{var=target.catapulta;t=INTEGER;value=1}
-  - sudoSkill{s=IrACataputa}
   - setFaction{faction=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
@@ -182,7 +181,6 @@ MarcCatapult2:
   - sudoSkill{s=reportarseACatapult2}
   - delay 10
   - setvariable{var=target.catapulta;t=INTEGER;value=2}
-  - sudoSkill{s=IrACataputa}
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
@@ -203,7 +201,6 @@ MarcCatapult3:
   - sudoSkill{s=reportarseACatapult3} 
   - delay 5
   - setvariable{var=target.catapulta;t=INTEGER;value=3} 
-  - sudoSkill{s=IrACataputa}
   - setFaction{f=SomarCatapultero}
   - projectile{bullet=block;material=STONE}
   - delay 20
@@ -237,22 +234,33 @@ ctprsPerdidos:
   Skills:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
-  - skill{s=LlamarCatapulteros} @LivingInWorld
+  - skill{s=MontarCatapulteros} @LivingInWorld
 
 #Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
 
-LlamarCatapulteros:
+MontarCatapulteros:
   Conditions:
   - variableEquals{var=caster.cicloDisp;t=String;value="llamarCatapults"}
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
-
+  - (variableEquals{var=caster.posc;t=String;value="derecha"} || 
+    variableEquals{var=caster.posc;t=String;value="izquierda"} || 
+    variableEquals{var=caster.posc;t=String;value="atras"})
   Skills:
   - projectile{bullet=BLOCK;mat=REDSTONE}
 #  - sudoSkill{s=PosicSoldCatapultero}
-``- skill{s=montarCtp
+  - sudoSkill{s=IrACataputa}
 
+MontarCatapulteros:
+  Conditions:
+  - variableEquals{var=caster.cicloDisp;t=String;value="MontarCatapults"}
+  TargetConditions:
+  - isMythicMob
+  - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
+  - (variableEquals{var=caster.posc;t=String;value="derecha"} || 
+    variableEquals{var=caster.posc;t=String;value="izquierda"} || 
+    variableEquals{var=caster.posc;t=String;value="atras"})
 
 #soldsApuntar:
 #  Skills:
