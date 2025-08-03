@@ -206,7 +206,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-08-03 12:51:30 +0000",
-      "minecraft:zombie": "2025-02-11 15:31:41 +0000"
+      "minecraft:zombie": "2025-02-11 15:31:41 +0000",
+      "minecraft:creeper": "2025-08-03 12:52:23 +0000"
     },
     "done": false
   },
@@ -663,6 +664,18 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2025-07-26 13:10:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-08-03 12:52:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-08-03 12:52:25 +0000"
     },
     "done": true
   },
