@@ -258,7 +258,7 @@ MontarCatapulteros:
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
   Skills:
   - msg{m="montando"} @NearestPlayer
-  - skill{s=CatapultaAlcanzada}
+  - sudoSkill{s=CatapultaAlcanzada}
 #soldsApuntar:
 #  Skills:
 #    - missile{bullet=block;material=STONE;g=-1;mr=500;Ho=100;v=10;intertia=80.0}
