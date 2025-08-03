@@ -257,10 +257,8 @@ MontarCatapulteros:
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
-  - (variableEquals{var=target.posc;t=String;value="derecha"} || 
-    variableEquals{var=target.posc;t=String;value="izquierda"} || 
-    variableEquals{var=target.posc;t=String;value="atras"})
   Skills:
+  - msg{m="montando"}
   - skill{s=CatapultaAlcanzada}
 #soldsApuntar:
 #  Skills:
