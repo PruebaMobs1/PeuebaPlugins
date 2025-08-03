@@ -229,6 +229,7 @@ CatapultaAlcanzada:
     - variableEquals{var=caster.catapulta;t=Integer;value=2} cast CtpPosicion2
     - variableEquals{var=caster.catapulta;t=Integer;value=3} cast CtpPosicion3
   Skills:
+
 CtpPosicion1:
   Skills:
   - sudoSkill{s=montarCtp;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
@@ -237,7 +238,7 @@ CtpPosicion1:
 CtpPosicion2:
     Skills:
     - sudoSkill{s=soldEmpjCtpIzq;t=@Self} @UniqueIdentifier{uuid=<caster.var.catapultuuid>}
-     - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
+    - msg{m="&e llego - soldado - <caster.var.catapulta>"} @NearestPlayer
     - setai{ai=false}
 CtpPosicion3:
     Skills:

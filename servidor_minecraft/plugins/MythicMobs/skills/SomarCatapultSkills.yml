@@ -250,6 +250,7 @@ LlamarCatapulteros:
   - projectile{bullet=BLOCK;mat=REDSTONE}
 #  - sudoSkill{s=PosicSoldCatapultero}
   - sudoSkill{s=IrACataputa}
+  - delay 20
   - setVariable{var=caster.cicloDisp;t=String;value="MontarCatapults"}
   
 MontarCatapulteros:
