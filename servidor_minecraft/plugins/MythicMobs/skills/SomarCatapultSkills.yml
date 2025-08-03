@@ -235,6 +235,7 @@ ctprsPerdidos:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
   - skill{s=LlamarCatapulteros} @LivingInWorld
+  - skill{s=MontarCatapulteros} @LivingInWorld
 
 #Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
 
@@ -252,13 +253,11 @@ LlamarCatapulteros:
   - setVariable{var=caster.cicloDisp;t=String;value="MontarCatapults"}
   
 MontarCatapulteros:
-  Conditions:
-  - variableEquals{var=caster.cicloDisp;t=String;value="MontarCatapults"}
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
   Skills:
-  - msg{m="montando"}
+  - msg{m="montando"} @NearestPlayer
   - skill{s=CatapultaAlcanzada}
 #soldsApuntar:
 #  Skills:
