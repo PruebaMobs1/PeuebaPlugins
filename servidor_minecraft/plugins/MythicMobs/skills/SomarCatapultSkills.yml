@@ -266,8 +266,8 @@ IniCicloDisp:
   Conditions:
   - variableEquals{var=cicloDisp;type=String;val=iniCicloDisp}
   Skills:
-  - skills{s=buscarTargets}
-  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
+  - skills{s=MarcarTargets} @EIRR{max=;min=}
+#  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
 MarcarTargets:
   Conditions:
   - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
