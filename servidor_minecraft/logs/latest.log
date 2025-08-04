@@ -1,1023 +1,144 @@
-[12:35:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:35:57] [ServerMain/INFO]: Loaded 1174 recipes
-[12:35:58] [ServerMain/INFO]: Loaded 1271 advancements
-[12:35:58] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[12:35:58] [Server thread/INFO]: Loading properties
-[12:35:58] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[12:36:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:36:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:36:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:21:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:21:49] [ServerMain/INFO]: Loaded 1174 recipes
+[12:21:49] [ServerMain/INFO]: Loaded 1271 advancements
+[12:21:49] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[12:21:49] [Server thread/INFO]: Loading properties
+[12:21:50] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[12:21:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:21:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:21:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:36:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[12:36:02] [Server thread/INFO]: Default game type: SURVIVAL
-[12:36:02] [Server thread/INFO]: Generating keypair
-[12:36:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:36:02] [Server thread/INFO]: Using epoll channel type
-[12:36:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:36:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[12:36:02] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[12:36:03] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[12:36:03] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
-[12:36:03] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[12:36:03] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[12:36:03] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
-[12:36:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:36:03] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
-[12:36:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:36:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:36:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:36:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:36:04] [Server thread/INFO]: Preparing level "world"
-[12:36:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:36:06] [Server thread/INFO]: Time elapsed: 764 ms
-[12:36:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:36:06] [Server thread/INFO]: Time elapsed: 114 ms
-[12:36:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:36:06] [Server thread/INFO]: Time elapsed: 128 ms
-[12:36:06] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
-[12:36:07] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
-[12:36:07] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[12:36:18] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[12:36:19] [Server thread/INFO]: [MythicMobs] Loading Items...
-[12:36:19] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[12:36:19] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[12:36:20] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[12:36:20] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[12:36:20] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[12:36:20] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[12:36:20] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[12:36:20] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
-[12:36:21] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[12:36:21] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[12:36:21] [Server thread/INFO]: Running delayed init tasks
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
-[12:36:21] [Server thread/INFO]: Done (22.952s)! For help, type "help"
-[12:36:21] [Server thread/INFO]: Timings Reset
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[12:36:21] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[12:36:22] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
-[12:36:22] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[12:36:22] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
-[12:36:22] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
-[12:36:22] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
-[12:36:26] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
-[12:36:26] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[12:36:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
-[12:36:35] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:36:47] [Craft Scheduler Thread - 5 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:36:59] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:37:11] [Craft Scheduler Thread - 4 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:37:23] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:37:35] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:37:47] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:37:59] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:38:11] [Craft Scheduler Thread - 2 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:38:23] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:38:35] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:38:47] [Craft Scheduler Thread - 13 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:38:59] [Craft Scheduler Thread - 11 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:39:11] [Craft Scheduler Thread - 12 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:39:23] [Craft Scheduler Thread - 6 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'RotarPrioridad': Enable debugging for a stack trace.
-[12:39:24] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/236, uuid='ad1c54a4-0e41-4595-a4b7-89f565e6347a', l='ServerLevel[world]', x=-327.13, y=63.00, z=531.86, cpos=[-21, 33], tl=5337, v=true] died: Reclutador de Catapultas Somar was killed
-[12:39:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/242, uuid='27c493c9-377d-49d0-8bd3-3675c532cf3f', l='ServerLevel[world]', x=-314.81, y=64.00, z=542.81, cpos=[-20, 33], tl=5270, v=true] died: Soldado Somar was killed
-[12:39:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/108, uuid='ccd16008-c735-4b17-9d27-7073a5e85839', l='ServerLevel[world]', x=-346.33, y=62.00, z=556.75, cpos=[-22, 34], tl=5347, v=true] died: Catapulta Somar was killed
-[12:39:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/44, uuid='fe46450c-f4e7-4622-9289-9d8ba2f4c9dd', l='ServerLevel[world]', x=-365.24, y=62.00, z=548.49, cpos=[-23, 34], tl=5271, v=true] died: Soldado Somar was killed
-[12:39:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/43, uuid='ff397699-f26e-42e3-88d3-caa5a0926b30', l='ServerLevel[world]', x=-366.23, y=62.00, z=541.73, cpos=[-23, 33], tl=5271, v=true] died: Soldado Somar was killed
-[12:39:24] [Server thread/INFO]: Killed 126 entities
-[12:39:30] [Server thread/INFO]: Killed 85 entities
-[12:41:49] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[12:41:50] [Server thread/INFO]: CJML5067 joined the game
-[12:41:50] [Server thread/INFO]: CJML5067[/127.240.192.59:45423] logged in with entity id 425 at ([world]-342.8540712531879, 64.75514938644102, 559.6130337128373)
-[12:42:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:42:32] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[12:42:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:42:33] [Server thread/INFO]: [CJML5067: Killed 123 entities]
-[12:42:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:42:43] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:43:36] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:43:36] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/891, uuid='8759fda8-f89b-452f-a5e7-3e87db07ed14', l='ServerLevel[world]', x=-355.44, y=62.00, z=539.23, cpos=[-23, 33], tl=1185, v=true] died: Catapulta Somar was killed
-[12:43:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1047, uuid='41ebf349-3921-4d27-a0ae-a15a5c828f5c', l='ServerLevel[world]', x=-342.45, y=62.00, z=533.37, cpos=[-22, 33], tl=1058, v=true] died: Soldado Somar was killed
-[12:43:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1046, uuid='94409958-c265-44a5-a721-415120c25754', l='ServerLevel[world]', x=-354.57, y=62.00, z=545.40, cpos=[-23, 34], tl=1058, v=true] died: Soldado Somar was killed
-[12:43:36] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1026, uuid='ae54d436-e362-40d3-b80b-456eef6dc0d8', l='ServerLevel[world]', x=-351.60, y=62.00, z=540.40, cpos=[-22, 33], tl=1058, v=true] died: Soldado Somar was killed
-[12:43:36] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/996, uuid='8d39e1a4-85ef-436b-a6f8-b8632a09b441', l='ServerLevel[world]', x=-353.19, y=62.00, z=549.24, cpos=[-23, 34], tl=1176, v=true] died: Reclutador de Catapultas Somar was killed
-[12:43:36] [Server thread/INFO]: [CJML5067: Killed 144 entities]
-[12:43:37] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:43:37] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[12:45:18] [Server thread/INFO]: [Mythic] Reloading plugin...
-[12:45:18] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[12:45:18] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[12:45:18] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Items...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[12:45:19] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[12:45:19] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[12:45:19] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[12:45:19] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[12:45:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:45:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:46:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:46:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1825, uuid='143cbe4b-7224-4e75-912f-ea22b59ef74a', l='ServerLevel[world]', x=-337.88, y=62.00, z=512.18, cpos=[-22, 32], tl=1115, v=true] died: Soldado Somar was killed while fighting CJML5067
-[12:46:29] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/1774, uuid='f8a377f4-d714-430a-8d55-e8b2276285b7', l='ServerLevel[world]', x=-356.85, y=62.00, z=546.83, cpos=[-23, 34], tl=1223, v=true] died: Reclutador de Catapultas Somar was killed
-[12:46:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1824, uuid='9516e606-01c4-4d74-9396-459e2be84b5d', l='ServerLevel[world]', x=-321.69, y=63.00, z=553.99, cpos=[-21, 34], tl=1115, v=true] died: Soldado Somar was killed
-[12:46:29] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/1804, uuid='5b005596-281e-4d2c-af7c-cb7a912eb07b', l='ServerLevel[world]', x=-327.56, y=62.00, z=550.92, cpos=[-21, 34], tl=1115, v=true] died: Soldado Somar was killed
-[12:46:29] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/1668, uuid='3f1ea48d-b50e-4b1f-9e9d-38cf2e655c4f', l='ServerLevel[world]', x=-337.35, y=62.00, z=548.58, cpos=[-22, 34], tl=1232, v=true] died: Catapulta Somar was killed
-[12:46:29] [Server thread/INFO]: [CJML5067: Killed 149 entities]
-[12:46:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:46:30] [Server thread/INFO]: [CJML5067: Killed 89 entities]
-[12:46:32] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:46:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:47:25] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:47:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2436, uuid='c358d64f-652f-4b22-b922-c6ea89c3040c', l='ServerLevel[world]', x=-341.59, y=62.00, z=511.52, cpos=[-22, 31], tl=950, v=true] died: Soldado Somar was killed
-[12:47:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2416, uuid='8522e305-a899-49e1-9208-e24197666d33', l='ServerLevel[world]', x=-331.48, y=62.00, z=510.99, cpos=[-21, 31], tl=950, v=true] died: Soldado Somar was killed
-[12:47:25] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/2372, uuid='099a6ffc-5204-4614-943a-8d6d7245d2ed', l='ServerLevel[world]', x=-339.32, y=62.00, z=502.95, cpos=[-22, 31], tl=1062, v=true] died: Reclutador de Catapultas Somar was killed
-[12:47:25] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2249, uuid='945365af-4798-4720-b8a8-d19e573e9a39', l='ServerLevel[world]', x=-339.51, y=62.00, z=506.80, cpos=[-22, 31], tl=1071, v=true] died: Catapulta Somar was killed
-[12:47:25] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2437, uuid='5c6c6014-4fbe-4577-a005-f3bfc6ebc59a', l='ServerLevel[world]', x=-346.59, y=62.00, z=541.70, cpos=[-22, 33], tl=950, v=true] died: Soldado Somar was killed
-[12:47:25] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[12:47:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:47:27] [Server thread/INFO]: [CJML5067: Killed 118 entities]
-[12:47:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:47:35] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:51:09] [Server thread/INFO]: CJML5067 issued server command: /weather clear
-[12:51:09] [Server thread/INFO]: [CJML5067: Set the weather to clear]
-[12:52:34] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:52:34] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2953, uuid='6ff47d27-b5f7-4924-bb01-0758083b28d9', l='ServerLevel[world]', x=-346.94, y=60.00, z=525.91, cpos=[-22, 32], tl=5982, v=true] died: Soldado Somar was killed
-[12:52:34] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/2918, uuid='631a1372-3eb2-4e7e-92f7-a3176449ce9c', l='ServerLevel[world]', x=-362.47, y=62.00, z=533.61, cpos=[-23, 33], tl=6098, v=true] died: Reclutador de Catapultas Somar was killed
-[12:52:34] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/2801, uuid='3748e8ef-9c9d-4e21-abbb-f37a0642a60a', l='ServerLevel[world]', x=-354.11, y=62.00, z=524.75, cpos=[-23, 32], tl=6107, v=true] died: Catapulta Somar was killed
-[12:52:34] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2954, uuid='0453d86e-041f-43d1-9b73-d7f790f5e33b', l='ServerLevel[world]', x=-359.76, y=69.00, z=573.90, cpos=[-23, 35], tl=5982, v=true] died: Soldado Somar was killed
-[12:52:34] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/2955, uuid='99c6454b-a70d-4903-94b7-fcb2e54fdf66', l='ServerLevel[world]', x=-368.67, y=62.00, z=545.44, cpos=[-24, 34], tl=5982, v=true] died: Soldado Somar was killed
-[12:52:34] [Server thread/INFO]: [CJML5067: Killed 127 entities]
-[12:52:35] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:52:35] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[12:52:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:52:55] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:53:59] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:53:59] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4201, uuid='e992765d-3637-4dfd-adb8-b837b4f3b65f', l='ServerLevel[world]', x=-354.01, y=71.00, z=566.96, cpos=[-23, 35], tl=1291, v=true] died: Soldado Somar was killed
-[12:53:59] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/4043, uuid='4d291dc8-8273-40ac-84b2-57070884b803', l='ServerLevel[world]', x=-351.17, y=62.00, z=527.26, cpos=[-22, 32], tl=1470, v=true] died: Catapulta Somar was killed
-[12:53:59] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/4149, uuid='258ee8c5-41f5-47f0-abda-9218b1f8a7e5', l='ServerLevel[world]', x=-339.86, y=62.00, z=533.84, cpos=[-22, 33], tl=1461, v=true] died: Reclutador de Catapultas Somar was killed
-[12:53:59] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4200, uuid='6084ba93-0801-4fc4-bde0-b998e61ce7ee', l='ServerLevel[world]', x=-336.44, y=64.00, z=599.00, cpos=[-22, 37], tl=1291, v=true] died: Soldado Somar was killed
-[12:53:59] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/4202, uuid='71d32cff-5992-4a68-8ad8-d2d2edae5615', l='ServerLevel[world]', x=-354.97, y=70.00, z=577.73, cpos=[-23, 36], tl=1291, v=true] died: Soldado Somar was killed
-[12:53:59] [Server thread/INFO]: [CJML5067: Killed 108 entities]
-[12:54:00] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:54:00] [Server thread/INFO]: [CJML5067: Killed 79 entities]
-[12:58:47] [Server thread/INFO]: [Mythic] Reloading plugin...
-[12:58:47] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[12:58:47] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[12:58:47] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Items...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[12:58:48] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[12:58:48] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[12:58:48] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[12:58:48] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[12:58:52] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:58:52] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[12:58:53] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[12:58:53] [Server thread/INFO]: [CJML5067: Killed 83 entities]
-[12:58:55] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[12:59:01] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[12:59:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:00:05] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:00:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:00:24] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/5430, uuid='426f5746-1802-4d49-942c-32ccdb7d3eab', l='ServerLevel[world]', x=-348.02, y=70.00, z=581.93, cpos=[-22, 36], tl=1757, v=true] died: Reclutador de Catapultas Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5717, uuid='56de630b-de0c-4015-a10e-063714d35a30', l='ServerLevel[world]', x=-344.97, y=62.00, z=565.08, cpos=[-22, 35], tl=380, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5460, uuid='c8948bf1-2393-4ba1-9972-8808afbcd270', l='ServerLevel[world]', x=-324.63, y=65.00, z=543.12, cpos=[-21, 33], tl=1650, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5582, uuid='3c8e11a3-3de5-4302-a13b-a5e6a28dbe4f', l='ServerLevel[world]', x=-315.75, y=63.00, z=553.36, cpos=[-20, 34], tl=899, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5584, uuid='4fba6ad2-7d4b-48dc-90e5-f971df4d0681', l='ServerLevel[world]', x=-325.00, y=63.00, z=550.56, cpos=[-21, 34], tl=899, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5500, uuid='70503a64-75c9-4128-85be-b7c2b204b599', l='ServerLevel[world]', x=-324.93, y=63.00, z=554.91, cpos=[-21, 34], tl=1650, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5583, uuid='29911b78-dc2b-4dd7-b0b3-1a3964691baf', l='ServerLevel[world]', x=-321.43, y=63.00, z=553.31, cpos=[-21, 34], tl=899, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5716, uuid='6a7318e5-358c-47c6-9da2-c35db7c9dea2', l='ServerLevel[world]', x=-334.54, y=62.00, z=555.35, cpos=[-21, 34], tl=380, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/5299, uuid='ee7d2efc-aae1-4b7d-af00-803bd36284a3', l='ServerLevel[world]', x=-349.24, y=71.00, z=564.64, cpos=[-22, 35], tl=1766, v=true] died: Catapulta Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5696, uuid='b5061a4b-f345-4240-83fe-36ff10b432fb', l='ServerLevel[world]', x=-327.00, y=63.00, z=551.56, cpos=[-21, 34], tl=380, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/5461, uuid='bae489ba-37b8-49eb-8432-e50d13c5cbd8', l='ServerLevel[world]', x=-346.56, y=62.00, z=556.44, cpos=[-22, 34], tl=1650, v=true] died: Soldado Somar was killed
-[13:00:24] [Server thread/INFO]: [CJML5067: Killed 131 entities]
-[13:00:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:00:24] [Server thread/INFO]: [CJML5067: Killed 89 entities]
-[13:00:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:00:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:01:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[13:01:19] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:01:19] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6035, uuid='2d849c06-e6ec-4f90-b7fc-0d3f90f936b1', l='ServerLevel[world]', x=-342.89, y=62.00, z=547.51, cpos=[-22, 34], tl=934, v=true] died: Catapulta Somar was killed
-[13:01:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6234, uuid='021e45b7-f1ac-4d46-858b-35d0027cfe96', l='ServerLevel[world]', x=-350.08, y=62.00, z=531.17, cpos=[-22, 33], tl=338, v=true] died: Soldado Somar was killed
-[13:01:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6197, uuid='de4effab-5531-4608-aa65-788f7da10559', l='ServerLevel[world]', x=-332.46, y=62.00, z=526.57, cpos=[-21, 32], tl=827, v=true] died: Soldado Somar was killed
-[13:01:19] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/6140, uuid='e8799f5f-6379-4067-aaa9-7efb8c498cd7', l='ServerLevel[world]', x=-340.84, y=62.00, z=561.84, cpos=[-22, 35], tl=925, v=true] died: Reclutador de Catapultas Somar was killed
-[13:01:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6157, uuid='ca832ea4-9760-412f-b026-fe175abecef7', l='ServerLevel[world]', x=-360.99, y=62.00, z=559.44, cpos=[-23, 34], tl=827, v=true] died: Soldado Somar was killed
-[13:01:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6177, uuid='f3bcc65d-31d5-42b3-a17c-15d9b6013c62', l='ServerLevel[world]', x=-357.04, y=68.00, z=548.97, cpos=[-23, 34], tl=827, v=true] died: Soldado Somar was killed
-[13:01:19] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[13:01:20] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:01:20] [Server thread/INFO]: [CJML5067: Killed 81 entities]
-[13:01:25] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:01:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:02:34] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:02:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:02:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:02:34] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:02:35] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:02:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:02:35] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:02:35] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:02:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:02:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6663, uuid='e0d03f7f-8ba5-4420-8d8b-97599167a5f6', l='ServerLevel[world]', x=-366.98, y=62.00, z=506.36, cpos=[-23, 31], tl=1288, v=true] died: Soldado Somar was killed
-[13:02:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6642, uuid='833144a6-20ce-489f-aeed-e09ecff42567', l='ServerLevel[world]', x=-342.38, y=63.00, z=567.52, cpos=[-22, 35], tl=1288, v=true] died: Soldado Somar was killed
-[13:02:40] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/6628, uuid='2b8cfe28-6e44-408c-bd6b-af880b717421', l='ServerLevel[world]', x=-337.12, y=62.00, z=540.45, cpos=[-22, 33], tl=1487, v=true] died: Reclutador de Catapultas Somar was killed
-[13:02:40] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/6523, uuid='cc7397f2-0014-40d1-852c-e958af848114', l='ServerLevel[world]', x=-352.79, y=62.00, z=536.87, cpos=[-23, 33], tl=1496, v=true] died: Catapulta Somar was killed
-[13:02:40] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/6643, uuid='6612b8b0-d80a-4793-b7e1-8c2cccc3f852', l='ServerLevel[world]', x=-337.17, y=89.00, z=553.15, cpos=[-22, 34], tl=1288, v=true] died: Soldado Somar was killed
-[13:02:40] [Server thread/INFO]: [CJML5067: Killed 123 entities]
-[13:02:41] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:02:41] [Server thread/INFO]: [CJML5067: Killed 79 entities]
-[13:02:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:02:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:03:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:03:24] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/7241, uuid='77d9a94b-fb7c-4590-a09b-5d0a6f6f482b', l='ServerLevel[world]', x=-361.44, y=62.00, z=521.48, cpos=[-23, 32], tl=702, v=true] died: Reclutador de Catapultas Somar was killed
-[13:03:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7275, uuid='deacb391-cbb4-4a55-8bcb-7c7890329bb7', l='ServerLevel[world]', x=-314.26, y=65.00, z=527.24, cpos=[-20, 32], tl=594, v=true] died: Soldado Somar was killed
-[13:03:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7274, uuid='e9315fdd-6045-4ac8-a16b-366a7da5fead', l='ServerLevel[world]', x=-351.41, y=68.00, z=566.08, cpos=[-22, 35], tl=594, v=true] died: Soldado Somar was killed
-[13:03:24] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7276, uuid='21802770-6048-4932-9be0-ee94c2dd87eb', l='ServerLevel[world]', x=-325.56, y=75.00, z=549.44, cpos=[-21, 34], tl=594, v=true] died: Soldado Somar was killed
-[13:03:24] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7134, uuid='9d3eed3f-73ab-4bf5-a3f1-642a053b67f8', l='ServerLevel[world]', x=-355.96, y=62.00, z=525.04, cpos=[-23, 32], tl=711, v=true] died: Catapulta Somar was killed
-[13:03:24] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[13:03:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:03:24] [Server thread/INFO]: [CJML5067: Killed 87 entities]
-[13:03:50] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:03:50] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:03:50] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:03:50] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:03:51] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:03:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:03:51] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:03:51] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:03:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:03:57] [Server thread/INFO]: [CJML5067: Killed 120 entities]
-[13:03:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:03:57] [Server thread/INFO]: [CJML5067: Killed 72 entities]
-[13:03:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:04:25] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:05:08] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:05:08] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:05:08] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:05:08] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:05:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:05:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:05:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:05:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:05:13] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:05:13] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/7917, uuid='290fe36a-0c57-48c1-9f6c-d58f0e438bbd', l='ServerLevel[world]', x=-321.00, y=65.00, z=540.13, cpos=[-21, 33], tl=1468, v=true] died: Reclutador de Catapultas Somar was killed
-[13:05:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7944, uuid='4ae3afce-dbfd-4b1d-9900-d62534b43d3f', l='ServerLevel[world]', x=-351.61, y=62.00, z=546.71, cpos=[-22, 34], tl=961, v=true] died: Soldado Somar was killed
-[13:05:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7966, uuid='b8589830-daf3-4c22-8f21-40b22c09a1f3', l='ServerLevel[world]', x=-332.33, y=62.00, z=546.08, cpos=[-21, 34], tl=961, v=true] died: Soldado Somar was killed
-[13:05:13] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/7793, uuid='0d29ce79-66fe-4304-9a05-bc7c13e1406c', l='ServerLevel[world]', x=-331.08, y=62.00, z=542.44, cpos=[-21, 33], tl=1477, v=true] died: Catapulta Somar was killed
-[13:05:13] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/7943, uuid='60ddcffc-5b61-4dda-99ee-7e3467552b4c', l='ServerLevel[world]', x=-327.00, y=63.00, z=551.56, cpos=[-21, 34], tl=961, v=true] died: Soldado Somar was killed
-[13:05:13] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[13:05:14] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:05:14] [Server thread/INFO]: [CJML5067: Killed 84 entities]
-[13:05:16] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:05:21] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:05:46] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:06:09] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:06:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:06:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:06:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:06:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:06:15] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8575, uuid='500c31de-32a5-43f4-9c98-21ec3ce3e5bf', l='ServerLevel[world]', x=-353.41, y=62.00, z=528.32, cpos=[-23, 33], tl=574, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8574, uuid='a7fdd82b-818a-4947-b776-8c829ecbda49', l='ServerLevel[world]', x=-352.11, y=62.00, z=522.07, cpos=[-23, 32], tl=574, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8460, uuid='1fa163ea-b9a6-406f-916f-1ab917d84ce5', l='ServerLevel[world]', x=-367.00, y=62.00, z=519.67, cpos=[-23, 32], tl=1073, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8458, uuid='7f11208e-ae24-46e1-9787-ec66043c4d6b', l='ServerLevel[world]', x=-368.55, y=62.00, z=541.55, cpos=[-24, 33], tl=1073, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8459, uuid='94d875b9-caf0-4084-8d39-ac5dae42e4ac', l='ServerLevel[world]', x=-363.70, y=62.00, z=522.22, cpos=[-23, 32], tl=1073, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8319, uuid='b23a8943-ab79-4386-b3be-341929798e37', l='ServerLevel[world]', x=-342.32, y=62.00, z=538.72, cpos=[-22, 33], tl=1180, v=true] died: Catapulta Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/8434, uuid='2d8e50ad-03ae-4af4-afd4-c426067c2897', l='ServerLevel[world]', x=-346.15, y=62.00, z=548.90, cpos=[-22, 34], tl=1171, v=true] died: Reclutador de Catapultas Somar was killed
-[13:06:15] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/8554, uuid='33c66352-21f3-4f11-b61a-133e4639ead5', l='ServerLevel[world]', x=-354.32, y=62.00, z=526.85, cpos=[-23, 32], tl=574, v=true] died: Soldado Somar was killed
-[13:06:15] [Server thread/INFO]: [CJML5067: Killed 129 entities]
-[13:06:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:06:16] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[13:06:21] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:06:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:12:05] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:12:05] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:12:05] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:12:05] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:12:05] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:12:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:12:22] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/8935, uuid='0f63beca-0539-4ae9-a17d-4850c2c9c889', l='ServerLevel[world]', x=-357.90, y=62.00, z=533.27, cpos=[-23, 33], tl=7213, v=true] died: Catapulta Somar was killed
-[13:12:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9079, uuid='eaeccc04-f884-4ed5-89b1-9019e884151b', l='ServerLevel[world]', x=-327.00, y=63.00, z=551.56, cpos=[-21, 34], tl=7100, v=true] died: Soldado Somar was killed
-[13:12:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9077, uuid='723efa93-ce7c-4906-a39b-3dc437855870', l='ServerLevel[world]', x=-362.63, y=62.00, z=497.99, cpos=[-23, 31], tl=7100, v=true] died: Soldado Somar was killed
-[13:12:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/9078, uuid='950b079e-3f5f-435b-ba1f-63ff59e9c943', l='ServerLevel[world]', x=-349.61, y=62.00, z=542.61, cpos=[-22, 33], tl=7100, v=true] died: Soldado Somar was killed
-[13:12:22] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/9040, uuid='f18e6391-3ac6-4b00-97d8-11af3605174f', l='ServerLevel[world]', x=-351.84, y=62.00, z=553.84, cpos=[-22, 34], tl=7204, v=true] died: Reclutador de Catapultas Somar was killed
-[13:12:22] [Server thread/INFO]: [CJML5067: Killed 130 entities]
-[13:12:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:12:22] [Server thread/INFO]: [CJML5067: Killed 84 entities]
-[13:12:24] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:12:29] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:12:59] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[13:13:31] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:13:31] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:13:31] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:13:31] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:13:31] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:13:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:13:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10261, uuid='3b7f6c12-796f-4bf8-9c14-b63bd055a428', l='ServerLevel[world]', x=-328.02, y=62.00, z=516.62, cpos=[-21, 32], tl=1384, v=true] died: Soldado Somar was killed
-[13:13:39] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/10186, uuid='397cee49-a5c1-417c-8013-b4337ca1452e', l='ServerLevel[world]', x=-316.96, y=70.00, z=505.13, cpos=[-20, 31], tl=1484, v=true] died: Reclutador de Catapultas Somar was killed
-[13:13:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10344, uuid='f02acaaf-b274-496b-a7d2-0f7eeb2441e5', l='ServerLevel[world]', x=-336.58, y=62.00, z=497.99, cpos=[-22, 31], tl=785, v=true] died: Soldado Somar was killed
-[13:13:39] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10067, uuid='26736ed3-b07f-4632-a57b-48e6abc690de', l='ServerLevel[world]', x=-334.69, y=62.00, z=501.65, cpos=[-21, 31], tl=1493, v=true] died: Catapulta Somar was killed
-[13:13:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10262, uuid='d62d6306-1c04-4600-96e7-f05034d6b7f2', l='ServerLevel[world]', x=-337.83, y=62.00, z=515.42, cpos=[-22, 32], tl=1384, v=true] died: Soldado Somar was killed
-[13:13:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/10301, uuid='f89a27d7-69a7-43b4-9ce7-0f9157e3788f', l='ServerLevel[world]', x=-357.58, y=62.00, z=521.32, cpos=[-23, 32], tl=1384, v=true] died: Soldado Somar was killed
-[13:13:39] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[13:13:42] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:13:42] [Server thread/INFO]: [CJML5067: Killed 184 entities]
-[13:13:45] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:13:55] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:17:22] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:17:22] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/10846, uuid='2f16d5db-1d86-494c-9532-863e5d611604', l='ServerLevel[world]', x=-330.31, y=62.00, z=518.68, cpos=[-21, 32], tl=4336, v=true] died: Catapulta Somar was killed
-[13:17:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11009, uuid='7b04ec80-328f-442b-b927-b61427a085d6', l='ServerLevel[world]', x=-331.43, y=62.00, z=513.40, cpos=[-21, 32], tl=4137, v=true] died: Soldado Somar was killed
-[13:17:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11029, uuid='6129f9fd-35a4-4072-ab21-feacc7198ca1', l='ServerLevel[world]', x=-354.73, y=62.00, z=548.38, cpos=[-23, 34], tl=4137, v=true] died: Soldado Somar was killed
-[13:17:22] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/11030, uuid='32fc2f9c-48aa-4e6c-87f3-46c2ad4a82bf', l='ServerLevel[world]', x=-331.40, y=62.00, z=551.29, cpos=[-21, 34], tl=4137, v=true] died: Soldado Somar was killed
-[13:17:22] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/10965, uuid='bb00d8c3-c059-439c-80e7-e530dbdee7aa', l='ServerLevel[world]', x=-329.12, y=63.00, z=498.87, cpos=[-21, 31], tl=4327, v=true] died: Reclutador de Catapultas Somar was killed
-[13:17:22] [Server thread/INFO]: [CJML5067: Killed 185 entities]
-[13:17:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:17:23] [Server thread/INFO]: [CJML5067: Killed 135 entities]
-[13:24:15] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:24:15] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:24:15] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:24:15] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:24:15] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:24:15] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:24:15] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:24:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:24:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:24:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:24:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:24:16] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:24:16] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:24:22] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:24:55] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:24:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:24:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:24:55] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:24:56] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:24:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:24:56] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:24:56] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:27:37] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:27:37] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:27:37] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:27:37] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:27:37] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:27:44] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:28:26] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:28:26] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/12533, uuid='827a6531-65ff-4f59-aacc-b105857df1f4', l='ServerLevel[world]', x=-335.80, y=62.00, z=534.77, cpos=[-21, 33], tl=4887, v=true] died: Catapulta Somar was killed
-[13:28:26] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13035, uuid='33c61d69-e1f0-40c8-8ba2-31a13fc24e08', l='ServerLevel[world]', x=-329.35, y=62.00, z=539.00, cpos=[-21, 33], tl=842, v=true] died: Soldado Somar was killed
-[13:28:26] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13034, uuid='9cf0f98b-3134-4817-a082-8650a2840720', l='ServerLevel[world]', x=-334.61, y=62.00, z=540.55, cpos=[-21, 33], tl=842, v=true] died: Soldado Somar was killed
-[13:28:26] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/12638, uuid='20602f0f-9b28-4bdf-95a0-a5df6476dfcd', l='ServerLevel[world]', x=-366.99, y=62.00, z=527.05, cpos=[-23, 32], tl=4878, v=true] died: Reclutador de Catapultas Somar was killed
-[13:28:26] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/13074, uuid='deae48f3-6231-43b2-a25a-058293b37f22', l='ServerLevel[world]', x=-335.22, y=62.00, z=555.06, cpos=[-21, 34], tl=842, v=true] died: Soldado Somar was killed
-[13:28:26] [Server thread/INFO]: [CJML5067: Killed 127 entities]
-[13:28:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:28:27] [Server thread/INFO]: [CJML5067: Killed 103 entities]
-[13:28:30] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:32:07] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:32:07] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:32:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:32:08] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:32:08] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:32:15] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:32:15] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/13406, uuid='49722e2d-07f2-4883-ac02-f5d6ecd77634', l='ServerLevel[world]', x=-340.70, y=62.00, z=549.51, cpos=[-22, 34], tl=4502, v=true] died: Catapulta Somar was killed
-[13:32:15] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/13511, uuid='56e0ca52-9791-4721-b8bc-ecbb0a067fe3', l='ServerLevel[world]', x=-339.86, y=62.00, z=536.16, cpos=[-22, 33], tl=4493, v=true] died: Reclutador de Catapultas Somar was killed
-[13:32:15] [Server thread/INFO]: [CJML5067: Killed 125 entities]
-[13:32:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:32:16] [Server thread/INFO]: [CJML5067: Killed 95 entities]
-[13:32:17] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:32:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:32:57] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:32:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14269, uuid='c772999f-e700-49c6-99c3-38d0d8650e25', l='ServerLevel[world]', x=-354.77, y=62.00, z=546.60, cpos=[-23, 34], tl=603, v=true] died: Soldado Somar was killed
-[13:32:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14271, uuid='e4caf322-748e-4f80-8961-fe0efbe689d1', l='ServerLevel[world]', x=-327.30, y=63.00, z=519.89, cpos=[-21, 32], tl=603, v=true] died: Soldado Somar was killed
-[13:32:57] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/14227, uuid='5f647de8-dcad-4b03-8fb1-9255af50067e', l='ServerLevel[world]', x=-333.15, y=62.00, z=539.22, cpos=[-21, 33], tl=788, v=true] died: Reclutador de Catapultas Somar was killed
-[13:32:57] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14270, uuid='5875d3d9-3ea5-47c5-bf7b-01ce4804c452', l='ServerLevel[world]', x=-353.04, y=62.00, z=546.60, cpos=[-23, 34], tl=603, v=true] died: Soldado Somar was killed
-[13:32:57] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/14096, uuid='5c18de52-716e-4613-9358-17b276e1845c', l='ServerLevel[world]', x=-350.33, y=62.00, z=541.40, cpos=[-22, 33], tl=797, v=true] died: Catapulta Somar was killed
-[13:32:57] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[13:32:58] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:32:58] [Server thread/INFO]: [CJML5067: Killed 75 entities]
-[13:33:12] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:33:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:33:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:33:12] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:33:12] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:33:18] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:33:24] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:34:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:34:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14696, uuid='f27acb37-62fb-4220-b83a-7ec1ee73e2a4', l='ServerLevel[world]', x=-335.37, y=62.00, z=550.55, cpos=[-21, 34], tl=1033, v=true] died: Soldado Somar was killed
-[13:34:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14735, uuid='563da491-2622-4498-ab85-69cbbdde008a', l='ServerLevel[world]', x=-355.32, y=72.00, z=570.57, cpos=[-23, 35], tl=1033, v=true] died: Soldado Somar was killed
-[13:34:16] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/14588, uuid='fb4fa691-75ca-4a4b-b554-d79d5f76030b', l='ServerLevel[world]', x=-335.29, y=62.00, z=544.42, cpos=[-21, 34], tl=1155, v=true] died: Catapulta Somar was killed
-[13:34:16] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/14695, uuid='fda3f796-3e3b-4c7b-95a7-7bdaf480d377', l='ServerLevel[world]', x=-354.62, y=62.00, z=551.72, cpos=[-23, 34], tl=1033, v=true] died: Soldado Somar was killed
-[13:34:16] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/14693, uuid='18629687-712c-4272-bf7a-a6c3d67d4803', l='ServerLevel[world]', x=-343.84, y=62.00, z=539.70, cpos=[-22, 33], tl=1146, v=true] died: Reclutador de Catapultas Somar was killed
-[13:34:16] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[13:34:16] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:34:16] [Server thread/INFO]: [CJML5067: Killed 78 entities]
-[13:34:18] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:34:48] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:34:48] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:34:48] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:34:48] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:34:49] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:34:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:34:49] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:34:49] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:35:22] [Server thread/INFO]: CJML5067 lost connection: Timed out
-[13:35:22] [Server thread/INFO]: CJML5067 left the game
-[13:35:26] [User Authenticator #1/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[13:35:27] [Server thread/INFO]: CJML5067 joined the game
-[13:35:27] [Server thread/INFO]: CJML5067[/127.240.192.59:44005] logged in with entity id 15282 at ([world]-338.879555826043, 62.0, 529.4179440003004)
-[13:35:36] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:36:16] [Server thread/INFO]: CJML5067 lost connection: Timed out
-[13:36:16] [Server thread/INFO]: CJML5067 left the game
-[13:36:18] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/15171, uuid='e819cbcd-aab6-4243-8193-444c8031654c', l='ServerLevel[world]', x=-342.94, y=62.00, z=527.85, cpos=[-22, 32], tl=2402, v=true] died: Reclutador de Catapultas Somar was killed
-[13:36:18] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15307, uuid='ae5c6be8-b36a-49d1-90f2-df857582c883', l='ServerLevel[world]', x=-339.86, y=62.00, z=531.03, cpos=[-22, 33], tl=852, v=true] died: Soldado Somar was killed
-[13:36:18] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15050, uuid='358cdbd6-5a0d-422b-ad47-bd3252d6fb89', l='ServerLevel[world]', x=-341.39, y=62.00, z=534.66, cpos=[-22, 33], tl=2411, v=true] died: Catapulta Somar was killed
-[13:36:18] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15328, uuid='ff4a1421-e08d-4ca5-ac46-945f2b4c0e1e', l='ServerLevel[world]', x=-333.45, y=62.00, z=531.55, cpos=[-21, 33], tl=852, v=true] died: Soldado Somar was killed
-[13:36:18] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15308, uuid='53d86fe1-1bb6-4317-a421-5745100340b4', l='ServerLevel[world]', x=-327.56, y=62.00, z=551.01, cpos=[-21, 34], tl=852, v=true] died: Soldado Somar was killed
-[13:36:18] [Server thread/INFO]: Killed 126 entities
-[13:36:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[13:36:28] [User Authenticator #2/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
-[13:36:28] [Server thread/INFO]: CJML5067 joined the game
-[13:36:28] [Server thread/INFO]: CJML5067[/127.240.192.59:37255] logged in with entity id 15569 at ([world]-335.96770463893176, 62.0, 513.5807730272346)
-[13:36:32] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:36:39] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:37:19] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:37:19] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:37:19] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:37:19] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:37:19] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:37:19] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:37:19] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:37:20] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:37:20] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:37:20] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:37:20] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:37:20] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:37:20] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:37:39] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:37:39] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/15700, uuid='9db2d8dc-bbbd-49f0-b5a5-cb8904e91c25', l='ServerLevel[world]', x=-355.44, y=62.00, z=529.04, cpos=[-23, 33], tl=1341, v=true] died: Catapulta Somar was killed
-[13:37:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15855, uuid='a5c84ec4-a763-479c-8e38-4c47ec0c9df5', l='ServerLevel[world]', x=-328.12, y=62.00, z=510.41, cpos=[-21, 31], tl=1214, v=true] died: Soldado Somar was killed
-[13:37:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15815, uuid='5e1dc322-3993-41af-8355-4468d00c7b63', l='ServerLevel[world]', x=-340.02, y=62.00, z=532.65, cpos=[-22, 33], tl=1214, v=true] died: Soldado Somar was killed
-[13:37:39] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/15816, uuid='5ef99f9f-da62-4411-89b7-25ba536edca8', l='ServerLevel[world]', x=-345.43, y=62.00, z=521.63, cpos=[-22, 32], tl=1214, v=true] died: Soldado Somar was killed
-[13:37:39] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/15805, uuid='9cdcff2a-7b16-42d0-a49d-0542a5eb3d23', l='ServerLevel[world]', x=-352.35, y=62.00, z=525.22, cpos=[-23, 32], tl=1332, v=true] died: Reclutador de Catapultas Somar was killed
-[13:37:39] [Server thread/INFO]: [CJML5067: Killed 216 entities]
-[13:37:40] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:37:40] [Server thread/INFO]: [CJML5067: Killed 84 entities]
-[13:37:42] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:37:49] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:39:11] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:39:11] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:39:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:39:11] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:39:11] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:40:40] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:40:40] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:40:40] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:40:40] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:40:41] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:40:41] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:40:41] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:40:41] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:40:55] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:40:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/16327, uuid='39c8f84b-7c84-4904-8c7e-fc18fd77df83', l='ServerLevel[world]', x=-339.34, y=62.00, z=520.58, cpos=[-22, 32], tl=3705, v=true] died: Soldado Somar was killed
-[13:40:55] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/16157, uuid='1f6b3ef9-304d-4c5d-a287-79c41f25db0e', l='ServerLevel[world]', x=-339.02, y=62.00, z=501.86, cpos=[-22, 31], tl=3850, v=true] died: Catapulta Somar was killed
-[13:40:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/16328, uuid='47bbee9b-f571-42df-ae46-337b26d78971', l='ServerLevel[world]', x=-342.38, y=62.00, z=498.03, cpos=[-22, 31], tl=3705, v=true] died: Soldado Somar was killed
-[13:40:55] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/16273, uuid='2d5b1543-e5ea-4ede-b39f-a6c11bf32a32', l='ServerLevel[world]', x=-341.75, y=62.00, z=520.34, cpos=[-22, 32], tl=3841, v=true] died: Reclutador de Catapultas Somar was killed
-[13:40:55] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/16367, uuid='a7ea6108-5212-4193-b0fd-0f28cb0b21f3', l='ServerLevel[world]', x=-329.45, y=62.00, z=508.66, cpos=[-21, 31], tl=3705, v=true] died: Soldado Somar was killed
-[13:40:55] [Server thread/INFO]: [CJML5067: Killed 130 entities]
-[13:40:56] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:40:56] [Server thread/INFO]: [CJML5067: Killed 146 entities]
-[13:40:58] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:41:09] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:41:44] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17183, uuid='f80bf4b2-7f5b-4fcf-8731-751865644944', l='ServerLevel[world]', x=-344.25, y=62.00, z=517.53, cpos=[-22, 32], tl=705, v=true] died: Soldado Somar was slain by Reclutador de Catapultas Somar
-[13:41:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier
-[13:44:01] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:44:01] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:44:01] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:44:01] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:44:01] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:44:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:44:11] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17182, uuid='9bc91d7b-6ad3-4ec4-8f25-318f0fa2f100', l='ServerLevel[world]', x=-327.00, y=63.00, z=551.56, cpos=[-21, 34], tl=3637, v=true] died: Soldado Somar was killed
-[13:44:11] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17044, uuid='578902cd-8b1a-4f2c-be7c-87615dd7f1db', l='ServerLevel[world]', x=-352.93, y=62.00, z=502.74, cpos=[-23, 31], tl=3846, v=true] died: Catapulta Somar was killed
-[13:44:11] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17162, uuid='37f54496-21fc-4c74-a83d-37233bbd3d80', l='ServerLevel[world]', x=-333.40, y=62.00, z=507.30, cpos=[-21, 31], tl=3637, v=true] died: Soldado Somar was killed
-[13:44:11] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17302, uuid='99d2305f-6bab-4be7-a2ba-a975b8155616', l='ServerLevel[world]', x=-331.42, y=62.00, z=517.67, cpos=[-21, 32], tl=2744, v=true] died: Soldado Somar was killed
-[13:44:11] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/17154, uuid='fadd530b-c634-4212-8284-2635547f8247', l='ServerLevel[world]', x=-354.87, y=62.00, z=509.15, cpos=[-23, 31], tl=3837, v=true] died: Reclutador de Catapultas Somar was killed
-[13:44:11] [Server thread/INFO]: [CJML5067: Killed 154 entities]
-[13:44:11] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:44:11] [Server thread/INFO]: [CJML5067: Killed 97 entities]
-[13:44:18] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:44:25] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:45:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:45:23] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/17925, uuid='f92b7eac-4eca-48ab-9aa9-1dcecf793e33', l='ServerLevel[world]', x=-332.48, y=62.00, z=531.28, cpos=[-21, 33], tl=1300, v=true] died: Reclutador de Catapultas Somar was killed
-[13:45:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17955, uuid='662cb291-1bad-4d65-9c84-186dde217d2c', l='ServerLevel[world]', x=-353.68, y=62.00, z=533.59, cpos=[-23, 33], tl=1162, v=true] died: Soldado Somar was killed
-[13:45:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17954, uuid='f9e5c5e3-2c83-469c-9240-833a4d113ce1', l='ServerLevel[world]', x=-338.95, y=62.00, z=536.98, cpos=[-22, 33], tl=1162, v=true] died: Soldado Somar was killed
-[13:45:23] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/17820, uuid='f4e27e7a-ee8c-4a53-98e3-6789d81805ee', l='ServerLevel[world]', x=-336.68, y=62.00, z=527.93, cpos=[-22, 32], tl=1309, v=true] died: Catapulta Somar was killed
-[13:45:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/17956, uuid='743acb97-d307-49cb-b44b-a1686a2a4000', l='ServerLevel[world]', x=-327.56, y=62.80, z=550.99, cpos=[-21, 34], tl=1162, v=true] died: Soldado Somar was killed
-[13:45:23] [Server thread/INFO]: [CJML5067: Killed 128 entities]
-[13:45:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:45:24] [Server thread/INFO]: [CJML5067: Killed 87 entities]
-[13:47:27] [Server thread/INFO]: [Mythic] Reloading plugin...
-[13:47:27] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[13:47:27] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[13:47:27] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Items...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[13:47:28] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[13:47:28] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[13:47:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[13:47:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[13:53:14] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[13:53:20] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[13:55:07] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:55:07] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/19408, uuid='66058ce0-85f1-450b-b317-c5c713fb8cfd', l='ServerLevel[world]', x=-348.79, y=61.99, z=527.67, cpos=[-22, 32], tl=2132, v=true] died: Soldado Somar was killed
-[13:55:07] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/19368, uuid='4ada5131-0db2-45bb-a367-d962e1470096', l='ServerLevel[world]', x=-345.93, y=69.52, z=528.45, cpos=[-22, 33], tl=2132, v=true] died: Soldado Somar was killed
-[13:55:07] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/19369, uuid='4dc8c121-3b63-4cda-b9ea-743744812307', l='ServerLevel[world]', x=-357.51, y=62.00, z=546.76, cpos=[-23, 34], tl=2132, v=true] died: Soldado Somar was killed
-[13:55:07] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/19354, uuid='a82b8615-7380-408c-b466-e8351fefbdb2', l='ServerLevel[world]', x=-328.00, y=62.00, z=515.11, cpos=[-21, 32], tl=2249, v=true] died: Reclutador de Catapultas Somar was killed
-[13:55:07] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/19249, uuid='4d4e5644-6899-44bf-82b8-a7a9bfc0c04a', l='ServerLevel[world]', x=-345.69, y=62.00, z=526.22, cpos=[-22, 32], tl=2258, v=true] died: Catapulta Somar was killed
-[13:55:07] [Server thread/INFO]: [CJML5067: Killed 129 entities]
-[13:55:08] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[13:55:08] [Server thread/INFO]: [CJML5067: Killed 82 entities]
-[14:06:05] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:06:12] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:09:33] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:09:33] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/21107, uuid='de42ffbd-c0e7-423f-b572-0880cf754d6a', l='ServerLevel[world]', x=-351.16, y=62.00, z=554.16, cpos=[-22, 34], tl=4157, v=true] died: Reclutador de Catapultas Somar was killed
-[14:09:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21137, uuid='fcf54106-0998-4ee8-bdfc-7018f66b478f', l='ServerLevel[world]', x=-348.08, y=69.52, z=531.84, cpos=[-22, 33], tl=4019, v=true] died: Soldado Somar was killed
-[14:09:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21176, uuid='a1371d8f-ea0d-4c4a-ba2b-bdeadf7547c9', l='ServerLevel[world]', x=-346.41, y=61.99, z=534.30, cpos=[-22, 33], tl=4019, v=true] died: Soldado Somar was killed
-[14:09:33] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/21136, uuid='503c351f-9a4f-4391-91c7-5a459ab52434', l='ServerLevel[world]', x=-351.36, y=62.00, z=549.54, cpos=[-22, 34], tl=4019, v=true] died: Soldado Somar was killed
-[14:09:33] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/21002, uuid='3967f514-b922-4fcf-a8d6-642f811bdfd3', l='ServerLevel[world]', x=-349.71, y=62.00, z=533.39, cpos=[-22, 33], tl=4166, v=true] died: Catapulta Somar was killed
-[14:09:33] [Server thread/INFO]: [CJML5067: Killed 127 entities]
-[14:09:35] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:09:35] [Server thread/INFO]: [CJML5067: Killed 181 entities]
-[14:12:02] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:12:06] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:12:47] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:12:47] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/22296, uuid='e456c032-c59c-46ff-b68f-0cf88ab0196e', l='ServerLevel[world]', x=-333.15, y=62.00, z=549.38, cpos=[-21, 34], tl=894, v=true] died: Reclutador de Catapultas Somar was killed
-[14:12:47] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/22191, uuid='b6fbf6b9-0adf-4dee-9374-bed06458a831', l='ServerLevel[world]', x=-347.17, y=62.00, z=552.89, cpos=[-22, 34], tl=903, v=true] died: Catapulta Somar was killed
-[14:12:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22311, uuid='7f72e00f-0a58-43b1-ab6c-994dc4f1648d', l='ServerLevel[world]', x=-343.99, y=61.99, z=551.62, cpos=[-22, 34], tl=822, v=true] died: Soldado Somar was killed
-[14:12:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22310, uuid='21efa767-4cbc-491d-84d7-36c753368485', l='ServerLevel[world]', x=-346.81, y=69.52, z=550.67, cpos=[-22, 34], tl=822, v=true] died: Soldado Somar was killed
-[14:12:47] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/22312, uuid='582a84d1-8b07-46e1-a2ae-7cded6fa5bfc', l='ServerLevel[world]', x=-340.62, y=62.00, z=546.17, cpos=[-22, 34], tl=822, v=true] died: Soldado Somar was killed
-[14:12:47] [Server thread/INFO]: [CJML5067: Killed 181 entities]
-[14:12:48] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:12:48] [Server thread/INFO]: [CJML5067: Killed 86 entities]
-[14:17:54] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:17:58] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:18:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:18:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23361, uuid='bf9a3d70-21dc-4398-b8dc-029dfc4a2fe6', l='ServerLevel[world]', x=-339.28, y=61.99, z=546.52, cpos=[-22, 34], tl=598, v=true] died: Soldado Somar was killed
-[14:18:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23363, uuid='a8403f85-6f4e-45c4-aa42-68499a139707', l='ServerLevel[world]', x=-337.27, y=69.52, z=548.70, cpos=[-22, 34], tl=598, v=true] died: Soldado Somar was killed
-[14:18:28] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/23237, uuid='e1d44583-994b-4cb4-b0d2-a3d41db24846', l='ServerLevel[world]', x=-335.89, y=62.00, z=546.93, cpos=[-21, 34], tl=683, v=true] died: Catapulta Somar was killed
-[14:18:28] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23362, uuid='28513b02-8f60-4610-ae46-3ff40b127eb8', l='ServerLevel[world]', x=-343.30, y=62.00, z=534.73, cpos=[-22, 33], tl=598, v=true] died: Soldado Somar was killed
-[14:18:28] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/23342, uuid='179de58e-0689-47a9-9f21-69d4fec5f65e', l='ServerLevel[world]', x=-328.00, y=62.00, z=527.20, cpos=[-21, 32], tl=674, v=true] died: Reclutador de Catapultas Somar was killed
-[14:18:28] [Server thread/INFO]: [CJML5067: Killed 132 entities]
-[14:18:29] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:18:29] [Server thread/INFO]: [CJML5067: Killed 83 entities]
-[14:18:31] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:18:34] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:19:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:19:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23823, uuid='6f2d0c10-ea1b-4b6f-9eb2-15d31e326ef9', l='ServerLevel[world]', x=-347.46, y=62.00, z=522.66, cpos=[-22, 32], tl=1111, v=true] died: Soldado Somar was killed while fighting CJML5067
-[14:19:30] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/23764, uuid='df952f6b-b701-4a66-abf6-ca630b6e98db', l='ServerLevel[world]', x=-352.11, y=62.00, z=538.32, cpos=[-23, 33], tl=1176, v=true] died: Reclutador de Catapultas Somar was killed
-[14:19:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23821, uuid='a3bc1a55-80d4-48da-b610-fbe141297eaf', l='ServerLevel[world]', x=-340.75, y=61.99, z=540.50, cpos=[-22, 33], tl=1111, v=true] died: Soldado Somar was killed
-[14:19:30] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/23822, uuid='267ea48b-0a68-48a3-9abc-f211d6050927', l='ServerLevel[world]', x=-338.60, y=69.52, z=538.45, cpos=[-22, 33], tl=1111, v=true] died: Soldado Somar was killed
-[14:19:30] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/23652, uuid='c0463aa3-ecee-4086-b704-127fa5a2abc9', l='ServerLevel[world]', x=-340.39, y=62.00, z=537.10, cpos=[-22, 33], tl=1185, v=true] died: Catapulta Somar was killed
-[14:19:30] [Server thread/INFO]: [CJML5067: Killed 126 entities]
-[14:19:30] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:19:30] [Server thread/INFO]: [CJML5067: Killed 84 entities]
-[14:19:31] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:19:31] [Server thread/INFO]: [CJML5067: Killed 45 entities]
-[14:19:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:19:32] [Server thread/INFO]: [CJML5067: Killed 67 entities]
-[14:19:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:19:38] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:20:19] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:20:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/24620, uuid='24f5b6ca-05dd-455a-9f30-5b4593f6d39a', l='ServerLevel[world]', x=-328.68, y=62.00, z=552.50, cpos=[-21, 34], tl=814, v=true] died: Soldado Somar was killed
-[14:20:19] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/24416, uuid='c12ea419-13fa-4f39-bb24-bb43c10d7961', l='ServerLevel[world]', x=-345.54, y=62.00, z=525.72, cpos=[-22, 32], tl=903, v=true] died: Catapulta Somar was killed
-[14:20:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/24600, uuid='b356a046-d9e7-4c00-803a-f337f06171fa', l='ServerLevel[world]', x=-344.26, y=69.52, z=523.87, cpos=[-22, 32], tl=814, v=true] died: Soldado Somar was killed
-[14:20:19] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/24543, uuid='69ccee78-4dbd-4d52-8791-56a2ad6a5301', l='ServerLevel[world]', x=-349.92, y=62.00, z=522.14, cpos=[-22, 32], tl=894, v=true] died: Reclutador de Catapultas Somar was killed
-[14:20:19] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/24599, uuid='d9a92bb6-4f9e-4f0b-ab7f-7260460b8bec', l='ServerLevel[world]', x=-342.12, y=61.99, z=525.93, cpos=[-22, 32], tl=814, v=true] died: Soldado Somar was killed
-[14:20:19] [Server thread/INFO]: [CJML5067: Killed 150 entities]
-[14:20:19] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:20:19] [Server thread/INFO]: [CJML5067: Killed 90 entities]
-[14:21:47] [Server thread/INFO]: [Mythic] Reloading plugin...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Items...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[14:21:47] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[14:21:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[14:21:47] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[14:21:47] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[14:21:51] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:21:56] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:22:23] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:22:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25228, uuid='ccb312b3-5a7a-4b21-b827-75f7c4044ed2', l='ServerLevel[world]', x=-342.50, y=69.52, z=529.21, cpos=[-22, 33], tl=534, v=true] died: Soldado Somar was killed
-[14:22:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25227, uuid='e3d25707-e5b4-4567-835d-6c54d8117f7c', l='ServerLevel[world]', x=-339.62, y=61.99, z=529.55, cpos=[-22, 33], tl=534, v=true] died: Soldado Somar was killed
-[14:22:23] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25226, uuid='8b5e096e-e362-4bef-a671-af1105b9646d', l='ServerLevel[world]', x=-345.22, y=61.99, z=528.00, cpos=[-22, 33], tl=534, v=true] died: Soldado Somar was killed
-[14:22:23] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/25202, uuid='b9ac9aeb-6c53-48b6-bdeb-b7b3841de36b', l='ServerLevel[world]', x=-341.84, y=62.00, z=519.30, cpos=[-22, 32], tl=618, v=true] died: Reclutador de Catapultas Somar was killed
-[14:22:23] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/25097, uuid='bf880f12-64e7-4047-b2de-40db4fa9553d', l='ServerLevel[world]', x=-341.94, y=62.00, z=527.03, cpos=[-22, 32], tl=627, v=true] died: Catapulta Somar was killed
-[14:22:23] [Server thread/INFO]: [CJML5067: Killed 112 entities]
-[14:22:24] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:22:24] [Server thread/INFO]: [CJML5067: Killed 71 entities]
-[14:22:30] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:22:33] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:22:37] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:22:48] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:23:27] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarSoldier 3
-[14:24:16] [Server thread/INFO]: CJML5067 issued server command: /weather clear
-[14:24:16] [Server thread/INFO]: [CJML5067: Set the weather to clear]
-[14:24:28] [Server thread/INFO]: CJML5067 issued server command: /mm m s SomarCatapult
-[14:24:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:24:32] [Server thread/INFO]: Named entity EntityIronGolem['Reclutador de Catapultas Somar'/25658, uuid='36f1137d-f60f-4d9d-b85c-f6b82ff8038c', l='ServerLevel[world]', x=-365.30, y=62.00, z=514.16, cpos=[-23, 32], tl=2416, v=true] died: Reclutador de Catapultas Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25837, uuid='6909fdff-8cb9-43d5-8731-9dbece1a2bb3', l='ServerLevel[world]', x=-358.25, y=61.99, z=515.61, cpos=[-23, 32], tl=2286, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/26090, uuid='e639dc9c-dfaa-4ee7-a828-92d08d9ae7c7', l='ServerLevel[world]', x=-334.02, y=62.00, z=554.61, cpos=[-21, 34], tl=1294, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25875, uuid='8f5d1333-b4bf-448d-8554-39d6f398480e', l='ServerLevel[world]', x=-335.22, y=69.52, z=542.23, cpos=[-21, 33], tl=2078, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/26110, uuid='07cb94cf-cf52-4a6b-910e-fac804bf2cb9', l='ServerLevel[world]', x=-327.00, y=63.00, z=551.56, cpos=[-21, 34], tl=1294, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/25681, uuid='342c3e9e-d5cf-4d3a-bc67-3ad68cf25ad6', l='ServerLevel[world]', x=-334.05, y=62.00, z=540.31, cpos=[-21, 33], tl=2366, v=true] died: Catapulta Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25915, uuid='70b51deb-6043-4bb2-b4a7-7c53c8a822fc', l='ServerLevel[world]', x=-337.47, y=61.99, z=540.29, cpos=[-22, 33], tl=2078, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25798, uuid='78d5a7fa-80fc-4edf-b8d1-ec1e64fbaaf2', l='ServerLevel[world]', x=-353.33, y=61.99, z=518.71, cpos=[-23, 32], tl=2286, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25797, uuid='558acdf1-73d3-4465-a17b-1e310465c521', l='ServerLevel[world]', x=-356.00, y=69.52, z=517.54, cpos=[-23, 32], tl=2286, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/26412, uuid='49e799d7-1fac-46fc-8bf5-7de107a066a5', l='ServerLevel[world]', x=-363.96, y=62.00, z=519.94, cpos=[-23, 32], tl=64, v=true] died: Catapulta Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityGiantZombie['Catapulta Somar'/25553, uuid='8d7d1b14-5630-4d9b-8f04-d50f74a12a22', l='ServerLevel[world]', x=-354.83, y=62.00, z=515.63, cpos=[-23, 32], tl=2425, v=true] died: Catapulta Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/25876, uuid='8af347f3-ba1c-4d2c-9b0d-583154e48796', l='ServerLevel[world]', x=-332.56, y=61.99, z=543.39, cpos=[-21, 33], tl=2078, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: Named entity EntityZombie['Soldado Somar'/26111, uuid='3e1f42e2-cbf3-419e-bb97-8e46aed453c7', l='ServerLevel[world]', x=-354.38, y=62.00, z=547.74, cpos=[-23, 34], tl=1294, v=true] died: Soldado Somar was killed
-[14:24:32] [Server thread/INFO]: [CJML5067: Killed 135 entities]
-[14:24:32] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
-[14:24:32] [Server thread/INFO]: [CJML5067: Killed 92 entities]
-[14:25:38] [Server thread/INFO]: [Mythic] Reloading plugin...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Items...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[14:25:38] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[14:25:38] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[14:25:38] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
-[14:25:38] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
-[14:25:43] [Server thread/INFO]: Stopping the server
-[14:25:43] [Server thread/INFO]: Stopping server
-[14:25:43] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.7
-[14:25:43] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.9.5-f13ab4a1
-[14:25:43] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[14:25:43] [Server thread/INFO]: [MythicMobs] - 
-[14:25:43] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[14:25:43] [Server thread/INFO]: [MythicMobs] - 
-[14:25:43] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[14:25:43] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[14:25:43] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[14:25:43] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[14:25:43] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[14:25:43] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[14:25:43] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[14:25:43] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[14:25:43] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[14:25:43] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[14:25:43] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[14:25:43] [Server thread/INFO]: Saving players
-[14:25:43] [Server thread/INFO]: CJML5067 lost connection: Server closed
-[14:25:43] [Server thread/INFO]: CJML5067 left the game
-[14:25:44] [Server thread/INFO]: Saving worlds
-[14:25:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 104 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[14:25:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:25:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[14:25:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:25:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:25:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[14:25:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:25:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:25:44] [Server thread/INFO]: Flushing Chunk IO
-[14:25:44] [Server thread/INFO]: Closing Thread Pool
-[14:25:44] [Server thread/INFO]: Closing Server
+[12:21:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:21:52] [Server thread/INFO]: Default game type: SURVIVAL
+[12:21:52] [Server thread/INFO]: Generating keypair
+[12:21:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:21:53] [Server thread/INFO]: Using epoll channel type
+[12:21:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:21:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:21:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[12:21:54] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/PeuebaPlugins/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[12:21:54] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.9.5-f13ab4a1
+[12:21:54] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[12:21:54] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[12:21:54] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.7
+[12:21:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:21:54] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.7
+[12:21:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:21:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:21:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:21:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:21:55] [Server thread/INFO]: Preparing level "world"
+[12:21:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:21:57] [Server thread/INFO]: Time elapsed: 682 ms
+[12:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:21:57] [Server thread/INFO]: Time elapsed: 123 ms
+[12:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:21:58] [Server thread/INFO]: Time elapsed: 1811 ms
+[12:21:58] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.9.5-f13ab4a1
+[12:21:59] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[12:21:59] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[12:22:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[12:22:10] [Server thread/INFO]: [MythicMobs] Loading Items...
+[12:22:10] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[12:22:10] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[12:22:11] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[12:22:11] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[12:22:11] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 107 skills.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[12:22:11] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[12:22:11] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[12:22:11] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.9.5 ( build f13ab4a1 ) has been successfully loaded!
+[12:22:13] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[12:22:13] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[12:22:13] [Server thread/INFO]: Running delayed init tasks
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing CatapultaSomarfinal.bbmodel.
+[12:22:13] [Server thread/INFO]: Done (23.483s)! For help, type "help"
+[12:22:13] [Server thread/INFO]: Timings Reset
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone palobrazo has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.9301446495235096E-14 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedastraseras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone prensastroncosgiratorios_ruedasdelanteras has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -5.182842985351505E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone arreglocuchara has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.638071642252509E-15 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone pedazostroncosdiag has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 1.3044152888906646E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone traseros has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ -2.2489917371991408E-14 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone tablones has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_ap has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone2 in bone redstone2_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone3 in bone redstone3_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone1 in bone redstone1_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube Redstone4 in bone redstone4_enc has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing EnemigoSomar.bbmodel.
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: The cube cube in bone auxblock has illegal rotations. Cube rotation can only be -45, -22.5, 0, 22.5 and 45. [ 8.301247601642803E-13 ]
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:22:13] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing SomarSoldier.bbmodel.
+[12:22:14] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_x_rotation
+[12:22:14] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] ------Unknown keyframe data: query.target_y_rotation
+[12:22:17] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:22:17] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[12:22:19] [User Authenticator #0/INFO]: UUID of player CJML5067 is 05d89580-8d76-339c-aefb-9e7196b6ba3c
+[12:22:20] [Server thread/INFO]: CJML5067 joined the game
+[12:22:20] [Server thread/INFO]: CJML5067[/127.240.192.59:46939] logged in with entity id 158 at ([world]-360.3477016066804, 62.0, 516.798454103495)
+[12:22:27] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[12:22:27] [Server thread/INFO]: [CJML5067: Killed 124 entities]
+[12:22:28] [Server thread/INFO]: CJML5067 issued server command: /kill @e[type=!player,type=!wolf]
+[12:22:28] [Server thread/INFO]: [CJML5067: Killed 87 entities]
