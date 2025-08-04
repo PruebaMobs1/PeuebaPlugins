@@ -260,21 +260,21 @@ MontarCatapulteros:
   Skills:
   - msg{m="montando"} @NearestPlayer
   - sudoSkill{s=CatapultaAlcanzada}
-  - setVariable{var=caster.cicloDisp;t=String;value="MontarCatapults"}
+  - setVariable{var=caster.cicloDisp;t=String;value="iniCicloDisp"}
 
+IniCicloDisp:
+  Conditions:
+  - variableEquals{var=cicloDisp;type=String;val=iniCicloDisp}
+  Skills:
+  - skills{s=buscarTargets}
+  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
 MarcarTargets:
   Conditions:
-  - variableEquals{var=caster.cicloDisp;t=String;value="llamarCatapults"}
+  - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
 #  TargetConditions:
 
   Skills:
     - setVariable{var=target.prioriObjetivo;type=integer}
-
-IniCicloDisp1:
-    Conditions:
-    - variableEquals{var=cicloDisp;type=String;val=iniCicloDisp}
-    Skills:
-    - skills{s=buscarTargets}
 
 #soldsApuntar:
 #  Skills:
