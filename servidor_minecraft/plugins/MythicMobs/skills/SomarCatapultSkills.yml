@@ -235,7 +235,7 @@ ctprsPerdidos:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
   - skill{s=LlamarCatapulteros} @LivingInWorld
-  - skill{s=MontarCatapulteros} @LivingInWorld
+  - skill{s=} @LivingInWorld
 
 #Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
 
@@ -250,10 +250,12 @@ LlamarCatapulteros:
   - projectile{bullet=BLOCK;mat=REDSTONE}
 #  - sudoSkill{s=PosicSoldCatapultero}
   - sudoSkill{s=IrACataputa}
-  - delay 20
+  - delay 60
   - setVariable{var=caster.cicloDisp;t=String;value="MontarCatapults"}
   
 MontarCatapulteros:
+  Conditions:
+  - variableEquals{var=cicloDisp;type=String;val="MontarCatapults"}
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
@@ -264,7 +266,7 @@ MontarCatapulteros:
 
 IniCicloDisp:
   Conditions:
-  - variableEquals{var=cicloDisp;type=String;val=iniCicloDisp}
+  - variableEquals{var=cicloDisp;type=String;val="iniCicloDisp"}
   Skills:
   - skills{s=MarcarTargets} @EIRR{max=;min=}
 #  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
