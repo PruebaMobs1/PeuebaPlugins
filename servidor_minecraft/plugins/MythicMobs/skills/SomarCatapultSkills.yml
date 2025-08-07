@@ -284,7 +284,7 @@ MarcarTargets:
   Skills:
   - msg{m="soldado <caster.var.catapulta>> soy el dirigente de la catapulta, su mira, pasiente, aguila de rapina"} @NearestPlayer
   - projectile{bullet=BLOCK;mat=REDSTONE} @ThreatTable
-#  - setVariable{var=target.prioriObjetivo;type=integer} @ThreatTable # @EIRR{max=;min=}
+  - setVariable{var=target.prioriObjetivo;type=integer} @RING{r=40;p=}
 
 #soldsApuntar:
 #  Skills:
