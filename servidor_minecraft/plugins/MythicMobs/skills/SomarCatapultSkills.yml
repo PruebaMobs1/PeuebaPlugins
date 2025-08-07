@@ -274,16 +274,17 @@ IniCicloDisp:
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
   - variableEquals{var=target.catapulta;value=1}
   Skills:
-  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
-  - sudoskill{s=MarcarTargets} # @EIRR{max=;min=}
   - msg{m="listos Para Atacar"} @NearestPlayer
+#  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
+  - sudoskill{s=MarcarTargets} 
 MarcarTargets:
 #  Conditions:
 #  - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
 #  TargetConditions:
   Skills:
-  - msg{m="<caster.var.catapulta> soy el dirigente de la catapulta, su mira, aguila de rapina"} @NearestPlayer
-#  - setVariable{var=target.prioriObjetivo;type=integer}
+  - msg{m="soldado <caster.var.catapulta>> soy el dirigente de la catapulta, su mira, pasiente, aguila de rapina"} @NearestPlayer
+  - projectile{bullet=BLOCK;mat=REDSTONE} @ThreatTable
+#  - setVariable{var=target.prioriObjetivo;type=integer} @ThreatTable # @EIRR{max=;min=}
 
 #soldsApuntar:
 #  Skills:
