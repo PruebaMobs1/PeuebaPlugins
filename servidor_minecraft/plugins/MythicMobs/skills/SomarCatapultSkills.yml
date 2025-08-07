@@ -283,9 +283,14 @@ MarcarTargets:
 #  TargetConditions:
   Skills:
   - msg{m="soldado <caster.var.catapulta>> soy el dirigente de la catapulta, su mira, pasiente, aguila de rapina"} @NearestPlayer
-  - projectile{bullet=BLOCK;mat=REDSTONE} @RING{r=60;p=25}
-  - particles{p=Sonic_Boom}
+  - projectile{bullet=BLOCK;mat=REDSTONE;MaxDuration=600;onEndSkill=MarcarTargetsCercaOrigen} @RING{r=60;p=25}
 #  - setVariable{var=target.prioriObjetivo;type=integer} @RING{r=30;p=30}
+
+MarcarTargetsCercaOrigen:
+  TargetConditions:
+  - (isMythicMob || isPlayer) true
+  Skills:
+  - particles{p=Sonic_Boom} @Origin
 
 #soldsApuntar:
 #  Skills:
