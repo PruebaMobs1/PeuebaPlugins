@@ -235,7 +235,7 @@ ctprsPerdidos:
   #- globalcooldown{ticks=20}
   - msg{m="&9 Soldados completos"} @NearestPlayer
   - skill{s=LlamarCatapulteros} @LivingInWorld
-  - skill{s=} @LivingInWorld
+  - skill{s=IniCicloDisp} @LivingInWorld
 
 #Procesos de catapulta con catapulteros (inicia a partir de que hay un trio de sodados)
 
@@ -252,24 +252,27 @@ LlamarCatapulteros:
   - sudoSkill{s=IrACataputa}
   - delay 60
   - setVariable{var=caster.cicloDisp;t=String;value="MontarCatapults"}
+  - skill{s=MontarCatapulteros} @LivingInWorld
   
 MontarCatapulteros:
   Conditions:
-  - variableEquals{var=cicloDisp;type=String;val="MontarCatapults"}
+  - variableEquals{var=caster.cicloDisp;type=String;val="MontarCatapults"}
   TargetConditions:
   - isMythicMob
   - variableEquals{var=target.catapultuuid;value=<caster.uuid>}
   Skills:
-  - msg{m="montando"} @NearestPlayer
+  - msg{m="montando ctps"} @NearestPlayer
   - sudoSkill{s=CatapultaAlcanzada}
+  - delay 40
   - setVariable{var=caster.cicloDisp;t=String;value="iniCicloDisp"}
 
 IniCicloDisp:
   Conditions:
   - variableEquals{var=cicloDisp;type=String;val="iniCicloDisp"}
   Skills:
-  - skills{s=MarcarTargets} @EIRR{max=;min=}
 #  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
+#  - skill{s=MarcarTargets} @EIRR{max=;min=}
+  - msg{m="listos Para Atacar"} @NearestPlayer
 MarcarTargets:
   Conditions:
   - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
