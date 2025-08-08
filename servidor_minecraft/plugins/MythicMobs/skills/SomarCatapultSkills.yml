@@ -287,14 +287,14 @@ MarcarTargets:
 #  - setVariable{var=target.prioriObjetivo;type=integer} @RING{r=30;p=30}
 
 MarcarTargetsCercaOrigen:
-  TargetConditions:
-  - (isMythicMob || isPlayer) true
   Skills:
-# - sudoskill{s=AumentarprioridadLocal} @EntitiesNearOrigin
+# - sudoskill{s=CrearprioridadTargetLocal} #@Origin @EntitiesNearOrigin
   - particles{p=Sonic_Boom} @Origin
 # @EntitiesNearOrigin
 
 #CrearprioridadTargetLocal:
+#  TargetConditions:
+#  - (isMythicMob || isPlayer) true
 #  Skills:
 #  - setvariable{var=skill.local}
 
