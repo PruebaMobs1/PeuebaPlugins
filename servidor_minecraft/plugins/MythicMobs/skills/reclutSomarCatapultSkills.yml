@@ -2,7 +2,7 @@ RecCPrepareModelSomar:
   Skills:
   - variableUnset{var=world.catapultas;t=Integer}
   - setvariable{var=world.catapultas;t=Integer;val=0;save=true}
-  - setvariable{var=world.tempPriori;t=Integer;val=0}
+  - setvariable{var=world.tempPriori;t=Integer;val=0;save=true}
 #  - skill{s=obtenerNevaVarPriori}
 
 inMortalizarReclutador:
