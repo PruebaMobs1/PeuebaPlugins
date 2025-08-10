@@ -293,11 +293,14 @@ MarcarTargetsCercaOrigen:
 # @EntitiesNearOrigin
 
 CrearprioridadTargetLocal:
+  Conditions:
+  - variableisset false
 #  TargetConditions:
 #  - (isMythicMob || isPlayer) true
  Skills:
   - setvariable{var=skill.count}
   - setvariable{var=skill.prueba<skill.var.count>}
+  - skill{s=AumentarprioridadLocal}
 
 AumentarprioridadLocal:
   Skills:
