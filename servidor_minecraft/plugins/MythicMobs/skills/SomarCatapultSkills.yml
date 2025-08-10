@@ -276,7 +276,7 @@ IniCicloDisp:
   Skills:
   - msg{m="listos Para Atacar"} @NearestPlayer
 #  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
-  - sudoskill{s=MarcarTargets} 
+  - sudoskill{s=CrearprioridadTargetLocal} 
 MarcarTargets:
 #  Conditions:
 #  - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
@@ -297,9 +297,10 @@ CrearprioridadTargetLocal:
   - variableisset false
 #  TargetConditions:
 #  - (isMythicMob || isPlayer) true
- Skills:
-  - setvariable{var=skill.count;type=integer}
+  Skills:
+  - setvariable{var=skill.count;type=integer;value=1}
   - setvariable{var=skill.prueba<skill.var.count>}
+  - msg{m="<skill.var.prueba1>"} @NearestPlayer
 
 AumentarprioridadLocal:
   Skills:
