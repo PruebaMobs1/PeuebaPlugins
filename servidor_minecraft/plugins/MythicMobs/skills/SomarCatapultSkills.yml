@@ -276,7 +276,7 @@ IniCicloDisp:
   Skills:
   - msg{m="listos Para Atacar"} @NearestPlayer
 #  - setVariable{var=caster.cicloDisp;t=String;value="MarcarTargets"}
-  - sudoskill{s=CrearprioridadTargetLocal} 
+  - sudoskill{s=MarcarTargets} 
 MarcarTargets:
 #  Conditions:
 #  - variableEquals{var=caster.cicloDisp;t=String;value="MarcarTargets"}
