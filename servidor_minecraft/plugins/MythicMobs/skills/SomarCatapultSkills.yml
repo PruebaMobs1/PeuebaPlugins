@@ -300,11 +300,11 @@ CrearprioridadTargetLocal:
  Skills:
   - setvariable{var=skill.count}
   - setvariable{var=skill.prueba<skill.var.count>}
-  - skill{s=AumentarprioridadLocal}
 
 AumentarprioridadLocal:
   Skills:
-#  - variableAdd{}
+  - skill{s=CrearprioridadTargetLocal}
+#  - variableAdd{var=skill.prueba;a=1}
 
 #soldsApuntar:
 #  Skills:
