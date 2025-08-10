@@ -298,7 +298,7 @@ CrearprioridadTargetLocal:
 #  TargetConditions:
 #  - (isMythicMob || isPlayer) true
  Skills:
-  - setvariable{var=skill.count}
+  - setvariable{var=skill.count;type=integer}
   - setvariable{var=skill.prueba<skill.var.count>}
 
 AumentarprioridadLocal:
