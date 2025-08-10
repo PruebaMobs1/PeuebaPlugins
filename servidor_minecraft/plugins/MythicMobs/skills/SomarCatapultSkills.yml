@@ -292,14 +292,15 @@ MarcarTargetsCercaOrigen:
   - particles{p=Sonic_Boom} @Origin
 # @EntitiesNearOrigin
 
-#CrearprioridadTargetLocal:
+CrearprioridadTargetLocal:
 #  TargetConditions:
 #  - (isMythicMob || isPlayer) true
-#  Skills:
-#  - setvariable{var=skill.local}
+ Skills:
+  - setvariable{var=skill.count}
+  - setvariable{var=skill.prueba<skill.var.count>}
 
-#AumentarprioridadLocal:
-#  Skills:
+AumentarprioridadLocal:
+  Skills:
 #  - variableAdd{}
 
 #soldsApuntar:
