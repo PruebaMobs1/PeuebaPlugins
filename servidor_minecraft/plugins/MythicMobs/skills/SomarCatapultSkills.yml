@@ -294,7 +294,7 @@ MarcarTargetsCercaOrigen:
 
 CrearprioridadTargetLocal:
   Conditions:
-  - variableisset false
+  - variableisset{var=skill.prueba<skill.var.count>} false
 #  TargetConditions:
 #  - (isMythicMob || isPlayer) true
   Skills:
